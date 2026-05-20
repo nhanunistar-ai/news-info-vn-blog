@@ -1,6 +1,4 @@
 ---
-import { Image } from 'astro:assets';
-import HeroImage from '../assets/blog-placeholder-about.jpg';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -15,116 +13,16 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<section class="hero">
-				<div class="hero-media">
-					<Image src={HeroImage} alt="Hero image news.info.vn" width={1200} height={800} />
-					<div class="hero-copy">
-						<p class="eyebrow">NEWS.INFO.VN</p>
-						<h1>TRANG THÔNG TIN TỔNG HỢP</h1>
-						<p class="lead">
-							Cập nhật các tin tức, Xu hướng Công nghệ, AI mới nhất
-						</p>
-						<div class="hero-actions">
-							<a class="btn btn-primary" href="/blog">Đọc bài mới nhất</a>
-							<a class="btn btn-ghost" href="/about">Về dự án</a>
-						</div>
-					</div>
-				</div>
-			</section>
+			<h1>Tôi đã chuyển nhà từ WordPress sang đây như thế nào?</h1>
+			<p>
+				Tôi từng có một website WordPress vận hành theo kiểu "đăng đều là được". Ban đầu mọi thứ ổn, nhưng càng về sau hệ thống càng nặng: plugin chồng plugin, tốc độ giảm, bảo trì mệt, và nội dung không còn tạo ra khác biệt.
+			</p>
+			<p>
+				Đến lúc cần làm lại từ đầu, tôi không muốn sửa chữa một kiến trúc cũ nữa. Tôi chọn chuyển hẳn sang mô hình blog tĩnh với **Astro + Cloudflare Pages**, tập trung vào thứ quan trọng nhất: nội dung có giá trị và quy trình xuất bản có kiểm soát.
+			<p>
+				Bắt đầu từ đây: <a href="/blog">xem tất cả bài viết</a>.
+			</p>
 		</main>
 		<Footer />
 	</body>
 </html>
-
-<style>
-	main {
-		width: min(1400px, calc(100% - 3rem));
-		max-width: none;
-	}
-	.hero {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 1.5rem;
-	}
-	.hero-media {
-		position: relative;
-	}
-	.hero-copy {
-		position: absolute;
-		inset: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		padding: 2rem;
-		color: #fff;
-		background: linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0.2) 0%,
-			rgba(0, 0, 0, 0.3) 60%,
-			rgba(0, 0, 0, 0.1) 100%
-		);
-		border-radius: 14px;
-	}
-	.eyebrow {
-		letter-spacing: 0.08em;
-		font-weight: 700;
-		color: rgba(70, 70, 70, 0.9);
-		margin-bottom: 3.75rem;
-	}
-	h1 {
-		font-size: clamp(2rem, 4.4vw, 3.4rem);
-		line-height: 1.08;
-		margin-bottom: 1rem;
-		color: rgba(49, 49, 49, 0.9);
-		margin-bottom: 0.75rem;
-	}
-	.lead {
-		font-size: 1.08rem;
-		margin-bottom: 3.5rem;
-		max-width: 760px;
-		color: rgba(49, 49, 49, 0.9);
-	}
-	.hero-actions {
-		display: flex;
-		gap: 0.75rem;
-		flex-wrap: wrap;
-	}
-	.btn {
-		display: inline-block;
-		padding: 0.65rem 1rem;
-		border-radius: 10px;
-		text-decoration: none;
-		font-weight: 700;
-		border: 1px solid transparent;
-	}
-	.btn-primary {
-		background: rgba(0, 0, 0, 0.55);
-		color: #fff;
-		border-color: rgba(255, 255, 255, 0.55);
-	}
-	.btn-ghost {
-		border-color: rgba(255, 255, 255, 0.8);
-		color: #fff;
-	}
-	.hero-media img {
-		width: 100%;
-		height: min(68vh, 760px);
-		object-fit: cover;
-		opacity: 0.00;
-		border-radius: 14px;
-		box-shadow: var(--box-shadow);
-	}
-	@media (max-width: 900px) {
-		main {
-			width: calc(100% - 1.5rem);
-		}
-		.hero {
-			grid-template-columns: 1fr;
-		}
-		.hero-media img {
-			height: auto;
-		}
-	}
-</style>

@@ -11,16 +11,26 @@ import FacebookLogo from './Facebook.png';
 				<img src="/LOGO.svg" alt={SITE_TITLE} />
 			</a>
 		</h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-		<div class="social-links">
-			<a href="https://www.facebook.com/tintucthoisutonghop/" target="_blank" rel="noreferrer">
-				<span class="sr-only">Theo dõi chúng tôi trên Facebook</span>
-				<img src={FacebookLogo.src} alt="Facebook" />
-			</a>
+		<div class="nav-actions">
+			<div class="internal-links">
+				<HeaderLink href="/">Home</HeaderLink>
+				<HeaderLink href="/blog">Blog</HeaderLink>
+				<HeaderLink href="/about">About</HeaderLink>
+			</div>
+			<div class="social-links">
+				<a href="https://www.facebook.com/tintucthoisutonghop/" target="_blank" rel="noreferrer">
+					<span class="sr-only">Theo dõi chúng tôi trên Facebook</span>
+					<img src={FacebookLogo.src} alt="Facebook" />
+				</a>
+			</div>
+			<details class="mobile-menu">
+				<summary>Menu</summary>
+				<div class="mobile-dropdown">
+					<HeaderLink href="/">Home</HeaderLink>
+					<HeaderLink href="/blog">Blog</HeaderLink>
+					<HeaderLink href="/about">About</HeaderLink>
+				</div>
+			</details>
 		</div>
 	</nav>
 </header>
@@ -48,13 +58,18 @@ import FacebookLogo from './Facebook.png';
 	}
 	.brand img {
 		display: block;
-		height: 48px;
+		height: 42px;
 		width: auto;
 	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+	}
+	.nav-actions {
+		display: flex;
+		align-items: center;
+		gap: 0.35rem;
 	}
 	nav a {
 		padding: 1em 0.5em;
@@ -79,9 +94,55 @@ import FacebookLogo from './Facebook.png';
 		height: 42px;
 		width: auto;
 	}
+	.mobile-menu {
+		display: none;
+		position: relative;
+	}
+	.mobile-menu summary {
+		list-style: none;
+		cursor: pointer;
+		padding: 0.65rem 0.8rem;
+		font-weight: 700;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 8px;
+		user-select: none;
+	}
+	.mobile-menu summary::-webkit-details-marker {
+		display: none;
+	}
+	.mobile-dropdown {
+		position: absolute;
+		right: 0;
+		top: calc(100% + 0.35rem);
+		display: flex;
+		flex-direction: column;
+		min-width: 170px;
+		background: #fff;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 10px;
+		box-shadow: var(--box-shadow);
+		z-index: 20;
+	}
+	.mobile-dropdown a {
+		padding: 0.75rem 0.9rem;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.mobile-dropdown a:last-child {
+		border-bottom: none;
+	}
 	@media (max-width: 720px) {
+		.brand {
+			padding: 0.25rem 0;
+		}
+		.brand img {
+			height: 34px;
+		}
+		.internal-links,
 		.social-links {
 			display: none;
+		}
+		.mobile-menu {
+			display: block;
 		}
 	}
 </style>
