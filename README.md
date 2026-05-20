@@ -4,6 +4,10 @@
 npm create astro@latest -- --template blog
 ```
 
+## Quick start posting
+
+Mo file `POSTING.md` de dang bai nhanh theo quy trinh cua du an.
+
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 Features:
