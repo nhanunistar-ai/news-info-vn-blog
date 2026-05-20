@@ -2,7 +2,7 @@
 title: 'Tieu de bai viet'
 description: 'Mo ta ngan 1-2 cau cho bai viet'
 pubDate: 'May 20 2026'
-heroImage: '../../assets/ten-anh.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 Mo bai: Noi ly do va boi canh bai viet nay.
