@@ -1,4 +1,7 @@
 ---
+import Slide1 from '../assets/blog-placeholder-about.jpg';
+import Slide2 from '../assets/blog-placeholder-4.jpg';
+import Slide3 from '../assets/blog-placeholder-5.jpg';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -13,16 +16,142 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>Tôi đã chuyển nhà từ WordPress sang đây như thế nào?</h1>
-			<p>
-				Tôi từng có một website WordPress vận hành theo kiểu "đăng đều là được". Ban đầu mọi thứ ổn, nhưng càng về sau hệ thống càng nặng: plugin chồng plugin, tốc độ giảm, bảo trì mệt, và nội dung không còn tạo ra khác biệt.
-			</p>
-			<p>
-				Đến lúc cần làm lại từ đầu, tôi không muốn sửa chữa một kiến trúc cũ nữa. Tôi chọn chuyển hẳn sang mô hình blog tĩnh với **Astro + Cloudflare Pages**, tập trung vào thứ quan trọng nhất: nội dung có giá trị và quy trình xuất bản có kiểm soát.
-			<p>
-				Bắt đầu từ đây: <a href="/blog">xem tất cả bài viết</a>.
-			</p>
+			<section class="hero-slider" aria-label="Trang chu">
+				<div class="slides">
+					<article class="slide" style={`background-image: url(${Slide1.src});`}>
+						<div class="overlay"></div>
+						<div class="content">
+							<p class="subtitle">Welcome to news.info.vn</p>
+							<h1>We Build Useful Content</h1>
+							<p class="desc">Tin công nghệ, AI và case study triển khai thực tế.</p>
+							<div class="actions">
+								<a href="/blog" class="btn btn-solid">Đọc bài mới</a>
+								<a href="/about" class="btn btn-line">Về dự án</a>
+							</div>
+						</div>
+					</article>
+					<article class="slide" style={`background-image: url(${Slide2.src});`}>
+						<div class="overlay"></div>
+						<div class="content">
+							<p class="subtitle">Simple. Fast. Reliable.</p>
+							<h1>Astro + Cloudflare Pages</h1>
+							<p class="desc">Kiến trúc tĩnh gọn nhẹ, chi phí thấp, dễ mở rộng.</p>
+							<div class="actions">
+								<a href="/blog" class="btn btn-solid">Xem Blog</a>
+								<a href="/about" class="btn btn-line">Chi tiết</a>
+							</div>
+						</div>
+					</article>
+					<article class="slide" style={`background-image: url(${Slide3.src});`}>
+						<div class="overlay"></div>
+						<div class="content">
+							<p class="subtitle">No Noise, Just Value</p>
+							<h1>From Old Domain to New Voice</h1>
+							<p class="desc">Tập trung vào nội dung nguyên bản, có kiểm chứng.</p>
+							<div class="actions">
+								<a href="/blog" class="btn btn-solid">Bắt đầu đọc</a>
+								<a href="/about" class="btn btn-line">Liên hệ</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
 		</main>
 		<Footer />
 	</body>
 </html>
+
+<style>
+	main {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.hero-slider {
+		position: relative;
+		width: 100%;
+		height: clamp(420px, 78vh, 760px);
+		overflow: hidden;
+	}
+	.slides {
+		display: flex;
+		width: 300%;
+		height: 100%;
+		animation: slideX 18s infinite;
+	}
+	.slide {
+		position: relative;
+		width: 33.3333%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+	.overlay {
+		position: absolute;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.45);
+	}
+	.content {
+		position: relative;
+		z-index: 1;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		color: #fff;
+		padding: 1.5rem;
+	}
+	.subtitle {
+		font-size: 1.1rem;
+		margin-bottom: 0.75rem;
+	}
+	h1 {
+		color: #fff;
+		font-size: clamp(2rem, 5vw, 4rem);
+		line-height: 1.08;
+		margin-bottom: 0.8rem;
+	}
+	.desc {
+		font-size: 1.2rem;
+		max-width: 680px;
+		margin-bottom: 1.3rem;
+	}
+	.actions {
+		display: flex;
+		gap: 0.8rem;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.btn {
+		padding: 0.75rem 1.35rem;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: 700;
+		border: 1px solid transparent;
+	}
+	.btn-solid {
+		background: #0bb08b;
+		color: #fff;
+	}
+	.btn-line {
+		border-color: rgba(255, 255, 255, 0.8);
+		color: #fff;
+	}
+	@keyframes slideX {
+		0%, 30% { transform: translateX(0); }
+		33%, 63% { transform: translateX(-33.3333%); }
+		66%, 96% { transform: translateX(-66.6666%); }
+		100% { transform: translateX(0); }
+	}
+	@media (max-width: 720px) {
+		.hero-slider {
+			height: 72vh;
+		}
+		.desc {
+			font-size: 1rem;
+		}
+	}
+</style>
