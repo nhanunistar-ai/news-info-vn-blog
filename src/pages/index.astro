@@ -52,9 +52,67 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 						</div>
 					</article>
 				</div>
+				<div class="slider-nav">
+					<button class="nav-button prev" type="button" aria-label="Slide trước">‹</button>
+					<button class="nav-button next" type="button" aria-label="Slide tiếp theo">›</button>
+				</div>
+				<div class="pagination" role="tablist" aria-label="Điều hướng slide">
+					<button class="pagination-dot active" type="button" aria-label="Slide 1" aria-selected="true"></button>
+					<button class="pagination-dot" type="button" aria-label="Slide 2" aria-selected="false"></button>
+					<button class="pagination-dot" type="button" aria-label="Slide 3" aria-selected="false"></button>
+				</div>
 			</section>
 		</main>
 		<Footer />
+		<script>
+			(function () {
+				const slides = document.querySelector('.slides');
+				const dots = Array.from(document.querySelectorAll('.pagination-dot'));
+				const prevButton = document.querySelector('.nav-button.prev');
+				const nextButton = document.querySelector('.nav-button.next');
+				let currentIndex = 0;
+				const totalSlides = dots.length;
+				let timeout;
+
+				function updateSlider(index) {
+					currentIndex = (index + totalSlides) % totalSlides;
+					slides.style.transform = `translateX(-${currentIndex * (100 / totalSlides)}%)`;
+					dots.forEach((dot, dotIndex) => {
+						dot.classList.toggle('active', dotIndex === currentIndex);
+						dot.setAttribute('aria-selected', dotIndex === currentIndex ? 'true' : 'false');
+					});
+				}
+
+				function startAutoplay() {
+					clearTimeout(timeout);
+					timeout = setTimeout(() => updateSlider(currentIndex + 1), 6000);
+				}
+
+				dots.forEach((dot, index) => {
+					dot.addEventListener('click', () => {
+						updateSlider(index);
+						startAutoplay();
+					});
+				});
+
+				prevButton.addEventListener('click', () => {
+					updateSlider(currentIndex - 1);
+					startAutoplay();
+				});
+
+				nextButton.addEventListener('click', () => {
+					updateSlider(currentIndex + 1);
+					startAutoplay();
+				});
+
+				const slider = document.querySelector('.hero-slider');
+				slider.addEventListener('mouseenter', () => clearTimeout(timeout));
+				slider.addEventListener('mouseleave', startAutoplay);
+
+				updateSlider(0);
+				startAutoplay();
+			})();
+		</script>
 	</body>
 </html>
 
@@ -75,7 +133,8 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		display: flex;
 		width: 300%;
 		height: 100%;
-		animation: slideX 18s infinite;
+		transform: translateX(0);
+		transition: transform 0.8s ease;
 	}
 	.slide {
 		position: relative;
@@ -137,11 +196,77 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		border-color: rgba(255, 255, 255, 0.8);
 		color: #fff;
 	}
-	@keyframes slideX {
-		0%, 30% { transform: translateX(0); }
-		33%, 63% { transform: translateX(-33.3333%); }
-		66%, 96% { transform: translateX(-66.6666%); }
-		100% { transform: translateX(0); }
+	.slider-nav {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 1rem;
+		pointer-events: none;
+	}
+
+	.nav-button {
+		pointer-events: all;
+		border: none;
+		background: rgba(0, 0, 0, 0.35);
+		color: #fff;
+		width: 48px;
+		height: 48px;
+		border-radius: 999px;
+		font-size: 1.75rem;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: background 0.2s ease;
+	}
+
+	.nav-button:hover {
+		background: rgba(0, 0, 0, 0.55);
+	}
+
+	.pagination {
+		position: absolute;
+		bottom: 1.4rem;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		gap: 0.65rem;
+	}
+
+	.pagination-dot {
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		border: 1px solid rgba(255, 255, 255, 0.8);
+		background: rgba(255, 255, 255, 0.2);
+		cursor: pointer;
+		transition: transform 0.2s ease, background 0.2s ease;
+	}
+
+	.pagination-dot.active {
+		background: #fff;
+		transform: scale(1.15);
+	}
+
+	@media (max-width: 720px) {
+		.hero-slider {
+			height: 72vh;
+		}
+		.desc {
+			font-size: 1rem;
+		}
+		.slider-nav {
+			padding: 0 0.5rem;
+		}
+		.nav-button {
+			width: 42px;
+			height: 42px;
+			font-size: 1.5rem;
+		}
 	}
 	@media (max-width: 720px) {
 		.hero-slider {

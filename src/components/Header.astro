@@ -1,7 +1,6 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
-import FacebookLogo from './Facebook.png';
 ---
 
 <header>
@@ -12,22 +11,14 @@ import FacebookLogo from './Facebook.png';
 			</a>
 		</h2>
 		<div class="nav-actions">
-			<div class="internal-links">
-				<HeaderLink href="/">Home</HeaderLink>
-				<HeaderLink href="/blog">Blog</HeaderLink>
-				<HeaderLink href="/about">About</HeaderLink>
-			</div>
-			<div class="social-links">
-				<a href="https://www.facebook.com/tintucthoisutonghop/" target="_blank" rel="noreferrer">
-					<span class="sr-only">Theo dõi chúng tôi trên Facebook</span>
-					<img src={FacebookLogo.src} alt="Facebook" />
-				</a>
-			</div>
-			<details class="mobile-menu">
-				<summary>Menu</summary>
-				<div class="mobile-dropdown">
+			<details class="main-menu">
+				<summary class="menu-summary">
+					<img class="menu-icon" src="/menu.png" alt="" aria-hidden="true" />
+					<span class="sr-only">Mở menu</span>
+				</summary>
+				<div class="menu-dropdown">
 					<HeaderLink href="/">Home</HeaderLink>
-					<HeaderLink href="/blog">Blog</HeaderLink>
+					<HeaderLink href="/blog">News</HeaderLink>
 					<HeaderLink href="/about">About</HeaderLink>
 				</div>
 			</details>
@@ -94,23 +85,29 @@ import FacebookLogo from './Facebook.png';
 		height: 42px;
 		width: auto;
 	}
-	.mobile-menu {
-		display: none;
+	.main-menu {
 		position: relative;
 	}
-	.mobile-menu summary {
+	.menu-summary {
 		list-style: none;
 		cursor: pointer;
-		padding: 0.65rem 0.8rem;
-		font-weight: 700;
-		border: 1px solid rgb(var(--gray-light));
-		border-radius: 8px;
-		user-select: none;
+		border: none;
+		background: transparent;
+		padding: 0;
+		display: inline-flex;
+		align-items: center;
 	}
-	.mobile-menu summary::-webkit-details-marker {
+	.menu-summary::-webkit-details-marker {
 		display: none;
 	}
-	.mobile-dropdown {
+	.menu-icon {
+		display: block;
+		height: 42px;
+		width: 42px;
+		border-radius: 8px;
+		object-fit: contain;
+	}
+	.menu-dropdown {
 		position: absolute;
 		right: 0;
 		top: calc(100% + 0.35rem);
@@ -123,11 +120,11 @@ import FacebookLogo from './Facebook.png';
 		box-shadow: var(--box-shadow);
 		z-index: 20;
 	}
-	.mobile-dropdown a {
+	.menu-dropdown a {
 		padding: 0.75rem 0.9rem;
 		border-bottom: 1px solid rgb(var(--gray-light));
 	}
-	.mobile-dropdown a:last-child {
+	.menu-dropdown a:last-child {
 		border-bottom: none;
 	}
 	@media (max-width: 720px) {
@@ -137,12 +134,14 @@ import FacebookLogo from './Facebook.png';
 		.brand img {
 			height: 34px;
 		}
+		/* Keep the compact menu icon on small screens as well */
 		.internal-links,
 		.social-links {
 			display: none;
 		}
-		.mobile-menu {
-			display: block;
+		.menu-icon {
+			height: 34px;
+			width: 34px;
 		}
 	}
 </style>

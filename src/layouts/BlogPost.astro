@@ -52,6 +52,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.related-posts {
+				margin-top: 2rem;
+				padding-top: 1.5rem;
+				border-top: 1px solid rgba(0, 0, 0, 0.1);
+			}
+			.related-posts h2 {
+				margin: 0 0 1rem;
+				font-size: 1.35rem;
+				color: rgb(var(--gray-dark));
+			}
+			.related-posts ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: grid;
+				gap: 0.75rem;
+			}
+			.related-posts a {
+				color: rgb(var(--primary));
+				text-decoration: none;
+				font-weight: 700;
+			}
+			.related-posts a:hover {
+				text-decoration: underline;
+			}
 		</style>
 	</head>
 
@@ -78,6 +103,14 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
+					<div class="related-posts">
+						<h2>Bài viết liên quan</h2>
+						<ul>
+							<li><a href="/blog/alien-interview">ALIEN INTERVIEW</a></li>
+							<li><a href="/blog/doi-thoai-than-giao-cach-cam-voi-thuc-the-roswell">Alien Interview - Chapter 1</a></li>
+							<li><a href="/blog/giao-tiep-voi-thuc-the-ngoai-hanh-tinh">Alien Interview - Chapter 4</a></li>
+						</ul>
+					</div>
 				</div>
 			</article>
 		</main>
