@@ -1,15 +1,14 @@
 ﻿---
 title: 'Alien Interview - Chapter 2'
 description: 'Chương hai của Alien Interview: cuộc phỏng vấn thứ hai và sự im lặng đầy bí ẩn của thực thể Roswell.'
-pubDate: 'May 19 2026'
+pubDate: 'May 7 2026'
 heroImage: '../../assets/chapter-2.png'
 ---
 
 ### Đối Thoại Thần Giao Với Thực Thể Roswell
 
 "Trong cuộc phỏng vấn tiếp theo, tôi được bảo là chỉ được hỏi người ngoài hành tinh duy nhất một câu hỏi."  
-**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  
-**TỐI MẬT**  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
 Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 10\. 7\. 1947  
 "HỎI \- "Tại sao bạn lại ngừng giao tiếp?"  
 TRẢ LỜI \- KHÔNG NGỪNG. NHỮNG NGƯỜI KHÁC. CHE GIẤU / BAO PHỦ. NỖI SỢ BÍ MẬT.  

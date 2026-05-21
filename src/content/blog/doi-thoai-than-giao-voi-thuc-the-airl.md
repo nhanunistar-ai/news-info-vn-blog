@@ -1,7 +1,7 @@
 ﻿---
 title: 'Alien Interview - Chapter 3'
 description: 'Chương ba của Alien Interview: Matilda tiếp tục cuộc đối thoại thần giao với thực thể Airl trong phòng phỏng vấn mới.'
-pubDate: 'May 20 2026'
+pubDate: 'May 8 2026'
 heroImage: '../../assets/chapter-3.png'
 ---
 
@@ -15,8 +15,7 @@ Cuối cùng, tôi được biết rằng người ngoài hành tinh không đư
 Khi tôi bước vào phòng, cô ấy rất vui khi thấy tôi. Tôi cảm nhận được một cảm giác nhận biết, nhẹ nhõm và một cảm giác "ấm áp" thực sự từ cô ấy. Nó giống như sự háo hức và tình cảm thuần khiết, vô điều kiện mà người ta cảm nhận được từ một con chó hoặc một đứa trẻ, nhưng với một sự kiểm soát bình tĩnh và kín đáo. Tôi phải nói rằng tôi đã ngạc nhiên khi thấy mình cũng có tình cảm tương tự dành cho thực thể ngoài hành tinh này, đặc biệt là khi chúng tôi đã dành rất ít thời gian cho nhau. Tôi rất vui vì mình có thể tiếp tục các cuộc phỏng vấn với cô ấy bất chấp mọi sự chú ý mà nó nhận được từ dòng người của chính phủ và quân đội đang đổ về căn cứ.  
 Rõ ràng là những người viết loạt câu hỏi tiếp theo cho tôi muốn tìm hiểu cách tự mình giao tiếp với người ngoài hành tinh, mà không phải thông qua tôi.  
 Dưới đây là các câu trả lời cho danh sách các câu hỏi mới:"  
-**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  
-**TỐI MẬT**  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
 Bản ghi chép chính thức của Không quân Lục quân Hoa KỳCăn cứ Không quân Roswell, Nhóm ném bom 509CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947  
 "HỎI \- Bạn có thể đọc hoặc viết bất kỳ ngôn ngữ Trái Đất nào không?  
 TRẢ LỜI \- KHÔNG.  

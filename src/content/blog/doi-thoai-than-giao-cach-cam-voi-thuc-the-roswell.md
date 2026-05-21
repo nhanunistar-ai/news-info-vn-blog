@@ -1,7 +1,7 @@
 ﻿---
 title: 'Alien Interview - Chapter 1'
 description: 'Chương một của Alien Interview: cuộc trao đổi đầu tiên giữa Matilda O''Donnell MacElroy và thực thể Roswell.'
-pubDate: 'May 18 2026'
+pubDate: 'May 6 2026'
 heroImage: '../../assets/chapter-1.png'
 ---
 
@@ -17,8 +17,7 @@ Rất nhanh chóng sau đó, rõ ràng là cơ thể cô ấy không yêu cầu 
 Nó có lớp da hoặc lớp bao phủ nhẵn bóng màu xám. Cơ thể có khả năng chịu đựng cao đối với những thay đổi về nhiệt độ, điều kiện khí quyển và áp suất. Các chi khá mỏng manh, không có hệ cơ. Trong không gian không có trọng lực, nên cần rất ít sức mạnh cơ bắp. Cơ thể được sử dụng gần như hoàn toàn trên phi thuyền hoặc trong môi trường trọng lực thấp hoặc không trọng lực. Vì Trái Đất có trọng lực mạnh nên cơ thể không thể đi lại tốt vì đôi chân không thực sự phù hợp với mục đích đó. Tuy nhiên, bàn tay và bàn chân khá linh hoạt và nhanh nhẹn.  
 Qua một đêm, trước cuộc phỏng vấn đầu tiên của tôi với người ngoài hành tinh, khu vực này đã biến thành một tổ hoạt động náo nhiệt. Có hàng chục người đang lắp đặt các thiết bị chiếu sáng và máy ảnh. Một máy quay phim, micrô và máy ghi âm cũng được lắp đặt trong "phòng phỏng vấn". (Tôi không hiểu tại sao lại cần micrô, vì không thể giao tiếp bằng lời nói với người ngoài hành tinh.) Ngoài ra còn có một người ghi chép tốc ký và vài người đang bận rộn đánh máy trên máy đánh chữ.  
 Tôi được thông báo rằng một chuyên gia phiên dịch tiếng nước ngoài và một đội "giải mã" đã được đưa đến căn cứ bằng máy bay trong đêm để hỗ trợ nỗ lực giao tiếp của tôi với người ngoài hành tinh. Ngoài ra còn có một số nhân viên y tế — các chuyên gia trong nhiều lĩnh vực khác nhau — để kiểm tra người ngoài hành tinh. Và, một giáo sư tâm lý học đã có mặt ở đó để giúp đưa ra các câu hỏi và "diễn giải" các câu trả lời. Vì tôi chỉ là một y tá, tôi không được coi là một phiên dịch viên "có trình độ", mặc dù tôi là người duy nhất ở đó có thể hiểu được bất cứ điều gì người ngoài hành tinh đang nghĩ\! Đã có nhiều cuộc trò chuyện tiếp theo giữa chúng tôi. Mỗi cuộc "phỏng vấn" đều dẫn đến sự hiểu biết giữa chúng tôi tăng lên theo cấp số nhân, như tôi sẽ thảo luận sau này trong các ghi chú của mình. Đây là bản ghi chép đầu tiên với các câu trả lời cho danh sách các câu hỏi do sĩ quan tình báo tại căn cứ cung cấp mà tôi đã báo cáo lại cho người tốc ký ngay sau cuộc phỏng vấn."  
-**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  
-**TỐI MẬT**  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  **TỐI MẬT**  
 Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 9\. 7\. 1947  
 "HỎI \- "Bạn có bị thương không?"  
 TRẢ LỜI \- KHÔNG  
