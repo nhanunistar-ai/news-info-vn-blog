@@ -8,7 +8,14 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+type RelatedPost = {
+	id: string;
+	data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
+};
+
+const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] } = Astro.props as Props & {
+	relatedPosts?: RelatedPost[];
+};
 ---
 
 <html lang="vi">
@@ -44,6 +51,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.title h1 {
 				margin: 0 0 0.5em 0;
+				font-size: 50px;
+			}
+			.prose :global(h3) {
+				font-size: 31px;
 			}
 			.date {
 				margin-bottom: 0.5em;
@@ -103,14 +114,20 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
-					<div class="related-posts">
-						<h2>Bài viết liên quan</h2>
-						<ul>
-							<li><a href="/blog/alien-interview">ALIEN INTERVIEW</a></li>
-							<li><a href="/blog/doi-thoai-than-giao-cach-cam-voi-thuc-the-roswell">Alien Interview - Chapter 1</a></li>
-							<li><a href="/blog/giao-tiep-voi-thuc-the-ngoai-hanh-tinh">Alien Interview - Chapter 4</a></li>
-						</ul>
-					</div>
+					{
+						relatedPosts.length > 0 && (
+							<div class="related-posts">
+								<h2>Bài viết liên quan</h2>
+								<ul>
+									{relatedPosts.map((relatedPost) => (
+										<li>
+											<a href={`/blog/${relatedPost.id}/`}>{relatedPost.data.title}</a>
+										</li>
+									))}
+								</ul>
+							</div>
+						)
+					}
 				</div>
 			</article>
 		</main>

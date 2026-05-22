@@ -4,17 +4,50 @@ import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
-}
-type Props = CollectionEntry<'blog'>;
+	const orderedPosts = posts.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
 
-const post = Astro.props;
+	return orderedPosts.map((post, index) => {
+		const relatedPosts: CollectionEntry<'blog'>[] = [];
+		const previousPost = orderedPosts[index - 1];
+		const nextPost = orderedPosts[index + 1];
+
+		if (previousPost) relatedPosts.push(previousPost);
+		if (nextPost) relatedPosts.push(nextPost);
+
+		const randomCandidates = orderedPosts.filter(
+			(candidate) => candidate.id !== post.id && !relatedPosts.some((relatedPost) => relatedPost.id === candidate.id),
+		);
+		const hash = [...post.id].reduce((total, character) => total + character.charCodeAt(0), 0);
+		const randomPost = randomCandidates[hash % randomCandidates.length];
+
+		if (randomPost) relatedPosts.push(randomPost);
+
+		return {
+			params: { slug: post.id },
+			props: {
+				...post,
+				relatedPosts: relatedPosts.slice(0, 3).map((relatedPost) => ({
+					id: relatedPost.id,
+					data: {
+						title: relatedPost.data.title,
+					},
+				})),
+			},
+		};
+	});
+}
+
+type Props = {
+	relatedPosts: {
+		id: string;
+		data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
+	}[];
+} & CollectionEntry<'blog'>;
+
+const { relatedPosts, ...post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data}>
+<BlogPost {...post.data} relatedPosts={relatedPosts}>
 	<Content />
 </BlogPost>

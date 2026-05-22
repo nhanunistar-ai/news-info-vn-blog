@@ -1,11 +1,32 @@
 ---
-import Slide1 from '../assets/the-grey.png';
-import Slide2 from '../assets/chapter-10.png';
-import Slide3 from '../assets/chapter-5.png';
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog'))
+	.filter((post) => post.data.heroImage)
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latestPost = posts[0];
+const randomPool = posts.slice(1);
+const dailySeed = new Date().toISOString().slice(0, 10);
+
+function hashString(value: string) {
+	return [...value].reduce((hash, character) => (hash * 31 + character.charCodeAt(0)) >>> 0, 0);
+}
+
+const randomPosts = randomPool
+	.map((post) => ({
+		post,
+		score: hashString(`${dailySeed}-${post.id}`),
+	}))
+	.sort((a, b) => a.score - b.score)
+	.slice(0, 2)
+	.map(({ post }) => post);
+
+const slidePosts = [latestPost, ...randomPosts].filter(Boolean);
 ---
 
 <!doctype html>
@@ -16,50 +37,42 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<section class="hero-slider" aria-label="Trang chu">
+			<section class="hero-slider" aria-label="Trang chủ">
 				<div class="slides">
-					<article class="slide" style={`background-image: url(${Slide1.src});`}>
-						<div class="overlay"></div>
-						<div class="content">
-							<p class="subtitle">Bí ẩn về UFO và Người ngoài hành tinh</p>
-							<h1>ALIEN INTERVIEW</h1>
-							<p class="desc">Điều gì đúng với bạn, thì nó đúng với bạn</p>
-							<div class="actions">
-								<a href="/blog/alien-interview" class="btn btn-line">Đọc ngay</a>
-							</div>
-						</div>
-					</article>
-					<article class="slide" style={`background-image: url(${Slide2.src});`}>
-						<div class="overlay"></div>
-						<div class="content">
-							<p class="subtitle">ALIEN INTERVIEW</p>
-							<h1>CHAPTER 10</h1>
-							<p class="desc">Một bài học về sinh học</p>
-							<div class="actions">
-								<a href="blog/nguon-goc-su-song-va-ky-nghe-sinh-hoc-vu-tru/" class="btn btn-line">Đọc ngay</a>
-							</div>
-						</div>
-					</article>
-					<article class="slide" style={`background-image: url(${Slide3.src});`}>
-						<div class="overlay"></div>
-						<div class="content">
-							<p class="subtitle">ALIEN INTERVIEW</p>
-							<h1>CHAPTER 5</h1>
-							<p class="desc">Hành trình tiếp nhận ngôn ngữ và trí thức của Airl</p>
-							<div class="actions">
-								<a href="blog/hanh-trinh-tiep-nhan-ngon-ngu-va-tri-thuc-cua-airl/" class="btn btn-line">Đọc ngay</a>
-							</div>
-						</div>
-					</article>
+					{
+						slidePosts.map((post, index) => (
+							<article class="slide" style={`background-image: url(${post.data.heroImage?.src});`}>
+								<div class="overlay" />
+								<div class="content">
+									<p class="subtitle">{index === 0 ? 'Bài mới nhất' : 'Gợi ý đọc tiếp'}</p>
+									<h1>{post.data.title}</h1>
+									<p class="desc">{post.data.description}</p>
+									<div class="actions">
+										<a href={`/blog/${post.id}/`} class="btn btn-line">
+											Đọc ngay
+										</a>
+									</div>
+								</div>
+							</article>
+						))
+					}
 				</div>
 				<div class="slider-nav">
 					<button class="nav-button prev" type="button" aria-label="Slide trước">‹</button>
 					<button class="nav-button next" type="button" aria-label="Slide tiếp theo">›</button>
 				</div>
 				<div class="pagination" role="tablist" aria-label="Điều hướng slide">
-					<button class="pagination-dot active" type="button" aria-label="Slide 1" aria-selected="true"></button>
-					<button class="pagination-dot" type="button" aria-label="Slide 2" aria-selected="false"></button>
-					<button class="pagination-dot" type="button" aria-label="Slide 3" aria-selected="false"></button>
+					{
+						slidePosts.map((_, index) => (
+							<button
+								class:list={['pagination-dot', { active: index === 0 }]}
+								type="button"
+								aria-label={`Slide ${index + 1}`}
+								aria-selected={index === 0 ? 'true' : 'false'}
+							>
+							</button>
+						))
+					}
 				</div>
 			</section>
 		</main>
@@ -244,7 +257,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		border: 1px solid rgba(255, 255, 255, 0.8);
 		background: rgba(255, 255, 255, 0.2);
 		cursor: pointer;
-		transition: transform 0.2s ease, background 0.2s ease;
+		transition:
+			transform 0.2s ease,
+			background 0.2s ease;
 	}
 
 	.pagination-dot.active {
@@ -266,14 +281,6 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			width: 42px;
 			height: 42px;
 			font-size: 1.5rem;
-		}
-	}
-	@media (max-width: 720px) {
-		.hero-slider {
-			height: 72vh;
-		}
-		.desc {
-			font-size: 1rem;
 		}
 	}
 </style>

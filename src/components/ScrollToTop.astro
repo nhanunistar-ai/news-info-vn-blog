@@ -1,57 +1,73 @@
 ---
 ---
-<button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top" title="Lên đầu trang">
-	<span class="arrow">↑</span>
+
+<button id="scrollTopBtn" class="scroll-top" aria-label="Lên đầu trang" title="Lên đầu trang">
+	<img src="/Top.svg" alt="" aria-hidden="true" />
 </button>
+
 <style>
-.scroll-top {
-	position: fixed;
-	right: 1rem;
-	bottom: 1rem;
-	background: #ff6a00;
-	color: #fff;
-	border: none;
-	border-radius: 999px;
-	height: 48px;
-	width: 48px;
-	display: grid;
-	place-items: center;
-	box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-	cursor: pointer;
-	opacity: 0;
-	transform: translateY(8px);
-	transition: opacity 200ms ease, transform 200ms ease;
-	z-index: 60;
-	pointer-events: none;
-}
-.scroll-top.show {
-	opacity: 1;
-	transform: translateY(0);
-	pointer-events: auto;
-}
-.scroll-top .arrow {
-	font-size: 1.2rem;
-	line-height: 1;
-}
-@media (max-width: 720px) {
 	.scroll-top {
-		right: 0.75rem;
-		bottom: 0.75rem;
-		height: 44px;
-		width: 44px;
+		position: fixed;
+		right: 1rem;
+		bottom: 1rem;
+		background: #ff6a00;
+		color: #fff;
+		border: none;
+		border-radius: 999px;
+		height: 48px;
+		width: 48px;
+		display: grid;
+		place-items: center;
+		box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+		cursor: pointer;
+		opacity: 0;
+		transform: translateY(8px);
+		transition:
+			opacity 200ms ease,
+			transform 200ms ease;
+		z-index: 60;
+		pointer-events: none;
 	}
-}
+
+	.scroll-top.show {
+		opacity: 1;
+		transform: translateY(0);
+		pointer-events: auto;
+	}
+
+	.scroll-top img {
+		display: block;
+		width: 22px;
+		height: 22px;
+	}
+
+	@media (max-width: 720px) {
+		.scroll-top {
+			right: 0.75rem;
+			bottom: 0.75rem;
+			height: 44px;
+			width: 44px;
+		}
+
+		.scroll-top img {
+			width: 20px;
+			height: 20px;
+		}
+	}
 </style>
+
 <script type="module">
-const btn = document.getElementById('scrollTopBtn');
-if (btn) {
-	const threshold = 200;
-	const onScroll = () => {
-		if (window.scrollY > threshold) btn.classList.add('show');
-		else btn.classList.remove('show');
-	};
-	btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-	onScroll();
-	window.addEventListener('scroll', onScroll, { passive: true });
-}
+	const btn = document.getElementById('scrollTopBtn');
+
+	if (btn) {
+		const threshold = 200;
+		const onScroll = () => {
+			if (window.scrollY > threshold) btn.classList.add('show');
+			else btn.classList.remove('show');
+		};
+
+		btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+		onScroll();
+		window.addEventListener('scroll', onScroll, { passive: true });
+	}
 </script>

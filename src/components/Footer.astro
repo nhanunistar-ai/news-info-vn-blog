@@ -1,6 +1,5 @@
 ---
 const today = new Date();
-import FacebookLogo from './Facebook.png';
 import ScrollToTop from './ScrollToTop.astro';
 ---
 
@@ -9,11 +8,12 @@ import ScrollToTop from './ScrollToTop.astro';
 	<div class="social-links">
 		<a href="https://www.facebook.com/tintucthoisutonghop/" target="_blank" rel="noreferrer">
 			<span class="sr-only">Theo dõi chúng tôi trên Facebook</span>
-			<img src={FacebookLogo.src} alt="Facebook" />
+			<img src="/logo-footer.svg" alt="Facebook" />
 		</a>
 	</div>
 </footer>
 <ScrollToTop />
+
 <style>
 	footer {
 		padding: 2em 1em 6em 1em;
@@ -21,21 +21,25 @@ import ScrollToTop from './ScrollToTop.astro';
 		color: rgb(var(--gray));
 		text-align: center;
 	}
+
 	.social-links {
 		display: flex;
 		justify-content: center;
 		gap: 1em;
 		margin-top: 1em;
 	}
+
 	.social-links a {
 		text-decoration: none;
 		color: rgb(var(--gray));
 	}
+
 	.social-links img {
 		display: block;
-		height: 42px;
+		height: 65px;
 		width: auto;
 	}
+
 	.social-links a:hover {
 		color: rgb(var(--gray-dark));
 	}
