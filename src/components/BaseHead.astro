@@ -9,13 +9,15 @@ import { SITE_TITLE } from '../consts';
 interface Props {
 	title: string;
 	description: string;
-	image?: ImageMetadata;
+	image?: ImageMetadata | string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = FallbackImage } = Astro.props;
-const socialImageURL = new URL(image.src, Astro.url);
+const socialImageURL = new URL(typeof image === 'string' ? image : image.src, Astro.url);
+const socialImageWidth = typeof image === 'string' ? undefined : image.width;
+const socialImageHeight = typeof image === 'string' ? undefined : image.height;
 ---
 
 <!-- Global Metadata -->
@@ -52,8 +54,8 @@ const socialImageURL = new URL(image.src, Astro.url);
 <meta property="og:description" content={description} />
 <meta property="og:image" content={socialImageURL} />
 <meta property="og:image:secure_url" content={socialImageURL} />
-<meta property="og:image:width" content={image.width} />
-<meta property="og:image:height" content={image.height} />
+{socialImageWidth && <meta property="og:image:width" content={socialImageWidth} />}
+{socialImageHeight && <meta property="og:image:height" content={socialImageHeight} />}
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />

@@ -32,7 +32,7 @@ const slidePosts = [latestPost, ...randomPosts].filter(Boolean);
 <!doctype html>
 <html lang="vi">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image="/LOGO_NEWS.png" />
 	</head>
 	<body>
 		<Header />
@@ -48,7 +48,7 @@ const slidePosts = [latestPost, ...randomPosts].filter(Boolean);
 									<h1>{post.data.title}</h1>
 									<p class="desc">{post.data.description}</p>
 									<div class="actions">
-										<a href={`/blog/${post.id}/`} class="btn btn-line">
+										<a href={`/news/${post.id}/`} class="btn btn-line">
 											Đọc ngay
 										</a>
 									</div>
