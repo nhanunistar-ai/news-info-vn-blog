@@ -8,8 +8,7 @@ heroImage: '../../assets/chapter-12.png'
 ### Một bài học về sự bất tử  
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Tôi nghĩ bản ghi chép sau đây đã khá rõ ràng và tự bản thân nó đã nói lên tất cả."  
-**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  
-**TỐI MẬT**  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
 Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 30\. 7\. 1947, Phiên thứ 1  
 "Những Thực thể Tâm linh Bất tử, mà tôi gọi là '**IS-BE**' để cho thuận tiện, chính là nguồn gốc và là những người tạo ra các ảo ảnh. Mỗi cá nhân và tập thể họ, trong trạng thái nguyên thủy, tự do, là một thực thể vĩnh cửu, toàn năng và toàn tri.  
 Các **IS-BE** tạo ra không gian bằng cách tưởng tượng ra một vị trí. Khoảng cách can thiệp giữa chính họ và vị trí được tưởng tượng đó là cái mà chúng ta gọi là không gian. Một **IS-BE** có thể nhận nhận biết không gian và các vật thể được tạo ra bởi các **IS-BE** khác.  

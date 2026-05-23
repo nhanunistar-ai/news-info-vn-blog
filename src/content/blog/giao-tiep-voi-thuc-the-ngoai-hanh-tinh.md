@@ -9,9 +9,8 @@ heroImage: '../../assets/chapter-4.png'
 
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Sau khi tôi giải thích những gì mình cho là nguyên nhân dẫn đến câu trả lời 'không trả lời' với các đặc vụ tình báo, đã có rất nhiều sự khó chịu và hỗn loạn xảy ra. Một cuộc thảo luận rất gay gắt đã diễn ra giữa một số sĩ quan tình báo, quan chức quân đội, nhà tâm lý học và các thông dịch viên ngôn ngữ. Cuộc thảo luận này kéo dài trong vài giờ. Cuối cùng, người ta quyết định rằng tôi nên được phép tiếp tục phỏng vấn người ngoài hành tinh, với điều kiện tôi có thể nhận được một câu trả lời thỏa đáng từ cô ấy cho câu hỏi sau:"  
-**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)**  
-**TỐI MẬT**  
-Bản ghi chép chính thức của Không quân Lục quân Hoa KỳCăn cứ Không quân Roswell, Nhóm ném bom 509CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 3  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
+Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 3  
 "HỎI \- 'Bà cần sự đảm bảo hay bằng chứng nào từ chúng tôi để khiến bà cảm thấy đủ an toàn để trả lời các câu hỏi của chúng tôi?'  
 TRẢ LỜI \- CHỈ CÔ ẤY NÓI. CHỈ CÔ ẤY NGHE. CHỈ CÔ ẤY HỎI. KHÔNG CÓ AI KHÁC. PHẢI HỌC / BIẾT / HIỂU."  
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
