@@ -44,7 +44,10 @@ const slidePosts = [latestPost, chapter9Post, randomPost].filter(Boolean);
 				<div class="slides">
 					{
 						slidePosts.map((post, index) => (
-							<article class="slide" style={`background-image: url(${post.data.heroImage?.src});`}>
+							<article
+								class="slide"
+								style={`background-image: url("${encodeURI(post.data.heroImage?.src ?? '')}");`}
+							>
 								<div class="overlay" />
 								<div class="content">
 									<p class="subtitle">{index === 0 ? 'Bài mới nhất' : 'Gợi ý đọc tiếp'}</p>

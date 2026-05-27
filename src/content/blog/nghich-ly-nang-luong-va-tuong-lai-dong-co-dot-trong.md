@@ -4,9 +4,6 @@ description: 'Từ giá trị dầu mỏ, Hybrid đến hướng đi bền vữn
 pubDate: 'May 26 2026'
 heroImage: '../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.png'
 ---
-
-![Canh bao nang luong](../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.png)
-
 ### KỶ NGUYÊN CHUYỂN ĐỔI NĂNG LƯỢNG
 **NGHỊCH LÝ XE ĐIỆN VÀ SỰ TIẾN HÓA TẤT YẾU CỦA ĐỘNG CƠ ĐỐT TRONG**<br>
 Trong các cuộc thảo luận về biến đổi khí hậu, viễn cảnh thế giới xóa sổ hoàn toàn xe động cơ đốt trong (ICE) để thay thế bằng 100% xe thuần điện (BEV) thường được vẽ lên như một thiên đường sinh thái. Tuy nhiên, nếu chúng ta "chụp X-quang" nền tảng vận hành của nền văn minh hiện đại, sự thật lại phức tạp và khắc nghiệt hơn nhiều. Đó không đơn thuần là sự thay đổi loại nhiên liệu, mà là một cú sốc có thể làm đứt gãy chuỗi cung ứng và gây ra thảm họa lạm phát vật liệu toàn cầu.
@@ -30,7 +27,7 @@ Dầu thô không chỉ là nhiên liệu; nó là nguyên liệu gốc tạo ra
 Xăng chỉ chiếm khoảng **20% sản lượng** của một tháp chưng cất. Đây chính là mắt xích gây tranh cãi nhất trong chiến lược điện hóa toàn cầu.
 Hãy giả định kịch bản 100% xe điện xảy ra: nhu cầu xăng bằng không. Tuy nhiên, thế giới vẫn cần Naphtha để làm linh kiện, cần Diesel để khai thác khoáng sản và cần nhựa đường để xây cơ sở hạ tầng. Điều này buộc các nhà máy lọc dầu vẫn phải hoạt động. Khi đó, 20% lượng xăng tự động sinh ra từ quá trình chưng cất sẽ trở thành **rác thải nguy hại dễ cháy nổ**, không có chỗ lưu trữ và không ai tiêu thụ.
 Để không phá sản, các nhà máy lọc dầu chỉ còn cách cộng dồn khoản lỗ từ 20% xăng "bỏ đi" này vào giá thành của các sản phẩm còn lại. Hệ lụy tất yếu là:<br>
-**- Chi phí** làm đường cao tốc sẽ tăng vọt lên mức không tưởng.<br>
+nghich-ly-nang-luong-va-tuong-lai-dong-co-dot-trong**- Chi phí** làm đường cao tốc sẽ tăng vọt lên mức không tưởng.<br>
 **- Giá** lốp xe, đồ nhựa và thiết bị y tế tăng phi mã.<br>
 **- Giá** thành sản xuất chính những chiếc xe điện sẽ bị đẩy lên ngưỡng không thể tiếp cận, khiến thế giới xanh sụp đổ vì lạm phát vật liệu cơ bản
 
