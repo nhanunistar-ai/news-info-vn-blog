@@ -42,6 +42,8 @@ const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] }
 				margin: auto;
 				padding: 1em;
 				color: rgb(var(--gray-dark));
+				--paragraph-gap: 2.55em;
+				--break-gap: 1.2em;
 			}
 			.title {
 				margin-bottom: 1em;
@@ -57,12 +59,20 @@ const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] }
 				font-size: 31px;
 			}
 			.prose :global(p) {
-				margin: 0 0 2.55em;
+				margin: 0 0 var(--paragraph-gap);
 			}
 			.prose :global(br) {
 				display: block;
 				content: '';
-				margin: 0.75rem.0em 0 0;
+				margin: var(--break-gap) 0 0;
+			}
+			.prose :global(p:has(+ ul)),
+			.prose :global(p:has(+ ol)) {
+				margin-bottom: var(--break-gap);
+			}
+			.prose :global(p + ul),
+			.prose :global(p + ol) {
+				margin-top: 0;
 			}
 			.date {
 				margin-bottom: 0.5em;

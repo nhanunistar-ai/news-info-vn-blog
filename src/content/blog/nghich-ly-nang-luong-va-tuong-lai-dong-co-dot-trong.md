@@ -42,6 +42,9 @@ Việc sản xuất bộ pin Lithium-ion tiêu tốn năng lượng gấp nhiề
 ***- Tại các quốc gia dùng năng lượng tái tạo*** (như Na Uy hay Thụy Điển), xe điện chỉ cần chạy khoảng 15.000 - 25.000 km để bù đắp lượng phát thải khi sản xuất.<br>
 ***- Tại những nơi lưới điện vẫn phụ thuộc vào than đá***, quãng đường này có thể kéo dài lên tới hơn 100.000 km.<br>
 Ngoài ra, do trọng lượng xe điện nặng hơn (trung bình 10-30%), lượng bụi mịn (PM2.5) từ sự mài mòn lốp xe và mặt đường của xe điện có thể cao hơn so với xe truyền thống, tạo ra một thách thức mới cho sức khỏe đô thị.
+
+![Sự cộng sinh xăng và điện](../../assets/su-cong-sinh-xang-dien.png)
+
 ### SỰ CỘNG SINH HOÀN HẢO
 **LỜI GIẢI MANG TÍNH TIẾN HÓA**<br>
 Lời giải cho bài toán này không nằm ở việc xóa sổ mà là **"tiến hóa"**. Động cơ đốt trong sẽ không chết, nó chỉ thay đổi vai trò.
