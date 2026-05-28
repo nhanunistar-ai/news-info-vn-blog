@@ -10,9 +10,9 @@ heroImage: '../../assets/chapter-4.png'
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Sau khi tôi giải thích những gì mình cho là nguyên nhân dẫn đến câu trả lời 'không trả lời' với các đặc vụ tình báo, đã có rất nhiều sự khó chịu và hỗn loạn xảy ra. Một cuộc thảo luận rất gay gắt đã diễn ra giữa một số sĩ quan tình báo, quan chức quân đội, nhà tâm lý học và các thông dịch viên ngôn ngữ. Cuộc thảo luận này kéo dài trong vài giờ. Cuối cùng, người ta quyết định rằng tôi nên được phép tiếp tục phỏng vấn người ngoài hành tinh, với điều kiện tôi có thể nhận được một câu trả lời thỏa đáng từ cô ấy cho câu hỏi sau:"  
 **(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
-Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 3  
+Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 3<hr>  
 "HỎI \- 'Bà cần sự đảm bảo hay bằng chứng nào từ chúng tôi để khiến bà cảm thấy đủ an toàn để trả lời các câu hỏi của chúng tôi?'  
-TRẢ LỜI \- CHỈ CÔ ẤY NÓI. CHỈ CÔ ẤY NGHE. CHỈ CÔ ẤY HỎI. KHÔNG CÓ AI KHÁC. PHẢI HỌC / BIẾT / HIỂU."  
+TRẢ LỜI \- CHỈ CÔ ẤY NÓI. CHỈ CÔ ẤY NGHE. CHỈ CÔ ẤY HỎI. KHÔNG CÓ AI KHÁC. PHẢI HỌC / BIẾT / HIỂU."<hr>  
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Khi tôi trở về từ phòng phỏng vấn để báo cáo câu trả lời của người ngoài hành tinh cho câu hỏi này, tôi đã nhận được sự đón tiếp lạnh lùng và hoài nghi từ các đặc vụ tình báo và nhân viên quân đội đang tập hợp ở đó. Họ không thể hiểu người ngoài hành tinh có ý gì qua điều này.  
 Tôi thừa nhận rằng tôi cũng không thực sự hiểu ý cô ấy là gì, nhưng tôi đang cố gắng hết sức để diễn đạt những ý định thần giao cách cảm của cô ấy. Tôi đã nói với các quan chức rằng có lẽ vấn đề giao tiếp liên quan đến việc tôi không có khả năng hiểu ngôn ngữ thần giao cách cảm của người ngoài hành tinh đủ rõ ràng để đạt yêu cầu. Lúc đó tôi đã rất nản lòng, đến mức gần như muốn bỏ cuộc\! Và bây giờ, thậm chí còn có nhiều cuộc tranh cãi hơn cả trước đó\! Tôi chắc chắn rằng mình sắp bị cách chức, bất chấp thực tế là người ngoài hành tinh từ chối giao tiếp với bất kỳ ai khác, hoặc chưa tìm thấy ai khác có thể giao tiếp với cô ấy.  

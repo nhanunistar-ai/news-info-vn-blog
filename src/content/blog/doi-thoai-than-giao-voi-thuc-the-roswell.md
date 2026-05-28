@@ -9,9 +9,9 @@ heroImage: '../../assets/chapter-2.png'
 
 "Trong cuộc phỏng vấn tiếp theo, tôi được bảo là chỉ được hỏi người ngoài hành tinh duy nhất một câu hỏi."  
 **(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
-Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 10\. 7\. 1947  
+Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 10\. 7\. 1947<hr>  
 "HỎI \- "Tại sao bạn lại ngừng giao tiếp?"  
-TRẢ LỜI \- KHÔNG NGỪNG. NHỮNG NGƯỜI KHÁC. CHE GIẤU / BAO PHỦ. NỖI SỢ BÍ MẬT.  
+TRẢ LỜI \- KHÔNG NGỪNG. NHỮNG NGƯỜI KHÁC. CHE GIẤU / BAO PHỦ. NỖI SỢ BÍ MẬT.<hr>  
 Người ngoài hành tinh không thể giao tiếp với họ vì họ sợ cô ấy, hoặc không tin tưởng cô ấy. Và, rõ ràng với tôi rằng người ngoài hành tinh nhận thức rất rõ việc một số người có những ý định bí mật đối với cô ấy và đang che giấu những suy nghĩ thực sự của mình. Cũng hiển nhiên đối với tôi rằng người ngoài hành tinh không có lấy một chút sợ hãi nào đối với chúng tôi, hay bất cứ điều gì khác, về vấn đề đó\!"  
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Tôi đã cân nhắc rất kỹ những từ ngữ mà mình chọn để truyền tải ý nghĩa những suy nghĩ của người ngoài hành tinh trước khi báo cáo cho người tốc ký và những người đang lo lắng chờ đợi ở phòng bên kia.  
