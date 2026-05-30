@@ -10,6 +10,12 @@ Luu y:
 - Ten file se la URL bai viet: `/blog/ai-agent-automation/`.
 - Sua `title`, `description`, `pubDate` truoc khi push.
 
+## 1.1) Draft / Published
+
+- Them `draft: true` vao frontmatter de an bai khoi trang danh sach, RSS va route public.
+- Khi san sang dang, doi `draft: false` hoac xoa dong `draft`.
+- Bai draft van co the nam trong `src/content/blog/`, nhung khong len site khi `draft: true`.
+
 ## 2) Them anh
 
 1. Bo anh vao `src/assets/`.
