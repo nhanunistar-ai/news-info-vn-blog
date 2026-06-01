@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 14'
 description: 'Chương mười bốn của Alien Interview: Kháng cự của Airl và cuộc tấn công điện lực bí ẩn.'
+category: 'stories'
+tags: ['alien-interview', 'airl', 'roswell']
+series: 'alien-interview'
+chapter: 14
 pubDate: 'May 19 2026'
 heroImage: '../../assets/chapter-14.png'
 ---

@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 10'
 description: 'Chương mười của Alien Interview: Nguồn gốc sự sống và kỹ nghệ sinh học vũ trụ theo góc nhìn của Airl.'
+category: 'stories'
+tags: ['alien-interview', 'biology', 'the-domain']
+series: 'alien-interview'
+chapter: 10
 pubDate: 'May 15 2026'
 heroImage: '../../assets/chapter-10.png'
 ---

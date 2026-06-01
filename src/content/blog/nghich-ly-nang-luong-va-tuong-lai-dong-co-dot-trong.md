@@ -1,6 +1,8 @@
 ---
 title: 'Nghịch lý Năng lượng'
 description: 'Từ giá trị dầu mỏ, Hybrid đến hướng đi bền vững cho Động cơ đốt trong'
+category: 'news'
+tags: ['energy', 'hybrid', 'technology']
 pubDate: 'May 26 2026'
 heroImage: '../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.png'
 ---

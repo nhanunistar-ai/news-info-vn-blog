@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 15'
 description: 'Chương mười lăm của Alien Interview: Cuộc thẩm vấn Matilda O''Donnell MacElroy và máy phát hiện nói dối.'
+category: 'stories'
+tags: ['alien-interview', 'matilda', 'roswell']
+series: 'alien-interview'
+chapter: 15
 pubDate: 'May 20 2026'
 heroImage: '../../assets/chapter-15.png'
 ---

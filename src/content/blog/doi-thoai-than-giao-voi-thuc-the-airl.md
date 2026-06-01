@@ -1,6 +1,10 @@
-﻿---
+---
 title: 'Alien Interview - Chapter 3'
 description: 'Chương ba của Alien Interview: Matilda tiếp tục cuộc đối thoại thần giao với thực thể Airl trong phòng phỏng vấn mới.'
+category: 'stories'
+tags: ['alien-interview', 'airl', 'telepathy']
+series: 'alien-interview'
+chapter: 3
 pubDate: 'May 8 2026'
 heroImage: '../../assets/chapter-3.png'
 ---

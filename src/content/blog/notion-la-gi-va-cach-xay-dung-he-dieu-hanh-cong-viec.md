@@ -1,9 +1,9 @@
 ---
 title: 'Notion'
-draft: true
 description: 'Phân tích Notion từ kiến trúc page-database đến quy trình vận hành cá nhân và đội nhóm'
+category: 'study'
+tags: ['notion', 'productivity', 'knowledge-management']
 pubDate: 'May 30 2026'
-updatedDate: 'May 30 2026'
 heroImage: '../../assets/notion.png'
 ---
 

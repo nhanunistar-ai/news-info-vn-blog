@@ -1,6 +1,10 @@
-﻿---
+---
 title: 'Alien Interview - Chapter 4'
 description: 'Chương bốn của Alien Interview: rào cản ngôn ngữ và điều kiện để Matilda tiếp tục giao tiếp với thực thể ngoài hành tinh.'
+category: 'stories'
+tags: ['alien-interview', 'airl', 'language']
+series: 'alien-interview'
+chapter: 4
 pubDate: 'May 9 2026'
 heroImage: '../../assets/chapter-4.png'
 ---

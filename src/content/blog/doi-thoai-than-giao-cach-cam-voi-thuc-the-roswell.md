@@ -1,6 +1,10 @@
-﻿---
+---
 title: 'Alien Interview - Chapter 1'
 description: 'Chương một của Alien Interview: cuộc trao đổi đầu tiên giữa Matilda O''Donnell MacElroy và thực thể Roswell.'
+category: 'stories'
+tags: ['alien-interview', 'ufo', 'roswell']
+series: 'alien-interview'
+chapter: 1
 pubDate: 'May 6 2026'
 heroImage: '../../assets/chapter-1.png'
 ---

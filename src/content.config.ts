@@ -11,6 +11,10 @@ const blog = defineCollection({
 			title: z.string(),
 			description: z.string(),
 			draft: z.boolean().default(false),
+			category: z.enum(['stories', 'study', 'news']).default('news'),
+			tags: z.array(z.string()).default([]),
+			series: z.string().optional(),
+			chapter: z.number().optional(),
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
@@ -18,4 +22,15 @@ const blog = defineCollection({
 		}),
 });
 
-export const collections = { blog };
+const series = defineCollection({
+	loader: glob({ base: './src/content/series', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			coverImage: image(),
+			order: z.number().default(0),
+		}),
+});
+
+export const collections = { blog, series };

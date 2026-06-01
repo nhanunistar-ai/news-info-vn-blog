@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 12'
 description: 'Chương mười hai của Alien Interview: Một bài học về sự bất tử và bản chất của IS-BE.'
+category: 'stories'
+tags: ['alien-interview', 'immortality', 'is-be']
+series: 'alien-interview'
+chapter: 12
 pubDate: 'May 17 2026'
 heroImage: '../../assets/chapter-12.png'
 ---

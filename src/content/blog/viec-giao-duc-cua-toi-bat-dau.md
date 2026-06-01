@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 6'
 description: 'Chương sáu của Alien Interview: Việc giáo dục của tôi bắt đầu - cuộc trao đổi đầu tiên về bản chất của thực thể tâm linh bất tử.'
+category: 'stories'
+tags: ['alien-interview', 'is-be', 'airl']
+series: 'alien-interview'
+chapter: 6
 pubDate: 'May 11 2026'
 heroImage: '../../assets/chapter-6.png'
 ---

@@ -10,11 +10,18 @@ type Props = CollectionEntry<'blog'>['data'];
 
 type RelatedPost = {
 	id: string;
+	label?: string;
 	data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
 };
 
-const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] } = Astro.props as Props & {
+type SeriesNav = {
+	title: string;
+	href: string;
+};
+
+const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [], seriesNav } = Astro.props as Props & {
 	relatedPosts?: RelatedPost[];
+	seriesNav?: SeriesNav;
 };
 ---
 
@@ -106,6 +113,23 @@ const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] }
 			.related-posts a:hover {
 				text-decoration: underline;
 			}
+			.series-back-link {
+				display: inline-block;
+				margin-top: 2rem;
+				color: rgb(var(--primary));
+				font-weight: 700;
+				text-decoration: none;
+			}
+			.series-back-link:hover {
+				text-decoration: underline;
+			}
+			.related-label {
+				display: block;
+				margin-bottom: 0.15rem;
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+				font-weight: 700;
+			}
 		</style>
 	</head>
 
@@ -132,14 +156,18 @@ const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [] }
 						<hr />
 					</div>
 					<slot />
+					{seriesNav && <a class="series-back-link" href={seriesNav.href}>Quay lại mục lục {seriesNav.title}</a>}
 					{
 						relatedPosts.length > 0 && (
 							<div class="related-posts">
-								<h2>Bài viết liên quan</h2>
+								<h2>{seriesNav ? 'Đọc tiếp trong series' : 'Bài viết liên quan'}</h2>
 								<ul>
 									{relatedPosts.map((relatedPost) => (
 										<li>
-											<a href={`/news/${relatedPost.id}/`}>{relatedPost.data.title}</a>
+											<a href={`/news/${relatedPost.id}/`}>
+												{relatedPost.label && <span class="related-label">{relatedPost.label}</span>}
+												{relatedPost.data.title}
+											</a>
 										</li>
 									))}
 								</ul>

@@ -1,6 +1,8 @@
 ---
 title: 'NotebookLM'
 description: 'Tong quan NotebookLM, cach hoat dong va quy trinh dung de doc, tom tat va viet nhanh hon.'
+category: 'study'
+tags: ['ai-tools', 'notebooklm', 'knowledge-management']
 pubDate: 'May 27 2026'
 heroImage: '../../assets/NotebookLM.png'
 ---

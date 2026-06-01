@@ -1,6 +1,10 @@
-﻿---
+---
 title: 'ALIEN INTERVIEW'
 description: 'Một lát cắt bí ẩn về UFO, Roswell, Majestic-12 và câu chuyện Alien Interview gây tranh cãi.'
+category: 'stories'
+tags: ['alien-interview', 'ufo', 'roswell']
+series: 'alien-interview'
+chapter: 0
 pubDate: 'May 5 2026'
 heroImage: '../../assets/the-grey.png'
 ---

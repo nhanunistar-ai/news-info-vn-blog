@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 11'
 description: 'Chương mười một của Alien Interview: Bản chất tâm linh và giới hạn của khoa học vật lý.'
+category: 'stories'
+tags: ['alien-interview', 'spirituality', 'science']
+series: 'alien-interview'
+chapter: 11
 pubDate: 'May 16 2026'
 heroImage: '../../assets/chapter-11.png'
 ---

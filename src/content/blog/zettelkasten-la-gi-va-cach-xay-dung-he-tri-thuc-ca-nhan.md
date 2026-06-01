@@ -1,9 +1,9 @@
 ---
 title: 'Zettelkasten Là Gì?'
-draft: true
 description: 'Zettelkasten là gì, cách hoạt động, cách triển khai bằng note nguyên tử và liên kết chéo để xây hệ tri thức cá nhân bền vững.'
+category: 'study'
+tags: ['zettelkasten', 'pkm', 'knowledge-management']
 pubDate: 'May 30 2026'
-updatedDate: 'May 30 2026'
 heroImage: '../../assets/zettelkasten.png'
 ---
 

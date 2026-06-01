@@ -1,6 +1,10 @@
 ---
 title: 'Alien Interview - Chapter 8'
 description: 'Chương tám của Alien Interview: Một bài học về lịch sử gần đây của Trái Đất từ góc nhìn của The Domain.'
+category: 'stories'
+tags: ['alien-interview', 'earth', 'the-domain']
+series: 'alien-interview'
+chapter: 8
 pubDate: 'May 13 2026'
 heroImage: '../../assets/chapter-8.png'
 ---

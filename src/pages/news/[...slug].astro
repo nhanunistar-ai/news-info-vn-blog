@@ -5,22 +5,59 @@ import BlogPost from '../../layouts/BlogPost.astro';
 export async function getStaticPaths() {
 	const posts = await getCollection('blog', ({ data }) => !data.draft);
 	const orderedPosts = posts.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+	const seriesEntries = await getCollection('series');
 
 	return orderedPosts.map((post, index) => {
 		const relatedPosts: CollectionEntry<'blog'>[] = [];
-		const previousPost = orderedPosts[index - 1];
-		const nextPost = orderedPosts[index + 1];
+		const relatedLabels = new Map<string, string>();
+		const seriesEntry = post.data.series
+			? seriesEntries.find((candidate) => candidate.id === post.data.series)
+			: undefined;
 
-		if (previousPost) relatedPosts.push(previousPost);
-		if (nextPost) relatedPosts.push(nextPost);
+		if (post.data.series) {
+			const seriesPosts = orderedPosts
+				.filter((candidate) => candidate.data.series === post.data.series)
+				.sort(
+					(a, b) =>
+						(a.data.chapter ?? Number.MAX_SAFE_INTEGER) - (b.data.chapter ?? Number.MAX_SAFE_INTEGER) ||
+						a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+				);
+			const seriesIndex = seriesPosts.findIndex((candidate) => candidate.id === post.id);
+			const previousChapter = seriesPosts[seriesIndex - 1];
+			const nextChapter = seriesPosts[seriesIndex + 1];
 
-		const randomCandidates = orderedPosts.filter(
-			(candidate) => candidate.id !== post.id && !relatedPosts.some((relatedPost) => relatedPost.id === candidate.id),
-		);
-		const hash = [...post.id].reduce((total, character) => total + character.charCodeAt(0), 0);
-		const randomPost = randomCandidates[hash % randomCandidates.length];
+			if (previousChapter) {
+				relatedPosts.push(previousChapter);
+				relatedLabels.set(previousChapter.id, 'Chương trước');
+			}
+			if (nextChapter) {
+				relatedPosts.push(nextChapter);
+				relatedLabels.set(nextChapter.id, 'Chương sau');
+			}
+		} else {
+			const previousPost = orderedPosts[index - 1];
+			const nextPost = orderedPosts[index + 1];
 
-		if (randomPost) relatedPosts.push(randomPost);
+			if (previousPost) {
+				relatedPosts.push(previousPost);
+				relatedLabels.set(previousPost.id, 'Bài trước');
+			}
+			if (nextPost) {
+				relatedPosts.push(nextPost);
+				relatedLabels.set(nextPost.id, 'Bài sau');
+			}
+
+			const randomCandidates = orderedPosts.filter(
+				(candidate) => candidate.id !== post.id && !relatedPosts.some((relatedPost) => relatedPost.id === candidate.id),
+			);
+			const hash = [...post.id].reduce((total, character) => total + character.charCodeAt(0), 0);
+			const randomPost = randomCandidates[hash % randomCandidates.length];
+
+			if (randomPost) {
+				relatedPosts.push(randomPost);
+				relatedLabels.set(randomPost.id, 'Bài ngẫu nhiên');
+			}
+		}
 
 		return {
 			params: { slug: post.id },
@@ -28,10 +65,17 @@ export async function getStaticPaths() {
 				...post,
 				relatedPosts: relatedPosts.slice(0, 3).map((relatedPost) => ({
 					id: relatedPost.id,
+					label: relatedLabels.get(relatedPost.id),
 					data: {
 						title: relatedPost.data.title,
 					},
 				})),
+				seriesNav: seriesEntry
+					? {
+							title: seriesEntry.data.title,
+							href: `/stories/${seriesEntry.id}/`,
+						}
+					: undefined,
 			},
 		};
 	});
@@ -40,14 +84,19 @@ export async function getStaticPaths() {
 type Props = {
 	relatedPosts: {
 		id: string;
+		label?: string;
 		data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
 	}[];
+	seriesNav?: {
+		title: string;
+		href: string;
+	};
 } & CollectionEntry<'blog'>;
 
-const { relatedPosts, ...post } = Astro.props;
+const { relatedPosts, seriesNav, ...post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data} relatedPosts={relatedPosts}>
+<BlogPost {...post.data} relatedPosts={relatedPosts} seriesNav={seriesNav}>
 	<Content />
 </BlogPost>

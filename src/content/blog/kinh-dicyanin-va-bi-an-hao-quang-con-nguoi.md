@@ -1,6 +1,8 @@
 ---
 title: 'Kính Dicyanin và Bí ẩn Hào quang'
 description: 'Từ huyền thoại thị giác đến tranh luận khoa học về hào quang con người.'
+category: 'news'
+tags: ['mystery', 'aura', 'consciousness']
 pubDate: 'May 27 2026'
 heroImage: '../../assets/Futuristic goggles in a glowing lab.png'
 ---
