@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['reality', 'perception', 'consciousness']
 series: 'te-lo-ocultaron'
 chapter: 1
-pubDate: 'May 30 2026'
+pubDate: 'May 05 2026'
 heroImage: '../../assets/su-gioi-han-cua-5-giac-quan.png'
 ---
 

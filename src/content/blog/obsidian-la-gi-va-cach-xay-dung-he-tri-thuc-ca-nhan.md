@@ -4,7 +4,6 @@ description: 'Phân tích Obsidian từ vault, Markdown, backlink, graph đến 
 category: 'study'
 tags: ['obsidian', 'pkm', 'knowledge-management']
 pubDate: 'May 30 2026'
-updatedDate: 'May 30 2026'
 heroImage: '../../assets/obsidian.png'
 ---
 

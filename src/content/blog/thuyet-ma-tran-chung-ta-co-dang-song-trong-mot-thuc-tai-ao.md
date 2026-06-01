@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['simulation', 'reality', 'matrix']
 series: 'te-lo-ocultaron'
 chapter: 2
-pubDate: 'May 30 2026'
+pubDate: 'May 06 2026'
 heroImage: '../../assets/matrix.png'
 ---
 

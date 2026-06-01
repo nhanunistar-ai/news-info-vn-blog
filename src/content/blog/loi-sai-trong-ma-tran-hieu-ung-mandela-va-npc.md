@@ -5,8 +5,7 @@ category: 'stories'
 tags: ['matrix', 'glitch', 'mandela-effect', 'npc', 'reality']
 series: 'te-lo-ocultaron'
 chapter: 4
-pubDate: 'Jun 01 2026'
-updatedDate: 'Jun 01 2026'
+pubDate: 'May 08 2026'
 heroImage: '../../assets/loi-sai-trong-ma-tran.png'
 ---
 

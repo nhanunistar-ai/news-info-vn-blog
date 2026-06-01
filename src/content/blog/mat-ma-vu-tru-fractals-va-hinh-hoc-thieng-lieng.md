@@ -5,8 +5,7 @@ category: 'stories'
 tags: ['fractal', 'holographic-universe', 'sacred-geometry', 'reality']
 series: 'te-lo-ocultaron'
 chapter: 3
-pubDate: 'Jun 01 2026'
-updatedDate: 'Jun 01 2026'
+pubDate: 'May 07 2026'
 heroImage: '../../assets/mat-ma-vu-tru.png'
 ---
 
