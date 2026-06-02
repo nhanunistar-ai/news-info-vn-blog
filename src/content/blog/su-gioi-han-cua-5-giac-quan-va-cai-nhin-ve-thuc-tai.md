@@ -1,6 +1,6 @@
 ---
 title: 'Giới hạn của 5 Giác quan'
-description: 'Một bài viết về giới hạn của cảm nhận giác quan, cách con người tạo mô hình thực tại, và vì sao những tầng vô hình luôn khiến ta nghi ngờ điều mình đang thấy.'
+description: 'Giới hạn của cảm nhận giác quan, cách con người tạo mô hình thực tại, và vì sao những tầng vô hình luôn khiến ta nghi ngờ điều mình đang thấy.'
 category: 'stories'
 tags: ['reality', 'perception', 'consciousness']
 series: 'te-lo-ocultaron'

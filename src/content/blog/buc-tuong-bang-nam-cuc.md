@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['antarctica', 'ross-ice-shelf', 'admiral-byrd', 'forbidden-lands', 'hidden-history']
 series: 'te-lo-ocultaron'
 chapter: 13
-pubDate: 'Jun 01 2026'
+pubDate: 'May 16 2026'
 heroImage: '../../assets/buc-tuong-bang-nam-cuc.png'
 ---
 

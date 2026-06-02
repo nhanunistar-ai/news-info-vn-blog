@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['3d', '4d', '5d', 'consciousness', 'awakening']
 series: 'te-lo-ocultaron'
 chapter: 5
-pubDate: 'May 08 2026'
+pubDate: 'May 09 2026'
 heroImage: '../../assets/tu-3d-den-5d.png'
 ---
 

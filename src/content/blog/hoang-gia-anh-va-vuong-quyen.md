@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['british-royal-family', 'the-crown', 'city-of-london', 'legal-system', 'hidden-power']
 series: 'te-lo-ocultaron'
 chapter: 14
-pubDate: 'Jun 01 2026'
+pubDate: 'May 17 2026'
 heroImage: '../../assets/hoang-gia-anh-va-vuong-quyen.png'
 ---
 

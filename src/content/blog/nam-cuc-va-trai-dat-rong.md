@@ -5,7 +5,7 @@ category: 'stories'
 tags: ['antarctica', 'operation-highjump', 'hollow-earth', 'admiral-byrd', 'hidden-history']
 series: 'te-lo-ocultaron'
 chapter: 12
-pubDate: 'Jun 01 2026'
+pubDate: 'May 15 2026'
 heroImage: '../../assets/nam-cuc-va-trai-dat-rong.png'
 ---
 
