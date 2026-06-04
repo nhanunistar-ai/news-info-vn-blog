@@ -1,7 +1,7 @@
 ---
 title: 'Alien Interview'
 description: 'Phơi bày lịch sử thực sự của vũ trụ, bẫy linh hồn tại Trái Đất và bản chất bất tử của mỗi "IS-BE". Đây là hành trình khám phá sự thật...'
-coverImage: '../../assets/the-grey.png'
+coverImage: '../../assets/alien-interview.jpg'
 order: 1
 ---
 
