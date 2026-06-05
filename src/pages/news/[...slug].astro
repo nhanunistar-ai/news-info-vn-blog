@@ -28,11 +28,11 @@ export async function getStaticPaths() {
 
 			if (previousChapter) {
 				relatedPosts.push(previousChapter);
-				relatedLabels.set(previousChapter.id, 'Chương trước');
+				relatedLabels.set(previousChapter.id, seriesEntry ? 'Chương trước' : 'Phần trước');
 			}
 			if (nextChapter) {
 				relatedPosts.push(nextChapter);
-				relatedLabels.set(nextChapter.id, 'Chương sau');
+				relatedLabels.set(nextChapter.id, seriesEntry ? 'Chương sau' : 'Phần sau');
 			}
 		} else {
 			const previousPost = orderedPosts[index - 1];
@@ -76,6 +76,7 @@ export async function getStaticPaths() {
 							href: `/stories/${seriesEntry.id}/`,
 						}
 					: undefined,
+				isSeriesPost: Boolean(post.data.series),
 			},
 		};
 	});
@@ -91,12 +92,13 @@ type Props = {
 		title: string;
 		href: string;
 	};
+	isSeriesPost?: boolean;
 } & CollectionEntry<'blog'>;
 
-const { relatedPosts, seriesNav, ...post } = Astro.props;
+const { relatedPosts, seriesNav, isSeriesPost, ...post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data} relatedPosts={relatedPosts} seriesNav={seriesNav}>
+<BlogPost {...post.data} relatedPosts={relatedPosts} seriesNav={seriesNav} isSeriesPost={isSeriesPost}>
 	<Content />
 </BlogPost>

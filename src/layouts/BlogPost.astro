@@ -22,7 +22,9 @@ type SeriesNav = {
 const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [], seriesNav } = Astro.props as Props & {
 	relatedPosts?: RelatedPost[];
 	seriesNav?: SeriesNav;
+	isSeriesPost?: boolean;
 };
+const isSeriesPost = Boolean((Astro.props as { isSeriesPost?: boolean }).isSeriesPost);
 ---
 
 <html lang="vi">
@@ -160,7 +162,7 @@ const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [], 
 					{
 						relatedPosts.length > 0 && (
 							<div class="related-posts">
-								<h2>{seriesNav ? 'Đọc tiếp trong series' : 'Bài viết liên quan'}</h2>
+								<h2>{isSeriesPost ? 'Đọc tiếp trong series' : 'Bài viết liên quan'}</h2>
 								<ul>
 									{relatedPosts.map((relatedPost) => (
 										<li>

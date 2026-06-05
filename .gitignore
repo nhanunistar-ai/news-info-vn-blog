@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local source video files that are too large for GitHub
+public/video/ai-ky-theo-dsm-5-tr.mp4
