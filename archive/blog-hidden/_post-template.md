@@ -11,9 +11,14 @@ Mo bai: Noi ly do va boi canh bai viet nay.
 
 Trinh bay luan diem chinh, co du lieu/vi du cu the.
 
-## Y chinh 2
-
-Phan tich tac dong, uu/nhuoc diem, bai hoc rut ra.
+## Audio MP3
+<figure>
+  <figcaption><strong>Mẫu âm thanh</strong></figcaption>
+  <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">
+    <source src="/audio/ten-file.mp3" type="audio/mpeg" />
+    Trình duyệt của bạn không hỗ trợ phát âm thanh.
+  </audio>
+</figure>
 
 ## Ket luan
 

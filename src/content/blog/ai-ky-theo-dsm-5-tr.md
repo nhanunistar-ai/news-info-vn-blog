@@ -45,10 +45,13 @@ Sự công nhận bên ngoài không còn là niềm vui. Nó trở thành nhiê
 
 Ba trục này đi cùng nhau mới tạo thành bức tranh đáng chú ý. Một người tự tin nhưng biết lắng nghe, biết chịu trách nhiệm và biết tôn trọng người khác thì không nên bị gọi là ái kỷ chỉ vì họ nổi bật.
 
-<video controls preload="metadata" playsinline style="width:100%;border-radius:18px;box-shadow:0 24px 60px rgba(15,23,42,.18);margin:0 0 2rem 0;background:#0f172a;">
-  <source src="/video/ai-ky-theo-dsm-5-tr-web.mp4" type="video/mp4" />
-  Trình duyệt của bạn không hỗ trợ phát video.
-</video>
+<figure class="post-audio">
+  <figcaption><strong>Nghe bản audio: Ái Kỷ theo DSM-5-TR</strong></figcaption>
+  <audio controls preload="metadata" style="width:100%;margin:1rem 0 2rem;">
+    <source src="/audio/ai-ky-theo-dsm-5-tr.mp3" type="audio/mpeg" />
+    Trình duyệt của bạn không hỗ trợ phát âm thanh.
+  </audio>
+</figure>
 
 ### Chín nhóm dấu hiệu thường được nhắc đến<hr>
 
