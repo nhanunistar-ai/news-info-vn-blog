@@ -1,0 +1,19 @@
+---
+import FormattedDate from './FormattedDate.astro';
+import { getPostAuthor } from '../utils/postAuthors';
+
+interface Props {
+	date: Date;
+	postId?: string;
+	author?: string;
+}
+
+const { date, postId = date.toISOString(), author } = Astro.props;
+const postAuthor = getPostAuthor(postId, author);
+---
+
+<span class="post-meta">
+	<FormattedDate date={date} />
+	<span> by </span>
+	<span>{postAuthor}</span>
+</span>

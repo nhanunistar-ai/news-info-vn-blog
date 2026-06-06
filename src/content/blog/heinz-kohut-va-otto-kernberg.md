@@ -5,7 +5,7 @@ category: 'news'
 tags: ['tam-ly', 'ai-ky', 'heinz-kohut', 'otto-kernberg', 'self-psychology', 'object-relations']
 series: 'ai-ky'
 chapter: 4
-pubDate: 'May 20 2026'
+pubDate: 'May 23 2026'
 heroImage: '../../assets/heinz-kohut-va-otto-kernberg.png'
 ---
 

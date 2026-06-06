@@ -5,7 +5,7 @@ category: 'news'
 tags: ['tam-ly', 'ai-ky', 'carl-jung', 'persona', 'shadow', 'individuation']
 series: 'ai-ky'
 chapter: 3
-pubDate: 'May 20 2026'
+pubDate: 'May 22 2026'
 heroImage: '../../assets/carl-jung-noi-ve-ai-ky.png'
 ---
 
@@ -289,4 +289,3 @@ Mà là:
 - Jungian Directory - Inflation: https://jungian.directory/dictionary/inflation/
 - C.G. Jung Center - The Shadow: https://www.cgjungcenter.org/events/the-shadow/
 - Mayo Clinic về Narcissistic Personality Disorder: https://www.mayoclinic.org/diseases-conditions/narcissistic-personality-disorder/symptoms-causes/syc-20366662
-

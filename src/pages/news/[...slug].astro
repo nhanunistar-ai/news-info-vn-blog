@@ -99,6 +99,6 @@ const { relatedPosts, seriesNav, isSeriesPost, ...post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data} relatedPosts={relatedPosts} seriesNav={seriesNav} isSeriesPost={isSeriesPost}>
+<BlogPost {...post.data} postId={post.id} relatedPosts={relatedPosts} seriesNav={seriesNav} isSeriesPost={isSeriesPost}>
 	<Content />
 </BlogPost>

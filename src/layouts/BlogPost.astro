@@ -5,6 +5,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import PostMeta from '../components/PostMeta.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -19,12 +20,14 @@ type SeriesNav = {
 	href: string;
 };
 
-const { title, description, pubDate, updatedDate, heroImage, relatedPosts = [], seriesNav } = Astro.props as Props & {
+const { title, description, pubDate, updatedDate, heroImage, author, relatedPosts = [], seriesNav } = Astro.props as Props & {
 	relatedPosts?: RelatedPost[];
 	seriesNav?: SeriesNav;
 	isSeriesPost?: boolean;
+	postId?: string;
 };
 const isSeriesPost = Boolean((Astro.props as { isSeriesPost?: boolean }).isSeriesPost);
+const postId = (Astro.props as { postId?: string }).postId ?? title;
 ---
 
 <html lang="vi">
@@ -145,7 +148,7 @@ const isSeriesPost = Boolean((Astro.props as { isSeriesPost?: boolean }).isSerie
 				<div class="prose">
 					<div class="title">
 						<div class="date">
-							<FormattedDate date={pubDate} />
+							<PostMeta date={pubDate} postId={postId} author={author} />
 							{
 								updatedDate && (
 									<div class="last-updated-on">

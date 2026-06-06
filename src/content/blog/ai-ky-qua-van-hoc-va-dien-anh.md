@@ -5,7 +5,7 @@ category: 'news'
 tags: ['tam-ly', 'ai-ky', 'van-hoc', 'dien-anh', 'gatsby', 'hannibal-lecter', 'the-matrix']
 series: 'ai-ky'
 chapter: 5
-pubDate: 'May 20 2026'
+pubDate: 'May 24 2026'
 heroImage: '../../assets/ai-ky-qua-van-hoc-va-dien-anh.png'
 ---
 
