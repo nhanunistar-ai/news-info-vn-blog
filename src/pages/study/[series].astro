@@ -1,0 +1,173 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_TITLE } from '../../consts';
+
+const seriesLabels: Record<string, { title: string; description: string }> = {
+	'chu-nghia-khac-ky': {
+		title: 'Chủ Nghĩa Khắc Kỷ',
+		description: 'Mạch bài về Stoicism, từ nền tảng triết học đến thực hành đời sống.',
+	},
+	'ai-ky': {
+		title: 'Ái Kỷ',
+		description: 'Mạch bài về ái kỷ, từ định nghĩa, quan hệ độc hại đến các lăng kính tâm lý và văn hóa.',
+	},
+};
+
+export async function getStaticPaths() {
+	const studyPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'study');
+	const seriesGroups = new Map<string, typeof studyPosts>();
+
+	for (const post of studyPosts) {
+		if (!post.data.series) continue;
+		if (!seriesGroups.has(post.data.series)) seriesGroups.set(post.data.series, []);
+		seriesGroups.get(post.data.series)!.push(post);
+	}
+
+	return Array.from(seriesGroups.entries()).map(([series, items]) => ({
+		params: { series },
+		props: {
+			seriesSlug: series,
+			posts: [...items].sort(
+				(a, b) =>
+					(a.data.chapter ?? Number.MAX_SAFE_INTEGER) - (b.data.chapter ?? Number.MAX_SAFE_INTEGER) ||
+					a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+			),
+		},
+	}));
+}
+
+type Props = {
+	seriesSlug: string;
+	posts: typeof getCollection extends never ? never : Awaited<ReturnType<typeof getCollection>>[number][];
+};
+
+const { seriesSlug, posts } = Astro.props as Props;
+const label = seriesLabels[seriesSlug] ?? {
+	title: posts[0]?.data.title ?? 'Study',
+	description: posts[0]?.data.description ?? '',
+};
+const coverImage = posts[0]?.data.heroImage;
+---
+
+<!doctype html>
+<html lang="vi">
+	<head>
+		<BaseHead
+			title={`${label.title} | ${SITE_TITLE}`}
+			description={label.description}
+			image={coverImage}
+		/>
+		<style>
+			main {
+				width: min(1020px, calc(100% - 2em));
+			}
+			.book-hero {
+				display: grid;
+				grid-template-columns: minmax(260px, 420px) 1fr;
+				gap: 2rem;
+				align-items: center;
+				margin-bottom: 2.5rem;
+			}
+			.book-hero img {
+				width: 100%;
+				aspect-ratio: 3 / 4;
+				object-fit: cover;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
+			.book-copy h1 {
+				margin-bottom: 0.5rem;
+			}
+			.book-description {
+				color: rgb(var(--gray-dark));
+			}
+			.book-description p {
+				margin: 0 0 0.85rem;
+			}
+			.chapter-list {
+				display: grid;
+				gap: 0.75rem;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			.chapter-list a {
+				display: grid;
+				grid-template-columns: 120px 1fr;
+				gap: 1rem;
+				align-items: baseline;
+				padding: 0.9rem 0;
+				border-bottom: 1px solid rgb(var(--gray-light));
+				color: inherit;
+				text-decoration: none;
+			}
+			.chapter-list a:hover h3,
+			.chapter-list a:hover .chapter-number {
+				color: rgb(var(--accent));
+			}
+			.chapter-number {
+				color: rgb(var(--gray));
+				font-weight: 700;
+			}
+			.chapter-list h3 {
+				margin: 0 0 0.25rem;
+				font-size: 1.2rem;
+			}
+			.chapter-list p {
+				margin: 0;
+				color: rgb(var(--gray));
+				font-size: 0.95rem;
+			}
+			@media (max-width: 720px) {
+				.book-hero {
+					grid-template-columns: 1fr;
+				}
+				.chapter-list a {
+					grid-template-columns: 1fr;
+					gap: 0.25rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="book-hero">
+				<Image width={720} height={960} src={coverImage} alt="" />
+				<div class="book-copy">
+					<p>{posts.length} phần</p>
+					<h1>{label.title}</h1>
+					<div class="book-description">
+						<p>{label.description}</p>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<h2>Mục lục</h2>
+				<ul class="chapter-list">
+					{
+						posts.map((chapter) => (
+							<li>
+								<a href={`/news/${chapter.id}/`}>
+									<span class="chapter-number">
+										{chapter.data.chapter === 0 ? 'Giới thiệu' : `Chương ${chapter.data.chapter}`}
+									</span>
+									<span>
+										<h3>{chapter.data.title}</h3>
+										<p>{chapter.data.description}</p>
+									</span>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

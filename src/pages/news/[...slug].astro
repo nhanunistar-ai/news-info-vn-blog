@@ -6,13 +6,18 @@ export async function getStaticPaths() {
 	const posts = await getCollection('blog', ({ data }) => !data.draft);
 	const orderedPosts = posts.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
 	const seriesEntries = await getCollection('series');
+	const studySeriesTitles: Record<string, string> = {
+		'chu-nghia-khac-ky': 'Chủ Nghĩa Khắc Kỷ',
+		'ai-ky': 'Ái Kỷ',
+	};
 
 	return orderedPosts.map((post, index) => {
 		const relatedPosts: CollectionEntry<'blog'>[] = [];
 		const relatedLabels = new Map<string, string>();
-		const seriesEntry = post.data.series
-			? seriesEntries.find((candidate) => candidate.id === post.data.series)
-			: undefined;
+		const seriesEntry =
+			post.data.category !== 'study' && post.data.series
+				? seriesEntries.find((candidate) => candidate.id === post.data.series)
+				: undefined;
 
 		if (post.data.series) {
 			const seriesPosts = orderedPosts
@@ -70,10 +75,13 @@ export async function getStaticPaths() {
 						title: relatedPost.data.title,
 					},
 				})),
-				seriesNav: seriesEntry
+				seriesNav: post.data.series
 					? {
-							title: seriesEntry.data.title,
-							href: `/stories/${seriesEntry.id}/`,
+							title:
+								(post.data.category === 'study' && studySeriesTitles[post.data.series]) ||
+								seriesEntry?.data.title ||
+								post.data.series,
+							href: post.data.category === 'study' ? `/study/${post.data.series}/` : `/stories/${post.data.series}/`,
 						}
 					: undefined,
 				isSeriesPost: Boolean(post.data.series),

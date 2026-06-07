@@ -10,81 +10,108 @@ import { SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.category === 'study')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const seriesLabels: Record<string, { title: string; description: string; order: number }> = {
+	'chu-nghia-khac-ky': {
+		title: 'Chủ Nghĩa Khắc Kỷ',
+		description: 'Mạch bài về Stoicism, từ nền tảng triết học đến thực hành đời sống.',
+		order: 1,
+	},
+	'ai-ky': {
+		title: 'Ái Kỷ',
+		description: 'Mạch bài về ái kỷ, từ định nghĩa, quan hệ độc hại đến các lăng kính tâm lý và văn hóa.',
+		order: 2,
+	},
+};
+
+const seriesGroups = new Map<string, typeof posts>();
+for (const post of posts) {
+	if (!post.data.series) continue;
+	if (!seriesGroups.has(post.data.series)) seriesGroups.set(post.data.series, []);
+	seriesGroups.get(post.data.series)!.push(post);
+}
+
+const seriesCards = Array.from(seriesGroups.entries())
+	.map(([slug, items]) => {
+		const orderedItems = [...items].sort((a, b) => (a.data.chapter ?? 0) - (b.data.chapter ?? 0));
+		const first = orderedItems[0];
+		const label = seriesLabels[slug];
+
+		return {
+			slug,
+			title: label?.title ?? first.data.title,
+			description: label?.description ?? first.data.description,
+			coverImage: first.data.heroImage,
+			count: orderedItems.length,
+			order: label?.order ?? 99,
+		};
+	})
+	.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, 'vi'));
+
+const standalonePosts = posts.filter((post) => !post.data.series);
 ---
 
 <!doctype html>
 <html lang="vi">
 	<head>
-		<BaseHead title={`Study | ${SITE_TITLE}`} description="Cac bai hoc, cong cu va ghi chu nghien cuu tren news.info.vn." />
+		<BaseHead
+			title={`Study | ${SITE_TITLE}`}
+			description="Các chuỗi nghiên cứu, bài học nền tảng và ghi chú học tập trên news.info.vn."
+		/>
 		<style>
 			main {
-				width: 960px;
+				width: min(1020px, calc(100% - 2em));
 			}
 			.page-title {
 				margin-bottom: 1.5rem;
 			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
+			.series-grid,
+			.story-grid {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1.5rem;
+				list-style: none;
 				margin: 0;
 				padding: 0;
 			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
+			.series-card,
+			.story-card {
 				display: block;
+				color: inherit;
+				text-decoration: none;
 			}
-			.title {
-				margin: 0;
-				color: rgb(var(--gray));
-				line-height: 1;
+			.series-card img,
+			.story-card img {
+				width: 100%;
+				aspect-ratio: 16 / 9;
+				object-fit: cover;
+				border-radius: 12px;
+				margin-bottom: 0.75rem;
 			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
+			.series-card:hover img,
+			.story-card:hover img {
 				box-shadow: var(--box-shadow);
 			}
+			.meta {
+				margin: 0 0 0.25rem;
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+			}
+			h2 {
+				margin-top: 2.5rem;
+			}
+			h3 {
+				margin: 0 0 0.35rem;
+				font-size: 1.35rem;
+			}
+			.description {
+				margin: 0;
+				color: rgb(var(--gray-dark));
+			}
 			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
+				.series-grid,
+				.story-grid {
+					grid-template-columns: 1fr;
 				}
 			}
 		</style>
@@ -94,25 +121,47 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft && data.cat
 		<main>
 			<section class="page-title">
 				<h1>Study</h1>
-				<p>Các bài học, công cụ, ghi chú nghiên cứu và hệ thống tri thức cá nhân.</p>
+				<p>Các chuỗi nghiên cứu, bài học nền tảng và ghi chú học tập trên news.info.vn.</p>
 			</section>
+
 			<section>
-				<ul>
+				<ul class="series-grid">
 					{
-						posts.map((post) => (
+						seriesCards.map((series) => (
 							<li>
-								<a href={`/news/${post.id}/`}>
-									{post.data.heroImage && <Image width={720} height={360} src={post.data.heroImage} alt="" />}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<PostMeta date={post.data.pubDate} postId={post.id} author={post.data.author} />
-									</p>
+								<a class="series-card" href={`/study/${series.slug}/`}>
+									<Image width={720} height={360} src={series.coverImage} alt="" />
+									<p class="meta">{series.count} phần</p>
+									<h3>{series.title}</h3>
+									<p class="description">{series.description}</p>
 								</a>
 							</li>
 						))
 					}
 				</ul>
 			</section>
+
+			{
+				standalonePosts.length > 0 && (
+					<section>
+						<h2>Các bài đơn lẻ</h2>
+						<ul class="story-grid">
+							{standalonePosts.map((post) => (
+								<li>
+									<a class="story-card" href={`/news/${post.id}/`}>
+										{post.data.heroImage && <Image width={720} height={360} src={post.data.heroImage} alt="" />}
+										<p class="meta">
+											<PostMeta date={post.data.pubDate} postId={post.id} author={post.data.author} />
+										</p>
+										<h3>{post.data.title}</h3>
+										<p class="description">{post.data.description}</p>
+									</a>
+								</li>
+							))}
+						</ul>
+					</section>
+				)
+			}
 		</main>
 		<Footer />
 	</body>
