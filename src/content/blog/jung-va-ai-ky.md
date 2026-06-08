@@ -117,6 +117,14 @@ Nhìn qua Jung, ái kỷ là tình trạng cái tôi bám quá chặt vào hình
   </audio>
 </figure>
 
+<figure>
+  <figcaption><strong>Cuộc đời và sự nghiệp phi thường của Carl Jung</strong></figcaption>
+  <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">
+    <source src="/audio/cuoc-doi-va-su-nghiep-carl-jung.mp3" type="audio/mpeg" />
+    Trình duyệt của bạn không hỗ trợ phát âm thanh.
+  </audio>
+</figure>
+
 ### Nguồn tham khảo<hr>
 
 - [Britannica: Persona](https://www.britannica.com/science/persona-psychology)
