@@ -112,7 +112,7 @@ Nhìn qua Jung, ái kỷ là tình trạng cái tôi bám quá chặt vào hình
 <figure>
   <figcaption><strong>Cuộc trò chuyện với Carl Jung ở tuổi 84</strong></figcaption>
   <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">
-    <source src="/audio/Cuộc trò chuyện với Carl Jung ở tuổi 84 'Con người không thể chịu đựng một cuộc sống vô nghĩa'.mp3" type="audio/mpeg" />
+    <source src="/audio/carl-jung-tuoi-84-cuoc-song-vo-nghia.mp3" type="audio/mpeg" />
     Trình duyệt của bạn không hỗ trợ phát âm thanh.
   </audio>
 </figure>
