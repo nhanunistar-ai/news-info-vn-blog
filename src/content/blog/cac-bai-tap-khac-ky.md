@@ -1,5 +1,5 @@
 ---
-title: 'Các Bài Tập Khắc Kỷ'
+title: 'Các bài tập khắc kỷ'
 description: 'Những thực hành cốt lõi của Stoicism: memento mori, premeditatio malorum, view from above, journaling và tự nguyện chịu thiếu.'
 category: 'study'
 tags: ['stoicism', 'practice', 'journaling', 'memento-mori']

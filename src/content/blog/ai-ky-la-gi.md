@@ -1,5 +1,5 @@
 ---
-title: 'Ái Kỷ Là Gì?'
+title: 'Ái kỷ là gì?'
 description: 'Định nghĩa đúng về ái kỷ, phân biệt nét ái kỷ với rối loạn nhân cách, và nhận diện các dấu hiệu quan trọng mà không biến nó thành nhãn chụp mũ.'
 category: 'study'
 tags: ['tam-ly', 'ai-ky', 'npd', 'suc-khoe-tinh-than', 'nhan-cach']

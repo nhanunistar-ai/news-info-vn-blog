@@ -1,5 +1,5 @@
 ---
-title: 'Mật mã Vũ trụ'
+title: 'Mật mã vũ trụ'
 description: 'Phần 3 của Te lo ocultaron: Fractal, vũ trụ ảnh ảo và hình học thiêng liêng như những mô thức nền trong cách thực tại được tổ chức.'
 category: 'stories'
 tags: ['fractal', 'holographic-universe', 'sacred-geometry', 'reality']

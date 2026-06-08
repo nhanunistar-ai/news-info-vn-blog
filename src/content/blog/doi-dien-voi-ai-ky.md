@@ -1,5 +1,5 @@
 ---
-title: 'Đối Diện Với Ái Kỷ'
+title: 'Đối diện với ái kỷ'
 description: 'Nhìn rõ chu kỳ quan hệ độc hại, đặt ranh giới thực tế và hiểu vì sao bạn không cần chẩn đoán chính xác để tự bảo vệ mình.'
 category: 'study'
 tags: ['tam-ly', 'ai-ky', 'ranh-gioi', 'quan-he-doc-hai', 'suc-khoe-tinh-than']

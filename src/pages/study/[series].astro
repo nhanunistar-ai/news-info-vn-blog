@@ -5,8 +5,9 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
+import MemoriesDreamsCover from '../../assets/memories-dreams-reflections.png';
 
-const seriesLabels: Record<string, { title: string; description: string }> = {
+const seriesLabels: Record<string, { title: string; description: string; coverImage?: typeof MemoriesDreamsCover }> = {
 	'chu-nghia-khac-ky': {
 		title: 'Chủ Nghĩa Khắc Kỷ',
 		description: 'Mạch bài về Stoicism, từ nền tảng triết học đến thực hành đời sống.',
@@ -14,6 +15,11 @@ const seriesLabels: Record<string, { title: string; description: string }> = {
 	'ai-ky': {
 		title: 'Ái Kỷ',
 		description: 'Mạch bài về ái kỷ, từ định nghĩa, quan hệ độc hại đến các lăng kính tâm lý và văn hóa.',
+	},
+	'memories-dreams-reflections': {
+		title: 'Memories, Dreams, Reflections',
+		description: 'Mạch đọc Jung qua ký ức, giấc mơ, biểu tượng và hành trình cá nhân hóa trong cuốn hồi ký quan trọng nhất của ông.',
+		coverImage: MemoriesDreamsCover,
 	},
 };
 
@@ -50,7 +56,7 @@ const label = seriesLabels[seriesSlug] ?? {
 	title: posts[0]?.data.title ?? 'Study',
 	description: posts[0]?.data.description ?? '',
 };
-const coverImage = posts[0]?.data.heroImage;
+const coverImage = label.coverImage ?? posts[0]?.data.heroImage;
 ---
 
 <!doctype html>

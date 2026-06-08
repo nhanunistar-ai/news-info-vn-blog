@@ -1,5 +1,5 @@
 ---
-title: 'Sống Thuận Theo Tự Nhiên'
+title: 'Sống thuận theo tự nhiên'
 description: 'Giải thích một khái niệm dễ bị hiểu sai trong Stoicism: sống thuận theo tự nhiên là sống theo lý trí và bản chất con người.'
 category: 'study'
 tags: ['stoicism', 'nature', 'logos', 'khac-ky']

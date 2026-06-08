@@ -1,5 +1,5 @@
 ---
-title: 'Tiền Bạc, Danh Vọng Và Sức Khỏe'
+title: 'Tiền bạc, danh vọng và sức khỏe'
 description: 'Khái niệm ngoại vật trong Khắc kỷ: vì sao tiền bạc, danh tiếng và sức khỏe có giá trị nhưng không quyết định phẩm giá.'
 category: 'study'
 tags: ['stoicism', 'indifferents', 'money', 'khac-ky']

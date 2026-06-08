@@ -1,5 +1,5 @@
 ---
-title: 'Zettelkasten Là Gì?'
+title: 'Zettelkasten là gì?'
 description: 'Zettelkasten là gì, cách hoạt động, cách triển khai bằng note nguyên tử và liên kết chéo để xây hệ tri thức cá nhân bền vững.'
 category: 'study'
 tags: ['zettelkasten', 'pkm', 'knowledge-management']
@@ -258,4 +258,3 @@ Zettelkasten không phải một trào lưu ghi chú đẹp mắt. Nó là một
 Giá trị lớn nhất của nó không nằm ở số lượng note, mà ở chất lượng liên kết giữa các note. Khi liên kết đủ tốt, hệ thống sẽ bắt đầu giúp bạn nghĩ tốt hơn, viết tốt hơn, và học tốt hơn.
 
 Nếu bạn muốn một hệ thống ghi chú có tuổi thọ dài, đặc biệt cho học tập, nghiên cứu, viết lách và xây tri thức cá nhân, Zettelkasten là một trong những nền tảng đáng học nhất.
-

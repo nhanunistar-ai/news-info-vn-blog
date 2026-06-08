@@ -1,5 +1,5 @@
 ---
-title: 'Chủ Nghĩa Khắc Kỷ Là Gì?'
+title: 'Chủ nghĩa khắc kỷ là gì?'
 description: 'Nhập môn Chủ nghĩa Khắc kỷ: nguồn gốc, tinh thần cốt lõi và vì sao Stoicism không phải là lối sống vô cảm.'
 category: 'study'
 tags: ['stoicism', 'khac-ky', 'triethoc', 'self-mastery']

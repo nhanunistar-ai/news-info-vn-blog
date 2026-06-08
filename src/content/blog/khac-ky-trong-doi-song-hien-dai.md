@@ -1,5 +1,5 @@
 ---
-title: 'Khắc Kỷ Trong Đời Sống Hiện Đại'
+title: 'Khắc kỷ trong đời sống hiện đại'
 description: 'Ứng dụng Stoicism vào công việc, tiền bạc, mạng xã hội, quan hệ và khủng hoảng cá nhân.'
 category: 'study'
 tags: ['stoicism', 'modern-life', 'work', 'social-media']

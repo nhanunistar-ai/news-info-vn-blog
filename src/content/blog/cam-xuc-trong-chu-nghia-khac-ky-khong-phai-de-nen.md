@@ -1,5 +1,5 @@
 ---
-title: 'Cảm Xúc Trong Khắc Kỷ'
+title: 'Cảm xúc trong khắc kỷ'
 description: 'Khắc kỷ không dạy đè nén cảm xúc, mà dạy hiểu phán đoán đứng sau cảm xúc để không bị nó điều khiển.'
 category: 'study'
 tags: ['stoicism', 'emotion', 'anger', 'khac-ky']

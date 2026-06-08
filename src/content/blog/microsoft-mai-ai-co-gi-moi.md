@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft MAI'
-description: 'Microsoft tung loạt model MAI mới: Thinking, Code, Image, Voice, Transcribe và Frontier Tuning. Một cú chuyển hướng tự chủ AI, kèm cái tên khiến dân mạng Việt không thể không troll.'
+description: 'Microsoft tung loạt model MAI mới: Thinking, Code, Image, Voice, Transcribe và Frontier Tuning. Một cú chuyển hướng tự chủ AI,...'
 category: 'study'
 tags: ['microsoft', 'mai', 'ai-models', 'copilot', 'build-2026']
 pubDate: 'May 08 2026'

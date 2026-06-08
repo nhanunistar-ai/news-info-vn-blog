@@ -1,5 +1,5 @@
 ---
-title: 'QML và ML Cổ Điển'
+title: 'QML và ML cổ điển'
 description: 'Đối chiếu học máy lượng tử và học máy truyền thống qua phần cứng, biểu diễn dữ liệu, huấn luyện, suy luận và thách thức triển khai.'
 category: 'study'
 tags: ['quantum-computing', 'machine-learning', 'qml']

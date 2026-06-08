@@ -6,12 +6,13 @@ import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import PostMeta from '../../components/PostMeta.astro';
 import { SITE_TITLE } from '../../consts';
+import MemoriesDreamsCover from '../../assets/memories-dreams-reflections.png';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.category === 'study')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-const seriesLabels: Record<string, { title: string; description: string; order: number }> = {
+const seriesLabels: Record<string, { title: string; description: string; order: number; coverImage?: typeof MemoriesDreamsCover }> = {
 	'chu-nghia-khac-ky': {
 		title: 'Chủ Nghĩa Khắc Kỷ',
 		description: 'Mạch bài về Stoicism, từ nền tảng triết học đến thực hành đời sống.',
@@ -21,6 +22,12 @@ const seriesLabels: Record<string, { title: string; description: string; order: 
 		title: 'Ái Kỷ',
 		description: 'Mạch bài về ái kỷ, từ định nghĩa, quan hệ độc hại đến các lăng kính tâm lý và văn hóa.',
 		order: 2,
+	},
+	'memories-dreams-reflections': {
+		title: 'Memories, Dreams, Reflections',
+		description: 'Mạch đọc Jung qua ký ức, giấc mơ, biểu tượng và hành trình cá nhân hóa trong cuốn hồi ký quan trọng nhất của ông.',
+		order: 3,
+		coverImage: MemoriesDreamsCover,
 	},
 };
 
@@ -41,7 +48,7 @@ const seriesCards = Array.from(seriesGroups.entries())
 			slug,
 			title: label?.title ?? first.data.title,
 			description: label?.description ?? first.data.description,
-			coverImage: first.data.heroImage,
+			coverImage: label?.coverImage ?? first.data.heroImage,
 			count: orderedItems.length,
 			order: label?.order ?? 99,
 		};

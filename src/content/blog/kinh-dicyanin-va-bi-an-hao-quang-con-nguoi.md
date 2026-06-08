@@ -1,5 +1,5 @@
 ---
-title: 'Kính Dicyanin và Bí ẩn Hào quang'
+title: 'Kính Dicyanin và bí ẩn hào quang'
 description: 'Từ huyền thoại thị giác đến tranh luận khoa học về hào quang con người.'
 category: 'news'
 tags: ['mystery', 'aura', 'consciousness']

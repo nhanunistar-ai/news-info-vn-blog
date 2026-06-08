@@ -1,5 +1,5 @@
 ---
-title: 'Marcus Aurelius: Nhật Ký Của Một Hoàng Đế'
+title: 'Marcus Aurelius: Nhật ký của một hoàng đế'
 description: 'Meditations không phải sách dạy đời, mà là nhật ký tự răn mình của một hoàng đế giữa chiến tranh, dịch bệnh và trách nhiệm.'
 category: 'study'
 tags: ['stoicism', 'marcus-aurelius', 'meditations', 'khac-ky']

@@ -1,5 +1,5 @@
 ---
-title: 'Seneca: Giàu Có Và Tự Chủ'
+title: 'Seneca: Giàu có và tự chủ'
 description: 'Seneca là nhân vật mâu thuẫn nhưng hấp dẫn: một người giàu, gần quyền lực, nhưng viết rất sâu về tự chủ, thời gian và cái chết.'
 category: 'study'
 tags: ['stoicism', 'seneca', 'rome', 'khac-ky']
