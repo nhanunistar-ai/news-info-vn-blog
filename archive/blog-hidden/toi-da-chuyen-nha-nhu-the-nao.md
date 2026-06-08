@@ -2,6 +2,7 @@
 title: 'Tôi đã chuyển nhà từ WordPress sang đây như thế nào?'
 description: 'Case study chuyển toàn bộ blog từ WordPress sang Astro + Cloudflare Pages, giảm chi phí, tăng tốc độ và kiểm soát nội dung chặt hơn.'
 pubDate: 'May 20 2026'
+draft: true
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

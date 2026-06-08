@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
-const posts = (await getCollection('blog'))
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
 	.filter((post) => post.data.heroImage)
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 

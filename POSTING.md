@@ -31,7 +31,7 @@ heroImage: '../../assets/ten-anh.jpg'
 npm run dev
 ```
 
-Mo `http://localhost:4321` de xem bai.
+Mo `http://localhost:4322` de xem bai.
 
 ## 4) Publish len site
 
