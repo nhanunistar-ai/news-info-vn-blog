@@ -1112,7 +1112,7 @@ tục được tiến hành. Một hồi sau, viên kỹ sư hơi lo và bảo t
 thanh tra Averdeck biết. Nhân vật quan trọng đó được gọi đến, ông kiểm tra, thảo
 luận và quyết định rằng đèn nên được chuyển trở lại 2 inch, chỗ mà tôi đã đánh
 
-https://thuviensach.vn
+tạo luôn 9 file post thật trong src/content/blog/ theo đúng series này.
 dấu trước đó! Tuy nhiên, không lâu sau Averdeck cũng thấy lạnh mình và khuyên
 tôi rằng hay là thôi để thông báo thanh tra cấp trên Hieronimus về vấn đề đó, rằng
 tôi nên chờ quyết định của ông Hieronimus ấy cái đã. Mất nhiều ngày viên thanh

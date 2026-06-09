@@ -14,11 +14,11 @@ const AUTHORS = [
 	'Quoc Bao',
 	'Tuan Minh',
 	'Lam Son',
-	'Ha Nguyen',
+	'Admin',
 	'Hoang Lam',
 	'Duc Huy',
 	'Bao Trang',
-	'Phuoc Minh',
+	'Phuc Minh',
 ];
 
 export function getPostAuthor(seed: string, author?: string) {

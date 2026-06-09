@@ -1,5 +1,5 @@
 ---
-title: 'Nikola Tesla - Máy phóng điện cao thế phần 2'
+title: 'Tesla - Máy phóng điện cao thế P2'
 description: 'Tự động hóa, máy bay, chiến tranh và hòa bình, cùng kết luận tư tưởng.'
 category: 'stories'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'

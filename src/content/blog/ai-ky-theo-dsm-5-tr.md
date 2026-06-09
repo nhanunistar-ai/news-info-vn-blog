@@ -1,8 +1,7 @@
 ---
-title: 'Ái kỷ theo DSM-5-TR'
+title: 'Ái Kỷ Theo DSM-5-TR'
 description: 'Hiểu rối loạn nhân cách ái kỷ theo DSM-5-TR: tiêu chí cốt lõi, cách đọc đúng, những điều dễ nhầm và vì sao không nên tự chẩn đoán người khác.'
 category: 'news'
-draft: true
 tags: ['tam-ly', 'ai-ky', 'dsm-5-tr', 'npd', 'suc-khoe-tinh-than']
 pubDate: 'May 20 2026'
 heroImage: '../../assets/ai-ky-theo-dsm-5-tr.png'

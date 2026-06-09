@@ -10,15 +10,17 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const latestPost = posts[0];
-const chapter9Slug = 'lich-su-trai-dat-va-bi-mat-cua-the-domain';
-const chapter9Post = posts.find((post) => post.id === chapter9Slug);
+const latestPostTopic = latestPost?.data.category;
+const latestDifferentTopicPost = posts.find(
+	(post) => post.id !== latestPost?.id && post.data.category !== latestPostTopic,
+);
 const dailySeed = new Date().toISOString().slice(0, 10);
 
 function hashString(value: string) {
 	return [...value].reduce((hash, character) => (hash * 31 + character.charCodeAt(0)) >>> 0, 0);
 }
 
-const usedIds = new Set([latestPost?.id, chapter9Post?.id].filter(Boolean));
+const usedIds = new Set([latestPost?.id, latestDifferentTopicPost?.id].filter(Boolean));
 const randomPool = posts.filter((post) => !usedIds.has(post.id));
 
 const randomPost = randomPool
@@ -29,7 +31,7 @@ const randomPost = randomPool
 	.sort((a, b) => a.score - b.score)
 	.at(0)?.post;
 
-const slidePosts = [latestPost, chapter9Post, randomPost].filter(Boolean);
+const slidePosts = [latestPost, latestDifferentTopicPost, randomPost].filter(Boolean);
 ---
 
 <!doctype html>

@@ -1,5 +1,5 @@
 ---
-title: 'Nikola Tesla - Máy phóng điện cao thế phần 1'
+title: 'Tesla - Máy phóng điện cao thế P1'
 description: 'Vô tuyến, chống nhiễu, truyền thông và những ý tưởng quy mô lớn.'
 category: 'stories'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
