@@ -4,7 +4,7 @@ description: 'LAVA GENIE là cây đàn không dây theo nghĩa rất mới: v�
 category: 'news'
 tags: ['lava-genie', 'lava-music', 'smart-guitar', 'music-tech', 'guitar', 'sampler']
 author: 'Minh Khang'
-pubDate: 'Jun 11 2026'
+pubDate: 'May 26 2026'
 heroImage: '../../assets/lava-genie.png'
 ---
 
