@@ -7,7 +7,7 @@ author: 'Minh Chau'
 series: 'memories-dreams-reflections'
 chapter: 13
 pubDate: 'May 27 2026'
-heroImage: '../../assets/nhung-linh-anh-cuoi-doi-cua-jung.png'
+heroImage: '../../assets/nhung-linh-anh-cuoi-doi-cua-jung.webp'
 ---
 
 Bạn đang trong phần 13 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [những chuyến đi của Jung như một cách nhìn lại phương Tây và nhìn lại chính mình](/news/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua/). Từ đây, series bước vào đoạn cuối đời: nơi bệnh tật, linh ảnh, cái chết và hồi tưởng không còn là chuyện phụ, mà trở thành phần trung tâm của hành trình Jung.

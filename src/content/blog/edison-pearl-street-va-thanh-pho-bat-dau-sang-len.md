@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 11
 author: 'Minh Anh'
 pubDate: 'Jun 01 2026'
-heroImage: '../../assets/edison-pearl-street-va-thanh-pho-bat-dau-sang-len.png'
+heroImage: '../../assets/edison-pearl-street-va-thanh-pho-bat-dau-sang-len.webp'
 ---
 
 > Bạn đang đọc **chương 11** của series **Cuộc đời Thomas Edison**. Chương trước nói về ánh sáng điện như một hệ thống. Chương này đưa hệ thống ấy vào thành phố thật: Pearl Street, New York.

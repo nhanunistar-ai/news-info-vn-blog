@@ -5,7 +5,7 @@ category: 'study'
 tags: ['notion', 'productivity', 'knowledge-management']
 author: 'Bao Chau'
 pubDate: 'May 30 2026'
-heroImage: '../../assets/notion.png'
+heroImage: '../../assets/notion.webp'
 ---
 
 > Notion không chỉ là một ứng dụng ghi chú. Nó là một lớp tổ chức thông tin: nơi tài liệu, dự án, checklist, wiki và dữ liệu sống chung trong một hệ thống có thể mở rộng.

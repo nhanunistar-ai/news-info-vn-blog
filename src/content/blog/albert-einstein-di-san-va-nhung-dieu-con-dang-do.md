@@ -6,7 +6,7 @@ author: 'Bao Ngoc'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 9
 pubDate: 'Jun 17 2026'
-heroImage: '../../assets/albert-einstein-di-san-va-nhung-dieu-con-dang-do.png'
+heroImage: '../../assets/albert-einstein-di-san-va-nhung-dieu-con-dang-do.webp'
 ---
 
 > Một đời người có thể được đo bằng thành tựu, nhưng cũng có thể được đo bằng số câu hỏi họ để lại cho nhân loại. Einstein thuộc về cả hai cách đo ấy.

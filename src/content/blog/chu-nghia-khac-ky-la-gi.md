@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'chu-nghia-khac-ky'
 chapter: 1
 pubDate: 'May 25 2026'
-heroImage: '../../assets/chu-nghia-khac-ky.png'
+heroImage: '../../assets/chu-nghia-khac-ky.webp'
 ---
 
 Bạn đang trong phần 1 của Series bài viết về Khắc kỷ. Đây là chương 1 - bài viết đầu tiên nếu bạn muốn theo dõi từ đầu.

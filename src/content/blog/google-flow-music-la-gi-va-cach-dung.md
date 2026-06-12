@@ -5,7 +5,7 @@ category: 'study'
 tags: ['google-flow-music', 'flow-music', 'lyria', 'veo', 'ai-music', 'suno-ai']
 author: 'Gia Han'
 pubDate: 'Jun 01 2026'
-heroImage: '../../assets/flowmusic.png'
+heroImage: '../../assets/flowmusic.webp'
 ---
 
 > Nếu SunoAI là cái nút “tạo bài hát ngay cho tôi”, thì Google Flow Music giống một phòng studio AI có Producer ngồi cạnh. Bạn không chỉ yêu cầu một bài nhạc, mà có thể phát triển concept, remix, tạo playlist, dựng music video và biến ý tưởng âm thanh thành một dự án sáng tạo có hình hài hơn.

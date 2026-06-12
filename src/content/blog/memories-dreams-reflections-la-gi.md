@@ -7,7 +7,7 @@ author: 'Minh Anh'
 series: 'memories-dreams-reflections'
 chapter: 1
 pubDate: 'May 15 2026'
-heroImage: '../../assets/memories-dreams-reflections-la-gi.png'
+heroImage: '../../assets/memories-dreams-reflections-la-gi.webp'
 ---
 
 Bạn đang trong phần 1 của Series bài viết về *Memories, Dreams, Reflections*. Đây là chương mở đầu, nơi ta dựng nền để đọc Jung một cách chậm, tỉnh táo và không biến ông thành thần tượng tâm linh rẻ tiền.

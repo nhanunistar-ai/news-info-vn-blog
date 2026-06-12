@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 6
 author: 'Minh Anh'
 pubDate: 'May 27 2026'
-heroImage: '../../assets/edison-bang-sang-che-dau-tien-va-bai-hoc-thi-truong.png'
+heroImage: '../../assets/edison-bang-sang-che-dau-tien-va-bai-hoc-thi-truong.webp'
 ---
 
 > Bạn đang đọc **chương 6** của series **Cuộc đời Thomas Edison**. Sau những năm điện báo, Edison bắt đầu bước sang vai trò nhà phát minh. Nhưng phát minh đầu tiên được cấp bằng sáng chế lại dạy ông một bài học khá đau.

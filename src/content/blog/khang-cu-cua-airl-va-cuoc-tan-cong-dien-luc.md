@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'alien-interview'
 chapter: 14
 pubDate: 'May 19 2026'
-heroImage: '../../assets/chapter-14.png'
+heroImage: '../../assets/chapter-14.webp'
 ---
 
 ### Airl xem lại các bản ghi chép phỏng vấn

@@ -7,7 +7,7 @@ author: 'Tuan Kiet'
 series: 'memories-dreams-reflections'
 chapter: 10
 pubDate: 'May 24 2026'
-heroImage: '../../assets/individuation-hanh-trinh-tro-thanh-chinh-minh.png'
+heroImage: '../../assets/individuation-hanh-trinh-tro-thanh-chinh-minh.webp'
 ---
 
 Bạn đang trong phần 10 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Philemon, người thầy nội tâm của Jung](/news/philemon-nguoi-thay-noi-tam-cua-jung/). Từ đó ta bước vào một khái niệm trung tâm của Jung: individuation.

@@ -7,12 +7,12 @@ author: 'Minh Khang'
 series: 'te-lo-ocultaron'
 chapter: 13
 pubDate: 'May 16 2026'
-heroImage: '../../assets/buc-tuong-bang-nam-cuc.png'
+heroImage: '../../assets/buc-tuong-bang-nam-cuc.webp'
 ---
 
 > Nếu bản đồ thế giới mà chúng ta nhìn thấy mỗi ngày chỉ là phiên bản đã được biên tập, thì Nam Cực có thể không phải là phần rìa lạnh lẽo của hành tinh, mà là chiếc khóa cuối cùng giữ con người trong một mô hình thực tại được phép biết.
 
-![Collage bản đồ vũ trụ học và các nền văn hóa cổ đại](../../assets/te-lo-ocultaron-13-cosmology-maps-collage.png)
+![Collage bản đồ vũ trụ học và các nền văn hóa cổ đại](../../assets/te-lo-ocultaron-13-cosmology-maps-collage.webp)
 
 ### Sự hoài nghi về hình dạng thế giới<hr>
 
@@ -102,7 +102,7 @@ Khi các quốc gia đối đầu nhau trên gần như mọi mặt trận nhưn
 
 Nó có thể liên quan đến lãnh thổ, tài nguyên, công nghệ, dữ liệu địa chất, căn cứ ngầm, hoặc một điều gì đó vượt xa cách giải thích thông thường.
 
-![Biểu tượng NATO và sun cross trong diễn giải biểu tượng học](../../assets/te-lo-ocultaron-13-nato-sun-cross-symbolism.png)
+![Biểu tượng NATO và sun cross trong diễn giải biểu tượng học](../../assets/te-lo-ocultaron-13-nato-sun-cross-symbolism.webp)
 
 ### Biểu tượng, hiệp ước và lớp màn kiểm soát<hr>
 

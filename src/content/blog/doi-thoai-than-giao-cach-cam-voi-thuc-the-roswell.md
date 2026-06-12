@@ -7,7 +7,7 @@ author: 'Gia Huy'
 series: 'alien-interview'
 chapter: 1
 pubDate: 'May 06 2026'
-heroImage: '../../assets/chapter-1.png'
+heroImage: '../../assets/chapter-1.webp'
 ---
 
 ### Cuộc phỏng vấn đầu tiên

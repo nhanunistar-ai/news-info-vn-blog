@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'socrates'
 chapter: 7
 pubDate: 'May 24 2026'
-heroImage: '../../assets/socrates-cai-chet-binh-than.png'
+heroImage: '../../assets/socrates-cai-chet-binh-than.webp'
 ---
 
 Bạn đang trong phần 7 của series Study về Socrates. Sau phiên tòa Athens, câu chuyện Socrates đi đến đoạn khiến ông trở thành một hình tượng vượt khỏi phạm vi triết học: ông bị kết án tử, có cơ hội bỏ trốn, nhưng cuối cùng vẫn chọn ở lại và uống chén độc cần.

@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'chu-nghia-khac-ky'
 chapter: 9
 pubDate: 'Jun 02 2026'
-heroImage: '../../assets/marcus-aurelius-hoang-de-viet-nhat-ky.png'
+heroImage: '../../assets/marcus-aurelius-hoang-de-viet-nhat-ky.webp'
 ---
 
 Bạn đang trong phần 9 của Series bài viết về Khắc kỷ. Đây là chương 9 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

@@ -7,7 +7,7 @@ author: 'Minh Anh'
 series: 'te-lo-ocultaron'
 chapter: 6
 pubDate: 'May 10 2026'
-heroImage: '../../assets/ancient-sumerian-king.png'
+heroImage: '../../assets/ancient-sumerian-king.webp'
 ---
 
 > Nếu những phiến đá Sumer không chỉ là thần thoại, mà là ký ức bị mã hóa của một nền văn minh từng biết nhiều hơn chúng ta tưởng, thì câu hỏi về nguồn gốc loài người sẽ không còn nằm gọn trong sách giáo khoa.

@@ -7,7 +7,7 @@ author: 'Minh Chau'
 series: 'socrates'
 chapter: 2
 pubDate: 'May 19 2026'
-heroImage: '../../assets/socrates-toi-biet-rang-toi-khong-biet.png'
+heroImage: '../../assets/socrates-toi-biet-rang-toi-khong-biet.webp'
 ---
 
 Bạn đang trong phần 2 của series Study về Socrates. Nếu phần trước là cánh cửa đi vào nghệ thuật sống bằng câu hỏi, thì phần này chạm đến câu nói nổi tiếng nhất gắn với ông: tôi biết rằng tôi không biết.

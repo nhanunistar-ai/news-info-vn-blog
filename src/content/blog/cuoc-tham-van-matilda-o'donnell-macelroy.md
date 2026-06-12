@@ -7,7 +7,7 @@ author: 'Minh Khang'
 series: 'alien-interview'
 chapter: 15
 pubDate: 'May 20 2026'
-heroImage: '../../assets/chapter-15.png'
+heroImage: '../../assets/chapter-15.webp'
 ---
 
 ### Cuộc thẩm vấn tôi

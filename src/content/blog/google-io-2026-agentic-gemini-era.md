@@ -5,7 +5,7 @@ category: 'study'
 tags: ['google-io-2026', 'gemini', 'ai-agents', 'google-search', 'developer-tools']
 author: 'Gia Han'
 pubDate: 'May 21 2026'
-heroImage: '../../assets/google-io-2026-agentic-gemini-era.png'
+heroImage: '../../assets/google-io-2026-agentic-gemini-era.webp'
 ---
 
 > Google I/O 2026 không còn chỉ là sự kiện “ra mắt tính năng AI”. Thông điệp lớn nhất của năm nay là Google đang chuyển từ AI trả lời câu hỏi sang AI biết quan sát, lập kế hoạch, dùng công cụ và thực hiện tác vụ.

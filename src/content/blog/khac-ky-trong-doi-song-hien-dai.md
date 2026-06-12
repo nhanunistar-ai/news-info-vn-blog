@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'chu-nghia-khac-ky'
 chapter: 11
 pubDate: 'Jun 04 2026'
-heroImage: '../../assets/khac-ky-trong-doi-song-hien-dai.png'
+heroImage: '../../assets/khac-ky-trong-doi-song-hien-dai.webp'
 ---
 
 Bạn đang trong phần 11 của Series bài viết về Khắc kỷ. Đây là chương 11 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

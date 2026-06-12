@@ -7,7 +7,7 @@ author: 'Bao Ngoc'
 series: 'te-lo-ocultaron'
 chapter: 19
 pubDate: 'May 22 2026'
-heroImage: '../../assets/giza-va-dau-vet-tu-cac-vi-sao.png'
+heroImage: '../../assets/giza-va-dau-vet-tu-cac-vi-sao.webp'
 ---
 
 > Nếu một công trình cổ đại vượt quá những gì ta nghĩ tổ tiên có thể làm được, phản ứng dễ nhất là gọi nó là kỳ quan. Nhưng phản ứng khó hơn là đặt câu hỏi: liệu lịch sử đã kể đủ câu chuyện về những người đã xây nó hay chưa?
@@ -46,7 +46,7 @@ Họ dùng hệ thống tổ chức nào?
 
 Và quan trọng hơn: họ đã kế thừa tri thức ấy từ đâu?
 
-![Sơ đồ căn chỉnh các trục trong kim tự tháp với các ngôi sao, thường được nhắc trong giả thuyết Orion - Sirius - Draco](../../assets/te-lo-ocultaron-19-pyramid-star-alignment.png)
+![Sơ đồ căn chỉnh các trục trong kim tự tháp với các ngôi sao, thường được nhắc trong giả thuyết Orion - Sirius - Draco](../../assets/te-lo-ocultaron-19-pyramid-star-alignment.webp)
 
 ### Bản đồ sao trong đá<hr>
 

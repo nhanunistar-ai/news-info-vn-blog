@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'chu-nghia-khac-ky'
 chapter: 12
 pubDate: 'Jun 05 2026'
-heroImage: '../../assets/nhung-hieu-sai-ve-chu-nghia-khac-ky.png'
+heroImage: '../../assets/nhung-hieu-sai-ve-chu-nghia-khac-ky.webp'
 ---
 
 Bạn đang trong phần 12 của Series bài viết về Khắc kỷ. Đây là chương 12 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

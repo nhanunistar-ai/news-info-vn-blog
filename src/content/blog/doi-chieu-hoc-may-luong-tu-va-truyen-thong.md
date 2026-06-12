@@ -5,7 +5,7 @@ category: 'study'
 tags: ['quantum-computing', 'machine-learning', 'qml']
 author: 'Khanh Vy'
 pubDate: 'May 10 2026'
-heroImage: '../../assets/qml-va-ml-co-dien.png'
+heroImage: '../../assets/qml-va-ml-co-dien.webp'
 ---
 Sự khác biệt giữa Học máy lượng tử (QML) và Học máy truyền thống (Cổ điển) không chỉ đơn thuần là sự thay đổi về tốc độ xử lý mà còn là một sự thay đổi hệ hình trong cách dữ liệu được biểu diễn, tính toán và tối ưu hóa. Dưới đây là sự so sánh chi tiết giữa hai lĩnh vực này:
 

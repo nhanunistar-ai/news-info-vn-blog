@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'memories-dreams-reflections'
 chapter: 14
 pubDate: 'May 28 2026'
-heroImage: '../../assets/jung-va-cai-chet-doi-song-sau-cai-chet.png'
+heroImage: '../../assets/jung-va-cai-chet-doi-song-sau-cai-chet.webp'
 ---
 
 Bạn đang trong phần 14 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [những linh ảnh cuối đời của Jung](/news/nhung-linh-anh-cuoi-doi-cua-jung/). Từ những linh ảnh ấy, ta đi vào câu hỏi lớn hơn: cái chết là gì, và Jung nghĩ gì về đời sống sau cái chết?

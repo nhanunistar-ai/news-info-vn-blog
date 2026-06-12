@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 1
 pubDate: 'May 05 2026'
-heroImage: '../../assets/su-gioi-han-cua-5-giac-quan.png'
+heroImage: '../../assets/su-gioi-han-cua-5-giac-quan.webp'
 ---
 
 > Chúng ta không nhìn thấy thế giới như nó vốn là. Chúng ta chỉ nhìn thấy phiên bản mà bộ não cho phép ta đọc ra từ các tín hiệu rất hạn chế của năm giác quan.

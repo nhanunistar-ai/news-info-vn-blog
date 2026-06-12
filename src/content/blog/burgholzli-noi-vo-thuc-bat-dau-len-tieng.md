@@ -7,7 +7,7 @@ author: 'Gia Huy'
 series: 'memories-dreams-reflections'
 chapter: 6
 pubDate: 'May 20 2026'
-heroImage: '../../assets/burgholzli-noi-vo-thuc-bat-dau-len-tieng.png'
+heroImage: '../../assets/burgholzli-noi-vo-thuc-bat-dau-len-tieng.webp'
 ---
 
 Bạn đang trong phần 6 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [ngã rẽ từ y khoa đến tâm thần học](/news/tu-y-khoa-den-tam-than-hoc/). Bây giờ ta bước vào Burghölzli, bệnh viện tâm thần ở Zurich, nơi Jung bắt đầu nghe thấy vô thức không phải như ý tưởng trừu tượng, mà như một lực đang hoạt động trong lời nói của con người.

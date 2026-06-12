@@ -7,7 +7,7 @@ author: 'Duc Minh'
 series: 'chu-nghia-khac-ky'
 chapter: 2
 pubDate: 'May 26 2026'
-heroImage: '../../assets/thu-ta-kiem-soat-va-khong-kiem-soat.png'
+heroImage: '../../assets/thu-ta-kiem-soat-va-khong-kiem-soat.webp'
 ---
 
 Bạn đang trong phần 2 của Series bài viết về Khắc kỷ. Đây là chương 2 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

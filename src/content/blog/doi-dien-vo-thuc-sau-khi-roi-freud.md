@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'memories-dreams-reflections'
 chapter: 8
 pubDate: 'May 22 2026'
-heroImage: '../../assets/doi-dien-vo-thuc-sau-khi-roi-freud.png'
+heroImage: '../../assets/doi-dien-vo-thuc-sau-khi-roi-freud.webp'
 ---
 
 Bạn đang trong phần 8 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Jung và Freud](/news/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon/). Sau cuộc chia tay đó, Jung không bước ngay vào chiến thắng. Ông bước vào một vùng nguy hiểm hơn nhiều: đối diện vô thức của chính mình.

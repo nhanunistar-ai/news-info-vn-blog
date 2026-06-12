@@ -7,7 +7,7 @@ author: 'Minh Anh'
 series: 'socrates'
 chapter: 3
 pubDate: 'May 20 2026'
-heroImage: '../../assets/socrates-phuong-phap-doi-thoai.png'
+heroImage: '../../assets/socrates-phuong-phap-doi-thoai.webp'
 ---
 
 Bạn đang trong phần 3 của series Study về Socrates. Sau khi hiểu vì sao “tôi biết rằng tôi không biết” là điểm khởi đầu của trí tuệ, ta đi vào công cụ quan trọng nhất của ông: đối thoại.

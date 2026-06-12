@@ -7,7 +7,7 @@ author: 'Mai Lan'
 series: 'te-lo-ocultaron'
 chapter: 10
 pubDate: 'May 13 2026'
-heroImage: '../../assets/de-che-tartaria-va-lich-su-bi-xoa-so.png'
+heroImage: '../../assets/de-che-tartaria-va-lich-su-bi-xoa-so.webp'
 ---
 
 > Nếu lịch sử không chỉ được ghi lại, mà còn được biên tập, cắt bỏ và viết lại, thì những gì biến mất khỏi bản đồ có thể quan trọng hơn những gì còn nằm trong sách giáo khoa.

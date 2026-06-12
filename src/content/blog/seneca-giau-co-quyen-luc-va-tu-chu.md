@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'chu-nghia-khac-ky'
 chapter: 7
 pubDate: 'May 31 2026'
-heroImage: '../../assets/seneca-giau-co-va-tu-chu.png'
+heroImage: '../../assets/seneca-giau-co-va-tu-chu.webp'
 ---
 
 Bạn đang trong phần 7 của Series bài viết về Khắc kỷ. Đây là chương 7 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

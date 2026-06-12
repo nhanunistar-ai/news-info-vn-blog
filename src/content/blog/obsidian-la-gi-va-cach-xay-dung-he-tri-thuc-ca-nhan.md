@@ -5,7 +5,7 @@ category: 'study'
 tags: ['obsidian', 'pkm', 'knowledge-management']
 author: 'Bao Chau'
 pubDate: 'May 30 2026'
-heroImage: '../../assets/obsidian.png'
+heroImage: '../../assets/obsidian.webp'
 ---
 
 > Obsidian không phải chỉ là một app ghi chú. Nó là một lớp cơ sở dữ liệu cá nhân trên file Markdown, nơi mỗi note có thể trở thành một nút trong mạng lưới tri thức của riêng bạn.

@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'socrates'
 chapter: 6
 pubDate: 'May 23 2026'
-heroImage: '../../assets/socrates-truoc-toa.png'
+heroImage: '../../assets/socrates-truoc-toa.webp'
 ---
 
 Bạn đang trong phần 6 của series Study về Socrates. Sau khi hiểu vì sao ông đặt việc chăm sóc linh hồn ở trung tâm đời sống, ta bước vào thời khắc căng nhất trong cuộc đời ông: phiên tòa tại Athens, nơi một người chuyên đặt câu hỏi phải đối diện với quyền lực của đám đông.

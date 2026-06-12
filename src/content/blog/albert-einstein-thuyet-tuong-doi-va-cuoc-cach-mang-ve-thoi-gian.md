@@ -6,7 +6,7 @@ author: 'Mai Lan'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 6
 pubDate: 'Jun 14 2026'
-heroImage: '../../assets/albert-einstein-thuyet-tuong-doi-va-cuoc-cach-mang-ve-thoi-gian.png'
+heroImage: '../../assets/albert-einstein-thuyet-tuong-doi-va-cuoc-cach-mang-ve-thoi-gian.webp'
 ---
 
 > Có những ý tưởng khiến khoa học phải sửa lại bản đồ của chính mình. Thuyết tương đối của Einstein là một ý tưởng như vậy. Nó không chỉ thay đổi các con số, mà thay đổi luôn cách con người tưởng tượng về thế giới.

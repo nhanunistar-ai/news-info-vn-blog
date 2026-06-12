@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 7
 author: 'Minh Anh'
 pubDate: 'May 28 2026'
-heroImage: '../../assets/edison-newark-va-con-duong-thanh-nha-phat-minh-chuyen-nghiep.png'
+heroImage: '../../assets/edison-newark-va-con-duong-thanh-nha-phat-minh-chuyen-nghiep.webp'
 ---
 
 > Bạn đang đọc **chương 7** của series **Cuộc đời Thomas Edison**. Sau bài học thị trường từ bằng sáng chế đầu tiên, Edison bước vào giai đoạn New York và Newark - nơi ông bắt đầu kiếm được tiền thật từ phát minh.

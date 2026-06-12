@@ -7,7 +7,7 @@ author: 'Thanh Tam'
 series: 'memories-dreams-reflections'
 chapter: 5
 pubDate: 'May 19 2026'
-heroImage: '../../assets/tu-y-khoa-den-tam-than-hoc.png'
+heroImage: '../../assets/tu-y-khoa-den-tam-than-hoc.webp'
 ---
 
 Bạn đang trong phần 5 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [câu hỏi về Chúa trong tuổi trẻ Jung](/news/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung/). Từ bài này, ta bước sang một ngã rẽ quan trọng hơn: vì sao Jung chọn y khoa, rồi vì sao chính y khoa lại dẫn ông tới tâm thần học.

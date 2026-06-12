@@ -5,7 +5,7 @@ category: 'study'
 tags: ['anthropic', 'claude', 'fable-5', 'mythos', 'ai-models', 'cybersecurity']
 author: 'Minh Anh'
 pubDate: 'Jun 10 2026'
-heroImage: '../../assets/claude-fable-5-mythos-class-ai.png'
+heroImage: '../../assets/claude-fable-5-mythos-class-ai.webp'
 ---
 
 > Claude Fable 5 là khoảnh khắc rất đáng chú ý của cuộc đua AI năm 2026: một model đủ mạnh để Anthropic phải tách nó khỏi tên Mythos, đặt thêm lớp bảo vệ, rồi mới dám mở cho người dùng phổ thông.

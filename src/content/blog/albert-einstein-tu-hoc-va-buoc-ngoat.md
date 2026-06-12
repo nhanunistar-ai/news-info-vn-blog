@@ -6,7 +6,7 @@ author: 'Tuan Kiet'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 3
 pubDate: 'Jun 11 2026'
-heroImage: '../../assets/albert-einstein-tu-hoc-va-buoc-ngoat.png'
+heroImage: '../../assets/albert-einstein-tu-hoc-va-buoc-ngoat.webp'
 ---
 
 Khi một đứa trẻ không còn thật sự thuộc về khuôn mẫu của nhà trường, nó chỉ có hai lựa chọn: hoặc dần dần bị mài mòn cho vừa khít, hoặc rời khỏi cái khuôn đó để tự tìm lấy hình dạng của mình. Einstein, như nhiều lần trong đời, đã chọn cách thứ hai. Con đường ấy không ồn ào. Nó không có tiếng kèn chiến thắng, không có ai trao cho ông một tấm bản đồ, và cũng không có gì đảm bảo rằng ông sẽ đi đến đâu. Nhưng chính sự không chắc chắn đó lại là thứ khiến ông bước đi.

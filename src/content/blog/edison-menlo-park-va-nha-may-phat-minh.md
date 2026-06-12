@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 8
 author: 'Minh Anh'
 pubDate: 'May 29 2026'
-heroImage: '../../assets/edison-menlo-park-va-nha-may-phat-minh.png'
+heroImage: '../../assets/edison-menlo-park-va-nha-may-phat-minh.webp'
 ---
 
 > Bạn đang đọc **chương 8** của series **Cuộc đời Thomas Edison**. Sau New York và Newark, Edison đã có kinh nghiệm, tiền vốn và danh tiếng. Bước tiếp theo là Menlo Park - nơi ông biến phát minh thành một quy trình có tổ chức.

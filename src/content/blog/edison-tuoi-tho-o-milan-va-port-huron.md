@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 2
 author: 'Minh Anh'
 pubDate: 'May 23 2026'
-heroImage: '../../assets/edison-tuoi-tho-o-milan-va-port-huron.png'
+heroImage: '../../assets/edison-tuoi-tho-o-milan-va-port-huron.webp'
 ---
 
 > Bạn đang đọc **chương 2** của series **Cuộc đời Thomas Edison**. Chương trước đã mở ra chân dung Edison như một nhà phát minh, doanh nhân và người tổ chức sáng tạo. Chương này quay về điểm bắt đầu: một cậu bé sinh ra ở Milan, lớn lên ở Port Huron và không hợp lắm với khuôn trường lớp.

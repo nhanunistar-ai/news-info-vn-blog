@@ -6,7 +6,7 @@ author: 'Nam Phong'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 5
 pubDate: 'Jun 13 2026'
-heroImage: '../../assets/albert-einstein-nam-ky-dieu-1905.png'
+heroImage: '../../assets/albert-einstein-nam-ky-dieu-1905.webp'
 ---
 
 > Có những năm tháng người ta đi qua bình thường đến mức không ai để ý. Rồi bất ngờ, chính từ những ngày như vậy, một cơn địa chấn trí tuệ xảy ra. Năm 1905 của Einstein là một năm như thế.

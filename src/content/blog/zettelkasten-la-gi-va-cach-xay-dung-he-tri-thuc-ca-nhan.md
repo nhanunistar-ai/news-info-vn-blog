@@ -5,7 +5,7 @@ category: 'study'
 tags: ['zettelkasten', 'pkm', 'knowledge-management']
 author: 'Tuan Kiet'
 pubDate: 'May 30 2026'
-heroImage: '../../assets/zettelkasten.png'
+heroImage: '../../assets/zettelkasten.webp'
 ---
 
 > Zettelkasten không phải một mẹo ghi chú. Nó là một phương pháp xây hệ tri thức bằng những mảnh ý tưởng nhỏ, có liên kết, và có khả năng phát triển thành đầu ra thực sự.

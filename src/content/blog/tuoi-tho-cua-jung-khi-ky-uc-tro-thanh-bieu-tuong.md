@@ -7,7 +7,7 @@ author: 'Hoang Linh'
 series: 'memories-dreams-reflections'
 chapter: 2
 pubDate: 'May 16 2026'
-heroImage: '../../assets/tuoi-tho-cua-jung-khi-ky-uc-tro-thanh-bieu-tuong.png'
+heroImage: '../../assets/tuoi-tho-cua-jung-khi-ky-uc-tro-thanh-bieu-tuong.webp'
 ---
 
 Bạn đang trong phần 2 của Series bài viết về *Memories, Dreams, Reflections*. Nếu chưa đọc từ đầu, nên bắt đầu với [Memories, Dreams, Reflections Là Gì?](/news/memories-dreams-reflections-la-gi/).

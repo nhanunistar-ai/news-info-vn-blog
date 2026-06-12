@@ -6,7 +6,7 @@ author: 'Bao Chau'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 8
 pubDate: 'Jun 16 2026'
-heroImage: '../../assets/albert-einstein-tu-vat-ly-den-luong-tri.png'
+heroImage: '../../assets/albert-einstein-tu-vat-ly-den-luong-tri.webp'
 ---
 
 > Có những nhà khoa học được nhớ đến vì công thức. Einstein được nhớ đến cả vì công thức lẫn vì cách ông đối diện với lương tri của thời đại mình.

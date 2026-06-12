@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'alien-interview'
 chapter: 7
 pubDate: 'May 12 2026'
-heroImage: '../../assets/chapter-7.png'
+heroImage: '../../assets/chapter-7.webp'
 ---
 
 ### Một bài học về lịch sử cổ đại

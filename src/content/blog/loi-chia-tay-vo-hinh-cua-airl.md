@@ -7,7 +7,7 @@ author: 'Hoang Linh'
 series: 'alien-interview'
 chapter: 16
 pubDate: 'May 21 2026'
-heroImage: '../../assets/chapter-16.png'
+heroImage: '../../assets/chapter-16.webp'
 ---
 
 ### Lời chia tay vô hình

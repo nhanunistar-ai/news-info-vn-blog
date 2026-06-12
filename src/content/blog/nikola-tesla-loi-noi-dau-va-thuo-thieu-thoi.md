@@ -6,7 +6,7 @@ author: 'Duc Minh'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 1
 pubDate: 'Jun 01 2026'
-heroImage: '../../assets/nikola-tesla-loi-noi-dau-va-thuo-thieu-thoi.png'
+heroImage: '../../assets/nikola-tesla-loi-noi-dau-va-thuo-thieu-thoi.webp'
 ---
 
 > Nikola Tesla (1856-1943), nhà khoa học kiệt xuất người Mỹ gốc Serbia. Trong cuộc đời mình, Tesla đã có đến khoảng 300 bằng phát minh, trong đó, đóng góp quan trọng nhất cho nhân loại của Tesla là việc góp phần đưa dòng điện xoay chiều vào đời sống.   

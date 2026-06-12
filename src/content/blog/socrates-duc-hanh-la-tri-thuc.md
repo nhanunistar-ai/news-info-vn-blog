@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'socrates'
 chapter: 4
 pubDate: 'May 21 2026'
-heroImage: '../../assets/socrates-duc-hanh-la-tri-thuc.png'
+heroImage: '../../assets/socrates-duc-hanh-la-tri-thuc.webp'
 ---
 
 Bạn đang trong phần 4 của series Study về Socrates. Sau khi đi qua nghệ thuật đặt câu hỏi và phương pháp đối thoại, ta chạm đến một ý tưởng rất trung tâm trong cách Socrates nhìn con người: đức hạnh không chỉ là thói quen tốt, cũng không chỉ là lời khuyên đạo đức. Với ông, đức hạnh gắn chặt với tri thức.

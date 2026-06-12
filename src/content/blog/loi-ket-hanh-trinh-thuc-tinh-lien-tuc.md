@@ -7,7 +7,7 @@ author: 'Quang Huy'
 series: 'te-lo-ocultaron'
 chapter: 22
 pubDate: 'May 25 2026'
-heroImage: '../../assets/hanh-trinh-thuc-tinh.png'
+heroImage: '../../assets/hanh-trinh-thuc-tinh.webp'
 ---
 
 > Thức tỉnh không phải là khoảnh khắc ta tuyên bố mình đã biết hết. Thức tỉnh là giây phút ta đủ trung thực để nhận ra rằng những gì mình biết vẫn còn quá ít.

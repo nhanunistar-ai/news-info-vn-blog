@@ -7,7 +7,7 @@ author: 'Thanh Tam'
 series: 'alien-interview'
 chapter: 12
 pubDate: 'May 17 2026'
-heroImage: '../../assets/chapter-12.png'
+heroImage: '../../assets/chapter-12.webp'
 ---
 
 ### Một bài học về sự bất tử  

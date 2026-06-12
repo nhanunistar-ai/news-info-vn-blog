@@ -7,7 +7,7 @@ author: 'Khanh Vy'
 series: 'chu-nghia-khac-ky'
 chapter: 10
 pubDate: 'Jun 03 2026'
-heroImage: '../../assets/cac-bai-tap-khac-ky.png'
+heroImage: '../../assets/cac-bai-tap-khac-ky.webp'
 ---
 
 Bạn đang trong phần 10 của Series bài viết về Khắc kỷ. Đây là chương 10 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

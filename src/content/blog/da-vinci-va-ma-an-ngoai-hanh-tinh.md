@@ -7,12 +7,12 @@ author: 'Duc Huy'
 series: 'te-lo-ocultaron'
 chapter: 20
 pubDate: 'May 23 2026'
-heroImage: '../../assets/da-vinci-va-ma-an-ngoai-hanh-tinh.png'
+heroImage: '../../assets/da-vinci-va-ma-an-ngoai-hanh-tinh.webp'
 ---
 
 > Có những thiên tài khiến lịch sử khâm phục. Nhưng cũng có những thiên tài khiến lịch sử bối rối, vì năng lực của họ dường như không chỉ vượt trước thời đại, mà còn vượt khỏi chính khuôn khổ hiểu biết của thời đại đó.
 
-![Leonardo da Vinci](../../assets/da-vinci.png)
+![Leonardo da Vinci](../../assets/da-vinci.webp)
 
 ### Thiên tài hay người được khai mở?<hr>
 

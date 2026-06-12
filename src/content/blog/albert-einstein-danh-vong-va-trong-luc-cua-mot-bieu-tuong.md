@@ -6,7 +6,7 @@ author: 'Gia Han'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 7
 pubDate: 'Jun 15 2026'
-heroImage: '../../assets/albert-einstein-danh-vong-va-trong-luc-cua-mot-bieu-tuong.png'
+heroImage: '../../assets/albert-einstein-danh-vong-va-trong-luc-cua-mot-bieu-tuong.webp'
 ---
 
 > Danh tiếng có thể là một dạng ánh sáng. Nhưng như mọi ánh sáng khác, nó cũng tạo ra bóng. Einstein bước vào hào quang không phải như một diễn viên thích sân khấu, mà như một người bị chính thế giới kéo ra giữa trung tâm.

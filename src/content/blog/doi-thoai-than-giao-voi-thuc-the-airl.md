@@ -7,7 +7,7 @@ author: 'Gia Huy'
 series: 'alien-interview'
 chapter: 3
 pubDate: 'May 08 2026'
-heroImage: '../../assets/chapter-3.png'
+heroImage: '../../assets/chapter-3.webp'
 ---
 
 ### Cuộc phỏng vấn thứ ba của tôi

@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 14
 pubDate: 'May 17 2026'
-heroImage: '../../assets/hoang-gia-anh-va-vuong-quyen.png'
+heroImage: '../../assets/hoang-gia-anh-va-vuong-quyen.webp'
 ---
 
 > Nếu quyền lực mạnh nhất không cần phải xuất hiện như một chính phủ, thì một chiếc vương miện có thể không chỉ là biểu tượng nghi lễ, mà là dấu hiệu của một cấu trúc pháp lý, tài chính và tinh thần sâu hơn nhiều.
@@ -56,7 +56,7 @@ Trong chuỗi giả thuyết của *Te lo ocultaron*, quyền lực thật sự 
 
 Nó nằm trong quyền sở hữu, hợp đồng, giấy phép, tiêu chuẩn, luật lệ và các chuỗi cung ứng mà đa số con người buộc phải phụ thuộc mỗi ngày.
 
-![Cửa số 10 Downing Street, biểu tượng quyền lực chính phủ Anh](../../assets/te-lo-ocultaron-14-10-downing-street.png)
+![Cửa số 10 Downing Street, biểu tượng quyền lực chính phủ Anh](../../assets/te-lo-ocultaron-14-10-downing-street.webp)
 
 ### Quyền hạn phía sau nghi lễ<hr>
 

@@ -1,7 +1,7 @@
 ---
 title: 'Cuộc đời Thomas Edison'
 description: 'Series Stories kể lại cuộc đời Thomas Edison từ tuổi thơ, nghề điện báo, Menlo Park, ánh sáng điện, điện ảnh, những thất bại công nghiệp cho đến di sản cuối đời.'
-coverImage: '../../assets/edison-cover.png'
+coverImage: '../../assets/edison-cover.webp'
 order: 5
 ---
 

@@ -7,7 +7,7 @@ author: 'Bao Ngoc'
 series: 'ai-ky'
 chapter: 5
 pubDate: 'May 24 2026'
-heroImage: '../../assets/ai-ky-qua-van-hoc-va-dien-anh.png'
+heroImage: '../../assets/ai-ky-qua-van-hoc-va-dien-anh.webp'
 ---
 
 Bài này là phần 5 trong chuỗi về ái kỷ. Nếu muốn đi theo mạch nền tảng, nên đọc trước: [Ái Kỷ Là Gì?](/news/ai-ky-la-gi/), [Đối Diện Với Ái Kỷ](/news/doi-dien-voi-ai-ky/), [Jung Và Ái Kỷ](/news/jung-va-ai-ky/) và [Kohut Và Kernberg](/news/kohut-va-kernberg/).

@@ -6,7 +6,7 @@ author: 'Minh Chau'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 2
 pubDate: 'Jun 02 2026'
-heroImage: '../../assets/nikola-tesla-chuong-2-nhung-trai-nghiem-khac-thuong.png'
+heroImage: '../../assets/nikola-tesla-chuong-2-nhung-trai-nghiem-khac-thuong.webp'
 ---
 
 ### Chương 2: Những trải nghiệm khác thường <hr>

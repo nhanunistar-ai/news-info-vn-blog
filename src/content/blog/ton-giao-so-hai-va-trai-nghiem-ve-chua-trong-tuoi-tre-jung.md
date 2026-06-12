@@ -7,7 +7,7 @@ author: 'Quynh Nhu'
 series: 'memories-dreams-reflections'
 chapter: 4
 pubDate: 'May 18 2026'
-heroImage: '../../assets/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung.png'
+heroImage: '../../assets/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung.webp'
 ---
 
 Bạn đang trong phần 4 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [hai con người trong Jung](/news/hai-con-nguoi-trong-jung/). Bài này đi vào vùng nhạy cảm hơn: tôn giáo, nỗi sợ và trải nghiệm về Chúa trong tuổi trẻ Jung.

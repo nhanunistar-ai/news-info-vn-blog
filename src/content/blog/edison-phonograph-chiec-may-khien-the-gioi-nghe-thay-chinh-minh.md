@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 9
 author: 'Minh Anh'
 pubDate: 'May 30 2026'
-heroImage: '../../assets/edison-phonograph-chiec-may-khien-the-gioi-nghe-thay-chinh-minh.png'
+heroImage: '../../assets/edison-phonograph-chiec-may-khien-the-gioi-nghe-thay-chinh-minh.webp'
 ---
 
 > Bạn đang đọc **chương 9** của series **Cuộc đời Thomas Edison**. Sau Menlo Park, ta bước vào phát minh khiến Edison được công chúng gọi là phù thủy: phonograph.

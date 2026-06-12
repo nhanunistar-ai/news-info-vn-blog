@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 14
 author: 'Minh Anh'
 pubDate: 'Jun 04 2026'
-heroImage: '../../assets/edison-west-orange-phong-thi-nghiem-khong-lo.png'
+heroImage: '../../assets/edison-west-orange-phong-thi-nghiem-khong-lo.webp'
 ---
 
 > Bạn đang đọc **chương 14** của series **Cuộc đời Thomas Edison**. Sau Menlo Park và đời sống gia đình, Edison bước vào một giai đoạn quy mô hơn: West Orange Laboratory.

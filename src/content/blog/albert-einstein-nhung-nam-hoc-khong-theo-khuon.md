@@ -6,7 +6,7 @@ author: 'Minh Khang'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 2
 pubDate: 'Jun 10 2026'
-heroImage: '../../assets/albert-einstein-nhung-nam-hoc-khong-theo-khuon.png'
+heroImage: '../../assets/albert-einstein-nhung-nam-hoc-khong-theo-khuon.webp'
 ---
 
 Nếu tuổi thơ của Einstein là một sự lặng lẽ đang âm thầm hình thành, thì những năm đi học ở Munich lại giống như lần đầu ông bị đặt vào một cái khuôn quá chật. Ở nhà, ông còn có thể sống với nhịp điệu riêng của mình. Nhưng khi bước vào trường lớp, nơi mọi thứ được đo bằng sự phục tùng, nhịp điệu ấy lập tức trở thành vấn đề.

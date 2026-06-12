@@ -7,7 +7,7 @@ author: 'Minh Chau'
 series: 'alien-interview'
 chapter: 6
 pubDate: 'May 11 2026'
-heroImage: '../../assets/chapter-6.png'
+heroImage: '../../assets/chapter-6.webp'
 ---
 
 ### Bản chất Bất tử của Thực thể IS-BE

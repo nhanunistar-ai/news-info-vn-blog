@@ -7,7 +7,7 @@ author: 'Minh Chau'
 series: 'te-lo-ocultaron'
 chapter: 5
 pubDate: 'May 09 2026'
-heroImage: '../../assets/tu-3d-den-5d.png'
+heroImage: '../../assets/tu-3d-den-5d.webp'
 ---
 
 > Nếu 3D, 4D và 5D không chỉ là khái niệm hình học, mà còn là những tầng nhận thức, thì hành trình thức tỉnh không nằm ở việc rời khỏi thế giới này, mà ở cách ta nhìn thế giới đang sống.

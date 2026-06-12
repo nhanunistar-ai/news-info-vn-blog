@@ -7,7 +7,7 @@ author: 'Duc Minh'
 series: 'alien-interview'
 chapter: 11
 pubDate: 'May 16 2026'
-heroImage: '../../assets/chapter-11.png'
+heroImage: '../../assets/chapter-11.webp'
 ---
 
 ### Chương Mười Một: Một bài học về khoa học

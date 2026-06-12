@@ -7,7 +7,7 @@ author: 'Hoang Linh'
 series: 'te-lo-ocultaron'
 chapter: 17
 pubDate: 'May 20 2026'
-heroImage: '../../assets/tesla-va-mat-ma-3-6-9.png'
+heroImage: '../../assets/tesla-va-mat-ma-3-6-9.webp'
 ---
 
 > Nếu thực tại không phải là một khối vật chất chết, mà là một trường rung động được cơ thể giải mã từng khoảnh khắc, thì những con số, tần số và mô thức hình học có thể không chỉ là toán học. Chúng có thể là ngôn ngữ sâu hơn của vũ trụ.

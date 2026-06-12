@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 15
 author: 'Minh Anh'
 pubDate: 'Jun 05 2026'
-heroImage: '../../assets/edison-dien-anh-kinetograph-kinetoscope-va-black-maria.png'
+heroImage: '../../assets/edison-dien-anh-kinetograph-kinetoscope-va-black-maria.webp'
 ---
 
 > Bạn đang đọc **chương 15** của series **Cuộc đời Thomas Edison**. Sau West Orange, ta bước vào một lĩnh vực sẽ thay đổi văn hóa đại chúng toàn cầu: điện ảnh.

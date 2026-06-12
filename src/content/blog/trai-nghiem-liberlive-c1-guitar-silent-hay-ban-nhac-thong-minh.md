@@ -3,7 +3,7 @@ title: 'Trải nghiệm LiberLive C1'
 description: 'LiberLive C1 là cây guitar stringless/silent hướng đến người mới: bấm hợp âm bằng pad, gảy bằng paddle, mở app là có bài hát, nhịp trống, bass và hướng dẫn chơi theo thời gian thực.'
 category: 'news'
 tags: ['liberlive-c1', 'smart-guitar', 'silent-guitar', 'stringless-guitar', 'music-tech', 'lava-genie']
-heroImage: '../../assets/trai-nghiem-liberlive-c1-guitar-silent-hay-ban-nhac-thong-minh.png'
+heroImage: '../../assets/trai-nghiem-liberlive-c1-guitar-silent-hay-ban-nhac-thong-minh.webp'
 author: 'Minh Khang'
 pubDate: 'Jun 11 2026'
 ---
@@ -63,7 +63,7 @@ Họ mở app, tìm bài, nhìn hướng dẫn, bấm theo và hát.
 
 Đó là cách tiếp cận cực kỳ hợp với người mới, người thích hát, người làm nội dung ngắn hoặc người muốn có một nhạc cụ trong nhà để chơi vui.
 
-![Vì sao người mới dễ thích LiberLive C1](../../assets/liber-live-c1.png) 
+![Vì sao người mới dễ thích LiberLive C1](../../assets/liber-live-c1.webp) 
 
 ### Một người, một ban nhạc<hr>
 

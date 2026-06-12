@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'ai-ky'
 chapter: 3
 pubDate: 'May 22 2026'
-heroImage: '../../assets/carl-jung-noi-ve-ai-ky.png'
+heroImage: '../../assets/carl-jung-noi-ve-ai-ky.webp'
 ---
 
 Bài này là phần 3 trong chuỗi về ái kỷ. Nếu chưa đọc hai phần trước, nên xem: [Ái Kỷ Là Gì?](/news/ai-ky-la-gi/) và [Đối Diện Với Ái Kỷ](/news/doi-dien-voi-ai-ky/).

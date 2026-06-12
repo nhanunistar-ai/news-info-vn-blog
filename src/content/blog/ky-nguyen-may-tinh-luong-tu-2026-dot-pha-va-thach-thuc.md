@@ -5,7 +5,7 @@ category: 'study'
 tags: ['quantum-computing', 'cybersecurity', 'technology']
 author: 'Bao Ngoc'
 pubDate: 'May 07 2026'
-heroImage: '../../assets/quantum-computing.png'
+heroImage: '../../assets/quantum-computing.webp'
 ---
 
 > Năm 2026 đánh dấu một giai đoạn quan trọng của máy tính lượng tử: công nghệ này chưa phải "chiếc chìa khóa vạn năng" có thể thay thế máy tính cổ điển, nhưng đã đủ trưởng thành để buộc doanh nghiệp, chính phủ và giới nghiên cứu phải chuẩn bị nghiêm túc hơn. Cơ hội rất lớn, nhưng rủi ro cũng không còn là chuyện xa vời.

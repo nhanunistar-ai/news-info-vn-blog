@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 4
 author: 'Minh Anh'
 pubDate: 'May 25 2026'
-heroImage: '../../assets/edison-diec-co-doc-va-kha-nang-tap-trung.png'
+heroImage: '../../assets/edison-diec-co-doc-va-kha-nang-tap-trung.webp'
 ---
 
 > Bạn đang đọc **chương 4** của series **Cuộc đời Thomas Edison**. Chương trước theo Edison lên tàu bán báo. Chương này đi vào một yếu tố âm thầm nhưng có ảnh hưởng lâu dài: thính lực suy giảm.

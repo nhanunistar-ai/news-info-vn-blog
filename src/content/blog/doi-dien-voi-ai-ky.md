@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'ai-ky'
 chapter: 2
 pubDate: 'May 21 2026'
-heroImage: '../../assets/song-cung-nguoi-ai-ky-va-cach-tu-bao-ve.png'
+heroImage: '../../assets/song-cung-nguoi-ai-ky-va-cach-tu-bao-ve.webp'
 ---
 
 Bài này là phần 2. Nếu bạn chưa đọc phần nền tảng, nên xem trước: [Ái Kỷ Là Gì?](/news/ai-ky-la-gi/).

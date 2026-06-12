@@ -7,7 +7,7 @@ author: 'Mai Lan'
 series: 'socrates'
 chapter: 8
 pubDate: 'May 25 2026'
-heroImage: '../../assets/socrates-di-san-cua-mot-cau-hoi.png'
+heroImage: '../../assets/socrates-di-san-cua-mot-cau-hoi.webp'
 ---
 
 Bạn đang ở phần cuối của series Study về Socrates. Sau nghệ thuật đặt câu hỏi, sự thừa nhận không biết, phương pháp đối thoại, đức hạnh, linh hồn, phiên tòa và cái chết, điều còn lại không chỉ là tiểu sử của một người Athens cổ đại. Điều còn lại là một cách sống.

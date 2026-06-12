@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'alien-interview'
 chapter: 5
 pubDate: 'May 10 2026'
-heroImage: '../../assets/chapter-5.png'
+heroImage: '../../assets/chapter-5.webp'
 ---
 
 ### Các bài học đọc

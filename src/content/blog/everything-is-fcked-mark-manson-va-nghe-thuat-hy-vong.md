@@ -5,7 +5,7 @@ category: 'study'
 tags: ['mark-manson', 'books', 'self-help', 'hope', 'philosophy']
 author: 'Minh Khang'
 pubDate: 'Jun 10 2026'
-heroImage: '../../assets/everything-is-fcked-mark-manson-va-nghe-thuat-hy-vong.png'
+heroImage: '../../assets/everything-is-fcked-mark-manson-va-nghe-thuat-hy-vong.webp'
 ---
 
 > Có những cuốn sách không cố dỗ dành người đọc rằng “mọi chuyện rồi sẽ ổn”. **Everything Is F*cked** của Mark Manson đi theo hướng ngược lại: thừa nhận rằng nhiều thứ thật sự đang rối tung, rồi hỏi một câu khó hơn - nếu thế giới không hoàn hảo, ta còn nên hy vọng vào điều gì?

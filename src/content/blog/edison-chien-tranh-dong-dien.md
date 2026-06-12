@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 12
 author: 'Minh Anh'
 pubDate: 'Jun 02 2026'
-heroImage: '../../assets/edison-chien-tranh-dong-dien.png'
+heroImage: '../../assets/edison-chien-tranh-dong-dien.webp'
 ---
 
 > Bạn đang đọc **chương 12** của series **Cuộc đời Thomas Edison**. Sau Pearl Street, điện lực bước vào đô thị. Nhưng câu hỏi lớn xuất hiện: thế giới sẽ dùng dòng điện một chiều hay xoay chiều?

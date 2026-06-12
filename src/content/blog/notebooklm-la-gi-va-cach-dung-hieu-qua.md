@@ -5,7 +5,7 @@ category: 'study'
 tags: ['ai-tools', 'notebooklm', 'knowledge-management']
 author: 'Gia Han'
 pubDate: 'May 27 2026'
-heroImage: '../../assets/NotebookLM.png'
+heroImage: '../../assets/NotebookLM.webp'
 ---
 
 > NotebookLM - công cụ đang định hình lại khái niệm "bộ não thứ hai" (second brain) trong kỷ nguyên trí tuệ nhân tạo. Thay vì tiếp cận theo hướng một chatbot thông thường, NotebookLM được thiết kế như một trợ lý nghiên cứu và tổng hợp kiến thức chuyên biệt.

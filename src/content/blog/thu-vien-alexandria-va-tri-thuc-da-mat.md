@@ -7,7 +7,7 @@ author: 'Minh Khang'
 series: 'te-lo-ocultaron'
 chapter: 8
 pubDate: 'May 11 2026'
-heroImage: '../../assets/thu-vien-alexandria-va-tri-thuc-da-mat.png'
+heroImage: '../../assets/thu-vien-alexandria-va-tri-thuc-da-mat.webp'
 ---
 
 > Nếu một nền văn minh bị tước mất ký ức, nó vẫn có thể tiếp tục tồn tại, nhưng sẽ không còn biết mình từng có thể vươn xa đến đâu. Đại thư viện Alexandria vì thế không chỉ là một tòa nhà đã cháy, mà là biểu tượng của những tri thức nhân loại có thể đã mất vĩnh viễn.
@@ -64,7 +64,7 @@ Nó tạo nên một "khuôn viên đại học" theo nghĩa rất hiện đại
 
 Alexandria vì vậy không chỉ bảo tồn tri thức, mà còn làm điều quan trọng hơn: tạo môi trường để tri thức tiếp tục sinh sôi.
 
-![Bầu trời sao và nền tảng thiên văn học cổ đại](../../assets/te-lo-ocultaron-08-constellation-spread.png)
+![Bầu trời sao và nền tảng thiên văn học cổ đại](../../assets/te-lo-ocultaron-08-constellation-spread.webp)
 
 ### Những bộ óc vĩ đại thay đổi lịch sử<hr>
 

@@ -5,7 +5,7 @@ category: 'study'
 tags: ['suno-ai', 'ai-music', 'music-generation', 'flow-music']
 author: 'Gia Han'
 pubDate: 'May 14 2026'
-heroImage: '../../assets/suno-ai.png'
+heroImage: '../../assets/suno-ai.webp'
 ---
 
 > Nếu trước đây muốn có một bài hát tử tế bạn cần beat, lời, melody, vocal, mix, master và một đống kỹ năng phòng thu, thì SunoAI gom tất cả lại thành một ô prompt. Bạn mô tả bài hát, chọn phong cách, thêm lời nếu muốn, bấm tạo, rồi nghe thử. Không phải lúc nào cũng ra “hit”, nhưng để biến một ý tưởng mơ hồ thành demo có vocal trong vài phút thì Suno là một trong những công cụ dễ dùng nhất hiện nay.

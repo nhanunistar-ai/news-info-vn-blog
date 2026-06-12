@@ -7,7 +7,7 @@ author: 'Minh Khang'
 series: 'chu-nghia-khac-ky'
 chapter: 6
 pubDate: 'May 30 2026'
-heroImage: '../../assets/cam-xuc-trong-khac-ky.png'
+heroImage: '../../assets/cam-xuc-trong-khac-ky.webp'
 ---
 
 Bạn đang trong phần 6 của Series bài viết về Khắc kỷ. Đây là chương 6 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

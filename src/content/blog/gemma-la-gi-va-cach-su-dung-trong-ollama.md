@@ -5,7 +5,7 @@ category: 'study'
 tags: ['ai', 'gemma', 'ollama']
 author: 'Hoang Linh'
 pubDate: 'May 30 2026'
-heroImage: '../../assets/gemma.png'
+heroImage: '../../assets/gemma.webp'
 ---
 
 > Gemma là dòng mô hình mở của Google dành cho nhà phát triển. Điểm đáng giá nhất của nó không chỉ là khả năng sinh văn bản, mà còn là việc có thể chạy cục bộ qua Ollama để thử nghiệm nhanh, rẻ và kiểm soát tốt hơn.

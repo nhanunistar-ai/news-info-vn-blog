@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'ai-ky'
 chapter: 4
 pubDate: 'May 23 2026'
-heroImage: '../../assets/heinz-kohut-va-otto-kernberg.png'
+heroImage: '../../assets/heinz-kohut-va-otto-kernberg.webp'
 ---
 
 Bài này là phần 4 trong chuỗi về ái kỷ. Nếu chưa đọc các phần trước, nên xem lần lượt: [Ái Kỷ Là Gì?](/news/ai-ky-la-gi/), [Đối Diện Với Ái Kỷ](/news/doi-dien-voi-ai-ky/) và [Jung Và Ái Kỷ](/news/jung-va-ai-ky/).

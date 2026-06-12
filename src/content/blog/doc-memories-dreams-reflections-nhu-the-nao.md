@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'memories-dreams-reflections'
 chapter: 16
 pubDate: 'May 30 2026'
-heroImage: '../../assets/doc-memories-dreams-reflections-nhu-the-nao.png'
+heroImage: '../../assets/doc-memories-dreams-reflections-nhu-the-nao.webp'
 ---
 
 Bạn đang ở phần cuối của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi qua [những suy tư cuối đời của Jung về cái ác, tôn giáo, xã hội hiện đại và trách nhiệm cá nhân](/news/nhung-suy-tu-cuoi-doi-cua-jung/). Bây giờ là lúc quay lại toàn bộ hành trình và hỏi: ta nên đọc Jung như thế nào để không bị lạc?

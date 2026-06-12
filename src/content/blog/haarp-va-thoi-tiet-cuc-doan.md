@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'te-lo-ocultaron'
 chapter: 15
 pubDate: 'May 18 2026'
-heroImage: '../../assets/haarp-va-thoi-tiet-cuc-doan.png'
+heroImage: '../../assets/haarp-va-thoi-tiet-cuc-doan.webp'
 ---
 
 > Nếu thời tiết không còn chỉ là thời tiết, mà trở thành một trường tác động công nghệ, kinh tế và chính trị, thì mỗi cơn bão lớn có thể không chỉ là biến cố tự nhiên, mà còn là một câu hỏi về quyền lực.
@@ -120,7 +120,7 @@ Một dòng lệnh tấn công mạng có thể được truy vết.
 
 Nhưng một thay đổi tinh vi trong khí quyển, dòng điện từ hoặc hệ thống khí hậu có thể bị quy về "thiên nhiên" trước khi công chúng kịp đặt câu hỏi.
 
-![Tia sét trên đường chân trời thành phố](../../assets/te-lo-ocultaron-15-lightning-city-skyline.png)
+![Tia sét trên đường chân trời thành phố](../../assets/te-lo-ocultaron-15-lightning-city-skyline.webp)
 
 ### Khí hậu như công cụ kiểm soát<hr>
 

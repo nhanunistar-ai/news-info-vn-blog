@@ -5,7 +5,7 @@ category: 'study'
 tags: ['google-antigravity', 'antigravity', 'ai-coding', 'ai-agent', 'gemini']
 author: 'Tuan Kiet'
 pubDate: 'Jun 09 2026'
-heroImage: '../../assets/google-antigravity-la-gi.png'
+heroImage: '../../assets/google-antigravity-la-gi.webp'
 ---
 
 > Nếu Cursor, Windsurf hay Copilot giúp lập trình viên viết code nhanh hơn ngay trong editor, thì Google Antigravity đang đi theo hướng khác: biến AI agent thành một “đội thực thi” có thể đọc repo, sửa file, chạy lệnh, dùng trình duyệt, tạo artifact và làm việc song song trong nhiều project.

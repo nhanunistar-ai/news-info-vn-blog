@@ -5,7 +5,7 @@ category: 'news'
 tags: ['mystery', 'aura', 'consciousness']
 author: 'Gia Huy'
 pubDate: 'May 27 2026'
-heroImage: '../../assets/Futuristic goggles in a glowing lab.png'
+heroImage: '../../assets/Futuristic goggles in a glowing lab.webp'
 ---
 
 ### Kính Dicyanin
@@ -18,7 +18,7 @@ Tên tuổi của Dicyanin gắn liền với Walter John Kilner, một bác sĩ
 Màn hình này thực chất là các tấm kính được phủ một lớp dung dịch cồn pha thuốc nhuộm Dicyanin. Kilner tin rằng khi một người nhìn qua tấm kính này trong vài phút, mắt của họ sẽ được "huấn luyện" để nhận biết các bức xạ nằm ngoài phổ ánh sáng nhìn thấy bình thường, cụ thể là vùng tia cực tím.<br>
 Theo báo cáo của Kilner, ông và các cộng sự có thể nhìn thấy các vầng sáng bao quanh cơ thể con người, chia thành ba lớp: Cơ thể dực, hào quang bên trong và hào quang bên ngoài. Ông tin rằng sự thay đổi về màu sắc và kích cỡ của các lớp hào quang này có thể giúp chẩn đoán tình trạng sức khỏe và tâm trạng của bệnh nhân một cách chính xác.<br>
 
-![Phòng thí nghiệm quang phổ](<../../assets/Steampunk lab with spectral analysis display.png>)
+![Phòng thí nghiệm quang phổ](<../../assets/Steampunk lab with spectral analysis display.webp>)
 ### Quang phổ và giới hạn nhận thức<br>
 **Tại sao Dicyanin không còn được sản xuất phổ biến?**<br>
 Về mặt sinh học, mắt người chỉ tiếp nhận một phần nhỏ của phổ điện từ. Vì vậy, ý tưởng “có những thứ tồn tại nhưng ta chưa nhìn thấy” là hợp lý về nguyên tắc.  
@@ -32,7 +32,7 @@ Sự khan hiếm của Dicyanin trên thị trường hiện nay đã làm dấy
 Không có lệnh cấm chính thức: Mặc dù có nhiều lời đồn đoán, thực tế Dicyanin không nằm trong danh sách các chất bị cấm hoàn toàn. Một số viện tiêu chuẩn và phòng thí nghiệm vẫn sử dụng hợp chất này cho mục đích nghiên cứu thiên văn và phân tích quang phổ chuyên sâu.
 
 
-![Hào quang năng lượng](<../../assets/Cosmic energy silhouette in radiant aura.png>)
+![Hào quang năng lượng](<../../assets/Cosmic energy silhouette in radiant aura.webp>)
 ### Bí ẩn hào quang con người
 **Phản ứng của giới khoa học**<br>
 Khái niệm “hào quang” xuất hiện trong nhiều truyền thống tâm linh, thường được mô tả là lớp năng lượng bao quanh cơ thể.  

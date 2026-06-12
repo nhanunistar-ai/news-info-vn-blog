@@ -7,7 +7,7 @@ author: 'Duc Minh'
 series: 'memories-dreams-reflections'
 chapter: 7
 pubDate: 'May 21 2026'
-heroImage: '../../assets/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon.png'
+heroImage: '../../assets/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon.webp'
 ---
 
 Bạn đang trong phần 7 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đưa ta tới [Burghölzli, nơi vô thức bắt đầu lên tiếng](/news/burgholzli-noi-vo-thuc-bat-dau-len-tieng/). Từ đây, Jung bước vào một mối quan hệ vừa khai mở vừa nguy hiểm: tình bạn trí tuệ với Sigmund Freud.

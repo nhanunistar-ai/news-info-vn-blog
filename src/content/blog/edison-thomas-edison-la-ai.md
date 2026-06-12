@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 1
 author: 'Minh Anh'
 pubDate: 'May 22 2026'
-heroImage: '../../assets/edison-thomas-edison-la-ai.png'
+heroImage: '../../assets/edison-thomas-edison-la-ai.webp'
 ---
 
 > Bạn đang đọc **chương 1** của series **Cuộc đời Thomas Edison**. Đây là bài mở đầu để ta nhìn Edison đúng hơn trước khi bước vào từng giai đoạn: tuổi thơ, điện báo, Menlo Park, ánh sáng điện, điện ảnh, các thất bại công nghiệp và di sản cuối đời.

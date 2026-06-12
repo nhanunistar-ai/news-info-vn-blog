@@ -7,7 +7,7 @@ author: 'Thanh Tam'
 series: 'alien-interview'
 chapter: 8
 pubDate: 'May 13 2026'
-heroImage: '../../assets/chapter-8.png'
+heroImage: '../../assets/chapter-8.webp'
 ---
 
 

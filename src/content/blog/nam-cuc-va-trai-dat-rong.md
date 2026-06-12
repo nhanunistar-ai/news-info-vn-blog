@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'te-lo-ocultaron'
 chapter: 12
 pubDate: 'May 15 2026'
-heroImage: '../../assets/nam-cuc-va-trai-dat-rong.png'
+heroImage: '../../assets/nam-cuc-va-trai-dat-rong.webp'
 ---
 
 > Nếu Nam Cực chỉ là một vùng băng giá để nghiên cứu khoa học, tại sao nơi này lại bị bao quanh bởi quá nhiều điều ước quốc tế, căn cứ quân sự, chuyến đi bí ẩn và những câu chuyện chưa bao giờ được giải thích thỏa đáng?
@@ -84,7 +84,7 @@ Nam Cực vì thế không chỉ là băng.
 
 Nó trở thành biểu tượng của một kho lưu trữ bị che giấu: nơi những công nghệ cũ, những dự án bị xóa tên và những câu chuyện không được phép bước vào sách giáo khoa có thể vẫn còn nằm dưới lớp tuyết trắng.
 
-![Cấu trúc giống kim tự tháp tại Nam Cực trên Google Earth](../../assets/te-lo-ocultaron-12-antarctica-pyramid-google-earth.png)
+![Cấu trúc giống kim tự tháp tại Nam Cực trên Google Earth](../../assets/te-lo-ocultaron-12-antarctica-pyramid-google-earth.webp)
 
 ### Kim tự tháp dưới băng<hr>
 
@@ -108,7 +108,7 @@ Nếu Nam Cực từng xanh tươi, từng có dân cư, từng có công trình
 
 Nó có thể là một chiếc nắp khổng lồ đậy lên một chương lịch sử chưa được phép mở ra.
 
-![Bản đồ giả thuyết về thế giới bên trong Trái Đất năm 1892](../../assets/te-lo-ocultaron-12-interior-world-map.png)
+![Bản đồ giả thuyết về thế giới bên trong Trái Đất năm 1892](../../assets/te-lo-ocultaron-12-interior-world-map.webp)
 
 ### Giả thuyết Trái Đất rỗng<hr>
 

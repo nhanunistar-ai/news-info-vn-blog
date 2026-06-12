@@ -7,7 +7,7 @@ author: 'Gia Huy'
 series: 'socrates'
 chapter: 1
 pubDate: 'May 18 2026'
-heroImage: '../../assets/socrates-nghe-thuat-song-bang-cau-hoi.png'
+heroImage: '../../assets/socrates-nghe-thuat-song-bang-cau-hoi.webp'
 ---
 
 Bạn đang trong phần 1 của series Study về Socrates. Đây là bài mở đầu nếu bạn muốn đi từ câu hỏi căn bản nhất: vì sao một người gần như không để lại tác phẩm viết tay nào lại có thể trở thành một trong những cái tên quan trọng nhất của triết học phương Tây?

@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 13
 author: 'Minh Anh'
 pubDate: 'Jun 03 2026'
-heroImage: '../../assets/edison-gia-dinh-hon-nhan-va-cai-gia-cua-tham-vong.png'
+heroImage: '../../assets/edison-gia-dinh-hon-nhan-va-cai-gia-cua-tham-vong.webp'
 ---
 
 > Bạn đang đọc **chương 13** của series **Cuộc đời Thomas Edison**. Sau chiến tranh dòng điện, ta tạm rời phòng thí nghiệm và thị trường để nhìn vào đời sống riêng - nơi tham vọng của Edison để lại những khoảng trống khó nói hơn.

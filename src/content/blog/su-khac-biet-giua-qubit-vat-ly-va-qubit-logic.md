@@ -5,7 +5,7 @@ category: 'study'
 tags: ['quantum-computing', 'qubit', 'fault-tolerance']
 author: 'Ngoc Khanh'
 pubDate: 'May 28 2026'
-heroImage: '../../assets/qubit-vat-ly-va-logic.png'
+heroImage: '../../assets/qubit-vat-ly-va-logic.webp'
 ---
 
 Sự khác biệt giữa qubit vật lý và qubit logic là cốt lõi của quá trình chuyển dịch từ các máy tính lượng tử thử nghiệm sang các hệ thống có ứng dụng thực tế. Dưới đây là những điểm khác biệt chính giữa hai loại qubit này:

@@ -7,7 +7,7 @@ author: 'Quynh Nhu'
 series: 'te-lo-ocultaron'
 chapter: 11
 pubDate: 'May 14 2026'
-heroImage: '../../assets/mud-flood-va-bi-an-nang-luong-tu-do.png'
+heroImage: '../../assets/mud-flood-va-bi-an-nang-luong-tu-do.webp'
 ---
 
 > Nếu những tầng hầm cổ thực chất không phải tầng hầm, mà là tầng một của một thế giới đã bị chôn vùi, thì câu chuyện về thế kỷ 19 có thể không đơn giản là đô thị hóa, mà là một cuộc reset có chủ đích.

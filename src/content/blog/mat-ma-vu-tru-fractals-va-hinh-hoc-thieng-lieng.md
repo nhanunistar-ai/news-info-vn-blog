@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'te-lo-ocultaron'
 chapter: 3
 pubDate: 'May 07 2026'
-heroImage: '../../assets/mat-ma-vu-tru.png'
+heroImage: '../../assets/mat-ma-vu-tru.webp'
 ---
 
 > Nếu thực tại là một trường thông tin khổng lồ, thì Fractal và Hình học thiêng liêng có thể là những dấu vết cho thấy vũ trụ không vận hành ngẫu nhiên, mà được tổ chức bằng các mô thức lặp lại ở nhiều tầng quy mô.
@@ -20,7 +20,7 @@ Tương tự như cách năng lượng từ một kênh truyền hình được 
 
 Để dòng chảy thông tin khổng lồ này có thể duy trì sự ổn định và tiếp diễn qua hàng tỷ năm, cần có một cơ chế vận hành đặc biệt: một mã nguồn tự cung tự cấp và tự sao chép. Mã nguồn đó chính là Fractal.
 
-![Sự đồng bộ cấu trúc giữa Nguyên tử và Hệ mặt trời](../../assets/te-lo-ocultaron-03-atom-vs-solar.png)
+![Sự đồng bộ cấu trúc giữa Nguyên tử và Hệ mặt trời](../../assets/te-lo-ocultaron-03-atom-vs-solar.webp)
 
 Fractal là một mô thức lặp đi lặp lại vô tận, có tính tự tương đồng ở mọi quy mô. Bạn có thể bắt gặp cùng một khuôn mẫu cấu trúc từ cấp độ vi mô nhất của nguyên tử, nơi các electron chuyển động quanh hạt nhân, cho đến cấp độ vĩ mô của một hành tinh với các mặt trăng, một hệ mặt trời với các hành tinh quay quanh mặt trời, hay thậm chí là cấu trúc của các thiên hà.
 

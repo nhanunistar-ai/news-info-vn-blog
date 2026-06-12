@@ -7,7 +7,7 @@ author: 'Khanh Vy'
 series: 'memories-dreams-reflections'
 chapter: 9
 pubDate: 'May 23 2026'
-heroImage: '../../assets/philemon-nguoi-thay-noi-tam-cua-jung.png'
+heroImage: '../../assets/philemon-nguoi-thay-noi-tam-cua-jung.webp'
 ---
 
 Bạn đang trong phần 9 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [giai đoạn Jung đối diện vô thức sau khi rời Freud](/news/doi-dien-vo-thuc-sau-khi-roi-freud/). Bây giờ ta bước tới một hình ảnh nổi bật hơn cả trong thời kỳ đó: Philemon.

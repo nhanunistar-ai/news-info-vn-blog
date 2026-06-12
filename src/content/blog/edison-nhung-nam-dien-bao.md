@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 5
 author: 'Minh Anh'
 pubDate: 'May 26 2026'
-heroImage: '../../assets/edison-nhung-nam-dien-bao.png'
+heroImage: '../../assets/edison-nhung-nam-dien-bao.webp'
 ---
 
 > Bạn đang đọc **chương 5** của series **Cuộc đời Thomas Edison**. Sau tuổi thơ, tàu hỏa và vấn đề thính lực, Edison bước vào công nghệ quan trọng nhất của thời trẻ: điện báo.

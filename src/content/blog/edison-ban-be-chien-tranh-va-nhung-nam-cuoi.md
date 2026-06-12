@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 17
 author: 'Minh Anh'
 pubDate: 'Jun 07 2026'
-heroImage: '../../assets/edison-ban-be-chien-tranh-va-nhung-nam-cuoi.png'
+heroImage: '../../assets/edison-ban-be-chien-tranh-va-nhung-nam-cuoi.webp'
 ---
 
 > Bạn đang đọc **chương 17** của series **Cuộc đời Thomas Edison**. Sau những thất bại công nghiệp, Edison bước vào tuổi già nhưng không thật sự rời khỏi công việc.

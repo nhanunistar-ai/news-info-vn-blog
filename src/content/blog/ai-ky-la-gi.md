@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'ai-ky'
 chapter: 1
 pubDate: 'May 20 2026'
-heroImage: '../../assets/ai-ky-la-gi-va-cach-nhan-dien-dung.png'
+heroImage: '../../assets/ai-ky-la-gi-va-cach-nhan-dien-dung.webp'
 ---
 
 Bạn đang trong phần 1 của Series bài viết về Ái kỷ. Đây là chương 1 - bài viết đầu tiên nếu bạn muốn theo dõi từ đầu.

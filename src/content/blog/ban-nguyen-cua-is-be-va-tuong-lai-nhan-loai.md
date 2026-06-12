@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'alien-interview'
 chapter: 13
 pubDate: 'May 18 2026'
-heroImage: '../../assets/chapter-13.png'
+heroImage: '../../assets/chapter-13.webp'
 ---
 
 ### Một bài học về tương lai

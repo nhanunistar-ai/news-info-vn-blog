@@ -7,7 +7,7 @@ author: 'Tuan Kiet'
 series: 'te-lo-ocultaron'
 chapter: 2
 pubDate: 'May 06 2026'
-heroImage: '../../assets/matrix.png'
+heroImage: '../../assets/matrix.webp'
 ---
 
 > Thuyết Ma trận không chỉ là câu chuyện khoa học viễn tưởng. Nó là một cách đặt lại câu hỏi về điều ta gọi là "thực tại", về giới hạn giác quan và về việc bộ não có thể đang giải mã một mô hình chứ không phải chạm trực tiếp vào thế giới.
@@ -67,7 +67,7 @@ Tất cả đều phải được não bộ chuyển hóa. Điều này rất qu
 
 Đó là lý do nhiều truyền thống triết học và tâm linh từ xưa đã nghi ngờ tính chắc chắn của cảm giác. Chúng không nhất thiết nói về máy tính hay mô phỏng, nhưng chúng cùng chạm vào một ý: **con người có thể đang nhầm trải nghiệm với bản thể**.
 
-![Con người trong không gian ma trận xanh](../../assets/matrix.png)  
+![Con người trong không gian ma trận xanh](../../assets/matrix.webp)  
 *Con Người Trong Không Gian Ma Trận*
 
 Hình ảnh này nhấn mạnh một ý quan trọng hơn cả công nghệ: cảm giác bị bao quanh bởi dữ liệu, ký hiệu, cấu trúc và màn hình của thông tin.

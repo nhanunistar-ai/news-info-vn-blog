@@ -5,7 +5,7 @@ category: 'news'
 tags: ['lava-genie', 'lava-music', 'smart-guitar', 'music-tech', 'guitar', 'sampler']
 author: 'Minh Khang'
 pubDate: 'May 26 2026'
-heroImage: '../../assets/lava-genie.png'
+heroImage: '../../assets/lava-genie.webp'
 ---
 
 > **LAVA GENIE** là kiểu thiết bị khiến người ta phải hỏi lại: đây là một cây đàn, một sampler, một controller hay một món đồ chơi âm nhạc thông minh? Câu trả lời hợp lý nhất có lẽ là: nó nằm ở giữa tất cả những thứ đó.
@@ -36,7 +36,7 @@ Vì vậy, cách tiếp cận đúng ngay từ đầu là: **đừng hỏi nó c
 
 Câu hỏi đúng hơn là: **nó có giúp một người bình thường chạm vào âm nhạc nhanh hơn không?**
 
-![LAVA GENIE là đàn, sampler hay đồ chơi](../../assets/genie.png) 
+![LAVA GENIE là đàn, sampler hay đồ chơi](../../assets/genie.webp) 
 
 ### LAVA GENIE là đàn, sampler hay đồ chơi?<hr>
 

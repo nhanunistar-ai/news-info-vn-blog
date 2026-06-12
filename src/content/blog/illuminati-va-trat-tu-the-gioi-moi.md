@@ -7,7 +7,7 @@ author: 'Minh Anh'
 series: 'te-lo-ocultaron'
 chapter: 16
 pubDate: 'May 19 2026'
-heroImage: '../../assets/illuminati-va-trat-tu-the-gioi-moi.png'
+heroImage: '../../assets/illuminati-va-trat-tu-the-gioi-moi.webp'
 ---
 
 > Nếu quyền lực lớn nhất không cần xuất hiện công khai, nó sẽ không vận hành bằng biểu ngữ, khẩu hiệu hay những lời tuyên bố ồn ào. Nó sẽ vận hành bằng giáo dục, tài chính, biểu tượng, luật lệ, truyền thông và những thói quen mà con người tưởng rằng mình tự lựa chọn.

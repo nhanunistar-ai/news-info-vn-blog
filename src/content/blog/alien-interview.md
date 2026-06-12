@@ -7,7 +7,7 @@ author: 'Ngoc Khanh'
 series: 'alien-interview'
 chapter: 0
 pubDate: 'May 05 2026'
-heroImage: '../../assets/the-grey.png'
+heroImage: '../../assets/the-grey.webp'
 ---
 > Còn sự tàn bạo nào lớn hơn có thể gây ra cho bất kỳ ai ngoài việc xóa bỏ hoặc phủ nhận nhận thức tâm linh, danh tính, khả năng và ký ức vốn là bản chất của chính mình?
 > <cite>-- Lawrence R. Spencer -- 2008</cite>

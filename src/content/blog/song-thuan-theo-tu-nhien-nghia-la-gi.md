@@ -7,7 +7,7 @@ author: 'Minh Anh'
 series: 'chu-nghia-khac-ky'
 chapter: 4
 pubDate: 'May 28 2026'
-heroImage: '../../assets/song-thuan-theo-tu-nhien.png'
+heroImage: '../../assets/song-thuan-theo-tu-nhien.webp'
 ---
 
 Bạn đang trong phần 4 của Series bài viết về Khắc kỷ. Đây là chương 4 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

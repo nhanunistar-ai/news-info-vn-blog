@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 16
 author: 'Minh Anh'
 pubDate: 'Jun 06 2026'
-heroImage: '../../assets/edison-nhung-that-bai-lon-quang-sat-xi-mang-va-pin.png'
+heroImage: '../../assets/edison-nhung-that-bai-lon-quang-sat-xi-mang-va-pin.webp'
 ---
 
 > Bạn đang đọc **chương 16** của series **Cuộc đời Thomas Edison**. Sau điện ảnh, ta nhìn vào những dự án ít rực rỡ hơn nhưng rất quan trọng: các thất bại công nghiệp.

@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 3
 author: 'Minh Anh'
 pubDate: 'May 24 2026'
-heroImage: '../../assets/edison-cau-be-ban-bao-tren-tau.png'
+heroImage: '../../assets/edison-cau-be-ban-bao-tren-tau.webp'
 ---
 
 > Bạn đang đọc **chương 3** của series **Cuộc đời Thomas Edison**. Chương trước nói về tuổi thơ ở Milan và Port Huron. Chương này theo Edison bước lên tàu, nơi cậu học cách bán hàng, đọc thị trường và biến thông tin thành giá trị.

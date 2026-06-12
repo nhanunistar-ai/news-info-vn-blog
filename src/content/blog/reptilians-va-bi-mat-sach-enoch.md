@@ -7,7 +7,7 @@ author: 'Quang Huy'
 series: 'te-lo-ocultaron'
 chapter: 7
 pubDate: 'May 10 2026'
-heroImage: '../../assets/reptilians-va-bi-mat-sach-enoch.png'
+heroImage: '../../assets/reptilians-va-bi-mat-sach-enoch.webp'
 ---
 
 > Nếu những biểu tượng rắn xuất hiện trong quá nhiều nền văn minh cổ đại không chỉ là hình ảnh tôn giáo, thì có thể chúng đang chỉ về một ký ức sâu hơn: ký ức về các thực thể từng được gọi là thần, thiên sứ, người canh gác hoặc kẻ từ trời xuống.

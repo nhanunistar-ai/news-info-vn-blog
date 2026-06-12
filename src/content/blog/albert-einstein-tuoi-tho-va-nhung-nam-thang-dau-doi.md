@@ -6,7 +6,7 @@ author: 'Mai Lan'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 1
 pubDate: 'Jun 09 2026'
-heroImage: '../../assets/albert-einstein-tuoi-tho-va-nhung-nam-thang-dau-doi.png'
+heroImage: '../../assets/albert-einstein-tuoi-tho-va-nhung-nam-thang-dau-doi.webp'
 ---
 
 > Albert Einstein không đi vào thế giới như một đứa trẻ ồn ào hay dễ gây chú ý. Ngay từ đầu, ông đã mang trong mình một kiểu im lặng rất riêng. Cái im lặng đó không phải là trống rỗng, mà giống như một căn phòng đang đầy ắp câu hỏi chưa có lời đáp. Người ta thường nhớ đến Einstein như một bộ óc thay đổi cả vật lý hiện đại, nhưng nếu quay lại những năm đầu đời của ông, ta sẽ thấy một đứa trẻ chậm rãi, khó đoán, và có phần lạc nhịp với thế giới xung quanh.

@@ -6,7 +6,7 @@ author: 'Quynh Nhu'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 4
 pubDate: 'Jun 12 2026'
-heroImage: '../../assets/albert-einstein-bang-sang-che-va-nhung-gio-suy-nghi-am-tham.png'
+heroImage: '../../assets/albert-einstein-bang-sang-che-va-nhung-gio-suy-nghi-am-tham.webp'
 ---
 
 > Có những giai đoạn trong đời một con người không nhìn giống thành tựu, nhưng lại chính là nơi thành tựu đang âm thầm được chuẩn bị. Với Einstein, những giờ làm việc đều đặn giữa hồ sơ, máy móc và giấy tờ ở Bern là một giai đoạn như vậy.

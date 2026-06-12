@@ -7,7 +7,7 @@ author: 'Hoang Linh'
 series: 'alien-interview'
 chapter: 9
 pubDate: 'May 14 2026'
-heroImage: '../../assets/chapter-9.png'
+heroImage: '../../assets/chapter-9.webp'
 ---
 
 ### Dòng thời gian của các sự kiện

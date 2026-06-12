@@ -7,7 +7,7 @@ author: 'Gia Huy'
 series: 'alien-interview'
 chapter: 10
 pubDate: 'May 15 2026'
-heroImage: '../../assets/chapter-10.png'
+heroImage: '../../assets/chapter-10.webp'
 ---
 
 ### Một bài học về sinh học

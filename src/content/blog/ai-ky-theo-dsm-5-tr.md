@@ -5,7 +5,7 @@ category: 'news'
 tags: ['tam-ly', 'ai-ky', 'dsm-5-tr', 'npd', 'suc-khoe-tinh-than']
 author: 'Gia Huy'
 pubDate: 'May 20 2026'
-heroImage: '../../assets/ai-ky-theo-dsm-5-tr.png'
+heroImage: '../../assets/ai-ky-theo-dsm-5-tr.webp'
 ---
 
 > DSM-5-TR không phải cuốn sổ tay để ta đem đi dán nhãn người yêu cũ, đồng nghiệp khó chịu hay một người thích đăng ảnh đẹp. Nó là hệ thống phân loại lâm sàng dành cho chuyên gia sức khỏe tâm thần. Nhưng nếu hiểu đúng, DSM-5-TR giúp ta phân biệt giữa “tính cách khó ưa”, “nét ái kỷ” và **rối loạn nhân cách ái kỷ**.

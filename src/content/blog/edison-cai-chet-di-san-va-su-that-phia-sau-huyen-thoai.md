@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 18
 author: 'Minh Anh'
 pubDate: 'Jun 08 2026'
-heroImage: '../../assets/edison-cai-chet-di-san-va-su-that-phia-sau-huyen-thoai.png'
+heroImage: '../../assets/edison-cai-chet-di-san-va-su-that-phia-sau-huyen-thoai.webp'
 ---
 
 > Bạn đang đọc **chương 18**, chương cuối của series **Cuộc đời Thomas Edison**. Sau tuổi thơ, điện báo, Menlo Park, ánh sáng điện, điện ảnh, thất bại và những năm cuối, đây là lúc nhìn lại Edison như một con người lịch sử.

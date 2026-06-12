@@ -5,7 +5,7 @@ category: 'study'
 tags: ['microsoft', 'mai', 'ai-models', 'copilot', 'build-2026']
 author: 'Ngoc Khanh'
 pubDate: 'May 08 2026'
-heroImage: '../../assets/mai.png'
+heroImage: '../../assets/mai.webp'
 ---
 
 > Microsoft vừa giới thiệu loạt model AI mang thương hiệu **MAI**. Về mặt kỹ thuật, đây là viết tắt của Microsoft AI. Nhưng với người Việt, đọc đến MAI là não tự động bật chế độ: "Mai tính", "chị Mai", "em Mai", "bác nào test thử Mai chưa?"

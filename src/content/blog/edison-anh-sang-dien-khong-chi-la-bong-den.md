@@ -7,7 +7,7 @@ series: 'cuoc-doi-thomas-edison'
 chapter: 10
 author: 'Minh Anh'
 pubDate: 'May 31 2026'
-heroImage: '../../assets/edison-anh-sang-dien-khong-chi-la-bong-den.png'
+heroImage: '../../assets/edison-anh-sang-dien-khong-chi-la-bong-den.webp'
 ---
 
 > Bạn đang đọc **chương 10** của series **Cuộc đời Thomas Edison**. Sau phonograph, Edison bước vào bài toán làm thay đổi nhịp sống đô thị: ánh sáng điện.

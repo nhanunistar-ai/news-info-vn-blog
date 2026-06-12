@@ -7,7 +7,7 @@ author: 'Duc Huy'
 series: 'te-lo-ocultaron'
 chapter: 18
 pubDate: 'May 21 2026'
-heroImage: '../../assets/du-an-blue-beam-va-dang-cuu-the-gia.png'
+heroImage: '../../assets/du-an-blue-beam-va-dang-cuu-the-gia.webp'
 ---
 
 > Nếu đức tin là nơi sâu nhất trong tâm trí con người, thì một hệ thống muốn cai trị toàn cầu sẽ không chỉ kiểm soát tiền tệ, luật pháp hay truyền thông. Nó sẽ tìm cách chạm vào hình ảnh thiêng liêng nhất mà con người sẵn sàng quỳ xuống trước mặt.
@@ -48,7 +48,7 @@ Mục tiêu là chiếm lấy đức tin.
 
 Biến đức tin thành đường dẫn để thiết lập một trật tự mới.
 
-![Hologram khổng lồ của một hình tượng cứu thế trên bầu trời thành phố](../../assets/du-an-blue-beam-va-dang-cuu-the-gia.png)
+![Hologram khổng lồ của một hình tượng cứu thế trên bầu trời thành phố](../../assets/du-an-blue-beam-va-dang-cuu-the-gia.webp)
 
 ### Blue Beam là gì?<hr>
 

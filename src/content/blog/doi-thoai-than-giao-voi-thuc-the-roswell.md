@@ -7,7 +7,7 @@ author: 'Minh Khang'
 series: 'alien-interview'
 chapter: 2
 pubDate: 'May 07 2026'
-heroImage: '../../assets/chapter-2.png'
+heroImage: '../../assets/chapter-2.webp'
 ---
 
 ### Đối Thoại Thần Giao Với Thực Thể Roswell

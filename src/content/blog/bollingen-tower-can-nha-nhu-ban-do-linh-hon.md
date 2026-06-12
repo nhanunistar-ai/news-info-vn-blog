@@ -7,7 +7,7 @@ author: 'Mai Lan'
 series: 'memories-dreams-reflections'
 chapter: 11
 pubDate: 'May 25 2026'
-heroImage: '../../assets/bollingen-tower-can-nha-nhu-ban-do-linh-hon.png'
+heroImage: '../../assets/bollingen-tower-can-nha-nhu-ban-do-linh-hon.webp'
 ---
 
 Bạn đang trong phần 11 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã giải thích [individuation là gì](/news/individuation-hanh-trinh-tro-thanh-chinh-minh/). Bài này đi vào một biểu tượng rất cụ thể trong đời Jung: Bollingen Tower.

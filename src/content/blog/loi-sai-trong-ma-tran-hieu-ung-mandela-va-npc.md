@@ -7,7 +7,7 @@ author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 4
 pubDate: 'May 08 2026'
-heroImage: '../../assets/loi-sai-trong-ma-tran.png'
+heroImage: '../../assets/loi-sai-trong-ma-tran.webp'
 ---
 
 > Nếu thực tại vận hành như một hệ mô phỏng, thì những khoảnh khắc bất thường có thể được nhìn như lỗi hiển thị, lỗi đồng bộ hoặc dấu vết của một tầng vận hành sâu hơn mà giác quan thường ngày không nhận ra.

@@ -7,7 +7,7 @@ author: 'Bao Ngoc'
 series: 'chu-nghia-khac-ky'
 chapter: 3
 pubDate: 'May 27 2026'
-heroImage: '../../assets/bon-duc-hanh-cot-loi.png'
+heroImage: '../../assets/bon-duc-hanh-cot-loi.webp'
 ---
 
 Bạn đang trong phần 3 của Series bài viết về Khắc kỷ. Đây là chương 3 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

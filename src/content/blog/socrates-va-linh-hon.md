@@ -7,7 +7,7 @@ author: 'Minh Khang'
 series: 'socrates'
 chapter: 5
 pubDate: 'May 22 2026'
-heroImage: '../../assets/socrates-va-linh-hon.png'
+heroImage: '../../assets/socrates-va-linh-hon.webp'
 ---
 
 Bạn đang trong phần 5 của series Study về Socrates. Sau khi đi qua ý tưởng “đức hạnh là tri thức”, ta đến một điểm còn sâu hơn trong tư tưởng của ông: con người không chỉ cần biết nhiều hơn, mà cần chăm sóc phần bên trong quyết định mình sống thành kiểu người nào.

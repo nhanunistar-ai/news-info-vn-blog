@@ -5,7 +5,7 @@ category: 'study'
 tags: ['quantum-computing', 'jiuzhang', 'zuchongzhi', 'google-willow', 'china-quantum', 'superconducting-qubits']
 author: 'Duc Huy'
 pubDate: 'Jun 12 2026'
-heroImage: '../../assets/cuu-chuong-4-zuchongzhi-va-cuoc-dua-luong-tu-trung-quoc-google.png'
+heroImage: '../../assets/cuu-chuong-4-zuchongzhi-va-cuoc-dua-luong-tu-trung-quoc-google.webp'
 ---
 
 > Nếu chỉ nhìn vào những con số kiểu “nhanh hơn siêu máy tính hàng tỷ tỷ năm”, cuộc đua máy tính lượng tử rất dễ biến thành một cuộc thi headline. Nhưng phía sau Cửu Chương 4.0, Zuchongzhi và Google Willow là ba triết lý phần cứng, ba kiểu benchmark và ba mục tiêu kỹ thuật không hoàn toàn giống nhau.

@@ -7,7 +7,7 @@ author: 'Bao Chau'
 series: 'memories-dreams-reflections'
 chapter: 3
 pubDate: 'May 17 2026'
-heroImage: '../../assets/hai-con-nguoi-trong-jung.png'
+heroImage: '../../assets/hai-con-nguoi-trong-jung.webp'
 ---
 
 Bạn đang trong phần 3 của Series bài viết về *Memories, Dreams, Reflections*. Nếu muốn đi theo mạch từ đầu, hãy đọc [bài mở đầu](/news/memories-dreams-reflections-la-gi/) và [tuổi thơ của Jung](/news/tuoi-tho-cua-jung-khi-ky-uc-tro-thanh-bieu-tuong/) trước.

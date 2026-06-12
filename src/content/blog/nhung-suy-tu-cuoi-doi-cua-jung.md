@@ -7,7 +7,7 @@ author: 'Bao Ngoc'
 series: 'memories-dreams-reflections'
 chapter: 15
 pubDate: 'May 29 2026'
-heroImage: '../../assets/nhung-suy-tu-cuoi-doi-cua-jung.png'
+heroImage: '../../assets/nhung-suy-tu-cuoi-doi-cua-jung.webp'
 ---
 
 Bạn đang trong phần 15 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [câu hỏi về cái chết và đời sống sau cái chết trong Jung](/news/jung-va-cai-chet-doi-song-sau-cai-chet/). Đến đây, Jung không còn chỉ là nhà phân tích giấc mơ. Ông là một người già nhìn lại thế kỷ của mình, nhìn vào cái ác, tôn giáo, chiến tranh, khoa học và sự khủng hoảng của con người hiện đại.

@@ -7,7 +7,7 @@ author: 'Duc Minh'
 series: 'chu-nghia-khac-ky'
 chapter: 5
 pubDate: 'May 29 2026'
-heroImage: '../../assets/tien-bac-danh-vong-va-suc-khoe.png'
+heroImage: '../../assets/tien-bac-danh-vong-va-suc-khoe.webp'
 ---
 
 Bạn đang trong phần 5 của Series bài viết về Khắc kỷ. Đây là chương 5 - nếu bạn muốn theo dõi từ đầu, hãy đọc chương 1: [Chủ Nghĩa Khắc Kỷ Là Gì?](/news/chu-nghia-khac-ky-la-gi/).

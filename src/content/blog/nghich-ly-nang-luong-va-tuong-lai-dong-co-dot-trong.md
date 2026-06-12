@@ -5,14 +5,14 @@ category: 'news'
 tags: ['energy', 'hybrid', 'technology']
 author: 'Bao Ngoc'
 pubDate: 'May 26 2026'
-heroImage: '../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.png'
+heroImage: '../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.webp'
 ---
 ### KỶ NGUYÊN CHUYỂN ĐỔI NĂNG LƯỢNG
 **NGHỊCH LÝ XE ĐIỆN VÀ SỰ TIẾN HÓA TẤT YẾU CỦA ĐỘNG CƠ ĐỐT TRONG**<br>
 Trong các cuộc thảo luận về biến đổi khí hậu, viễn cảnh thế giới xóa sổ hoàn toàn xe động cơ đốt trong (ICE) để thay thế bằng 100% xe thuần điện (BEV) thường được vẽ lên như một **thiên đường sinh thái**. Tuy nhiên, nếu chúng ta "chụp X-quang" nền tảng vận hành của nền văn minh hiện đại, sự thật lại phức tạp và khắc nghiệt hơn nhiều. Đó không đơn thuần là sự thay đổi loại nhiên liệu, mà là một cú sốc có thể làm đứt gãy chuỗi cung ứng và gây ra thảm họa lạm phát vật liệu toàn cầu.
 
 
-![Thap chung cat dau mo](../../assets/Tháp-chưng-cất-dầu-mỏ.png)
+![Thap chung cat dau mo](../../assets/Tháp-chưng-cất-dầu-mỏ.webp)
 
 ### THÁP CHƯNG CẤT DẦU MỎ
 **QUY LUẬT VẬT LÝ KHÔNG THỂ ĐẢO NGƯỢC**<br>
@@ -23,7 +23,7 @@ Dầu thô không chỉ là nhiên liệu; nó là nguyên liệu gốc tạo ra
 **- Tầng Nhựa đường (Nền tảng hạ tầng):** Nằm dưới đáy tháp, chiếm khoảng 8%. Không có tầng "cặn bã" này, những chiếc xe điện hiện đại nhất cũng chỉ có thể di chuyển trên đường bùn đất thay vì cao tốc hay đường băng sân bay.
 
 
-![Hybrid bung no](../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.png)
+![Hybrid bung no](../../assets/Cơn-ác-mộng-kinh-tế-và-Sự-bùng-nổ-của-Hybrid.webp)
 
 ### NGHỊCH LÝ 20% XĂNG
 **KHI "PHẾ PHẨM" TRỞ THÀNH THẢM HỌA KINH TẾ**<br>
@@ -35,7 +35,7 @@ Hãy giả định kịch bản 100% xe điện xảy ra: nhu cầu xăng bằng
 **- Giá thành** sản xuất chính những chiếc xe điện sẽ bị đẩy lên ngưỡng không thể tiếp cận, khiến thế giới xanh sụp đổ vì lạm phát vật liệu cơ bản
 
 
-![Tuong lai ben vung](../../assets/Tương-lai-bền-vững.png)
+![Tuong lai ben vung](../../assets/Tương-lai-bền-vững.webp)
 
 ### KHOẢN NỢ CARBON TỪ THƯỢNG NGUỒN
 **PHÂN TÍCH VÒNG ĐỜI (LCA)**<br>
@@ -46,7 +46,7 @@ Việc sản xuất bộ pin Lithium-ion tiêu tốn năng lượng gấp nhiề
 ***- Tại những nơi lưới điện vẫn phụ thuộc vào than đá***, quãng đường này có thể kéo dài lên tới hơn 100.000 km.<br>
 Ngoài ra, do trọng lượng xe điện nặng hơn (trung bình 10-30%), lượng bụi mịn (PM2.5) từ sự mài mòn lốp xe và mặt đường của xe điện có thể cao hơn so với xe truyền thống, tạo ra một thách thức mới cho sức khỏe đô thị.
 
-![Sự cộng sinh xăng và điện](../../assets/su-cong-sinh-xang-dien.png)
+![Sự cộng sinh xăng và điện](../../assets/su-cong-sinh-xang-dien.webp)
 
 ### SỰ CỘNG SINH HOÀN HẢO
 **LỜI GIẢI MANG TÍNH TIẾN HÓA**<br>

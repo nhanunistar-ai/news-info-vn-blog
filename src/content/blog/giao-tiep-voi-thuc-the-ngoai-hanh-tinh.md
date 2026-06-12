@@ -7,7 +7,7 @@ author: 'Nam Phong'
 series: 'alien-interview'
 chapter: 4
 pubDate: 'May 09 2026'
-heroImage: '../../assets/chapter-4.png'
+heroImage: '../../assets/chapter-4.webp'
 ---
 
 ### Rào cản ngôn ngữ

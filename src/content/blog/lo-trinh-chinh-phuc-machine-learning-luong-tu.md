@@ -5,7 +5,7 @@ category: 'study'
 tags: ['quantum-computing', 'machine-learning', 'learning-path']
 author: 'Bao Chau'
 pubDate: 'May 04 2026'
-heroImage: '../../assets/lo-trinh-hoc-qml.png'
+heroImage: '../../assets/lo-trinh-hoc-qml.webp'
 ---
 
 > Để bắt đầu hành trình học tập về Machine Learning lượng tử (QML) vào năm 2026, bạn không cần phải là một nhà vật lý học. Thay vào đó, bạn cần một lộ trình kết hợp giữa kiến thức lập trình Python, toán học cơ bản và tư duy logic về các hệ thống lai. Dưới đây là các bước cụ thể để bạn bắt đầu:

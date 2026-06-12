@@ -7,7 +7,7 @@ author: 'Quang Huy'
 series: 'memories-dreams-reflections'
 chapter: 12
 pubDate: 'May 26 2026'
-heroImage: '../../assets/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua.png'
+heroImage: '../../assets/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua.webp'
 ---
 
 Bạn đang trong phần 12 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Bollingen Tower, căn nhà như bản đồ của linh hồn](/news/bollingen-tower-can-nha-nhu-ban-do-linh-hon/). Bây giờ ta đi ra khỏi căn tháp ấy, theo Jung tới những không gian văn hóa khác: châu Phi, phương Đông và các thế giới cổ xưa.

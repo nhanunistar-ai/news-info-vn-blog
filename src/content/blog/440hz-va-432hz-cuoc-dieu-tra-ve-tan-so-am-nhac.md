@@ -5,7 +5,7 @@ category: 'news'
 tags: ['432hz', '440hz', 'music', 'frequency', 'sound-healing']
 author: 'Minh Khang'
 pubDate: 'Jun 04 2026'
-heroImage: '../../assets/440hz-va-432hz.png'
+heroImage: '../../assets/440hz-va-432hz.webp'
 ---
 
 ### Vì sao 440Hz và 432Hz lại gây tranh luận?<hr>
