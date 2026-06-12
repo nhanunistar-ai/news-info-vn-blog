@@ -3,6 +3,7 @@ title: 'Socrates - Phương pháp đối thoại'
 description: 'Cách đặt câu hỏi, truy vấn định nghĩa và đưa người đối thoại từ tự tin sang tự xét mình.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'doi-thoai', 'tu-duy-phan-bien']
+author: 'Minh Anh'
 series: 'socrates'
 chapter: 3
 pubDate: 'May 20 2026'

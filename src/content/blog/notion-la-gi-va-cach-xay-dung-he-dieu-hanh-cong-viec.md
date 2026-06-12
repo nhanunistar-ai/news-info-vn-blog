@@ -3,6 +3,7 @@ title: 'Notion'
 description: 'Phân tích Notion từ kiến trúc page-database đến quy trình vận hành cá nhân và đội nhóm'
 category: 'study'
 tags: ['notion', 'productivity', 'knowledge-management']
+author: 'Bao Chau'
 pubDate: 'May 30 2026'
 heroImage: '../../assets/notion.png'
 ---

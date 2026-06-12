@@ -3,6 +3,7 @@ title: 'Mud Flood và năng lượng tự do'
 description: 'Phần 11 của Te lo ocultaron: bí ẩn trận lụt bùn thế kỷ 19, những công trình bị chôn vùi, cuộc reset Tartaria và khả năng tri thức về năng lượng Ether đã bị xóa khỏi nhân loại.'
 category: 'stories'
 tags: ['mud-flood', 'tartaria', 'free-energy', 'ether', 'old-world']
+author: 'Quynh Nhu'
 series: 'te-lo-ocultaron'
 chapter: 11
 pubDate: 'May 14 2026'

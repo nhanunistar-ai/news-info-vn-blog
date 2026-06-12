@@ -2,9 +2,10 @@
 title: 'Lối xoắn Tesla và máy biến thế'
 description: 'Đột phá kỹ thuật, động cơ không đồng bộ và bước tiến vào điện xoay chiều.'
 category: 'stories'
+author: 'Ngoc Khanh'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 4
-pubDate: 'June 4 2026'
+pubDate: 'Jun 04 2026'
 heroImage: '../../assets/nikola-tesla-chuong-4-loi-xoan-tesla-va-may-bien-the.png'
 ---
 

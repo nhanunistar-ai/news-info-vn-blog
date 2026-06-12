@@ -3,6 +3,7 @@ title: '440Hz và 432Hz'
 description: 'Cuộc điều tra ngắn gọn về tranh luận 440Hz và 432Hz: lịch sử chuẩn hóa cao độ, huyền học Pythagoras, hệ bình quân luật và câu hỏi liệu tần số có thật sự tác động đến cơ thể.'
 category: 'news'
 tags: ['432hz', '440hz', 'music', 'frequency', 'sound-healing']
+author: 'Minh Khang'
 pubDate: 'Jun 04 2026'
 heroImage: '../../assets/440hz-va-432hz.png'
 ---

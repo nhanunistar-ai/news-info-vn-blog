@@ -3,6 +3,7 @@ title: 'Từ 3D đến 5D'
 description: 'Phần 5 của Te lo ocultaron: cách hiểu các chiều không gian 3D, 4D và 5D như những tầng nhận thức trong hành trình thức tỉnh.'
 category: 'stories'
 tags: ['3d', '4d', '5d', 'consciousness', 'awakening']
+author: 'Minh Chau'
 series: 'te-lo-ocultaron'
 chapter: 5
 pubDate: 'May 09 2026'

@@ -3,6 +3,7 @@ title: 'Anunnaki và nguồn gốc loài người'
 description: 'Phần 6 của Te lo ocultaron: những phiến đá Sumer, Anunnaki, Nibiru, Igigi, Adamo và cách các huyền thoại cổ đại đặt lại câu hỏi về nguồn gốc loài người.'
 category: 'stories'
 tags: ['sumer', 'anunnaki', 'nibiru', 'human-origin', 'ancient-history']
+author: 'Minh Anh'
 series: 'te-lo-ocultaron'
 chapter: 6
 pubDate: 'May 10 2026'

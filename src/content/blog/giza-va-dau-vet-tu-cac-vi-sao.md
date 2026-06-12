@@ -3,6 +3,7 @@ title: 'Giza và dấu vết từ các vì sao'
 description: 'Phần 19 của Te lo ocultaron: Đại kim tự tháp Giza, độ chính xác kỹ thuật, trục sao Orion - Sirius - Draco, Anunnaki, Cydonia trên sao Hỏa và giả thuyết phi hành gia cổ đại.'
 category: 'stories'
 tags: ['giza', 'pyramids', 'ancient-astronauts', 'orion', 'cydonia']
+author: 'Bao Ngoc'
 series: 'te-lo-ocultaron'
 chapter: 19
 pubDate: 'May 22 2026'

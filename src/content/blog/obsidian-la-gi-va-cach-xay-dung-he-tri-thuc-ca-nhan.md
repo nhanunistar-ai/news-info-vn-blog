@@ -3,6 +3,7 @@ title: 'Obsidian'
 description: 'Phân tích Obsidian từ vault, Markdown, backlink, graph đến cách xây dựng hệ tri thức cá nhân bền vững.'
 category: 'study'
 tags: ['obsidian', 'pkm', 'knowledge-management']
+author: 'Bao Chau'
 pubDate: 'May 30 2026'
 heroImage: '../../assets/obsidian.png'
 ---

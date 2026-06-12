@@ -3,6 +3,7 @@ title: 'NotebookLM'
 description: 'Công cụ đang định hình lại khái niệm "second brain" trong kỷ nguyên trí tuệ nhân tạo'
 category: 'study'
 tags: ['ai-tools', 'notebooklm', 'knowledge-management']
+author: 'Gia Han'
 pubDate: 'May 27 2026'
 heroImage: '../../assets/NotebookLM.png'
 ---

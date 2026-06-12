@@ -3,6 +3,7 @@ title: 'Socrates - Nghệ thuật sống bằng câu hỏi'
 description: 'Vì sao một người không viết sách lại trở thành hình mẫu lớn nhất của triết học như một cách sống.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'hy-lap-co-dai', 'tu-xet-minh']
+author: 'Gia Huy'
 series: 'socrates'
 chapter: 1
 pubDate: 'May 18 2026'

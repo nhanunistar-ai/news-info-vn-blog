@@ -2,9 +2,10 @@
 title: 'Thuyết tương đối và cuộc cách mạng về thời gian'
 description: 'Einstein làm lung lay ý niệm về thời gian tuyệt đối và không gian cố định, mở ra một cách nhìn mới về thực tại vật lý.'
 category: 'stories'
+author: 'Mai Lan'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 6
-pubDate: 'June 14 2026'
+pubDate: 'Jun 14 2026'
 heroImage: '../../assets/albert-einstein-thuyet-tuong-doi-va-cuoc-cach-mang-ve-thoi-gian.png'
 ---
 

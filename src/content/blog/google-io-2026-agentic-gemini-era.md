@@ -3,6 +3,7 @@ title: 'Google I/O 2026'
 description: 'Tổng hợp Google I/O 2026: Gemini Omni, Gemini 3.5 Flash, AI Search, Antigravity, AI Studio,...'
 category: 'study'
 tags: ['google-io-2026', 'gemini', 'ai-agents', 'google-search', 'developer-tools']
+author: 'Gia Han'
 pubDate: 'May 21 2026'
 heroImage: '../../assets/google-io-2026-agentic-gemini-era.png'
 ---

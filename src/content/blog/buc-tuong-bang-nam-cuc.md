@@ -3,6 +3,7 @@ title: 'Bức tường băng Nam Cực'
 description: 'Phần 13 của Te lo ocultaron: bức tường băng Ross, bản đồ Nam Cực bị che khuất, Đô đốc Byrd, Hiệp ước Nam Cực và giả thuyết về những vùng đất bị cấm.'
 category: 'stories'
 tags: ['antarctica', 'ross-ice-shelf', 'admiral-byrd', 'forbidden-lands', 'hidden-history']
+author: 'Minh Khang'
 series: 'te-lo-ocultaron'
 chapter: 13
 pubDate: 'May 16 2026'

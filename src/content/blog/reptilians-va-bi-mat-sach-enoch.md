@@ -3,6 +3,7 @@ title: 'Reptilians và bí mật Enoch'
 description: 'Phần 7 của Te lo ocultaron: chủng tộc bò sát, biểu tượng rắn xuyên suốt lịch sử, dòng máu tinh hoa và cách sách Enoch được diễn giải như một ký ức cổ về những thực thể ngoài hành tinh.'
 category: 'stories'
 tags: ['reptilians', 'enoch', 'watchers', 'nephilim', 'ancient-symbols']
+author: 'Quang Huy'
 series: 'te-lo-ocultaron'
 chapter: 7
 pubDate: 'May 10 2026'

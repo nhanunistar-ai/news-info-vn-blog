@@ -3,6 +3,7 @@ title: 'Alien Interview - Chapter 7'
 description: 'Chương bảy của Alien Interview: Quan điểm của Airl về lịch sử cổ đại và thời gian.'
 category: 'stories'
 tags: ['alien-interview', 'ancient-history', 'is-be']
+author: 'Bao Chau'
 series: 'alien-interview'
 chapter: 7
 pubDate: 'May 12 2026'

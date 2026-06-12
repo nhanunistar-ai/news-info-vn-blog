@@ -6,9 +6,10 @@ import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import PostMeta from '../../components/PostMeta.astro';
 import { SITE_TITLE } from '../../consts';
+import { isPublishedPost } from '../../lib/posts';
 
 const seriesEntries = (await getCollection('series')).sort((a, b) => a.data.order - b.data.order);
-const storyPosts = (await getCollection('blog', ({ data }) => !data.draft && data.category === 'stories')).sort(
+const storyPosts = (await getCollection('blog', ({ data }) => isPublishedPost(data) && data.category === 'stories')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 

@@ -3,6 +3,7 @@ title: 'Socrates - Di sản của một câu hỏi'
 description: 'Từ Plato đến triết học phương Tây, di sản lớn nhất của Socrates không phải một học thuyết đóng kín mà là một cách sống biết tự xét mình.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'plato', 'di-san']
+author: 'Mai Lan'
 series: 'socrates'
 chapter: 8
 pubDate: 'May 25 2026'

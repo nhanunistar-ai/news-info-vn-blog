@@ -3,6 +3,7 @@ title: 'Khắc kỷ trong đời sống hiện đại'
 description: 'Ứng dụng Stoicism vào công việc, tiền bạc, mạng xã hội, quan hệ và khủng hoảng cá nhân.'
 category: 'study'
 tags: ['stoicism', 'modern-life', 'work', 'social-media']
+author: 'Bao Chau'
 series: 'chu-nghia-khac-ky'
 chapter: 11
 pubDate: 'Jun 04 2026'

@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
 import MemoriesDreamsCover from '../../assets/memories-dreams-reflections.png';
+import { isPublishedPost } from '../../lib/posts';
 
 const seriesLabels: Record<string, { title: string; description: string; coverImage?: typeof MemoriesDreamsCover }> = {
 	'chu-nghia-khac-ky': {
@@ -28,7 +29,7 @@ const seriesLabels: Record<string, { title: string; description: string; coverIm
 };
 
 export async function getStaticPaths() {
-	const studyPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'study');
+	const studyPosts = await getCollection('blog', ({ data }) => isPublishedPost(data) && data.category === 'study');
 	const seriesGroups = new Map<string, typeof studyPosts>();
 
 	for (const post of studyPosts) {

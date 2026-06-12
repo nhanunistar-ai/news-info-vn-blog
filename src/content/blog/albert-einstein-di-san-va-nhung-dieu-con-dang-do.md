@@ -2,9 +2,10 @@
 title: 'Di sản và những điều còn dang dở'
 description: 'Khi nhìn lại toàn bộ đời Einstein, điều còn lại không chỉ là công thức và vinh quang, mà là một cách sống với câu hỏi, sự khiêm nhường và trách nhiệm trước thế giới.'
 category: 'stories'
+author: 'Bao Ngoc'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 9
-pubDate: 'June 17 2026'
+pubDate: 'Jun 17 2026'
 heroImage: '../../assets/albert-einstein-di-san-va-nhung-dieu-con-dang-do.png'
 ---
 

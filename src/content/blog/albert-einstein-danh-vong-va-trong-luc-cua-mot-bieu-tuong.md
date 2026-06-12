@@ -2,9 +2,10 @@
 title: 'Danh vọng và trọng lực của một biểu tượng'
 description: 'Khi Einstein trở thành biểu tượng công chúng, ông cũng phải học cách sống cùng danh tiếng, tranh cãi và sức nặng của việc bị cả thế giới nhìn vào.'
 category: 'stories'
+author: 'Gia Han'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 7
-pubDate: 'June 15 2026'
+pubDate: 'Jun 15 2026'
 heroImage: '../../assets/albert-einstein-danh-vong-va-trong-luc-cua-mot-bieu-tuong.png'
 ---
 

@@ -2,9 +2,10 @@
 title: 'Albert Einstein - Tự học và bước ngoặt'
 description: 'Einstein rời khỏi khuôn khổ trường lớp, tự lần theo con đường riêng, và bắt đầu biến sự tò mò thành một cách sống.'
 category: 'stories'
+author: 'Tuan Kiet'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 3
-pubDate: 'June 11 2026'
+pubDate: 'Jun 11 2026'
 heroImage: '../../assets/albert-einstein-tu-hoc-va-buoc-ngoat.png'
 ---
 

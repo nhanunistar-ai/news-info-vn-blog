@@ -3,6 +3,7 @@ title: 'Thứ ta kiểm soát và không kiểm soát'
 description: 'Nguyên tắc thực dụng nhất của Epictetus: phân biệt điều thuộc quyền ta và điều không thuộc quyền ta.'
 category: 'study'
 tags: ['stoicism', 'epictetus', 'control', 'khac-ky']
+author: 'Duc Minh'
 series: 'chu-nghia-khac-ky'
 chapter: 2
 pubDate: 'May 26 2026'

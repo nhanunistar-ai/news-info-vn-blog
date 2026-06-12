@@ -3,6 +3,7 @@ title: 'Blue Beam và đấng cứu thế giả'
 description: 'Phần 18 của Te lo ocultaron: Dự án Blue Beam, hologram khổng lồ, tôn giáo thế giới, Serge Monast, HAARP và kịch bản thao túng đức tin bằng công nghệ.'
 category: 'stories'
 tags: ['blue-beam', 'hologram', 'new-world-order', 'religion', 'ufo']
+author: 'Duc Huy'
 series: 'te-lo-ocultaron'
 chapter: 18
 pubDate: 'May 21 2026'

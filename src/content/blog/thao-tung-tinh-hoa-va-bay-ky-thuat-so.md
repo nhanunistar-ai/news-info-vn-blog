@@ -3,6 +3,7 @@ title: 'Tinh hoa và bẫy kỹ thuật số'
 description: 'Phần 21 của Te lo ocultaron: tầng lớp tinh hoa, truyền thông xã hội, chủ nghĩa tư bản giám sát, avatar số, dopamine và cuộc chiến giành lại quyền kiểm soát tâm trí.'
 category: 'stories'
 tags: ['digital-control', 'social-media', 'surveillance-capitalism', 'dopamine', 'awakening']
+author: 'Quynh Nhu'
 series: 'te-lo-ocultaron'
 chapter: 21
 pubDate: 'May 24 2026'

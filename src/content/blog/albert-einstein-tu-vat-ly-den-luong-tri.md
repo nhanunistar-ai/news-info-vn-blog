@@ -2,9 +2,10 @@
 title: 'Albert Einstein - Từ vật lý đến lương tri'
 description: 'Khi chiến tranh, lưu vong và trách nhiệm đạo đức đè lên cuộc đời Einstein, ông dần trở thành một tiếng nói vượt ra ngoài vật lý.'
 category: 'stories'
+author: 'Bao Chau'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 8
-pubDate: 'June 16 2026'
+pubDate: 'Jun 16 2026'
 heroImage: '../../assets/albert-einstein-tu-vat-ly-den-luong-tri.png'
 ---
 

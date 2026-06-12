@@ -3,6 +3,7 @@ title: 'Thuyết Ma trận'
 description: 'Phân tích thuyết Ma trận như một mô hình về giới hạn giác quan, nhận thức và cấu trúc thực tại'
 category: 'stories'
 tags: ['simulation', 'reality', 'matrix']
+author: 'Tuan Kiet'
 series: 'te-lo-ocultaron'
 chapter: 2
 pubDate: 'May 06 2026'

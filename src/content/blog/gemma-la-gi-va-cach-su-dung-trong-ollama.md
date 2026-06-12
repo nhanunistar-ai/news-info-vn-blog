@@ -3,6 +3,7 @@ title: 'Gemma là gì?'
 description: 'Giải thích Gemma là gì, cách chạy Gemma trong Ollama, chọn model phù hợp và tối ưu prompt để dùng hiệu quả hơn.'
 category: 'study'
 tags: ['ai', 'gemma', 'ollama']
+author: 'Hoang Linh'
 pubDate: 'May 30 2026'
 heroImage: '../../assets/gemma.png'
 ---

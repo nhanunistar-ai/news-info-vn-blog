@@ -3,9 +3,10 @@ title: 'Alien Interview'
 description: 'Một lát cắt bí ẩn về UFO, Roswell, Majestic-12 và câu chuyện Alien Interview gây tranh cãi.'
 category: 'stories'
 tags: ['alien-interview', 'ufo', 'roswell']
+author: 'Ngoc Khanh'
 series: 'alien-interview'
 chapter: 0
-pubDate: 'May 5 2026'
+pubDate: 'May 05 2026'
 heroImage: '../../assets/the-grey.png'
 ---
 > Còn sự tàn bạo nào lớn hơn có thể gây ra cho bất kỳ ai ngoài việc xóa bỏ hoặc phủ nhận nhận thức tâm linh, danh tính, khả năng và ký ức vốn là bản chất của chính mình?

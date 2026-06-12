@@ -2,9 +2,10 @@
 title: 'Tesla - Máy phóng điện cao thế P1'
 description: 'Vô tuyến, chống nhiễu, truyền thông và những ý tưởng quy mô lớn.'
 category: 'stories'
+author: 'Bao Ngoc'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 6
-pubDate: 'June 6 2026'
+pubDate: 'Jun 06 2026'
 heroImage: '../../assets/nikola-tesla-chuong-6-may-phong-dien-cao-the-phan-1.png'
 ---
 

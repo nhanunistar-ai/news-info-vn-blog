@@ -2,9 +2,10 @@
 title: 'Nikola Tesla - Từ trường xung'
 description: 'Thời gian còn ngồi trên ghế nhà trường, những bước đầu vào điện học và các ý tưởng ban đầu.'
 category: 'stories'
+author: 'Bao Ngoc'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 3
-pubDate: 'June 3 2026'
+pubDate: 'Jun 03 2026'
 heroImage: '../../assets/nikola-tesla-chuong-3-tu-truong-xung.png'
 ---
 

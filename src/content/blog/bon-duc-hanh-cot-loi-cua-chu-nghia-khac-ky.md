@@ -3,6 +3,7 @@ title: 'Bốn đức hạnh cốt lõi'
 description: 'Trí tuệ, can đảm, công chính và tiết độ: bốn trụ cột đạo đức trong Chủ nghĩa Khắc kỷ.'
 category: 'study'
 tags: ['stoicism', 'virtue', 'khac-ky', 'ethics']
+author: 'Bao Ngoc'
 series: 'chu-nghia-khac-ky'
 chapter: 3
 pubDate: 'May 27 2026'

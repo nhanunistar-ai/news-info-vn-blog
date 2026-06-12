@@ -3,6 +3,7 @@ title: 'Hành trình thức tỉnh'
 description: 'Phần 22 và cũng là lời kết của Te lo ocultaron: thức tỉnh không phải một điểm đến, mà là quá trình liên tục phá bỏ Ma trận tâm trí, tự nghiên cứu và giành lại chủ quyền nhận thức.'
 category: 'stories'
 tags: ['awakening', 'matrix', 'negative-priming', 'consciousness', 'te-lo-ocultaron']
+author: 'Quang Huy'
 series: 'te-lo-ocultaron'
 chapter: 22
 pubDate: 'May 25 2026'

@@ -3,6 +3,7 @@ title: 'Nephilim và người khổng lồ'
 description: 'Phần 9 của Te lo ocultaron: những truyền thuyết về người khổng lồ Nephilim, các gò đất Cahokia, bằng chứng bị thất lạc, DNA ngủ say và ký ức cổ về những Người canh giữ trí tuệ.'
 category: 'stories'
 tags: ['nephilim', 'giants', 'ancient-dna', 'cahokia', 'watchers']
+author: 'Mai Lan'
 series: 'te-lo-ocultaron'
 chapter: 9
 pubDate: 'May 12 2026'

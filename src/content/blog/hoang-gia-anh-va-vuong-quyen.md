@@ -3,6 +3,7 @@ title: 'Hoàng gia Anh và vương quyền'
 description: 'Phần 14 của Te lo ocultaron: Hoàng gia Anh, The Crown, City of London, hệ thống pháp lý, lời thề trung thành và quyền lực thật sự phía sau biểu tượng quân chủ.'
 category: 'stories'
 tags: ['british-royal-family', 'the-crown', 'city-of-london', 'legal-system', 'hidden-power']
+author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 14
 pubDate: 'May 17 2026'

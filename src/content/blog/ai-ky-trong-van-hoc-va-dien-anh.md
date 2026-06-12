@@ -3,6 +3,7 @@ title: 'Ái kỷ trong văn học và điện ảnh'
 description: 'Đọc ái kỷ như một mô thức biểu tượng qua Gatsby, Tom Buchanan, Uriah Heep, Lão Râu Xanh, Hannibal Lecter, The Matrix và Cô hầu gái.'
 category: 'study'
 tags: ['tam-ly', 'ai-ky', 'van-hoc', 'dien-anh', 'gatsby', 'hannibal-lecter', 'the-matrix']
+author: 'Bao Ngoc'
 series: 'ai-ky'
 chapter: 5
 pubDate: 'May 24 2026'

@@ -3,6 +3,7 @@ title: 'HAARP và thời tiết cực đoan'
 description: 'Phần 15 của Te lo ocultaron: dự án HAARP, tầng điện ly, thời tiết cực đoan, giả thuyết vũ khí địa vật lý và câu hỏi về khí hậu như một công cụ kiểm soát.'
 category: 'stories'
 tags: ['haarp', 'weather-control', 'ionosphere', 'climate', 'geophysical-weapon']
+author: 'Ngoc Khanh'
 series: 'te-lo-ocultaron'
 chapter: 15
 pubDate: 'May 18 2026'

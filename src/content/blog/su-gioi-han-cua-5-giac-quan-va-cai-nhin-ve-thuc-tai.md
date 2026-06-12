@@ -3,6 +3,7 @@ title: 'Giới hạn của 5 giác quan'
 description: 'Giới hạn của cảm nhận giác quan, cách con người tạo mô hình thực tại, và vì sao những tầng vô hình luôn khiến ta nghi ngờ điều mình đang thấy.'
 category: 'stories'
 tags: ['reality', 'perception', 'consciousness']
+author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 1
 pubDate: 'May 05 2026'

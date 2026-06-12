@@ -2,9 +2,10 @@
 title: 'Albert Einstein - Những năm tháng đầu đời'
 description: 'Sinh ra ở Ulm, lớn lên trong một gia đình Do Thái trung lưu, chậm nói, lặng lẽ và luôn bị thôi thúc bởi những câu hỏi khó về thế giới.'
 category: 'stories'
+author: 'Mai Lan'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 1
-pubDate: 'June 9 2026'
+pubDate: 'Jun 09 2026'
 heroImage: '../../assets/albert-einstein-tuoi-tho-va-nhung-nam-thang-dau-doi.png'
 ---
 

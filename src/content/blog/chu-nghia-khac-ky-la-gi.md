@@ -3,6 +3,7 @@ title: 'Chủ nghĩa khắc kỷ là gì?'
 description: 'Nhập môn Chủ nghĩa Khắc kỷ: nguồn gốc, tinh thần cốt lõi và vì sao Stoicism không phải là lối sống vô cảm.'
 category: 'study'
 tags: ['stoicism', 'khac-ky', 'triethoc', 'self-mastery']
+author: 'Nam Phong'
 series: 'chu-nghia-khac-ky'
 chapter: 1
 pubDate: 'May 25 2026'

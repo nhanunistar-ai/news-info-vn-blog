@@ -3,6 +3,7 @@ title: 'Alien Interview - Chapter 13'
 description: 'Chương mười ba của Alien Interview: Bản nguyên của IS-BE và tương lai nhân loại.'
 category: 'stories'
 tags: ['alien-interview', 'is-be', 'future']
+author: 'Bao Chau'
 series: 'alien-interview'
 chapter: 13
 pubDate: 'May 18 2026'

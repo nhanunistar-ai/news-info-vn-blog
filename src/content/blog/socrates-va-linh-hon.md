@@ -3,6 +3,7 @@ title: 'Socrates - Chăm sóc linh hồn'
 description: 'Phần 5 series Socrates: vì sao ông đặt đời sống bên trong cao hơn của cải, danh tiếng và những chiến thắng bên ngoài.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'linh-hon', 'tu-xet-minh']
+author: 'Minh Khang'
 series: 'socrates'
 chapter: 5
 pubDate: 'May 22 2026'

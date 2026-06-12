@@ -3,6 +3,7 @@ title: 'Alien Interview - Chapter 9'
 description: 'Chương chín của Alien Interview: Lịch sử Trái Đất và bí mật của The Domain từ góc nhìn của Airl.'
 category: 'stories'
 tags: ['alien-interview', 'earth-history', 'the-domain']
+author: 'Hoang Linh'
 series: 'alien-interview'
 chapter: 9
 pubDate: 'May 14 2026'

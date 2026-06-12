@@ -3,6 +3,7 @@ title: 'Google Antigravity là gì?'
 description: 'Google Antigravity 2.0 là gì, cách dùng hiệu quả, bản cập nhật mới nhất có gì và so sánh với Cursor, Windsurf, GitHub Copilot.'
 category: 'study'
 tags: ['google-antigravity', 'antigravity', 'ai-coding', 'ai-agent', 'gemini']
+author: 'Tuan Kiet'
 pubDate: 'Jun 09 2026'
 heroImage: '../../assets/google-antigravity-la-gi.png'
 ---

@@ -3,6 +3,7 @@ title: 'SunoAI'
 description: 'SunoAI là gì, cách tạo nhạc bằng prompt, workflow dùng thực tế và so sánh nhanh với Google Flow Music.'
 category: 'study'
 tags: ['suno-ai', 'ai-music', 'music-generation', 'flow-music']
+author: 'Gia Han'
 pubDate: 'May 14 2026'
 heroImage: '../../assets/suno-ai.png'
 ---

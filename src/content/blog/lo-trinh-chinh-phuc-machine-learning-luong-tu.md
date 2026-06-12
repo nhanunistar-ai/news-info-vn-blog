@@ -3,7 +3,8 @@ title: 'Lộ trình học QML'
 description: 'Lộ trình học tập về Machine Learning lượng tử (QML) năm 2026'
 category: 'study'
 tags: ['quantum-computing', 'machine-learning', 'learning-path']
-pubDate: 'May 4 2026'
+author: 'Bao Chau'
+pubDate: 'May 04 2026'
 heroImage: '../../assets/lo-trinh-hoc-qml.png'
 ---
 

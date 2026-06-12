@@ -3,6 +3,7 @@ title: 'Illuminati và trật tự thế giới mới'
 description: 'Phần 16 của Te lo ocultaron: Illuminati, Adam Weishaupt, Hội Tam điểm, kim tự tháp quyền lực và giả thuyết về Trật tự Thế giới Mới.'
 category: 'stories'
 tags: ['illuminati', 'new-world-order', 'secret-societies', 'weishaupt', 'social-control']
+author: 'Minh Anh'
 series: 'te-lo-ocultaron'
 chapter: 16
 pubDate: 'May 19 2026'

@@ -3,6 +3,7 @@ title: 'Socrates - Cái chết bình thản'
 description: 'Phần 7 series Socrates: vì sao ông không bỏ trốn, không van xin và đón nhận cái chết như phép thử cuối cùng của một đời sống đã được xét lại.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'cai-chet', 'plato']
+author: 'Ngoc Khanh'
 series: 'socrates'
 chapter: 7
 pubDate: 'May 24 2026'

@@ -2,9 +2,10 @@
 title: 'Nikola Tesla - Những trải nghiệm khác thường'
 description: 'Các hiện tượng thị giác, trí tưởng tượng và cơ chế tư duy lạ của Tesla.'
 category: 'stories'
+author: 'Minh Chau'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 2
-pubDate: 'June 2 2026'
+pubDate: 'Jun 02 2026'
 heroImage: '../../assets/nikola-tesla-chuong-2-nhung-trai-nghiem-khac-thuong.png'
 ---
 

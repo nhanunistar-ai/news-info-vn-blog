@@ -2,9 +2,10 @@
 title: 'Tesla - Máy phóng điện cao thế P2'
 description: 'Tự động hóa, máy bay, chiến tranh và hòa bình, cùng kết luận tư tưởng.'
 category: 'stories'
+author: 'Khanh Vy'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 7
-pubDate: 'June 7 2026'
+pubDate: 'Jun 07 2026'
 heroImage: '../../assets/nikola-tesla-chuong-6-may-phong-dien-cao-the-phan-2.png'
 ---
 

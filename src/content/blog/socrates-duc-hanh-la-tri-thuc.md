@@ -3,6 +3,7 @@ title: 'Socrates - Đức hạnh là tri thức'
 description: 'Phần 4 series Socrates: vì sao Socrates cho rằng sống đúng bắt đầu từ hiểu đúng, và cái ác thường đi cùng sự lầm lạc hơn là hiểu biết thật sự.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'duc-hanh', 'tri-thuc']
+author: 'Nam Phong'
 series: 'socrates'
 chapter: 4
 pubDate: 'May 21 2026'

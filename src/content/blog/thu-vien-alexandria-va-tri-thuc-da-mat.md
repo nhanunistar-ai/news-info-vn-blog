@@ -3,6 +3,7 @@ title: 'Alexandria và tri thức đã mất'
 description: 'Phần 8 của Te lo ocultaron: Đại thư viện Alexandria, Museion, những bộ óc vĩ đại, các thảm họa thiêu rụi tri thức và cái chết của Hypatia.'
 category: 'stories'
 tags: ['alexandria', 'lost-knowledge', 'ancient-library', 'hypatia', 'history']
+author: 'Minh Khang'
 series: 'te-lo-ocultaron'
 chapter: 8
 pubDate: 'May 11 2026'

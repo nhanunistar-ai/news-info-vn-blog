@@ -3,6 +3,7 @@ title: 'Lỗi sai trong Ma trận'
 description: 'Phần 4 của Te lo ocultaron: Glitches, NPC, déjà vu, synchronicity và Hiệu ứng Mandela như những dấu hiệu khiến ta nghi ngờ độ ổn định của thực tại.'
 category: 'stories'
 tags: ['matrix', 'glitch', 'mandela-effect', 'npc', 'reality']
+author: 'Gia Han'
 series: 'te-lo-ocultaron'
 chapter: 4
 pubDate: 'May 08 2026'

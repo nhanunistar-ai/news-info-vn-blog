@@ -3,6 +3,7 @@ title: 'Da Vinci và mã ẩn ngoài hành tinh'
 description: 'Phần 20 của Te lo ocultaron: Leonardo da Vinci, hai năm mất tích, kỹ thuật vượt thời đại, mirror writing, hình ảnh đối gương, phát minh tương lai và giả thuyết dấu ấn ngoài hành tinh.'
 category: 'stories'
 tags: ['leonardo-da-vinci', 'hidden-code', 'renaissance', 'alien-theory', 'mirror-writing']
+author: 'Duc Huy'
 series: 'te-lo-ocultaron'
 chapter: 20
 pubDate: 'May 23 2026'

@@ -333,7 +333,3 @@ Và điều thú vị nhất là: có thể đến cuối cùng, máy lượng t
 - [Strong quantum computational advantage using a superconducting quantum processor - Zuchongzhi](https://arxiv.org/abs/2106.14734)
 - [Quantum error correction below the surface code threshold - Google Willow](https://arxiv.org/abs/2408.13687)
 - [Quantum supremacy using a programmable superconducting processor - Google Sycamore supplementary](https://arxiv.org/abs/1910.11333)
-
-### Prompt tạo hero<hr>
-
-16:9 cinematic 4K hero image for a Vietnamese tech article about China quantum computers Jiuzhang 4.0 and Zuchongzhi versus Google Willow, futuristic quantum laboratory, two visual worlds blended together: photonic quantum computer with glowing laser paths and optical circuits on one side, superconducting quantum chip inside a cryogenic dilution refrigerator on the other side, subtle China red and Google blue light accents, abstract qubits, interference patterns, floating photon trails, high-tech but elegant, dark navy background, realistic science editorial style, no text, no logo, no watermark, leave clean negative space for title.

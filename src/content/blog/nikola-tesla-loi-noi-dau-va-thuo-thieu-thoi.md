@@ -2,9 +2,10 @@
 title: 'Nikola Tesla - Thuở thiếu thời'
 description: 'Xuất thân, gia đình, tuổi thơ và nền tảng hình thành Tesla.'
 category: 'stories'
+author: 'Duc Minh'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 1
-pubDate: 'June 1 2026'
+pubDate: 'Jun 01 2026'
 heroImage: '../../assets/nikola-tesla-loi-noi-dau-va-thuo-thieu-thoi.png'
 ---
 

@@ -3,6 +3,7 @@ title: 'Tesla và mật mã 3-6-9'
 description: 'Phần 17 của Te lo ocultaron: Nikola Tesla, khoa học phi vật lý, tần số, rung động, Vortex Math, mật mã 3-6-9 và câu hỏi về năng lượng miễn phí.'
 category: 'stories'
 tags: ['nikola-tesla', '369', 'vortex-math', 'frequency', 'free-energy']
+author: 'Hoang Linh'
 series: 'te-lo-ocultaron'
 chapter: 17
 pubDate: 'May 20 2026'

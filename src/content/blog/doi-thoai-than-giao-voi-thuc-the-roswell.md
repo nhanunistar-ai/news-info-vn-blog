@@ -3,9 +3,10 @@ title: 'Alien Interview - Chapter 2'
 description: 'Chương hai của Alien Interview: cuộc phỏng vấn thứ hai và sự im lặng đầy bí ẩn của thực thể Roswell.'
 category: 'stories'
 tags: ['alien-interview', 'ufo', 'roswell']
+author: 'Minh Khang'
 series: 'alien-interview'
 chapter: 2
-pubDate: 'May 7 2026'
+pubDate: 'May 07 2026'
 heroImage: '../../assets/chapter-2.png'
 ---
 

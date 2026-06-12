@@ -3,6 +3,7 @@ title: 'Tartaria và lịch sử bị xóa sổ'
 description: 'Phần 10 của Te lo ocultaron: giả thuyết về Đế chế Tartaria, cuộc tái thiết lịch sử, người khổng lồ, kiến trúc Ether, năng lượng miễn phí và ánh sáng của Thế giới Cũ.'
 category: 'stories'
 tags: ['tartaria', 'old-world', 'free-energy', 'ether', 'hidden-history']
+author: 'Mai Lan'
 series: 'te-lo-ocultaron'
 chapter: 10
 pubDate: 'May 13 2026'

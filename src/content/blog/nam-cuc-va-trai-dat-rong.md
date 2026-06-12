@@ -3,6 +3,7 @@ title: 'Nam Cực và Trái Đất rỗng'
 description: 'Phần 12 của Te lo ocultaron: Nam Cực, Chiến dịch Highjump, Đô đốc Byrd, căn cứ ngầm, kim tự tháp dưới băng và giả thuyết Trái Đất rỗng.'
 category: 'stories'
 tags: ['antarctica', 'operation-highjump', 'hollow-earth', 'admiral-byrd', 'hidden-history']
+author: 'Nam Phong'
 series: 'te-lo-ocultaron'
 chapter: 12
 pubDate: 'May 15 2026'

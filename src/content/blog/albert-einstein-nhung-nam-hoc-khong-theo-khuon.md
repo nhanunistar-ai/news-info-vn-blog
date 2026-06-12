@@ -2,9 +2,10 @@
 title: 'Những năm học không theo khuôn mẫu'
 description: 'Einstein ở Munich, va chạm với kỷ luật trường lớp, và dần hình thành thói quen tự học cùng tinh thần nghi ngờ rất riêng.'
 category: 'stories'
+author: 'Minh Khang'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 2
-pubDate: 'June 10 2026'
+pubDate: 'Jun 10 2026'
 heroImage: '../../assets/albert-einstein-nhung-nam-hoc-khong-theo-khuon.png'
 ---
 

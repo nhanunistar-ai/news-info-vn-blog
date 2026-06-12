@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "audit": "node scripts/audit-content.mjs",
+    "normalize:metadata": "node scripts/normalize-metadata.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

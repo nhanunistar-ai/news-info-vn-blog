@@ -5,10 +5,11 @@ import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
 import { SITE_TITLE } from '../../consts';
+import { isPublishedPost } from '../../lib/posts';
 
 export async function getStaticPaths() {
 	const seriesEntries = await getCollection('series');
-	const posts = await getCollection('blog', ({ data }) => !data.draft && data.category === 'stories');
+	const posts = await getCollection('blog', ({ data }) => isPublishedPost(data) && data.category === 'stories');
 
 	return seriesEntries.map((series) => {
 		const chapters = posts

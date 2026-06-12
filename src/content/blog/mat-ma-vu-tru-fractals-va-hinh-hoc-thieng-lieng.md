@@ -3,6 +3,7 @@ title: 'Mật mã vũ trụ'
 description: 'Phần 3 của Te lo ocultaron: Fractal, vũ trụ ảnh ảo và hình học thiêng liêng như những mô thức nền trong cách thực tại được tổ chức.'
 category: 'stories'
 tags: ['fractal', 'holographic-universe', 'sacred-geometry', 'reality']
+author: 'Ngoc Khanh'
 series: 'te-lo-ocultaron'
 chapter: 3
 pubDate: 'May 07 2026'

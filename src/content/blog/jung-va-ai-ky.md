@@ -3,6 +3,7 @@ title: 'Jung và ái kỷ'
 description: 'Dùng persona, shadow, inflation và individuation để đọc ái kỷ như một cấu trúc tâm lý sâu hơn là chỉ một thói xấu.'
 category: 'study'
 tags: ['tam-ly', 'ai-ky', 'carl-jung', 'persona', 'shadow', 'individuation']
+author: 'Bao Chau'
 series: 'ai-ky'
 chapter: 3
 pubDate: 'May 22 2026'

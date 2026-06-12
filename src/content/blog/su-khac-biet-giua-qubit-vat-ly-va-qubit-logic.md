@@ -3,6 +3,7 @@ title: 'Qubit vật lý và logic'
 description: 'Phân biệt qubit vật lý và qubit logic, từ độ ổn định, chi phí sửa lỗi đến vai trò của chúng trong lộ trình máy tính lượng tử hữu dụng.'
 category: 'study'
 tags: ['quantum-computing', 'qubit', 'fault-tolerance']
+author: 'Ngoc Khanh'
 pubDate: 'May 28 2026'
 heroImage: '../../assets/qubit-vat-ly-va-logic.png'
 ---

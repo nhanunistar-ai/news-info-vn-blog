@@ -3,6 +3,7 @@ title: 'Những hiểu sai về khắc kỷ'
 description: 'Phần cuối series: các cách hiểu sai phổ biến về Stoicism và cách giữ Khắc kỷ khỏi biến thành chịu đựng độc hại.'
 category: 'study'
 tags: ['stoicism', 'criticism', 'khac-ky', 'self-help']
+author: 'Gia Han'
 series: 'chu-nghia-khac-ky'
 chapter: 12
 pubDate: 'Jun 05 2026'

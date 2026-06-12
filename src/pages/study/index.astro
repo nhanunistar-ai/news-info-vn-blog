@@ -7,8 +7,9 @@ import Header from '../../components/Header.astro';
 import PostMeta from '../../components/PostMeta.astro';
 import { SITE_TITLE } from '../../consts';
 import MemoriesDreamsCover from '../../assets/memories-dreams-reflections.png';
+import { isPublishedPost } from '../../lib/posts';
 
-const posts = (await getCollection('blog', ({ data }) => !data.draft && data.category === 'study')).sort(
+const posts = (await getCollection('blog', ({ data }) => isPublishedPost(data) && data.category === 'study')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 

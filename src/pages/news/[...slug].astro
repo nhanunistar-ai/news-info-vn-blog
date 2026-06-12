@@ -1,9 +1,10 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
+import { isPublishedPost } from '../../lib/posts';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('blog', ({ data }) => !data.draft);
+	const posts = await getCollection('blog', ({ data }) => isPublishedPost(data));
 	const orderedPosts = posts.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
 	const seriesEntries = await getCollection('series');
 	const studySeriesTitles: Record<string, string> = {

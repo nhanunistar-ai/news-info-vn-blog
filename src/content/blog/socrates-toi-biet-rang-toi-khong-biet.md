@@ -3,6 +3,7 @@ title: 'Socrates - Tôi biết rằng tôi không biết'
 description: 'Vì sao sự thừa nhận mình không biết lại trở thành điểm khởi đầu của trí tuệ.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'tu-xet-minh', 'tri-tue']
+author: 'Minh Chau'
 series: 'socrates'
 chapter: 2
 pubDate: 'May 19 2026'

@@ -2,9 +2,10 @@
 title: 'Nikola Tesla - Định mệnh thành hình'
 description: 'Con đường sự nghiệp rõ nét hơn và hệ tư tưởng phát minh mang tính hệ thống.'
 category: 'stories'
+author: 'Bao Ngoc'
 series: 'cuoc-doi-ky-la-cua-nikola-tesla'
 chapter: 5
-pubDate: 'June 5 2026'
+pubDate: 'Jun 05 2026'
 heroImage: '../../assets/nikola-tesla-chuong-5-dinh-menh-thanh-hinh.png'
 ---
 

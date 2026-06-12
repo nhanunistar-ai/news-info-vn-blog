@@ -3,6 +3,7 @@ title: 'Alien Interview - Chapter 16'
 description: 'Chương mười sáu của Alien Interview: lời chia tay vô hình của Matilda O''Donnell MacElroy với Airl.'
 category: 'stories'
 tags: ['alien-interview', 'airl', 'ending']
+author: 'Hoang Linh'
 series: 'alien-interview'
 chapter: 16
 pubDate: 'May 21 2026'

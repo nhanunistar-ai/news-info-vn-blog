@@ -3,6 +3,7 @@ title: 'Epictetus và tự do nội tâm'
 description: 'Từ thân phận nô lệ đến bậc thầy Khắc kỷ: Epictetus đặt tự do vào phán đoán và lựa chọn nội tâm.'
 category: 'study'
 tags: ['stoicism', 'epictetus', 'freedom', 'khac-ky']
+author: 'Hoang Linh'
 series: 'chu-nghia-khac-ky'
 chapter: 8
 pubDate: 'Jun 01 2026'

@@ -2,9 +2,10 @@
 title: 'Bằng sáng chế và những giờ suy nghĩ âm thầm'
 description: 'Từ chiếc bàn làm việc ở Bern, Einstein quan sát máy móc, hồ sơ và thế giới vận hành như một hệ thống để tích lũy cho những bước nhảy lớn sau này.'
 category: 'stories'
+author: 'Quynh Nhu'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 4
-pubDate: 'June 12 2026'
+pubDate: 'Jun 12 2026'
 heroImage: '../../assets/albert-einstein-bang-sang-che-va-nhung-gio-suy-nghi-am-tham.png'
 ---
 

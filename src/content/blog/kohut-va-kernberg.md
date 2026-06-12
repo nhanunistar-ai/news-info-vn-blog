@@ -3,6 +3,7 @@ title: 'Kohut và Kernberg'
 description: 'Đặt cạnh nhau Heinz Kohut và Otto Kernberg để thấy ái kỷ vừa là thiếu hụt của cái tôi, vừa là cấu trúc phòng vệ bệnh lý.'
 category: 'study'
 tags: ['tam-ly', 'ai-ky', 'heinz-kohut', 'otto-kernberg', 'self-psychology', 'object-relations']
+author: 'Gia Han'
 series: 'ai-ky'
 chapter: 4
 pubDate: 'May 23 2026'

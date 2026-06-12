@@ -3,6 +3,7 @@ title: 'Socrates - Trước tòa án Athens'
 description: 'Phần 6 series Socrates: khi triết học va vào quyền lực, đám đông và cái giá của một đời sống không chịu ngừng đặt câu hỏi.'
 category: 'study'
 tags: ['socrates', 'triet-hoc', 'athens', 'phien-toa']
+author: 'Ngoc Khanh'
 series: 'socrates'
 chapter: 6
 pubDate: 'May 23 2026'

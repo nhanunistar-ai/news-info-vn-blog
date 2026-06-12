@@ -2,9 +2,10 @@
 title: 'Albert Einstein - Năm kỳ diệu 1905'
 description: 'Bốn bài báo thay đổi vật lý hiện đại, được viết trong một năm mà Einstein vẫn còn làm việc bình thường tại Bern nhưng tư duy đã vượt xa thời đại của mình.'
 category: 'stories'
+author: 'Nam Phong'
 series: 'cuoc-doi-ky-la-cua-albert-einstein'
 chapter: 5
-pubDate: 'June 13 2026'
+pubDate: 'Jun 13 2026'
 heroImage: '../../assets/albert-einstein-nam-ky-dieu-1905.png'
 ---
 

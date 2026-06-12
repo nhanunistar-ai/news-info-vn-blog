@@ -3,6 +3,7 @@ title: 'Alien Interview - Chapter 5'
 description: 'Chương 5: Các bài học đọc - Hành trình giáo dục lịch sử của một thực thể ngoài hành tinh thông qua các cuốn sách McGuffey'
 category: 'stories'
 tags: ['alien-interview', 'airl', 'education']
+author: 'Nam Phong'
 series: 'alien-interview'
 chapter: 5
 pubDate: 'May 10 2026'

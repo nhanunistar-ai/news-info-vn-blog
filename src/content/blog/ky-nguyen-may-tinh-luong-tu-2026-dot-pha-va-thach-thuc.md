@@ -3,7 +3,8 @@ title: 'Kỷ nguyên lượng tử'
 description: 'Máy tính lượng tử đang tiến gần ứng dụng thực tế, mở ra cơ hội lớn cho khoa học nhưng cũng đặt áp lực cấp bách lên an ninh mạng.'
 category: 'study'
 tags: ['quantum-computing', 'cybersecurity', 'technology']
-pubDate: 'May 7 2026'
+author: 'Bao Ngoc'
+pubDate: 'May 07 2026'
 heroImage: '../../assets/quantum-computing.png'
 ---
 
