@@ -4,7 +4,7 @@ description: 'Trung Quốc đang có hai hướng máy tính lượng tử rất
 category: 'study'
 tags: ['quantum-computing', 'jiuzhang', 'zuchongzhi', 'google-willow', 'china-quantum', 'superconducting-qubits']
 author: 'Duc Huy'
-pubDate: 'Jun 17 2026'
+pubDate: 'Jun 12 2026'
 heroImage: '../../assets/cuu-chuong-4-zuchongzhi-va-cuoc-dua-luong-tu-trung-quoc-google.png'
 ---
 
@@ -187,11 +187,9 @@ Một quốc gia muốn dẫn đầu lượng tử không chỉ cần một bài
 
 Bảng này cho thấy điểm mấu chốt: Jiuzhang, Zuchongzhi và Willow không đang thi cùng một môn 100%.
 
-Jiuzhang thi ở đường chạy quang tử.
-
-Zuchongzhi thi ở đường chạy sampling siêu dẫn.
-
-Willow đang cố chạy marathon sửa lỗi.
+- Jiuzhang thi ở đường chạy quang tử.
+- Zuchongzhi thi ở đường chạy sampling siêu dẫn.
+- Willow đang cố chạy marathon sửa lỗi.
 
 ### Vì sao benchmark lượng tử hay bị tranh luận?<hr>
 
