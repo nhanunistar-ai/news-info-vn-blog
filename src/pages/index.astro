@@ -1,0 +1,407 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'TRANG THÔNG TIN TỔNG HỢP',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Đọc bài viết',
+        href: '/artemis-ii-su-mang-lich-su',
+        icon: 'tabler:book',
+      },
+      { text: 'Tìm hiểu thêm', href: '#features' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.webp', alt: 'AstroWind Hero Image' }}
+  >
+    <Fragment slot="title">
+      Artemis II: <span class="hidden xl:inline">Chuyến đi Lịch sử định hình lại</span>
+      <span class="text-accent dark:text-white"> Kỷ nguyên Khám phá</span> Không gian
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">Sau hơn nửa thế kỷ,</span> nhân loại đã chính thức quay trở lại quỹ đạo Mặt Trăng.</span
+      >
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
+      Sứ mệnh Artemis II không chỉ là đỉnh cao của kỹ thuật hàng không vũ trụ mà còn là thông điệp về sự đoàn kết, khát vọng
+      và tương lai của loài người giữa các vì sao
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note title="Discovery: KHÁM PHÁ VŨ TRỤ" description="" />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    tagline="Workspace"
+    title="Notion: Hệ điều hành cho công việc & cuộc sống"
+    subtitle="Khám phá cách Notion giúp bạn tổ chức toàn bộ kiến thức, dự án và ý tưởng trong một không gian làm việc duy nhất."
+    items={[
+      {
+        title: 'Block-based linh hoạt',
+        description:
+          'Mọi thứ đều là khối. Kéo thả, sắp xếp và tùy biến cấu trúc dữ liệu theo đúng cách bạn tư duy mà không bị gò bó.',
+        icon: 'tabler:box',
+      },
+      {
+        title: 'Database mạnh mẽ',
+        description:
+          'Vượt xa bảng tính thông thường với đa góc nhìn: Table, Kanban, Calendar và Timeline cho cùng một tập dữ liệu.',
+        icon: 'tabler:database',
+      },
+      {
+        title: 'Hệ thống PKM',
+        description:
+          'Xây dựng kho tri thức cá nhân (Personal Knowledge Management). Quản lý ghi chú, liên kết chéo và truy xuất nhanh.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Tùy biến không giới hạn',
+        description:
+          'Không khuôn mẫu cứng nhắc. Bạn hoàn toàn có thể thiết kế không gian làm việc phản ánh chính quy trình của mình.',
+        icon: 'tabler:adjustments',
+      },
+      {
+        title: 'Đồng bộ đa nền tảng',
+        description:
+          'Trải nghiệm liền mạch trên Web, Mac, Windows, iOS và Android. Dữ liệu luôn đồng bộ, theo bạn mọi lúc mọi nơi.',
+        icon: 'tabler:devices',
+      },
+      {
+        title: 'Notion AI tích hợp',
+        description:
+          'Trợ lý AI mạnh mẽ giúp bạn tóm tắt bài viết, dịch thuật, brainstorm ý tưởng và tự động hóa các tác vụ văn bản.',
+        icon: 'tabler:robot',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    tagline="Trợ lý Nghiên cứu AI"
+    title="NotebookLM"
+    subtitle="Bộ não thứ hai được hỗ trợ bởi AI"
+    items={[
+      {
+        title: 'Trò chuyện với tài liệu của riêng bạn',
+        description:
+          'Tải lên PDF, văn bản hay liên kết web. NotebookLM sẽ trở thành chuyên gia về tài liệu đó và chỉ trả lời dựa trên nguồn bạn cấp, loại bỏ ảo giác AI.',
+      },
+      {
+        title: 'Tự động tạo Audio Overview (Podcast)',
+        description:
+          'Tính năng đột phá giúp chuyển đổi toàn bộ tài liệu khô khan thành bản podcast trò chuyện sinh động giữa 2 host AI với giọng điệu cực kỳ tự nhiên.',
+      },
+      {
+        title: 'Trích xuất và tóm tắt thông minh',
+        description:
+          'Tự động tạo bảng chú giải thuật ngữ, hướng dẫn ôn tập, dàn ý chi tiết và các ý chính quan trọng chỉ với một cú click chuột.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/notebooklm.webp',
+      alt: 'NotebookLM AI Workspace',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Đọc hiểu tài liệu siêu tốc</h3>
+      Khám phá cách nền tảng của Google định hình lại việc nghiên cứu, tổng hợp và học tập.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Local-first & Markdown',
+        description: `Toàn bộ dữ liệu của bạn được lưu trữ cục bộ dưới dạng file Markdown. Đảm bảo quyền riêng tư tuyệt đối và không bao giờ bị khóa bởi bất kỳ nhà cung cấp dịch vụ đám mây nào.`,
+      },
+      {
+        title: 'Liên kết đồ thị (Graph View)',
+        description:
+          'Trực quan hóa các mối liên hệ giữa những ghi chú của bạn dưới dạng mạng lưới đồ thị, giúp bạn khám phá ra những luồng tư duy và ý tưởng mới ẩn sâu bên trong.',
+      },
+      {
+        title: 'Hệ sinh thái Plugin khổng lồ',
+        description:
+          'Biến Obsidian thành bất cứ công cụ nào bạn muốn với hàng nghìn plugin cộng đồng: vẽ sơ đồ với Excalidraw, quản lý task với Kanban, hay truy vấn dữ liệu với Dataview.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/obsidian.webp',
+      alt: 'Obsidian Graph View Interface',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Obsidian - Căn cứ địa cho Tư duy
+      </h3>
+      Xây dựng bộ não thứ hai vĩnh cửu và ngoại tuyến với sức mạnh của văn bản thuần túy.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent
+    items={[
+      {
+        title: 'Nguyên lý Hộp Ghi Chú (Slip-box)',
+        description:
+          'Thay vì phân loại theo thư mục cứng nhắc, mỗi ghi chú (Zettel) là một ý tưởng nguyên tử độc lập, được gắn thẻ và lưu trữ trong một không gian phẳng để dễ dàng truy xuất.',
+      },
+      {
+        title: 'Liên kết ý tưởng ngẫu nhiên',
+        description:
+          'Sức mạnh của Zettelkasten nằm ở việc tạo ra các liên kết chéo (backlinks) giữa các ghi chú dường như không liên quan, từ đó kích thích những ý tưởng sáng tạo đột phá.',
+      },
+      {
+        title: 'Quy trình làm việc 3 bước',
+        description:
+          'Bắt đầu với Ghi chú Nhanh (Fleeting Notes) trong ngày, chắt lọc thành Ghi chú Thường trực (Permanent Notes) bằng ngôn ngữ của riêng bạn, và cuối cùng là kết nối chúng vào hệ thống.',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/zettelkasten.webp',
+      alt: 'Zettelkasten Slip-box System',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Zettelkasten: Nghệ thuật kết nối ý tưởng
+      </h3>
+      Hệ thống quản trị tri thức tối thượng biến những mảnh ghép thông tin thành một cỗ máy tư duy sáng tạo.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Steps Widget ****************** -->
+
+  <Steps
+    title="Hành trình di cư: Từ WordPress rườm rà đến Astro + Cloudflare tinh gọn"
+    items={[
+      {
+        title: 'Bước 1: <span class="font-medium">Nhận ra giới hạn của hệ thống cũ</span>',
+        description:
+          'WordPress từng đáp ứng tốt nhu cầu ban đầu, nhưng dần trở nên cồng kềnh với hàng tá plugin, tốc độ tải trang chậm chạp và quá trình bảo trì tốn quá nhiều thời gian.',
+        icon: 'tabler:brand-wordpress',
+      },
+      {
+        title: 'Bước 2: <span class="font-medium">Xác định kiến trúc mới</span>',
+        description:
+          'Mục tiêu đặt ra: Chi phí vận hành gần như bằng 0, hạ tầng không điểm lỗi, và toàn quyền kiểm soát nội dung bằng Git thay vì chỉnh sửa trực tiếp trên Admin Panel.',
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Bước 3: <span class="font-medium">Triển khai bộ ba hoàn hảo</span>',
+        description:
+          'Sử dụng Astro để build trang tĩnh tốc độ cao, GitHub để quản lý phiên bản Markdown, và Cloudflare Pages để deploy tự động ngay khi có thay đổi mới.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Thành quả đạt được!',
+        description:
+          'Một hệ thống tinh gọn, bảo mật tuyệt đối, tốc độ tải trang cực nhanh và một quy trình biên tập kỷ luật.<br /><br /><a href="/about" class="inline-flex items-center justify-center rounded-lg shadow-md px-5 py-2.5 font-semibold text-white bg-primary hover:opacity-90 transition">Đọc toàn bộ Case Study</a>',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/about-us.webp',
+      alt: 'WordPress to Astro Migration',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  {
+    /* <Features2
+    title="Most used widgets"
+    subtitle="Provides frequently used components for building websites using Tailwind CSS v4"
+    tagline="Components"
+    items={[
+      {
+        title: 'Headers',
+        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
+        icon: 'flat-color-icons:template',
+      },
+      {
+        title: 'Heros',
+        description:
+          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Features',
+        description:
+          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+        icon: 'flat-color-icons:approval',
+      },
+      {
+        title: 'Content',
+        description:
+          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
+        icon: 'flat-color-icons:document',
+      },
+      {
+        title: 'Call-to-Action',
+        description:
+          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
+        icon: 'flat-color-icons:advertising',
+      },
+      {
+        title: 'Pricing',
+        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
+        icon: 'flat-color-icons:currency-exchange',
+      },
+      {
+        title: 'Testimonial',
+        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
+        icon: 'flat-color-icons:voice-presentation',
+      },
+      {
+        title: 'Contact',
+        description:
+          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
+        icon: 'flat-color-icons:business-contact',
+      },
+      {
+        title: 'Footers',
+        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
+        icon: 'flat-color-icons:database',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2> */
+  }
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    title="Find out more content in our Blog"
+    information={`The blog is used to display AstroWind documentation.
+                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro v6 + Tailwind CSS v4.
+                        Astro is a very interesting technology. Thanks.
+                `}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  {
+    /* <FAQs
+    title="Frequently Asked Questions"
+    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
+        title: 'Why AstroWind?',
+        description:
+          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+      },
+      {
+        title: 'What do I need to start?',
+        description:
+          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+      },
+      {
+        title: 'How to install the Astro + Tailwind CSS template?',
+        description:
+          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+      },
+      {
+        title: "What's something that you don't understand?",
+        description:
+          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+      },
+      {
+        title: 'What is something that you would like to try again?',
+        description:
+          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+      },
+      {
+        title: 'If you could only ask one question to each person you meet, what would that question be?',
+        description:
+          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+      },
+    ]}
+  /> */
+  }
+
+  <!-- Stats Widget ****************** -->
+  {
+    /*
+  <Stats
+    stats={[
+      { title: 'Downloads', amount: '132K' },
+      { title: 'Stars', amount: '24.8K' },
+      { title: 'Forks', amount: '10.3K' },
+      { title: 'Users', amount: '48.4K' },
+    ]}
+  />*/
+  }
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Đọc ngay!',
+        href: '/stories/alien-interview',
+        target: '_blank',
+        icon: 'tabler:book',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Alien&nbsp;&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Interviews</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Cuốn sách phơi bày lịch sử thực sự của vũ trụ, bẫy linh hồn tại Trái Đất <br class="hidden md:inline" />Đây là
+      hành trình khám phá sự thật về bản chất bất tử của mỗi "IS-BE"
+    </Fragment>
+  </CallToAction>
+</Layout>

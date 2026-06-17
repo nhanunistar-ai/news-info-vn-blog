@@ -1,0 +1,160 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Image from '~/components/common/Image.astro';
+
+import type { MetaData } from '~/types';
+
+const metadata: MetaData = {
+  title: 'Tôi đã chuyển nhà từ WordPress sang đây như thế nào?',
+  description:
+    'Case study chuyển toàn bộ blog từ WordPress sang Astro + Cloudflare Pages, giảm chi phí, tăng tốc độ và kiểm soát nội dung chặt hơn.',
+  openGraph: {
+    type: 'website',
+    images: [
+      {
+        url: '~/assets/images/about-us.webp',
+        width: 960,
+        height: 480,
+      },
+    ],
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+    <article>
+      <header class="intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+        <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
+          <p class="text-muted dark:text-slate-400 text-sm">
+            <time datetime="2026-05-04T00:00:00.000Z">May 4 2026</time>
+            {' · '}
+            <span>Admin</span>
+          </p>
+        </div>
+
+        <h1
+          class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        >
+          Tôi đã chuyển nhà từ WordPress sang đây như thế nào?
+        </h1>
+
+        <p
+          class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
+        >
+          Case study chuyển toàn bộ blog từ WordPress sang Astro + Cloudflare Pages, giảm chi phí, tăng tốc độ và kiểm
+          soát nội dung chặt hơn.
+        </p>
+
+        <Image
+          src="~/assets/images/about-us.webp"
+          class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+          widths={[500, 900]}
+          sizes="(max-width: 900px) 500px, 800px"
+          alt="Blog placeholder about"
+          width={1020}
+          height={600}
+          loading="eager"
+          decoding="async"
+        />
+      </header>
+
+      <div
+        class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      >
+        <p>
+          Tôi từng có một website WordPress vận hành theo kiểu "đăng đều là được". Ban đầu mọi thứ ổn, nhưng càng về sau
+          hệ thống càng nặng: plugin chồng plugin, tốc độ giảm, bảo trì mệt, và nội dung không còn tạo ra khác biệt.
+        </p>
+
+        <p>
+          Đến lúc cần làm lại từ đầu, tôi không muốn sửa chữa một kiến trúc cũ nữa. Tôi chọn chuyển hẳn sang mô hình
+          blog tĩnh với <strong>Astro + Cloudflare Pages</strong>, tập trung vào thứ quan trọng nhất: nội dung có giá
+          trị và quy trình xuất bản có kiểm soát.
+        </p>
+
+        <h2>Vì sao tôi rời WordPress?</h2>
+
+        <p>Lý do không phải vì WordPress tệ. Vấn đề là WordPress không còn phù hợp với mục tiêu mới của tôi:</p>
+
+        <ul>
+          <li>Tôi cần chi phí vận hành gần như bằng 0.</li>
+          <li>Tôi muốn hạ tầng ít điểm lỗi nhất có thể.</li>
+          <li>Tôi muốn toàn quyền kiểm soát nội dung bằng Git, thay vì bấm sửa trực tiếp trên admin panel.</li>
+        </ul>
+
+        <p>
+          Nếu mục tiêu là "đội biên tập lớn, nhiều tính năng động", WordPress vẫn rất mạnh. Nhưng nếu mục tiêu là
+          "nhanh, gọn, bền, dễ mở rộng bằng AI workflow", stack tĩnh hiệu quả hơn.
+        </p>
+
+        <h2>Kiến trúc mới tôi chọn</h2>
+
+        <p>Tôi chuẩn hóa lại theo 4 thành phần:</p>
+
+        <ul>
+          <li><strong>Astro</strong> để build site tĩnh.</li>
+          <li><strong>GitHub</strong> để quản lý phiên bản nội dung và code.</li>
+          <li><strong>Cloudflare Pages</strong> để deploy tự động mỗi lần push.</li>
+          <li><strong>Cloudflare DNS + Email Routing</strong> để giữ domain sống ổn định và xử lý email tên miền.</li>
+        </ul>
+
+        <p>
+          Kết quả là mọi thứ chạy như một pipeline rõ ràng: viết bài bằng Markdown, commit, push, tự build, tự lên
+          production.
+        </p>
+
+        <h2>Các bước chuyển nhà thực tế</h2>
+
+        <p>Tôi đi theo trình tự an toàn để không downtime:</p>
+
+        <ol>
+          <li>Dựng project Astro blog mới hoàn toàn.</li>
+          <li>Push source lên GitHub repo riêng.</li>
+          <li>
+            Deploy lên <code>*.pages.dev</code> để test độc lập.
+          </li>
+          <li>Trỏ domain thật sang Cloudflare Pages sau khi test ổn.</li>
+          <li>Giữ server cũ thêm 24-48h rồi mới tắt.</li>
+        </ol>
+
+        <p>
+          Điểm quan trọng nhất: <strong>không xóa hạ tầng cũ trước khi domain mới chạy ổn</strong>.
+        </p>
+
+        <h2>Tôi đã được gì sau khi chuyển?</h2>
+
+        <p>Sau khi chuyển xong, có 3 thay đổi rõ nhất:</p>
+
+        <ul>
+          <li>Tốc độ tải trang cải thiện mạnh nhờ static + CDN edge.</li>
+          <li>Rủi ro bảo mật thấp hơn do không còn bề mặt tấn công kiểu plugin/database như trước.</li>
+          <li>Quy trình xuất bản chuyên nghiệp hơn: mọi thay đổi đều có lịch sử commit, review, rollback rõ ràng.</li>
+        </ul>
+
+        <p>Tôi cũng thấy đầu óc nhẹ đi đáng kể. Không còn kiểu "đăng nhập admin sửa nóng rồi quên đã sửa gì".</p>
+
+        <h2>Bài học lớn nhất</h2>
+
+        <p>Chuyển từ WordPress sang Astro không chỉ là thay công nghệ. Nó là thay cách làm nội dung:</p>
+
+        <ul>
+          <li>Bớt phụ thuộc vào công cụ.</li>
+          <li>Tăng kỷ luật biên tập.</li>
+          <li>Ưu tiên nội dung nguyên bản thay vì nội dung cho đủ số lượng.</li>
+        </ul>
+
+        <p>
+          Nếu bạn đang có một domain cũ và muốn hồi sinh nó theo hướng tinh gọn, đây là combo tôi recommend: <strong
+            >Astro + Cloudflare Pages + quy trình viết chuẩn Markdown</strong
+          >.
+        </p>
+
+        <p>
+          Mọi thứ bắt đầu rất nhỏ, nhưng vận hành đúng ngay từ đầu sẽ giúp bạn đi đường dài mà không phải đập đi làm lại
+          lần nữa.
+        </p>
+      </div>
+    </article>
+  </section>
+</Layout>

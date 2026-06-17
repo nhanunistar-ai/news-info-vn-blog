@@ -1,0 +1,13 @@
+---
+interface Props {
+  series: any;
+}
+
+const { series } = Astro.props;
+---
+
+<div>
+  <h1>Series TOC</h1>
+  <p>{series?.title}</p>
+  <p>{series?.description}</p>
+</div>

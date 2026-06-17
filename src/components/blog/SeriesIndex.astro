@@ -1,0 +1,75 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { fetchPosts } from '~/utils/blog';
+import { getCollection } from 'astro:content';
+import Image from '~/components/common/Image.astro';
+import { getPermalink } from '~/utils/permalinks';
+
+export interface Props {
+  seriesSlug: string;
+}
+
+const { seriesSlug } = Astro.props;
+
+// Fetch series details
+const seriesEntries = await getCollection('series');
+const seriesData = seriesEntries.find(s => s.id === seriesSlug)?.data;
+
+// Fetch posts belonging to this series
+const allPosts = await fetchPosts();
+const seriesPosts = allPosts.filter(post => post.series === seriesSlug)
+  .sort((a, b) => (a.chapter ?? 999) - (b.chapter ?? 999) || a.publishDate.valueOf() - b.publishDate.valueOf());
+
+const title = seriesData?.title || 'Series';
+const description = seriesData?.description || '';
+const image = seriesData?.image || seriesPosts[0]?.image;
+
+const metadata = {
+  title: title,
+  description: description,
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <div class="grid grid-cols-1 md:grid-cols-[minmax(260px,420px)_1fr] gap-8 items-center mb-16">
+      <div class="relative w-full aspect-[3/4] overflow-hidden rounded-xl shadow-lg">
+        {image ? (
+          <Image
+            src={image}
+            class="w-full h-full object-cover"
+            alt={title}
+            width={720}
+            height={960}
+          />
+        ) : (
+          <div class="w-full h-full bg-gray-200 dark:bg-slate-700"></div>
+        )}
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-primary uppercase tracking-wide mb-2">{seriesPosts.length} phần</p>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading mb-4">{title}</h1>
+        <p class="text-lg text-muted">{description}</p>
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold mb-6">Mục lục</h2>
+      <ul class="flex flex-col gap-4">
+        {seriesPosts.map((chapter) => (
+          <li>
+            <a href={getPermalink(chapter.permalink, 'post')} class="group flex flex-col md:flex-row gap-2 md:gap-6 items-baseline py-4 border-b border-gray-200 dark:border-slate-700 hover:text-primary transition-colors">
+              <span class="text-gray-500 dark:text-slate-400 font-bold min-w-[120px]">
+                {chapter.chapter === 0 ? 'Giới thiệu' : `Chương ${chapter.chapter || '?'}`}
+              </span>
+              <div>
+                <h3 class="text-xl font-bold mb-1 group-hover:text-primary transition-colors">{chapter.title}</h3>
+                <p class="text-gray-600 dark:text-slate-400 text-sm">{chapter.excerpt}</p>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Layout>
