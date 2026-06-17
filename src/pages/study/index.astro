@@ -1,0 +1,181 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import PostMeta from '../../components/PostMeta.astro';
+import { SITE_TITLE } from '../../consts';
+import MemoriesDreamsCover from '../../assets/memories-dreams-reflections.webp';
+import { isPublishedPost } from '../../lib/posts';
+
+const posts = (await getCollection('blog', ({ data }) => isPublishedPost(data) && data.category === 'study')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const seriesLabels: Record<string, { title: string; description: string; order: number; coverImage?: typeof MemoriesDreamsCover }> = {
+	'chu-nghia-khac-ky': {
+		title: 'Chủ Nghĩa Khắc Kỷ',
+		description: 'Mạch bài về Stoicism, từ nền tảng triết học đến thực hành đời sống.',
+		order: 1,
+	},
+	'ai-ky': {
+		title: 'Ái Kỷ',
+		description: 'Mạch bài về ái kỷ, từ định nghĩa, quan hệ độc hại đến các lăng kính tâm lý và văn hóa.',
+		order: 2,
+	},
+	'memories-dreams-reflections': {
+		title: 'Memories, Dreams, Reflections',
+		description: 'Mạch đọc Jung qua ký ức, giấc mơ, biểu tượng và hành trình cá nhân hóa trong cuốn hồi ký quan trọng nhất của ông.',
+		order: 3,
+		coverImage: MemoriesDreamsCover,
+	},
+	socrates: {
+		title: 'Socrates',
+		description: 'Mạch bài về nghệ thuật đặt câu hỏi, tự xét mình và triết học như một cách sống từ Socrates.',
+		order: 4,
+	},
+};
+
+const seriesGroups = new Map<string, typeof posts>();
+for (const post of posts) {
+	if (!post.data.series) continue;
+	if (!seriesGroups.has(post.data.series)) seriesGroups.set(post.data.series, []);
+	seriesGroups.get(post.data.series)!.push(post);
+}
+
+const seriesCards = Array.from(seriesGroups.entries())
+	.map(([slug, items]) => {
+		const orderedItems = [...items].sort((a, b) => (a.data.chapter ?? 0) - (b.data.chapter ?? 0));
+		const first = orderedItems[0];
+		const label = seriesLabels[slug];
+
+		return {
+			slug,
+			title: label?.title ?? first.data.title,
+			description: label?.description ?? first.data.description,
+			coverImage: label?.coverImage ?? first.data.heroImage,
+			count: orderedItems.length,
+			order: label?.order ?? 99,
+		};
+	})
+	.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, 'vi'));
+
+const standalonePosts = posts.filter((post) => !post.data.series);
+---
+
+<!doctype html>
+<html lang="vi">
+	<head>
+		<BaseHead
+			title={`Study | ${SITE_TITLE}`}
+			description="Các chuỗi nghiên cứu, bài học nền tảng và ghi chú học tập trên news.info.vn."
+		/>
+		<style>
+			main {
+				width: min(1020px, calc(100% - 2em));
+			}
+			.page-title {
+				margin-bottom: 1.5rem;
+			}
+			.series-grid,
+			.story-grid {
+				display: grid;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				gap: 1.5rem;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			.series-card,
+			.story-card {
+				display: block;
+				color: inherit;
+				text-decoration: none;
+			}
+			.series-card img,
+			.story-card img {
+				width: 100%;
+				aspect-ratio: 16 / 9;
+				object-fit: cover;
+				border-radius: 12px;
+				margin-bottom: 0.75rem;
+			}
+			.series-card:hover img,
+			.story-card:hover img {
+				box-shadow: var(--box-shadow);
+			}
+			.meta {
+				margin: 0 0 0.25rem;
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+			}
+			h2 {
+				margin-top: 2.5rem;
+			}
+			h3 {
+				margin: 0 0 0.35rem;
+				font-size: 1.35rem;
+			}
+			.description {
+				margin: 0;
+				color: rgb(var(--gray-dark));
+			}
+			@media (max-width: 720px) {
+				.series-grid,
+				.story-grid {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="page-title">
+				<h1>Study</h1>
+				<p>Các chuỗi nghiên cứu, bài học nền tảng và ghi chú học tập trên news.info.vn.</p>
+			</section>
+
+			<section>
+				<ul class="series-grid">
+					{
+						seriesCards.map((series) => (
+							<li>
+								<a class="series-card" href={`/study/${series.slug}/`}>
+									<Image width={720} height={360} src={series.coverImage} alt="" />
+									<p class="meta">{series.count} phần</p>
+									<h3>{series.title}</h3>
+									<p class="description">{series.description}</p>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+
+			{
+				standalonePosts.length > 0 && (
+					<section>
+						<p></p> 
+						<ul class="story-grid">
+							{standalonePosts.map((post) => (
+								<li>
+									<a class="story-card" href={`/news/${post.id}/`}>
+										{post.data.heroImage && <Image width={720} height={360} src={post.data.heroImage} alt="" />}
+										<p class="meta">
+											<PostMeta date={post.data.pubDate} postId={post.id} author={post.data.author} />
+										</p>
+										<h3>{post.data.title}</h3>
+										<p class="description">{post.data.description}</p>
+									</a>
+								</li>
+							))}
+						</ul>
+					</section>
+				)
+			}
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,151 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<nav>
+		<h2>
+			<a class="brand" href="/">
+				<img src="/LOGO.svg" alt={SITE_TITLE} />
+			</a>
+		</h2>
+		<div class="nav-actions">
+			<details class="main-menu">
+				<summary class="menu-summary">
+					<img class="menu-icon" src="/nenu.svg" alt="" aria-hidden="true" />
+					<span class="sr-only">Mở menu</span>
+				</summary>
+				<div class="menu-dropdown">
+					<HeaderLink href="/">Home</HeaderLink>
+					<HeaderLink href="/stories">Stories</HeaderLink>
+					<HeaderLink href="/study">Study</HeaderLink>
+					<HeaderLink href="/news">News</HeaderLink>
+					<HeaderLink href="/about">About</HeaderLink>
+				</div>
+			</details>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0;
+		background: white;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+	.brand {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.375em 0.25em;
+		border-bottom: 4px solid transparent;
+	}
+	.brand img {
+		display: block;
+		height: 42px;
+		width: auto;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: min(1020px, calc(100% - 2em));
+		margin: 0 auto;
+	}
+	.nav-actions {
+		display: flex;
+		align-items: center;
+		gap: 0.35rem;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: var(--black);
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+		align-items: center;
+	}
+	.social-links a {
+		padding: 0.375em 0.25em;
+	}
+	.social-links img {
+		display: block;
+		height: 42px;
+		width: auto;
+	}
+	.main-menu {
+		position: relative;
+	}
+	.menu-summary {
+		list-style: none;
+		cursor: pointer;
+		border: none;
+		background: transparent;
+		padding: 0;
+		display: inline-flex;
+		align-items: center;
+	}
+	.menu-summary::-webkit-details-marker {
+		display: none;
+	}
+	.menu-icon {
+		display: block;
+		height: 42px;
+		width: 42px;
+		border-radius: 8px;
+		object-fit: contain;
+	}
+	.menu-dropdown {
+		position: absolute;
+		right: 0;
+		top: calc(100% + 0.35rem);
+		display: flex;
+		flex-direction: column;
+		min-width: 170px;
+		background: #fff;
+		border: 1px solid rgb(var(--gray-light));
+		border-radius: 10px;
+		box-shadow: var(--box-shadow);
+		z-index: 20;
+	}
+	.menu-dropdown a {
+		padding: 0.75rem 0.9rem;
+		border-bottom: 1px solid rgb(var(--gray-light));
+	}
+	.menu-dropdown a:last-child {
+		border-bottom: none;
+	}
+	@media (max-width: 720px) {
+		.brand {
+			padding: 0.25rem 0;
+		}
+		.brand img {
+			height: 34px;
+		}
+		/* Keep the compact menu icon on small screens as well */
+		.internal-links,
+		.social-links {
+			display: none;
+		}
+		.menu-icon {
+			height: 34px;
+			width: 34px;
+		}
+	}
+</style>

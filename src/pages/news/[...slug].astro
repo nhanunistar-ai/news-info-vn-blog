@@ -1,0 +1,114 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+import { isPublishedPost } from '../../lib/posts';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog', ({ data }) => isPublishedPost(data));
+	const orderedPosts = posts.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+	const seriesEntries = await getCollection('series');
+	const studySeriesTitles: Record<string, string> = {
+		'chu-nghia-khac-ky': 'Chủ Nghĩa Khắc Kỷ',
+		'ai-ky': 'Ái Kỷ',
+		'memories-dreams-reflections': 'Memories, Dreams, Reflections',
+	};
+
+	return orderedPosts.map((post, index) => {
+		const relatedPosts: CollectionEntry<'blog'>[] = [];
+		const relatedLabels = new Map<string, string>();
+		const seriesEntry =
+			post.data.category !== 'study' && post.data.series
+				? seriesEntries.find((candidate) => candidate.id === post.data.series)
+				: undefined;
+
+		if (post.data.series) {
+			const seriesPosts = orderedPosts
+				.filter((candidate) => candidate.data.series === post.data.series)
+				.sort(
+					(a, b) =>
+						(a.data.chapter ?? Number.MAX_SAFE_INTEGER) - (b.data.chapter ?? Number.MAX_SAFE_INTEGER) ||
+						a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+				);
+			const seriesIndex = seriesPosts.findIndex((candidate) => candidate.id === post.id);
+			const previousChapter = seriesPosts[seriesIndex - 1];
+			const nextChapter = seriesPosts[seriesIndex + 1];
+
+			if (previousChapter) {
+				relatedPosts.push(previousChapter);
+				relatedLabels.set(previousChapter.id, seriesEntry ? 'Chương trước' : 'Phần trước');
+			}
+			if (nextChapter) {
+				relatedPosts.push(nextChapter);
+				relatedLabels.set(nextChapter.id, seriesEntry ? 'Chương sau' : 'Phần sau');
+			}
+		} else {
+			const previousPost = orderedPosts[index - 1];
+			const nextPost = orderedPosts[index + 1];
+
+			if (previousPost) {
+				relatedPosts.push(previousPost);
+				relatedLabels.set(previousPost.id, 'Bài trước');
+			}
+			if (nextPost) {
+				relatedPosts.push(nextPost);
+				relatedLabels.set(nextPost.id, 'Bài sau');
+			}
+
+			const randomCandidates = orderedPosts.filter(
+				(candidate) => candidate.id !== post.id && !relatedPosts.some((relatedPost) => relatedPost.id === candidate.id),
+			);
+			const hash = [...post.id].reduce((total, character) => total + character.charCodeAt(0), 0);
+			const randomPost = randomCandidates[hash % randomCandidates.length];
+
+			if (randomPost) {
+				relatedPosts.push(randomPost);
+				relatedLabels.set(randomPost.id, 'Bài ngẫu nhiên');
+			}
+		}
+
+		return {
+			params: { slug: post.id },
+			props: {
+				...post,
+				relatedPosts: relatedPosts.slice(0, 3).map((relatedPost) => ({
+					id: relatedPost.id,
+					label: relatedLabels.get(relatedPost.id),
+					data: {
+						title: relatedPost.data.title,
+					},
+				})),
+				seriesNav: post.data.series
+					? {
+							title:
+								(post.data.category === 'study' && studySeriesTitles[post.data.series]) ||
+								seriesEntry?.data.title ||
+								post.data.series,
+							href: post.data.category === 'study' ? `/study/${post.data.series}/` : `/stories/${post.data.series}/`,
+						}
+					: undefined,
+				isSeriesPost: Boolean(post.data.series),
+			},
+		};
+	});
+}
+
+type Props = {
+	relatedPosts: {
+		id: string;
+		label?: string;
+		data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
+	}[];
+	seriesNav?: {
+		title: string;
+		href: string;
+	};
+	isSeriesPost?: boolean;
+} & CollectionEntry<'blog'>;
+
+const { relatedPosts, seriesNav, isSeriesPost, ...post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BlogPost {...post.data} postId={post.id} relatedPosts={relatedPosts} seriesNav={seriesNav} isSeriesPost={isSeriesPost}>
+	<Content />
+</BlogPost>

@@ -1,0 +1,187 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import Header from '../components/Header.astro';
+import PostMeta from '../components/PostMeta.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+type RelatedPost = {
+	id: string;
+	label?: string;
+	data: Pick<CollectionEntry<'blog'>['data'], 'title'>;
+};
+
+type SeriesNav = {
+	title: string;
+	href: string;
+};
+
+const { title, description, pubDate, updatedDate, heroImage, author, relatedPosts = [], seriesNav } = Astro.props as Props & {
+	relatedPosts?: RelatedPost[];
+	seriesNav?: SeriesNav;
+	isSeriesPost?: boolean;
+	postId?: string;
+};
+const isSeriesPost = Boolean((Astro.props as { isSeriesPost?: boolean }).isSeriesPost);
+const postId = (Astro.props as { postId?: string }).postId ?? title;
+---
+
+<html lang="vi">
+	<head>
+		<BaseHead title={title} description={description} image={heroImage} />
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.hero-image {
+				width: 100%;
+			}
+			.hero-image img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+				color: rgb(var(--gray-dark));
+				--paragraph-gap: 1.2em;
+				--break-gap: 0.75em;
+			}
+			.title {
+				margin-bottom: 1em;
+				padding: 1em 0;
+				text-align: center;
+				line-height: 1;
+			}
+			.title h1 {
+				margin: 0 0 0.5em 0;
+				font-size: 50px;
+			}
+			.prose :global(h3) {
+				font-size: 31px;
+			}
+			.prose :global(p) {
+				margin: 0 0 var(--paragraph-gap);
+			}
+			.prose :global(br) {
+				display: block;
+				content: '';
+				margin: var(--break-gap) 0 0;
+			}
+			.prose :global(p:has(+ ul)),
+			.prose :global(p:has(+ ol)) {
+				margin-bottom: var(--break-gap);
+			}
+			.prose :global(p + ul),
+			.prose :global(p + ol) {
+				margin-top: 0;
+			}
+			.date {
+				margin-bottom: 0.5em;
+				color: rgb(var(--gray));
+			}
+			.last-updated-on {
+				font-style: italic;
+			}
+			.related-posts {
+				margin-top: 2rem;
+				padding-top: 1.5rem;
+				border-top: 1px solid rgba(0, 0, 0, 0.1);
+			}
+			.related-posts h2 {
+				margin: 0 0 1rem;
+				font-size: 1.35rem;
+				color: rgb(var(--gray-dark));
+			}
+			.related-posts ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: grid;
+				gap: 0.75rem;
+			}
+			.related-posts a {
+				color: rgb(var(--primary));
+				text-decoration: none;
+				font-weight: 700;
+			}
+			.related-posts a:hover {
+				text-decoration: underline;
+			}
+			.series-back-link {
+				display: inline-block;
+				margin-top: 2rem;
+				color: rgb(var(--primary));
+				font-weight: 700;
+				text-decoration: none;
+			}
+			.series-back-link:hover {
+				text-decoration: underline;
+			}
+			.related-label {
+				display: block;
+				margin-bottom: 0.15rem;
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+				font-weight: 700;
+			}
+		</style>
+	</head>
+
+	<body>
+		<Header />
+		<main>
+			<article>
+				<div class="hero-image">
+					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+				</div>
+				<div class="prose">
+					<div class="title">
+						<div class="date">
+							<PostMeta date={pubDate} postId={postId} author={author} />
+							{
+								updatedDate && (
+									<div class="last-updated-on">
+										Last updated on <FormattedDate date={updatedDate} />
+									</div>
+								)
+							}
+						</div>
+						<h1>{title}</h1>
+						<hr />
+					</div>
+					<slot />
+					{seriesNav && <a class="series-back-link" href={seriesNav.href}>Quay lại mục lục {seriesNav.title}</a>}
+					{
+						relatedPosts.length > 0 && (
+							<div class="related-posts">
+								<h2>{isSeriesPost ? 'Đọc tiếp trong series' : 'Bài viết liên quan'}</h2>
+								<ul>
+									{relatedPosts.map((relatedPost) => (
+										<li>
+											<a href={`/news/${relatedPost.id}/`}>
+												{relatedPost.label && <span class="related-label">{relatedPost.label}</span>}
+												{relatedPost.data.title}
+											</a>
+										</li>
+									))}
+								</ul>
+							</div>
+						)
+					}
+				</div>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>

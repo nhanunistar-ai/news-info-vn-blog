@@ -1,0 +1,46 @@
+---
+const today = new Date();
+import ScrollToTop from './ScrollToTop.astro';
+---
+
+<footer>
+	&copy; {today.getFullYear()} news.info.vn. All rights reserved.
+	<div class="social-links">
+		<a href="https://www.facebook.com/tintucthoisutonghop/" target="_blank" rel="noreferrer">
+			<span class="sr-only">Theo dõi chúng tôi trên Facebook</span>
+			<img src="/logo-footer.svg" alt="Facebook" />
+		</a>
+	</div>
+</footer>
+<ScrollToTop />
+
+<style>
+	footer {
+		padding: 2em 1em 6em 1em;
+		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		color: rgb(var(--gray));
+		text-align: center;
+	}
+
+	.social-links {
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 1em;
+	}
+
+	.social-links a {
+		text-decoration: none;
+		color: rgb(var(--gray));
+	}
+
+	.social-links img {
+		display: block;
+		height: 65px;
+		width: auto;
+	}
+
+	.social-links a:hover {
+		color: rgb(var(--gray-dark));
+	}
+</style>
