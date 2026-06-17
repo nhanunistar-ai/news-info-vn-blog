@@ -10,9 +10,10 @@ image: '~/assets/images/440hz-va-432hz.webp'
 
 ### Vì sao 440Hz và 432Hz lại gây tranh luận?
 
-> Âm thanh về bản chất là dao động. Một giọng nói, tiếng đàn, tiếng chim hay tiếng máy đều được tạo nên từ các tần số cơ bản và các họa âm đi kèm. 
+> Âm thanh về bản chất là dao động. Một giọng nói, tiếng đàn, tiếng chim hay tiếng máy đều được tạo nên từ các tần số cơ bản và các họa âm đi kèm.
 
- Với nhạc sĩ, tần số trước hết là công cụ để chỉnh dây, phối hợp dàn nhạc và giữ cho các nhạc cụ chơi cùng nhau không bị lệch cao độ. Nhưng trong các cộng đồng tâm linh, thiền định và trị liệu âm thanh, tần số thường được nhìn như một thứ có khả năng tác động đến cảm xúc, năng lượng và trạng thái nhận thức.
+Với nhạc sĩ, tần số trước hết là công cụ để chỉnh dây, phối hợp dàn nhạc và giữ cho các nhạc cụ chơi cùng nhau không bị lệch cao độ. Nhưng trong các cộng đồng tâm linh, thiền định và trị liệu âm thanh, tần số thường được nhìn như một thứ có khả năng tác động đến cảm xúc, năng lượng và trạng thái nhận thức.
+
 <figure>
   <figcaption><strong>Mẫu âm thanh 440Hz</strong></figcaption>
   <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">
@@ -22,6 +23,7 @@ image: '~/assets/images/440hz-va-432hz.webp'
 </figure>
 
 Từ đó nảy sinh cuộc tranh luận quen thuộc: nên chỉnh nốt La trung tâm A4 ở 440Hz như chuẩn hiện đại, hay nên dùng 432Hz như một lựa chọn được cho là tự nhiên, hài hòa và dễ chịu hơn?
+
 <figure>
   <figcaption><strong>Mẫu âm thanh 432Hz</strong></figcaption>
   <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">
@@ -43,12 +45,12 @@ Theo bài gốc, 440Hz từng được đề xuất trong thế kỷ 19, đượ
 
 ### 432Hz: biểu tượng của hòa âm vũ trụ?
 
-432Hz thường được gọi là lựa chọn thay thế cho A4. Những người ủng hộ 432Hz cho rằng nó gần với các tỷ lệ hòa âm tự nhiên, dễ nghe hơn, mềm hơn và có khả năng tạo cảm giác thư giãn.  
+432Hz thường được gọi là lựa chọn thay thế cho A4. Những người ủng hộ 432Hz cho rằng nó gần với các tỷ lệ hòa âm tự nhiên, dễ nghe hơn, mềm hơn và có khả năng tạo cảm giác thư giãn.
 
 **Harmonic Ratios Chart- 432hz**
 
 ![CHarmonic Ratios Chart- 432hz](../../assets/images/Pythagoras+final.webp)
-*Source: [Ask.Video](https://ask.video/article/audio-hardware/music-theory-exploring-the-432hz-tuning-debate)*
+_Source: [Ask.Video](https://ask.video/article/audio-hardware/music-theory-exploring-the-432hz-tuning-debate)_
 
 Một phần sức hút của 432Hz đến từ truyền thống Pythagoras. Pythagoras không chỉ là nhà toán học, mà còn là người gắn âm nhạc với tỷ lệ số học. Với đàn một dây monochord, ông quan sát rằng các tỷ lệ như 2:1 tạo thành quãng tám, 3:2 tạo thành quãng năm, và từ đó hình thành ý tưởng rằng vũ trụ có thể được hiểu như một trật tự hài hòa bằng số.
 
@@ -87,8 +89,7 @@ Nếu tò mò, cách tốt nhất là tự kiểm tra bằng tai và cơ thể c
 Làm vài lần trong nhiều ngày khác nhau, bạn sẽ có dữ liệu cá nhân đáng tin hơn việc chỉ đọc một tuyên bố trên mạng.
 
 ![Futuristic Sound Wave](../../assets/images/Futuristic+Hud,+Ui+Vector+Grid_+Music+Sound+Waves+Set+Stock+Vector.webp)  
-[*Futuristic Sound Wave*](https://www.pinterest.com/pin/create/button/?guid=JzzEp3DkimxP&url=https%3A%2F%2Fwww.sylviavillamusic.com%2Fblog%2F440hz-432hz-an-investigation&media=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F60563271d2b82d6bb184d855%2Fa0226221-cd91-4d5f-b0d7-4c340bcc7586%2FFuturistic%2BHud%252C%2BUi%2BVector%2BGrid_%2BMusic%2BSound%2BWaves%2BSet%2BStock%2BVector%2B-%2BIllustration%2Bof%2Bobject%252C%2Beffect_%2B78157701.jpg&description=The%20440hz%20v.%20432hz%20Debate%20%7C%20Frequency%20Fascinations%20%E2%80%94%20SYLVIA%20VILLA)
-
+[_Futuristic Sound Wave_](https://www.pinterest.com/pin/create/button/?guid=JzzEp3DkimxP&url=https%3A%2F%2Fwww.sylviavillamusic.com%2Fblog%2F440hz-432hz-an-investigation&media=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F60563271d2b82d6bb184d855%2Fa0226221-cd91-4d5f-b0d7-4c340bcc7586%2FFuturistic%2BHud%252C%2BUi%2BVector%2BGrid_%2BMusic%2BSound%2BWaves%2BSet%2BStock%2BVector%2B-%2BIllustration%2Bof%2Bobject%252C%2Beffect_%2B78157701.jpg&description=The%20440hz%20v.%20432hz%20Debate%20%7C%20Frequency%20Fascinations%20%E2%80%94%20SYLVIA%20VILLA)
 
 Điểm thú vị của tranh luận 440Hz và 432Hz không nằm ở việc chọn phe, mà ở việc nó buộc ta nghe kỹ hơn. Khi bắt đầu chú ý đến cao độ, tần số, độ rung và cảm giác cơ thể, ta cũng bắt đầu nhận ra âm nhạc không chỉ là nền âm thanh chạy sau lưng đời sống. Nó là một môi trường tác động trực tiếp đến nhận thức.
 

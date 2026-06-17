@@ -10,7 +10,7 @@ publishDate: 2026-05-22T17:00:00.000Z
 image: '~/assets/images/philemon-nguoi-thay-noi-tam-cua-jung.webp'
 ---
 
-Bạn đang trong phần 9 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [giai đoạn Jung đối diện vô thức sau khi rời Freud](/news/doi-dien-vo-thuc-sau-khi-roi-freud/). Bây giờ ta bước tới một hình ảnh nổi bật hơn cả trong thời kỳ đó: Philemon.
+Bạn đang trong phần 9 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã đi vào [giai đoạn Jung đối diện vô thức sau khi rời Freud](/news/doi-dien-vo-thuc-sau-khi-roi-freud/). Bây giờ ta bước tới một hình ảnh nổi bật hơn cả trong thời kỳ đó: Philemon.
 
 > Philemon không nên được đọc như một “linh hồn hộ mệnh” theo nghĩa dễ dãi. Với Jung, Philemon là bằng chứng sống động rằng trong tâm lý có những hình ảnh tự trị, có tiếng nói riêng, không thể bị đồng nhất với cái tôi tỉnh táo.
 

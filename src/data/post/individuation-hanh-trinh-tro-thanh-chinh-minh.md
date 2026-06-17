@@ -10,7 +10,7 @@ publishDate: 2026-05-23T17:00:00.000Z
 image: '~/assets/images/individuation-hanh-trinh-tro-thanh-chinh-minh.webp'
 ---
 
-Bạn đang trong phần 10 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Philemon, người thầy nội tâm của Jung](/news/philemon-nguoi-thay-noi-tam-cua-jung/). Từ đó ta bước vào một khái niệm trung tâm của Jung: individuation.
+Bạn đang trong phần 10 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [Philemon, người thầy nội tâm của Jung](/news/philemon-nguoi-thay-noi-tam-cua-jung/). Từ đó ta bước vào một khái niệm trung tâm của Jung: individuation.
 
 > Individuation không phải hành trình trở nên đặc biệt trong mắt người khác. Nó là hành trình trở nên toàn vẹn hơn trước chính mình, kể cả khi điều đó làm cái tôi bớt hào nhoáng và khó chịu hơn.
 

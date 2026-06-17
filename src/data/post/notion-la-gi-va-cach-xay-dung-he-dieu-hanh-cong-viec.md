@@ -162,12 +162,12 @@ Nhưng AI không nên là cái cớ để bạn xây hệ thống cẩu thả. N
 
 ### So Sánh Nhanh Với Các Công Cụ Khác
 
-| Công cụ | Điểm mạnh | Điểm yếu |
-| --- | --- | --- |
-| Notion | Linh hoạt, gom tài liệu và dự án vào một nơi | Dễ rối nếu thiết kế hệ thống kém |
-| Obsidian | Tư duy cá nhân mạnh, offline tốt, backlink sâu | Yêu cầu kỷ luật cao hơn, ít thân thiện với team mới |
-| Google Docs | Viết và cộng tác trực tiếp đơn giản | Yếu ở việc tổ chức hệ thống dài hạn |
-| Trello | Trực quan, dễ quản lý task | Hạn chế khi cần knowledge base hoặc wiki |
+| Công cụ     | Điểm mạnh                                      | Điểm yếu                                            |
+| ----------- | ---------------------------------------------- | --------------------------------------------------- |
+| Notion      | Linh hoạt, gom tài liệu và dự án vào một nơi   | Dễ rối nếu thiết kế hệ thống kém                    |
+| Obsidian    | Tư duy cá nhân mạnh, offline tốt, backlink sâu | Yêu cầu kỷ luật cao hơn, ít thân thiện với team mới |
+| Google Docs | Viết và cộng tác trực tiếp đơn giản            | Yếu ở việc tổ chức hệ thống dài hạn                 |
+| Trello      | Trực quan, dễ quản lý task                     | Hạn chế khi cần knowledge base hoặc wiki            |
 
 Chọn đúng công cụ không phải chọn cái “mạnh nhất”, mà là cái phù hợp nhất với kiểu tư duy và luồng công việc của bạn.
 
@@ -188,5 +188,3 @@ Notion không phải là một ứng dụng ghi chú đẹp hơn. Nó là một 
 Nếu bạn dùng đúng, Notion có thể trở thành “bộ khung vận hành” cho cá nhân hoặc cả team: nơi ý tưởng đi vào, được xử lý, liên kết, lưu trữ và tái sử dụng. Nếu bạn dùng sai, nó chỉ là một nơi khác để chứa thêm sự hỗn loạn.
 
 Điểm khác biệt nằm ở thiết kế. Không phải càng nhiều trang càng tốt, mà là càng ít ma sát, càng rõ quy tắc, càng dễ mở rộng.
-
-

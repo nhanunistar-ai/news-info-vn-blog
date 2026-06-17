@@ -16,7 +16,7 @@ Bạn đang trong phần 2 của Series bài viết về Khắc kỷ. Đây là 
 
 ### Đường ranh quan trọng nhất
 
-Epictetus mở đầu *Enchiridion* bằng một đường ranh rất dứt khoát: có những thứ thuộc quyền ta, và có những thứ không thuộc quyền ta.
+Epictetus mở đầu _Enchiridion_ bằng một đường ranh rất dứt khoát: có những thứ thuộc quyền ta, và có những thứ không thuộc quyền ta.
 
 Thuộc quyền ta là phán đoán, lựa chọn, ý định, ham muốn, phản ứng, giá trị mà ta theo đuổi. Không thuộc quyền ta là thân thể theo nghĩa tuyệt đối, tài sản, danh tiếng, chức vụ, ý kiến người khác, kết quả cuối cùng của một sự việc.
 

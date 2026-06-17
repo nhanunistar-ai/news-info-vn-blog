@@ -82,9 +82,9 @@ Máy tính lượng tử trong năm 2026 là một "con dao hai lưỡi" đúng 
 
 Điều quan trọng là tránh cả hai cực đoan: không nên thổi phồng rằng lượng tử sẽ thay đổi mọi thứ ngay lập tức, nhưng cũng không nên xem nó là câu chuyện viễn tưởng xa xôi. Những tổ chức chuẩn bị từ hôm nay sẽ bước vào kỷ nguyên lượng tử với ít rủi ro hơn và nhiều cơ hội hơn.
 
-***Nguồn tham khảo***
+**_Nguồn tham khảo_**
 
-*- NIST: Post-Quantum Cryptography Standards, FIPS 203, FIPS 204, FIPS 205.*  
-*- IBM Quantum Roadmap và kiến trúc quantum-centric supercomputing.*  
-*- Google Quantum AI: Willow quantum chip và tiến bộ về sửa lỗi lượng tử.*  
-*- Microsoft Azure Quantum: Majorana 1 và hướng tiếp cận qubit topo.*
+_- NIST: Post-Quantum Cryptography Standards, FIPS 203, FIPS 204, FIPS 205._  
+_- IBM Quantum Roadmap và kiến trúc quantum-centric supercomputing._  
+_- Google Quantum AI: Willow quantum chip và tiến bộ về sửa lỗi lượng tử._  
+_- Microsoft Azure Quantum: Majorana 1 và hướng tiếp cận qubit topo._

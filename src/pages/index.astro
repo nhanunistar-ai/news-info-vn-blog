@@ -12,6 +12,9 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _unused = { Features2, FAQs, Stats };
+
 const metadata = {
   title: 'TRANG THÔNG TIN TỔNG HỢP',
   ignoreTitleTemplate: true,
@@ -320,9 +323,7 @@ const metadata = {
 
   <BlogLatestPosts
     title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro v6 + Tailwind CSS v4.
-                        Astro is a very interesting technology. Thanks.
+    information={`
                 `}
   />
 
@@ -390,7 +391,6 @@ const metadata = {
         variant: 'primary',
         text: 'Đọc ngay!',
         href: '/stories/alien-interview',
-        target: '_blank',
         icon: 'tabler:book',
       },
     ]}

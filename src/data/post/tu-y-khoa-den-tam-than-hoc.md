@@ -10,7 +10,7 @@ publishDate: 2026-05-18T17:00:00.000Z
 image: '~/assets/images/tu-y-khoa-den-tam-than-hoc.webp'
 ---
 
-Bạn đang trong phần 5 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [câu hỏi về Chúa trong tuổi trẻ Jung](/news/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung/). Từ bài này, ta bước sang một ngã rẽ quan trọng hơn: vì sao Jung chọn y khoa, rồi vì sao chính y khoa lại dẫn ông tới tâm thần học.
+Bạn đang trong phần 5 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã đi vào [câu hỏi về Chúa trong tuổi trẻ Jung](/news/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung/). Từ bài này, ta bước sang một ngã rẽ quan trọng hơn: vì sao Jung chọn y khoa, rồi vì sao chính y khoa lại dẫn ông tới tâm thần học.
 
 > Với Jung, tâm thần học không phải nơi nghiên cứu một bộ não bị hỏng như cái máy. Nó là vùng giao nhau giữa cơ thể, ký ức, biểu tượng, đau khổ và câu hỏi cổ xưa nhất: con người thực sự là gì?
 

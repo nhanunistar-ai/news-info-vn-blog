@@ -20,7 +20,7 @@ export interface Post {
   category?: Taxonomy;
   tags?: Taxonomy[];
   author?: string;
-  
+
   series?: string;
   chapter?: number;
 

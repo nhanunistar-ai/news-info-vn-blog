@@ -20,9 +20,9 @@ const image = (await findImage(post.image)) as ImageMetadata | undefined;
 
 // If the post belongs to a series, link to the series landing page instead
 const link = APP_BLOG?.post?.isEnabled
-  ? (post.series && post.category?.slug
+  ? post.series && post.category?.slug
     ? `/${post.category.slug}/${post.series}`
-    : getPermalink(post.permalink, 'post'))
+    : getPermalink(post.permalink, 'post')
   : '';
 ---
 

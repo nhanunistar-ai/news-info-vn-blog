@@ -196,7 +196,7 @@ Nếu khung đã sai, càng thêm chi tiết vào khung ấy chỉ khiến bức
 
 ### Mật mã từ Sumer
 
-Trong mạch *Te lo ocultaron*, câu chuyện Giza thường được nối với Sumer và Anunnaki.
+Trong mạch _Te lo ocultaron_, câu chuyện Giza thường được nối với Sumer và Anunnaki.
 
 Người Sumer, một trong những nền văn minh có chữ viết sớm nhất mà ta biết, để lại nhiều văn bản về các vị thần từ trời xuống, gọi là Anunnaki.
 

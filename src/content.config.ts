@@ -61,7 +61,7 @@ const postCollection = defineCollection({
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),
     author: z.string().optional(),
-    
+
     series: z.string().optional(),
     chapter: z.number().optional(),
 

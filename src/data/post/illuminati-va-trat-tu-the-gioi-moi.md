@@ -90,7 +90,7 @@ Con người trưởng thành sẽ tự bảo vệ chiếc lồng nhận thức 
 
 Một trong những nhân vật thường được nhắc đến khi nói về sự lan rộng của Illuminati là John Robison.
 
-Robison là một nhà khoa học Scotland và từng là thành viên Hội Tam điểm. Ông nổi tiếng với cuốn *Proofs of a Conspiracy*, trong đó ông cho rằng Illuminati đã âm thầm xâm nhập vào một số nhánh của Tam điểm để sử dụng cấu trúc cấp bậc, nghi lễ và mạng lưới xã hội sẵn có.
+Robison là một nhà khoa học Scotland và từng là thành viên Hội Tam điểm. Ông nổi tiếng với cuốn _Proofs of a Conspiracy_, trong đó ông cho rằng Illuminati đã âm thầm xâm nhập vào một số nhánh của Tam điểm để sử dụng cấu trúc cấp bậc, nghi lễ và mạng lưới xã hội sẵn có.
 
 Điểm đáng chú ý ở đây không nhất thiết nằm ở việc mọi chi tiết trong các cáo buộc ấy đúng hay sai.
 
@@ -226,7 +226,7 @@ Nó là cổng vào thế giới xã hội.
 
 Và vì con người tự nguyện mang nó theo bên mình, hệ thống không cần cài đặt thiết bị giám sát trong nhà từng người. Mỗi người đã tự cầm theo một chiếc cổng dữ liệu cá nhân.
 
-Trong mạch diễn giải của *Te lo ocultaron*, đây là hình thức kiểm soát nguy hiểm nhất: kiểm soát bằng tiện ích.
+Trong mạch diễn giải của _Te lo ocultaron_, đây là hình thức kiểm soát nguy hiểm nhất: kiểm soát bằng tiện ích.
 
 Khi một công cụ đủ tiện, con người sẽ không còn hỏi nó lấy gì từ mình.
 

@@ -25,7 +25,7 @@ Cuối ngày, hãy hỏi:
 - Mình đã để ngoại vật nào điều khiển tâm trạng?
 - Ngày mai nếu gặp lại chuyện đó, mình muốn phản ứng thế nào?
 
-Marcus Aurelius để lại *Meditations* như một dạng nhật ký tự răn. Điều quan trọng không phải văn hay, mà là trung thực.
+Marcus Aurelius để lại _Meditations_ như một dạng nhật ký tự răn. Điều quan trọng không phải văn hay, mà là trung thực.
 
 ### Premeditatio malorum: nghĩ trước về điều khó
 

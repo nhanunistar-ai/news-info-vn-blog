@@ -3,7 +3,10 @@ import path from 'path';
 
 // Read a few posts and check their category field values
 const dir = 'd:/news.info.vn/astrowind-theme/src/data/post';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.md')).slice(0, 10);
+const files = fs
+  .readdirSync(dir)
+  .filter((f) => f.endsWith('.md'))
+  .slice(0, 10);
 
 for (const f of files) {
   const content = fs.readFileSync(path.join(dir, f), 'utf8');
@@ -17,7 +20,7 @@ for (const f of files) {
 
 // Also check series files
 const seriesDir = 'd:/news.info.vn/astrowind-theme/src/data/series';
-const seriesFiles = fs.readdirSync(seriesDir).filter(f => f.endsWith('.md'));
+const seriesFiles = fs.readdirSync(seriesDir).filter((f) => f.endsWith('.md'));
 console.log('\n--- Series files ---');
 for (const f of seriesFiles) {
   const content = fs.readFileSync(path.join(seriesDir, f), 'utf8');

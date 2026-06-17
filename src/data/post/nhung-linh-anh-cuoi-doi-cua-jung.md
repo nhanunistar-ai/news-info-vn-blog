@@ -10,7 +10,7 @@ publishDate: 2026-05-26T17:00:00.000Z
 image: '~/assets/images/nhung-linh-anh-cuoi-doi-cua-jung.webp'
 ---
 
-Bạn đang trong phần 13 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [những chuyến đi của Jung như một cách nhìn lại phương Tây và nhìn lại chính mình](/news/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua/). Từ đây, series bước vào đoạn cuối đời: nơi bệnh tật, linh ảnh, cái chết và hồi tưởng không còn là chuyện phụ, mà trở thành phần trung tâm của hành trình Jung.
+Bạn đang trong phần 13 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [những chuyến đi của Jung như một cách nhìn lại phương Tây và nhìn lại chính mình](/news/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua/). Từ đây, series bước vào đoạn cuối đời: nơi bệnh tật, linh ảnh, cái chết và hồi tưởng không còn là chuyện phụ, mà trở thành phần trung tâm của hành trình Jung.
 
 > Với Jung, linh ảnh không phải thứ để khoe rằng mình “thấy được điều bí mật”. Linh ảnh là khi tầng sâu của psyche dùng hình ảnh để nói điều mà lý trí bình thường chưa đủ sức chứa.
 

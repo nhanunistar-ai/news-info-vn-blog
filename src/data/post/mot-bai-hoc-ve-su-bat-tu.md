@@ -10,7 +10,8 @@ publishDate: 2026-05-16T17:00:00.000Z
 image: '~/assets/images/chapter-12.webp'
 ---
 
-### Một bài học về sự bất tử  
+### Một bài học về sự bất tử
+
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Tôi nghĩ bản ghi chép sau đây đã khá rõ ràng và tự bản thân nó đã nói lên tất cả."  
 **(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
@@ -31,6 +32,4 @@ Mỗi **IS-BE** về cơ bản là tốt. Vì vậy, một **IS-BE** không thí
 Khái niệm gần nhất mà con người có để mô tả một **IS-BE** là một vị thần: toàn tri, toàn năng, vô hạn. Vậy, làm thế nào để một vị thần ngừng làm một vị thần? Họ giả vờ là **KHÔNG** biết. Làm sao bạn có thể chơi trò 'trốn tìm' nếu bạn luôn biết người kia đang trốn ở đâu? Bạn giả vờ **KHÔNG** biết những người chơi khác đang trốn ở đâu, để bạn có thể đi 'tìm' họ. Đó là cách các trò chơi được tạo ra.  
 Các bạn đã quên rằng mình chỉ đang 'giả vờ'. Khi làm như vậy, các **IS-BE** trở nên bị mắc bẫy và nô lệ hóa bên trong một mê cung do chính họ thiết kế. Làm thế nào để người ta tạo ra một chiếc lồng, tự nhốt mình vào trong đó, vứt chìa khóa đi, quên mất rằng có một chiếc chìa khóa hay một chiếc lồng, quên mất rằng có một cái 'bên trong' hay 'bên ngoài', và thậm chí quên mất rằng có chính mình? **Hãy tạo ra ảo ảnh rằng không có ảo ảnh nào cả**: rằng toàn bộ vũ trụ này là có thật, và không có vũ trụ nào khác tồn tại hoặc có thể được tạo ra.  
 Trên Trái Đất, những tuyên truyền được giảng dạy và đồng thuận là các vị thần phải chịu trách nhiệm, còn con người thì không. Các bạn được dạy rằng chỉ có một vị thần mới có thể tạo ra các vũ trụ. Vì vậy, trách nhiệm cho mọi hành động đều được giao cho một **IS-BE** hoặc vị thần khác. Không bao giờ là chính mình.  
-Không một con người nào từng đảm nhận trách nhiệm cá nhân đối với sự thật rằng chính họ — một cách cá nhân và tập thể — là những vị thần. Chỉ riêng sự thật này thôi đã chính là nguồn gốc của sự bẫy rập đối với mọi **IS-BE**."  
- 
-
+Không một con người nào từng đảm nhận trách nhiệm cá nhân đối với sự thật rằng chính họ — một cách cá nhân và tập thể — là những vị thần. Chỉ riêng sự thật này thôi đã chính là nguồn gốc của sự bẫy rập đối với mọi **IS-BE**."

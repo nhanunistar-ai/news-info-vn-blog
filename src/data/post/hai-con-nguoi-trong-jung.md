@@ -10,7 +10,7 @@ publishDate: 2026-05-16T17:00:00.000Z
 image: '~/assets/images/hai-con-nguoi-trong-jung.webp'
 ---
 
-Bạn đang trong phần 3 của Series bài viết về *Memories, Dreams, Reflections*. Nếu muốn đi theo mạch từ đầu, hãy đọc [bài mở đầu](/news/memories-dreams-reflections-la-gi/) và [tuổi thơ của Jung](/news/tuoi-tho-cua-jung-khi-ky-uc-tro-thanh-bieu-tuong/) trước.
+Bạn đang trong phần 3 của Series bài viết về _Memories, Dreams, Reflections_. Nếu muốn đi theo mạch từ đầu, hãy đọc [bài mở đầu](/news/memories-dreams-reflections-la-gi/) và [tuổi thơ của Jung](/news/tuoi-tho-cua-jung-khi-ky-uc-tro-thanh-bieu-tuong/) trước.
 
 > Một trong những điều lạ nhất ở Jung thời trẻ là cảm giác ông không chỉ có một cái tôi. Bên trong ông có một người sống đời thường và một người khác sâu hơn, già hơn, trầm hơn, như thể đến từ một thời đại không có lịch.
 
@@ -34,7 +34,7 @@ Có một phần ông đi học, nói chuyện, cư xử đúng vai, sống tron
 
 Nhưng cũng có một phần khác lặng lẽ quan sát, xa cách, cổ xưa và khó gọi tên.
 
-Trong *Memories, Dreams, Reflections*, Jung mô tả trải nghiệm này như sự hiện diện của hai nhân cách, hai tầng người, hai cách tồn tại.
+Trong _Memories, Dreams, Reflections_, Jung mô tả trải nghiệm này như sự hiện diện của hai nhân cách, hai tầng người, hai cách tồn tại.
 
 Nếu đọc hời hợt, ta có thể xem đây là sự kỳ dị cá nhân.
 
@@ -222,6 +222,6 @@ Jung lớn lên gần nhà thờ, gần ngôn ngữ Kitô giáo, gần hình ả
 
 ### Nguồn tham khảo
 
-- C. G. Jung: *Memories, Dreams, Reflections*
-- C. G. Jung: *Two Essays on Analytical Psychology*
+- C. G. Jung: _Memories, Dreams, Reflections_
+- C. G. Jung: _Two Essays on Analytical Psychology_
 - Penguin Random House: [Memories, Dreams, Reflections by C. G. Jung](https://www.penguinrandomhouse.com/books/89059/memories-dreams-reflections-by-c-g-jung/)

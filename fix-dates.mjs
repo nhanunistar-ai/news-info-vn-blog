@@ -3,7 +3,7 @@ import path from 'path';
 
 const POST_DIR = 'd:/news.info.vn/astrowind-theme/src/data/post';
 
-const files = fs.readdirSync(POST_DIR).filter(f => f.endsWith('.md'));
+const files = fs.readdirSync(POST_DIR).filter((f) => f.endsWith('.md'));
 let fixed = 0;
 
 for (const file of files) {

@@ -14,10 +14,13 @@ const missingDesc = [];
 const noFrontmatter = [];
 const categoryCount = {};
 
-files.forEach(f => {
+files.forEach((f) => {
   const content = fs.readFileSync(path.join(blogDir, f), 'utf8');
   const fmMatch = content.match(/^---[\r\n]([\s\S]*?)[\r\n]---/);
-  if (!fmMatch) { noFrontmatter.push(f); return; }
+  if (!fmMatch) {
+    noFrontmatter.push(f);
+    return;
+  }
   const fm = fmMatch[1];
 
   if (!fm.includes('heroImage')) missingHero.push(f);
@@ -43,23 +46,25 @@ console.log('=== SITE AUDIT REPORT ===\n');
 console.log('Total blog posts:', files.length);
 
 console.log('\n--- Categories ---');
-Object.entries(categoryCount).sort((a,b) => b[1]-a[1]).forEach(([cat, count]) => {
-  console.log(' ', cat + ':', count, 'posts');
-});
+Object.entries(categoryCount)
+  .sort((a, b) => b[1] - a[1])
+  .forEach(([cat, count]) => {
+    console.log(' ', cat + ':', count, 'posts');
+  });
 
 console.log('\n--- Missing heroImage (' + missingHero.length + ') ---');
-missingHero.forEach(f => console.log('  -', f));
+missingHero.forEach((f) => console.log('  -', f));
 
 console.log('\n--- Missing category (' + missingCategory.length + ') ---');
-missingCategory.forEach(f => console.log('  -', f));
+missingCategory.forEach((f) => console.log('  -', f));
 
 console.log('\n--- Missing description (' + missingDesc.length + ') ---');
-missingDesc.forEach(f => console.log('  -', f));
+missingDesc.forEach((f) => console.log('  -', f));
 
 console.log('\n--- Future pubDate (' + futureDates.length + ') ---');
-futureDates.forEach(item => console.log('  -', item.file, '->', item.date));
+futureDates.forEach((item) => console.log('  -', item.file, '->', item.date));
 
 console.log('\n--- No frontmatter (' + noFrontmatter.length + ') ---');
-noFrontmatter.forEach(f => console.log('  -', f));
+noFrontmatter.forEach((f) => console.log('  -', f));
 
 console.log('\n=== END OF AUDIT ===');

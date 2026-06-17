@@ -50,7 +50,7 @@ Không thể ép buộc ai thức tỉnh.
 
 Nhưng cũng không nên để bất kỳ hệ thống nào dập tắt hoàn toàn khả năng tò mò, nghi ngờ và tự tìm hiểu của con người.
 
-Theo cách diễn giải của *Te lo ocultaron*, điều mà các cấu trúc quyền lực sợ nhất không phải là một đám đông giận dữ.
+Theo cách diễn giải của _Te lo ocultaron_, điều mà các cấu trúc quyền lực sợ nhất không phải là một đám đông giận dữ.
 
 Điều họ sợ hơn là một đám đông bình tĩnh, tỉnh táo, có khả năng tự quan sát và không còn phản ứng theo lập trình cảm xúc.
 
@@ -230,7 +230,7 @@ Một người không kiểm soát được sự chú ý của mình sẽ rất 
 
 Và một xã hội gồm những con người bị phân mảnh sự chú ý sẽ rất khó nhận ra những cấu trúc lớn đang vận hành phía sau.
 
-*Te lo ocultaron* không yêu cầu người đọc tin mọi giả thuyết.
+_Te lo ocultaron_ không yêu cầu người đọc tin mọi giả thuyết.
 
 Nó chỉ yêu cầu một điều đơn giản hơn: hãy quan sát kỹ hơn.
 

@@ -10,7 +10,7 @@ publishDate: 2026-05-21T17:00:00.000Z
 image: '~/assets/images/doi-dien-vo-thuc-sau-khi-roi-freud.webp'
 ---
 
-Bạn đang trong phần 8 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Jung và Freud](/news/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon/). Sau cuộc chia tay đó, Jung không bước ngay vào chiến thắng. Ông bước vào một vùng nguy hiểm hơn nhiều: đối diện vô thức của chính mình.
+Bạn đang trong phần 8 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [Jung và Freud](/news/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon/). Sau cuộc chia tay đó, Jung không bước ngay vào chiến thắng. Ông bước vào một vùng nguy hiểm hơn nhiều: đối diện vô thức của chính mình.
 
 > Đây là giai đoạn Jung không chỉ nghiên cứu vô thức. Ông bị vô thức kéo xuống, buộc phải nhìn, ghi lại, đối thoại và học cách không để mình bị nuốt.
 
@@ -90,11 +90,11 @@ Ta vào đó để nghe, đối chất, ghi nhận và trở về với đời s
 
 ### Hạt mầm của The Red Book
 
-Những ghi chép và hình ảnh trong giai đoạn đối diện vô thức sau này liên quan mật thiết tới công trình nổi tiếng thường được gọi là *The Red Book*.
+Những ghi chép và hình ảnh trong giai đoạn đối diện vô thức sau này liên quan mật thiết tới công trình nổi tiếng thường được gọi là _The Red Book_.
 
 Trong đó, Jung ghi lại nhiều trải nghiệm nội tâm bằng văn bản và hình ảnh, như một cách làm việc trực tiếp với vô thức.
 
-Điểm quan trọng là: *The Red Book* không nên được đọc như sách giáo lý.
+Điểm quan trọng là: _The Red Book_ không nên được đọc như sách giáo lý.
 
 Nó cũng không phải cuốn hướng dẫn thần bí để bắt chước.
 

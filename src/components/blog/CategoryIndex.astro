@@ -3,8 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
-import { fetchPosts } from '~/utils/blog';
-import { APP_BLOG } from 'astrowind:config';
+import type { Post } from '~/types';
 
 export interface Props {
   categorySlug: string;
@@ -12,20 +11,12 @@ export interface Props {
   description?: string;
   page?: number;
   /** Total posts for this category (used for external pagination calc) */
-  posts?: any[];
+  posts?: Post[];
   prevUrl?: string;
   nextUrl?: string;
 }
 
-const {
-  categorySlug,
-  categoryName,
-  description,
-  posts,
-  prevUrl,
-  nextUrl,
-  page = 1,
-} = Astro.props;
+const { categoryName, description, posts, prevUrl, nextUrl, page = 1 } = Astro.props;
 
 const metadata = {
   title: `${categoryName}${page > 1 ? ` — Page ${page}` : ''}`,

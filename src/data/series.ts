@@ -27,13 +27,14 @@ export const seriesData = {
   },
   'memories-dreams-reflections': {
     title: 'Memories, Dreams, Reflections',
-    description: 'Mạch đọc Jung qua ký ức, giấc mơ, biểu tượng và hành trình cá nhân hóa trong cuốn hồi ký quan trọng nhất của ông.',
+    description:
+      'Mạch đọc Jung qua ký ức, giấc mơ, biểu tượng và hành trình cá nhân hóa trong cuốn hồi ký quan trọng nhất của ông.',
     parts: [
       { chapter: 1, title: 'Memories, Dreams, Reflections là gì?', slug: 'memories-dreams-reflections-la-gi' },
       // Add remaining chapters
     ],
   },
-  'socrates': {
+  socrates: {
     title: 'Socrates',
     description: 'Mạch bài về nghệ thuật đặt câu hỏi, tự xét mình và triết học như một cách sống từ Socrates.',
     parts: [

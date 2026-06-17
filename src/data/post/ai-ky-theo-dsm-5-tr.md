@@ -12,7 +12,7 @@ image: '~/assets/images/ai-ky-theo-dsm-5-tr.webp'
 
 ### DSM-5-TR là gì?
 
-**DSM-5-TR** là bản sửa đổi văn bản của *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition* do American Psychiatric Association phát hành.
+**DSM-5-TR** là bản sửa đổi văn bản của _Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition_ do American Psychiatric Association phát hành.
 
 Nói đơn giản, đây là một hệ thống tiêu chuẩn để các nhà lâm sàng mô tả, phân loại và chẩn đoán rối loạn tâm thần. Nó không phải sách đạo đức, không phải sách bói tính cách, cũng không phải bộ câu hỏi để cộng đồng mạng kết luận “người này chắc chắn ái kỷ”.
 

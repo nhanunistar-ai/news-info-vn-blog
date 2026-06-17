@@ -271,14 +271,14 @@ Nếu bạn không có vòng lặp review, Obsidian sẽ trở thành bộ sưu 
 
 ### So Nhanh Với Notion
 
-| Tiêu chí | Obsidian | Notion |
-| --- | --- | --- |
-| Mô hình dữ liệu | File Markdown local-first | Workspace đóng, database-driven |
-| Sở hữu dữ liệu | Cao | Phụ thuộc nền tảng |
-| Liên kết ý tưởng | Rất mạnh | Tốt, nhưng khác cách tiếp cận |
-| Hợp tác team | Có thể làm được, nhưng không phải lợi thế chính | Rất mạnh |
-| Offline | Tốt | Hạn chế hơn |
-| Độ phức tạp ban đầu | Cao hơn | Dễ vào hơn |
+| Tiêu chí            | Obsidian                                        | Notion                          |
+| ------------------- | ----------------------------------------------- | ------------------------------- |
+| Mô hình dữ liệu     | File Markdown local-first                       | Workspace đóng, database-driven |
+| Sở hữu dữ liệu      | Cao                                             | Phụ thuộc nền tảng              |
+| Liên kết ý tưởng    | Rất mạnh                                        | Tốt, nhưng khác cách tiếp cận   |
+| Hợp tác team        | Có thể làm được, nhưng không phải lợi thế chính | Rất mạnh                        |
+| Offline             | Tốt                                             | Hạn chế hơn                     |
+| Độ phức tạp ban đầu | Cao hơn                                         | Dễ vào hơn                      |
 
 Nếu bạn cần quản lý team và quy trình chung, Notion rất thực dụng. Nếu bạn cần xây bộ máy tri thức cá nhân có chiều sâu, Obsidian thường hợp lý hơn.
 
@@ -300,4 +300,3 @@ Trong các trường hợp này, giá trị không nằm ở từng note đơn l
 Obsidian không phải là công cụ dành cho tất cả mọi người. Nó dành cho những ai muốn làm việc với tri thức theo kiểu bền vững, sở hữu dữ liệu, và kết nối ý tưởng bằng cấu trúc thay vì chỉ ghi chép rồi để đó.
 
 Nếu bạn cần một ứng dụng để có tất cả thứ trong một giao diện duy nhất, Obsidian có thể không phải lựa chọn dễ vào nhất. Nhưng nếu bạn muốn xây một hệ thống ghi chú có thể sống cùng bạn trong nhiều năm, nó là một trong những lựa chọn đáng giá nhất.
-

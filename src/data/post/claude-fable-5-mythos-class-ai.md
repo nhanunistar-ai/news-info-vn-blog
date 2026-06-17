@@ -243,4 +243,3 @@ Fable 5 nằm đúng ở điểm đó.
 - Wall Street Journal: [Anthropic releases new Mythos-class model to general public with guardrails](https://www.wsj.com/tech/ai/anthropic-claude-fable-ai-model-f41fb5d7)
 - TechRadar: [Security team lays out how Anthropic Mythos helped build a working macOS exploit in five days](https://www.techradar.com/pro/security/this-work-is-a-glimpse-of-what-is-coming-security-team-lays-out-how-anthropic-mythos-helped-build-a-working-macos-exploit-in-five-days)
 - Tom's Hardware: [Claude Mythos helps security researchers bypass Memory Integrity Enforcement](https://www.tomshardware.com/tech-industry/cyber-security/apple-m5-architecture-suffers-first-privilege-escalation-exploit-anthropics-claude-mythos-helps-researchers-bypass-memory-integrity-enforcement)
-

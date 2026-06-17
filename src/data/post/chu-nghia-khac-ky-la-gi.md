@@ -16,7 +16,7 @@ Bạn đang trong phần 1 của Series bài viết về Khắc kỷ. Đây là 
 
 ### Chủ nghĩa Khắc kỷ bắt đầu từ đâu?
 
-Chủ nghĩa Khắc kỷ, hay Stoicism, là một trường phái triết học Hy Lạp cổ đại ra đời khoảng đầu thế kỷ 3 trước Công nguyên. Người đặt nền móng là Zeno xứ Citium. Ông giảng dạy tại một hành lang có tranh vẽ ở Athens, gọi là *Stoa Poikile*. Từ chữ *Stoa* đó mà tên Stoicism xuất hiện.
+Chủ nghĩa Khắc kỷ, hay Stoicism, là một trường phái triết học Hy Lạp cổ đại ra đời khoảng đầu thế kỷ 3 trước Công nguyên. Người đặt nền móng là Zeno xứ Citium. Ông giảng dạy tại một hành lang có tranh vẽ ở Athens, gọi là _Stoa Poikile_. Từ chữ _Stoa_ đó mà tên Stoicism xuất hiện.
 
 Ban đầu, Khắc kỷ không phải vài câu quote để dán lên mạng xã hội. Nó là một hệ thống triết học đầy đủ, gồm logic, vật lý học và đạo đức học. Logic giúp ta nghĩ rõ. Vật lý học giúp ta hiểu mình là một phần của trật tự tự nhiên. Đạo đức học giúp ta biết nên sống thế nào.
 

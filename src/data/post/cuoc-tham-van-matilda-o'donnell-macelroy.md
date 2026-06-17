@@ -1,6 +1,6 @@
 ---
 title: 'Alien Interview - Chapter 15'
-excerpt: 'Chương mười lăm của Alien Interview: Cuộc thẩm vấn Matilda O''Donnell MacElroy và máy phát hiện nói dối.'
+excerpt: "Chương mười lăm của Alien Interview: Cuộc thẩm vấn Matilda O'Donnell MacElroy và máy phát hiện nói dối."
 category: 'stories'
 tags: ['alien-interview', 'matilda', 'roswell']
 author: 'Minh Khang'

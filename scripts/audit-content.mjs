@@ -151,7 +151,11 @@ printList('Invalid pubDate', report.invalidPubDate, (item) => `${item.pubDate} :
 printList('Non-standard pubDate', report.nonStandardPubDate, (item) => `${item.pubDate} :: ${item.relPath}`);
 printList('Series posts without chapter', report.seriesMissingChapter, (item) => `${item.series} :: ${item.relPath}`);
 printList('Large public files >= 20MB', report.largePublicFiles, (item) => `${item.mb}MB :: ${item.relPath}`);
-printList('Legacy /blog/ links in source', report.legacyBlogLinks, (item) => `${item.relPath}:${item.line} :: ${item.text}`);
+printList(
+  'Legacy /blog/ links in source',
+  report.legacyBlogLinks,
+  (item) => `${item.relPath}:${item.line} :: ${item.text}`
+);
 
 if (report.brokenHero.length > 0 || report.missingHero.length > 0 || report.invalidPubDate.length > 0) {
   process.exitCode = 1;
