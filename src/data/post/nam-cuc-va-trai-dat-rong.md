@@ -40,7 +40,7 @@ Câu hỏi sâu hơn là: điều gì ở Nam Cực khiến các cường quốc
 
 Cuối năm 1946, Đô đốc Richard E. Byrd dẫn đầu một lực lượng lớn tiến về Nam Cực.
 
-Chiến dịch này được biết đến với tên gọi *Operation Highjump*, bao gồm khoảng 4.700 binh sĩ, 13 tàu chiến và 33 máy bay.
+Chiến dịch này được biết đến với tên gọi _Operation Highjump_, bao gồm khoảng 4.700 binh sĩ, 13 tàu chiến và 33 máy bay.
 
 Theo mô tả chính thức, đó là một chiến dịch huấn luyện và thám hiểm trong điều kiện băng giá.
 
@@ -66,7 +66,7 @@ Dù chi tiết lịch sử còn gây tranh cãi, chính sự mơ hồ quanh High
 
 ### Công nghệ bị che giấu
 
-Trong các hồ sơ và giả thuyết về công nghệ bí mật của Đức Quốc Xã, *Die Glocke*, hay "Chiếc Chuông", là một biểu tượng đặc biệt.
+Trong các hồ sơ và giả thuyết về công nghệ bí mật của Đức Quốc Xã, _Die Glocke_, hay "Chiếc Chuông", là một biểu tượng đặc biệt.
 
 Nó thường được mô tả như một thiết bị thử nghiệm liên quan đến phản trọng lực, trường năng lượng hoặc các nguyên lý vật lý chưa được công khai.
 
@@ -134,7 +134,7 @@ Nam Cực hiện vẫn là một trong những vùng đất được kiểm soá
 
 Việc thám hiểm tự do bị hạn chế dưới danh nghĩa bảo vệ môi trường và an toàn cá nhân.
 
-Nhưng nếu nhìn từ chuỗi giả thuyết của *Te lo ocultaron*, có thể điều được bảo vệ không chỉ là hệ sinh thái.
+Nhưng nếu nhìn từ chuỗi giả thuyết của _Te lo ocultaron_, có thể điều được bảo vệ không chỉ là hệ sinh thái.
 
 Có thể đó là các công nghệ cổ xưa, các cấu trúc bị chôn vùi, các căn cứ ngầm, hoặc thậm chí những cổng kết nối với một tầng thực tại khác.
 

@@ -84,4 +84,4 @@ Khi đã tự tin với bộ mô phỏng, hãy thử chạy trên phần cứng 
 
 - **Tuần 11-12:** Triển khai dự án trên phần cứng thực tế qua đám mây và viết báo cáo kết quả.
 
-*Học QML là một cuộc đua marathon, không phải chạy nước rút. Hãy tập trung vào việc hiểu rõ bản chất hình học của không gian Hilbert và cách dữ liệu được biểu diễn trong đó thay vì chỉ chạy các dòng code có sẵn.*
+_Học QML là một cuộc đua marathon, không phải chạy nước rút. Hãy tập trung vào việc hiểu rõ bản chất hình học của không gian Hilbert và cách dữ liệu được biểu diễn trong đó thay vì chỉ chạy các dòng code có sẵn._

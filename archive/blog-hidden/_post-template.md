@@ -12,6 +12,7 @@ Mo bai: Noi ly do va boi canh bai viet nay.
 Trinh bay luan diem chinh, co du lieu/vi du cu the.
 
 ## Audio MP3
+
 <figure>
   <figcaption><strong>Mẫu âm thanh</strong></figcaption>
   <audio controls preload="metadata" style="width: 100%; margin: 1rem 0 1.5rem;">

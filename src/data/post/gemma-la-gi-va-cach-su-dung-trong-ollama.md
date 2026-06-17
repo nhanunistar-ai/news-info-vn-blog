@@ -153,28 +153,26 @@ print(response.message.content)
 Với JavaScript:
 
 ```js
-import ollama from 'ollama'
+import ollama from 'ollama';
 
 const response = await ollama.chat({
   model: 'gemma3:4b',
-  messages: [
-    { role: 'user', content: 'Viết checklist triển khai hệ thống ghi chú cá nhân.' },
-  ],
-})
+  messages: [{ role: 'user', content: 'Viết checklist triển khai hệ thống ghi chú cá nhân.' }],
+});
 
-console.log(response.message.content)
+console.log(response.message.content);
 ```
 
 ### Chọn Model Nào Là Hợp Lý?
 
 Không nên chọn model theo kiểu “càng lớn càng tốt”. Trong thực tế, model phù hợp nhất là model đáp ứng được bài toán với chi phí chấp nhận được.
 
-| Nhu cầu | Gợi ý model | Lý do |
-| --- | --- | --- |
-| Test prompt nhanh | `gemma3:270m` hoặc `gemma3:1b` | Nhẹ, phản hồi nhanh, dễ thử nghiệm |
-| Tác vụ viết nội dung cơ bản | `gemma3:4b` | Cân bằng tốt giữa tốc độ và chất lượng |
-| Tóm tắt, phân tích, hỗ trợ viết kỹ hơn | `gemma3:12b` | Đầu ra thường ổn hơn cho prompt dài |
-| Thử nghiệm chất lượng cao hơn trên máy mạnh | `gemma3:27b` | Phù hợp khi ưu tiên chất lượng hơn tốc độ |
+| Nhu cầu                                     | Gợi ý model                    | Lý do                                     |
+| ------------------------------------------- | ------------------------------ | ----------------------------------------- |
+| Test prompt nhanh                           | `gemma3:270m` hoặc `gemma3:1b` | Nhẹ, phản hồi nhanh, dễ thử nghiệm        |
+| Tác vụ viết nội dung cơ bản                 | `gemma3:4b`                    | Cân bằng tốt giữa tốc độ và chất lượng    |
+| Tóm tắt, phân tích, hỗ trợ viết kỹ hơn      | `gemma3:12b`                   | Đầu ra thường ổn hơn cho prompt dài       |
+| Thử nghiệm chất lượng cao hơn trên máy mạnh | `gemma3:27b`                   | Phù hợp khi ưu tiên chất lượng hơn tốc độ |
 
 Nếu bạn chưa rõ nên chọn gì, `4b` thường là điểm khởi đầu hợp lý.
 
@@ -273,15 +271,14 @@ Ngược lại, nếu bạn cần độ ổn định cao nhất, khả năng suy
 
 ### So Sánh Nhanh
 
-| Tiêu chí | Gemma trong Ollama | Model cloud |
-| --- | --- | --- |
-| Quyền kiểm soát | Cao | Thấp hơn |
-| Dễ bắt đầu | Cao | Cao |
-| Chi phí lặp lại | Thấp | Có thể tăng theo usage |
-| Dữ liệu nội bộ | Tốt hơn cho local use | Phụ thuộc nhà cung cấp |
-| Chất lượng tối đa | Phụ thuộc model và máy | Thường cao hơn ở tier lớn |
-| Tốc độ thử nghiệm | Rất tốt | Tốt, nhưng phụ thuộc mạng và quota |
-
+| Tiêu chí          | Gemma trong Ollama     | Model cloud                        |
+| ----------------- | ---------------------- | ---------------------------------- |
+| Quyền kiểm soát   | Cao                    | Thấp hơn                           |
+| Dễ bắt đầu        | Cao                    | Cao                                |
+| Chi phí lặp lại   | Thấp                   | Có thể tăng theo usage             |
+| Dữ liệu nội bộ    | Tốt hơn cho local use  | Phụ thuộc nhà cung cấp             |
+| Chất lượng tối đa | Phụ thuộc model và máy | Thường cao hơn ở tier lớn          |
+| Tốc độ thử nghiệm | Rất tốt                | Tốt, nhưng phụ thuộc mạng và quota |
 
 ### Kết Luận
 

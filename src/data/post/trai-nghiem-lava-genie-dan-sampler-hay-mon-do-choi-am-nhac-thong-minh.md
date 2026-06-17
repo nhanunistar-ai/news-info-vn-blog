@@ -36,7 +36,7 @@ Vì vậy, cách tiếp cận đúng ngay từ đầu là: **đừng hỏi nó c
 
 Câu hỏi đúng hơn là: **nó có giúp một người bình thường chạm vào âm nhạc nhanh hơn không?**
 
-![LAVA GENIE là đàn, sampler hay đồ chơi](../../assets/images/genie.webp) 
+![LAVA GENIE là đàn, sampler hay đồ chơi](../../assets/images/genie.webp)
 
 ### LAVA GENIE là đàn, sampler hay đồ chơi?
 

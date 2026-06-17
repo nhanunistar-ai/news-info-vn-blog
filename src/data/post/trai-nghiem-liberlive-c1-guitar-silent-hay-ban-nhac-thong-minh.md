@@ -7,9 +7,11 @@ image: '~/assets/images/trai-nghiem-liberlive-c1-guitar-silent-hay-ban-nhac-thon
 author: 'Minh Khang'
 publishDate: 2026-06-10T17:00:00.000Z
 ---
+
 > Nếu LAVA GENIE khiến người ta hỏi “đây là đàn hay sampler?”, thì **LiberLive C1** lại đặt ra một câu hỏi khác: một cây guitar có cần dây, thế bấm khó và nhiều tháng đau tay mới được gọi là nhạc cụ không?
 
 <video controls playsinline preload="metadata" src="https://liberlive.com/cdn/shop/videos/c/vp/32590e2636f3447da7c7497fa4079eb1/32590e2636f3447da7c7497fa4079eb1.HD-720p-3.0Mbps-84371444.mp4" style="width: 100%; border-radius: 18px; margin: 0 0 2rem; box-shadow: 0 20px 60px rgba(15, 23, 42, 0.18); background: #0f172a;">Trinh duyet cua ban khong ho tro video HTML5.</video>
+
 ### Guitar không dây, nhưng không phải guitar truyền thống
 
 LiberLive C1 được hãng gọi là **stringless smart guitar** - một cây guitar thông minh không dây đàn.
@@ -63,7 +65,7 @@ Họ mở app, tìm bài, nhìn hướng dẫn, bấm theo và hát.
 
 Đó là cách tiếp cận cực kỳ hợp với người mới, người thích hát, người làm nội dung ngắn hoặc người muốn có một nhạc cụ trong nhà để chơi vui.
 
-![Vì sao người mới dễ thích LiberLive C1](../../assets/images/liber-live-c1.webp) 
+![Vì sao người mới dễ thích LiberLive C1](../../assets/images/liber-live-c1.webp)
 
 ### Một người, một ban nhạc
 
@@ -231,6 +233,7 @@ Trên giấy, LiberLive C1 rất hấp dẫn. Nhưng một bài trải nghiệm 
 Vì một thiết bị đệm hát sống chết ở thư viện bài hát và khả năng theo hợp âm. Nếu app có nhiều bài quốc tế nhưng thiếu bài Việt, trải nghiệm tại Việt Nam sẽ giảm đáng kể.
 
 ### So sánh nhanh: LiberLive C1 và LAVA GENIE
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 18px; margin: 0 0 2rem; box-shadow: 0 20px 60px rgba(15, 23, 42, 0.18);">
   <iframe
     src="https://www.youtube.com/embed/JI14YcNyFmc?start=737"
@@ -265,6 +268,7 @@ Video của kênh guitarstreet cũng đặt đúng câu hỏi này: trước khi
 ### Kết luận: cây đàn cho người muốn hát trước, học sau
 
 LiberLive C1 là một sản phẩm rất dễ bị hiểu nhầm nếu nhìn nó bằng tiêu chuẩn guitar truyền thống.
+
 - Nó không phải cây đàn dành cho người muốn luyện kỹ thuật guitar thật.
 - Nó cũng không phải món đồ chơi rẻ tiền để bấm vài hôm rồi bỏ.
 - Nó là một thiết bị âm nhạc thông minh được thiết kế xoay quanh một nhu cầu rất thật: **tôi muốn tự đệm hát mà không phải học guitar quá lâu**.

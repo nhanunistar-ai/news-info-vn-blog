@@ -18,7 +18,7 @@ image: '~/assets/images/mud-flood-va-bi-an-nang-luong-tu-do.webp'
 
 Bạn có thực sự tin rằng những trận lụt bùn xảy ra từ năm 1830 đến 1870 chỉ là những sự kiện ngẫu nhiên của tự nhiên?
 
-Theo giả thuyết về *Mud Flood*, đó có thể không phải là một tai biến địa phương, mà là một cuộc tái thiết hoàn toàn trên quy mô toàn cầu.
+Theo giả thuyết về _Mud Flood_, đó có thể không phải là một tai biến địa phương, mà là một cuộc tái thiết hoàn toàn trên quy mô toàn cầu.
 
 Mục tiêu của cuộc tái thiết này là che giấu vĩnh viễn mọi loại hình xây dựng, kiến trúc, thiết kế và quan trọng nhất là tri thức về năng lượng miễn phí.
 

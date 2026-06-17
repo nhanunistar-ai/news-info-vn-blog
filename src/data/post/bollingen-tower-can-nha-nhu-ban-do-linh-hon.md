@@ -10,7 +10,7 @@ publishDate: 2026-05-24T17:00:00.000Z
 image: '~/assets/images/bollingen-tower-can-nha-nhu-ban-do-linh-hon.webp'
 ---
 
-Bạn đang trong phần 11 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã giải thích [individuation là gì](/news/individuation-hanh-trinh-tro-thanh-chinh-minh/). Bài này đi vào một biểu tượng rất cụ thể trong đời Jung: Bollingen Tower.
+Bạn đang trong phần 11 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã giải thích [individuation là gì](/news/individuation-hanh-trinh-tro-thanh-chinh-minh/). Bài này đi vào một biểu tượng rất cụ thể trong đời Jung: Bollingen Tower.
 
 > Có những căn nhà chỉ để ở. Có những căn nhà để biểu diễn địa vị. Bollingen Tower thuộc loại khác: một nơi con người xây bằng đá để sống gần hơn với phần sâu, chậm và cổ xưa trong chính mình.
 

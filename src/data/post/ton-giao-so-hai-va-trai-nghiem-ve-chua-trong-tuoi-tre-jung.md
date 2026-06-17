@@ -10,7 +10,7 @@ publishDate: 2026-05-17T17:00:00.000Z
 image: '~/assets/images/ton-giao-so-hai-va-trai-nghiem-ve-chua-trong-tuoi-tre-jung.webp'
 ---
 
-Bạn đang trong phần 4 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [hai con người trong Jung](/news/hai-con-nguoi-trong-jung/). Bài này đi vào vùng nhạy cảm hơn: tôn giáo, nỗi sợ và trải nghiệm về Chúa trong tuổi trẻ Jung.
+Bạn đang trong phần 4 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [hai con người trong Jung](/news/hai-con-nguoi-trong-jung/). Bài này đi vào vùng nhạy cảm hơn: tôn giáo, nỗi sợ và trải nghiệm về Chúa trong tuổi trẻ Jung.
 
 > Với Jung, tôn giáo không phải chỉ là hệ thống niềm tin. Nó là một kinh nghiệm tâm lý có sức lay động, có thể chữa lành, cũng có thể làm con người sợ hãi nếu chỉ còn là giáo điều không có sự sống.
 
@@ -190,7 +190,7 @@ Từ nhà thờ đến bệnh viện tâm thần, Jung vẫn đi theo một câu
 
 ### Nguồn tham khảo
 
-- C. G. Jung: *Memories, Dreams, Reflections*
-- C. G. Jung: *Psychology and Religion*
-- C. G. Jung: *Answer to Job*
+- C. G. Jung: _Memories, Dreams, Reflections_
+- C. G. Jung: _Psychology and Religion_
+- C. G. Jung: _Answer to Job_
 - Penguin Random House: [Memories, Dreams, Reflections by C. G. Jung](https://www.penguinrandomhouse.com/books/89059/memories-dreams-reflections-by-c-g-jung/)

@@ -178,12 +178,12 @@ Một quốc gia muốn dẫn đầu lượng tử không chỉ cần một bài
 
 ### Bảng so sánh nhanh
 
-| Hệ thống | Quốc gia/nhóm | Kiến trúc | Quy mô nổi bật | Benchmark chính | Ý nghĩa |
-|---|---|---|---|---|---|
-| Jiuzhang 4.0 | Trung Quốc | Quang tử | 1024 squeezed states, 8176 mode, tới 3050 photon detection events | Gaussian boson sampling | Đẩy xa ưu thế lượng tử quang tử trong bài lấy mẫu chuyên biệt |
-| Zuchongzhi 3.0 | Trung Quốc | Qubit siêu dẫn | 105 qubit, thí nghiệm 83 qubit 32 cycle | Random circuit sampling | Benchmark siêu dẫn rất mạnh, cạnh tranh trực tiếp với hướng Google |
-| Sycamore | Google | Qubit siêu dẫn | 53 qubit | Random circuit sampling | Mốc quantum supremacy nổi tiếng năm 2019 |
-| Willow | Google | Qubit siêu dẫn | 105 qubit, distance-7 surface code 101 qubit | Sửa lỗi lượng tử và RCS | Dấu mốc quan trọng cho lộ trình fault-tolerant quantum computing |
+| Hệ thống       | Quốc gia/nhóm | Kiến trúc      | Quy mô nổi bật                                                    | Benchmark chính         | Ý nghĩa                                                            |
+| -------------- | ------------- | -------------- | ----------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------ |
+| Jiuzhang 4.0   | Trung Quốc    | Quang tử       | 1024 squeezed states, 8176 mode, tới 3050 photon detection events | Gaussian boson sampling | Đẩy xa ưu thế lượng tử quang tử trong bài lấy mẫu chuyên biệt      |
+| Zuchongzhi 3.0 | Trung Quốc    | Qubit siêu dẫn | 105 qubit, thí nghiệm 83 qubit 32 cycle                           | Random circuit sampling | Benchmark siêu dẫn rất mạnh, cạnh tranh trực tiếp với hướng Google |
+| Sycamore       | Google        | Qubit siêu dẫn | 53 qubit                                                          | Random circuit sampling | Mốc quantum supremacy nổi tiếng năm 2019                           |
+| Willow         | Google        | Qubit siêu dẫn | 105 qubit, distance-7 surface code 101 qubit                      | Sửa lỗi lượng tử và RCS | Dấu mốc quan trọng cho lộ trình fault-tolerant quantum computing   |
 
 Bảng này cho thấy điểm mấu chốt: Jiuzhang, Zuchongzhi và Willow không đang thi cùng một môn 100%.
 

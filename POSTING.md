@@ -7,6 +7,7 @@
 3. Doi ten file theo slug, vi du: `ai-agent-automation.md`.
 
 Luu y:
+
 - Ten file se la URL bai viet: `/blog/ai-agent-automation/`.
 - Sua `title`, `description`, `pubDate` truoc khi push.
 
@@ -46,5 +47,6 @@ Cloudflare Pages se tu dong build va deploy.
 ## 5) Dang bai tu may khac
 
 Co 2 cach:
+
 - Sua truc tiep tren GitHub web trong thu muc `src/content/blog/`, commit len `main`.
 - Hoac clone repo, sua file, roi `git push origin main`.

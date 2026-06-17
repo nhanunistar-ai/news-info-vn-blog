@@ -4,14 +4,15 @@ import { fetchPosts } from '~/utils/blog';
 
 export async function getStaticPaths() {
   const allPosts = await fetchPosts();
-  const categoryPosts = allPosts.filter(post => post.category?.slug === 'discovery' && post.series);
-  const seriesSlugs = [...new Set(categoryPosts.map(post => post.series))];
-  
-  return seriesSlugs.map(series => ({
-    params: { series }
+  const categoryPosts = allPosts.filter((post) => post.category?.slug === 'discovery' && post.series);
+  const seriesSlugs = [...new Set(categoryPosts.map((post) => post.series))];
+
+  return seriesSlugs.map((series) => ({
+    params: { series },
   }));
 }
 
 const { series } = Astro.params;
 ---
+
 <SeriesIndex seriesSlug={series as string} />

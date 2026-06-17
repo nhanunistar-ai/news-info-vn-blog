@@ -134,6 +134,7 @@ Với doanh nghiệp, đáng xem nhất là **MAI-Thinking-1**, **Frontier Tunin
 Với dân mạng Việt Nam, đáng xem nhất là: khi AI tên MAI bước vào đời sống công nghệ, mọi deadline đều có thêm một câu cửa miệng mới:
 
 **"Khó quá thì để MAI tính."**
+
 ### Nguồn tham khảo
 
 - Microsoft AI: [Building a hill-climbing machine: Launching seven new MAI models](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/)

@@ -269,14 +269,14 @@ Nếu bạn không có vòng lặp review, Obsidian sẽ trở thành bộ sưu 
 
 ### So Nhanh Với Notion
 
-| Tiêu chí | Obsidian | Notion |
-| --- | --- | --- |
-| Mô hình dữ liệu | File Markdown local-first | Workspace đóng, database-driven |
-| Sở hữu dữ liệu | Cao | Phụ thuộc nền tảng |
-| Liên kết ý tưởng | Rất mạnh | Tốt, nhưng khác cách tiếp cận |
-| Hợp tác team | Có thể làm được, nhưng không phải lợi thế chính | Rất mạnh |
-| Offline | Tốt | Hạn chế hơn |
-| Độ phức tạp ban đầu | Cao hơn | Dễ vào hơn |
+| Tiêu chí            | Obsidian                                        | Notion                          |
+| ------------------- | ----------------------------------------------- | ------------------------------- |
+| Mô hình dữ liệu     | File Markdown local-first                       | Workspace đóng, database-driven |
+| Sở hữu dữ liệu      | Cao                                             | Phụ thuộc nền tảng              |
+| Liên kết ý tưởng    | Rất mạnh                                        | Tốt, nhưng khác cách tiếp cận   |
+| Hợp tác team        | Có thể làm được, nhưng không phải lợi thế chính | Rất mạnh                        |
+| Offline             | Tốt                                             | Hạn chế hơn                     |
+| Độ phức tạp ban đầu | Cao hơn                                         | Dễ vào hơn                      |
 
 Nếu bạn cần quản lý team và quy trình chung, Notion rất thực dụng. Nếu bạn cần xây bộ máy tri thức cá nhân có chiều sâu, Obsidian thường hợp lý hơn.
 

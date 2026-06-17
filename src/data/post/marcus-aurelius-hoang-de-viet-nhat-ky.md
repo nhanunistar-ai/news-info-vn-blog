@@ -16,15 +16,15 @@ Bạn đang trong phần 9 của Series bài viết về Khắc kỷ. Đây là 
 
 ### Một cuốn sách không định xuất bản
 
-*Meditations* của Marcus Aurelius là một trong những văn bản nổi tiếng nhất của Khắc kỷ. Nhưng nó không được viết như sách bán ra công chúng. Nó giống nhật ký tự răn mình hơn.
+_Meditations_ của Marcus Aurelius là một trong những văn bản nổi tiếng nhất của Khắc kỷ. Nhưng nó không được viết như sách bán ra công chúng. Nó giống nhật ký tự răn mình hơn.
 
-Marcus viết cho chính ông, trong bối cảnh chiến tranh, dịch bệnh, áp lực chính trị và trách nhiệm đế quốc. Vì vậy, giọng văn trong *Meditations* có lúc lặp lại, có lúc khô, có lúc rất riêng tư. Đó không phải điểm yếu. Đó là bằng chứng rằng triết học ở đây là lao động nội tâm.
+Marcus viết cho chính ông, trong bối cảnh chiến tranh, dịch bệnh, áp lực chính trị và trách nhiệm đế quốc. Vì vậy, giọng văn trong _Meditations_ có lúc lặp lại, có lúc khô, có lúc rất riêng tư. Đó không phải điểm yếu. Đó là bằng chứng rằng triết học ở đây là lao động nội tâm.
 
 Ông không cố tỏ ra sáng suốt trước người đọc. Ông đang cố giữ mình khỏi sa ngã.
 
 ### Quyền lực không miễn trừ con người khỏi khổ đau
 
-Marcus có địa vị cao nhất trong đế chế La Mã, nhưng *Meditations* cho thấy quyền lực không xóa được bất an, mệt mỏi, thất vọng, giận dữ hay cái chết.
+Marcus có địa vị cao nhất trong đế chế La Mã, nhưng _Meditations_ cho thấy quyền lực không xóa được bất an, mệt mỏi, thất vọng, giận dữ hay cái chết.
 
 Ông vẫn phải đối diện với người khó chịu. Vẫn phải làm việc khi kiệt sức. Vẫn phải nhớ rằng danh tiếng rồi sẽ tan. Vẫn phải tự nhắc rằng thân thể chỉ là vật chất tạm thời.
 

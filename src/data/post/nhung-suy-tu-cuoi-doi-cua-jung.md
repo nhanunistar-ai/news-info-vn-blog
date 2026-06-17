@@ -10,7 +10,7 @@ publishDate: 2026-05-28T17:00:00.000Z
 image: '~/assets/images/nhung-suy-tu-cuoi-doi-cua-jung.webp'
 ---
 
-Bạn đang trong phần 15 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đi vào [câu hỏi về cái chết và đời sống sau cái chết trong Jung](/news/jung-va-cai-chet-doi-song-sau-cai-chet/). Đến đây, Jung không còn chỉ là nhà phân tích giấc mơ. Ông là một người già nhìn lại thế kỷ của mình, nhìn vào cái ác, tôn giáo, chiến tranh, khoa học và sự khủng hoảng của con người hiện đại.
+Bạn đang trong phần 15 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã đi vào [câu hỏi về cái chết và đời sống sau cái chết trong Jung](/news/jung-va-cai-chet-doi-song-sau-cai-chet/). Đến đây, Jung không còn chỉ là nhà phân tích giấc mơ. Ông là một người già nhìn lại thế kỷ của mình, nhìn vào cái ác, tôn giáo, chiến tranh, khoa học và sự khủng hoảng của con người hiện đại.
 
 > Jung cuối đời không bi quan rẻ tiền, nhưng cũng không lạc quan dễ dãi. Ông nhìn thấy tiến bộ kỹ thuật rất lớn, đồng thời thấy con người vẫn có thể bị bóng tối bên trong nuốt chửng.
 
@@ -188,4 +188,4 @@ Không phải vì ông có câu trả lời cho mọi thứ.
 
 Mà vì ông biết đặt đúng những câu hỏi mà con người hiện đại rất muốn né.
 
-Bài cuối của series sẽ tổng kết [cách đọc *Memories, Dreams, Reflections* như một bản đồ tự nhận thức, chứ không phải một cuốn sách thần tượng hóa Jung](/news/doc-memories-dreams-reflections-nhu-the-nao/).
+Bài cuối của series sẽ tổng kết [cách đọc _Memories, Dreams, Reflections_ như một bản đồ tự nhận thức, chứ không phải một cuốn sách thần tượng hóa Jung](/news/doc-memories-dreams-reflections-nhu-the-nao/).

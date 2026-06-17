@@ -93,7 +93,7 @@ Nếu ái kỷ cá nhân là “anh phải nhìn tôi theo cách tôi muốn”,
 
 ### Cô hầu gái: căn nhà hoàn hảo và quyền lực sau cửa đóng
 
-Trong kiểu chuyện như *Cô hầu gái*, ái kỷ nằm trong lớp vỏ rất bóng bẩy:
+Trong kiểu chuyện như _Cô hầu gái_, ái kỷ nằm trong lớp vỏ rất bóng bẩy:
 
 - gia đình hoàn hảo
 - không gian đẹp

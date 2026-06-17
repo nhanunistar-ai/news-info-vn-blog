@@ -10,7 +10,7 @@ publishDate: 2026-05-19T17:00:00.000Z
 image: '~/assets/images/burgholzli-noi-vo-thuc-bat-dau-len-tieng.webp'
 ---
 
-Bạn đang trong phần 6 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [ngã rẽ từ y khoa đến tâm thần học](/news/tu-y-khoa-den-tam-than-hoc/). Bây giờ ta bước vào Burghölzli, bệnh viện tâm thần ở Zurich, nơi Jung bắt đầu nghe thấy vô thức không phải như ý tưởng trừu tượng, mà như một lực đang hoạt động trong lời nói của con người.
+Bạn đang trong phần 6 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [ngã rẽ từ y khoa đến tâm thần học](/news/tu-y-khoa-den-tam-than-hoc/). Bây giờ ta bước vào Burghölzli, bệnh viện tâm thần ở Zurich, nơi Jung bắt đầu nghe thấy vô thức không phải như ý tưởng trừu tượng, mà như một lực đang hoạt động trong lời nói của con người.
 
 > Burghölzli là trường học khắc nghiệt của Jung. Ở đó, ông học rằng vô thức không im lặng. Nó nói qua sự ngập ngừng, lặp lại, lạc đề, quên chữ, phản ứng quá mức và những hình ảnh tưởng như phi lý.
 

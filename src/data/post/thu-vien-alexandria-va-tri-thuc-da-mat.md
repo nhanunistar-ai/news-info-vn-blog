@@ -72,7 +72,7 @@ Nhiều học giả lỗi lạc đã học tập và làm việc tại Alexandri
 
 Những gì họ để lại đã ảnh hưởng đến nhân loại trong hàng nghìn năm:
 
-- **Euclid:** Cha đẻ của hình học với bộ sách *Cơ sở* (*Elements*), đặt nền móng cho toán học suốt hơn 2.000 năm.
+- **Euclid:** Cha đẻ của hình học với bộ sách _Cơ sở_ (_Elements_), đặt nền móng cho toán học suốt hơn 2.000 năm.
 - **Zenodotus:** Thủ thư đầu tiên, người đã sắp xếp thư viện theo thứ tự bảng chữ cái.
 - **Eratosthenes:** Người đầu tiên tính toán được chu vi Trái Đất với độ chính xác đáng kinh ngạc chỉ bằng cách đo bóng nắng tại hai thành phố khác nhau.
 - **Archimedes:** Nhà toán học và kỹ sư thiên tài, người đã phát minh ra đinh vít Archimedes và nhiều thiết bị cơ khí.
@@ -140,6 +140,6 @@ Việc mất đi thư viện này là một bi kịch không thể đong đếm.
 
 Nó có thể từng chứa đựng những bí mật về khoa học, lịch sử, công nghệ và nguồn gốc cổ đại mà chúng ta vẫn đang cố gắng tìm kiếm cho đến tận ngày nay.
 
-Nếu các phần trước của *Te lo ocultaron* đặt câu hỏi về những thực thể, huyết thống và lịch sử bị che giấu, thì câu chuyện Alexandria nhắc ta về một dạng kiểm soát khác: kiểm soát bằng cách xóa ký ức.
+Nếu các phần trước của _Te lo ocultaron_ đặt câu hỏi về những thực thể, huyết thống và lịch sử bị che giấu, thì câu chuyện Alexandria nhắc ta về một dạng kiểm soát khác: kiểm soát bằng cách xóa ký ức.
 
 Một nhân loại không biết mình từng biết gì sẽ rất dễ bị thuyết phục rằng mọi giới hạn hiện tại là tự nhiên.

@@ -175,12 +175,12 @@ Desktop app phù hợp hơn khi:
 
 Không có công cụ nào thắng tuyệt đối. Điểm khác nhau nằm ở workflow bạn muốn.
 
-| Công cụ | Mạnh nhất ở đâu | Hợp với ai | Điểm cần lưu ý |
-|---|---|---|---|
-| **Google Antigravity 2.0** | Điều phối agent, subagents, scheduled tasks, artifact, project đa folder/repo, CLI/SDK cùng hệ sinh thái | Người muốn giao task dài, audit, refactor, automation, làm nhiều repo hoặc muốn xây custom agent | Cần quản lý quyền kỹ, review diff kỹ, quota phụ thuộc plan |
-| **Cursor** | AI editor rất mượt, agent trong editor, codebase context, sửa code nhanh trong workflow gần VS Code | Developer muốn thay IDE hằng ngày bằng editor AI nhanh và quen tay | Mạnh ở trải nghiệm editor; orchestration đa agent không phải trọng tâm chính như Antigravity |
-| **Windsurf/Cascade** | Cascade agent, code/chat mode, memories/rules, tool calling, web search, terminal, workflow trong IDE | Người muốn IDE agentic có trải nghiệm mềm, nhiều tính năng hỗ trợ coding hằng ngày | Tùy plan/tính năng, cần kiểm tra giới hạn team/enterprise |
-| **GitHub Copilot Coding Agent** | Làm việc gắn với GitHub issue/PR, chạy trong môi trường ephemeral qua GitHub Actions, hợp repo đã ở GitHub | Team dùng GitHub sâu, muốn giao issue cho agent tạo PR | Ít giống một IDE agent-first; mạnh ở workflow GitHub-native hơn là điều phối local nhiều agent |
+| Công cụ                         | Mạnh nhất ở đâu                                                                                            | Hợp với ai                                                                                       | Điểm cần lưu ý                                                                                 |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| **Google Antigravity 2.0**      | Điều phối agent, subagents, scheduled tasks, artifact, project đa folder/repo, CLI/SDK cùng hệ sinh thái   | Người muốn giao task dài, audit, refactor, automation, làm nhiều repo hoặc muốn xây custom agent | Cần quản lý quyền kỹ, review diff kỹ, quota phụ thuộc plan                                     |
+| **Cursor**                      | AI editor rất mượt, agent trong editor, codebase context, sửa code nhanh trong workflow gần VS Code        | Developer muốn thay IDE hằng ngày bằng editor AI nhanh và quen tay                               | Mạnh ở trải nghiệm editor; orchestration đa agent không phải trọng tâm chính như Antigravity   |
+| **Windsurf/Cascade**            | Cascade agent, code/chat mode, memories/rules, tool calling, web search, terminal, workflow trong IDE      | Người muốn IDE agentic có trải nghiệm mềm, nhiều tính năng hỗ trợ coding hằng ngày               | Tùy plan/tính năng, cần kiểm tra giới hạn team/enterprise                                      |
+| **GitHub Copilot Coding Agent** | Làm việc gắn với GitHub issue/PR, chạy trong môi trường ephemeral qua GitHub Actions, hợp repo đã ở GitHub | Team dùng GitHub sâu, muốn giao issue cho agent tạo PR                                           | Ít giống một IDE agent-first; mạnh ở workflow GitHub-native hơn là điều phối local nhiều agent |
 
 Nếu bạn đang code trực tiếp từng ngày và cần autocomplete, inline edit, sửa nhanh từng file, **Cursor hoặc Windsurf** có thể dễ vào việc hơn.
 

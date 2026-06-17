@@ -5,4 +5,4 @@ image: '~/assets/images/alien-interview.jpg'
 order: 1
 ---
 
-***Miễn trừ trách nhiệm:*** *Nội dung Tiếng Việt các bài viết được dịch hoàn toàn tự động bởi Gemma4 - Ollama. Mọi yêu cầu bản quyền và nội dung vui lòng gửi về admin@news.info.vn.*
+**_Miễn trừ trách nhiệm:_** _Nội dung Tiếng Việt các bài viết được dịch hoàn toàn tự động bởi Gemma4 - Ollama. Mọi yêu cầu bản quyền và nội dung vui lòng gửi về admin@news.info.vn._

@@ -58,7 +58,7 @@ for (const pngPath of pngFiles) {
     const pct = ((saved / pngSize) * 100).toFixed(1);
 
     console.log(
-      `✅ ${path.basename(pngPath)} → webp | ${(pngSize/1024).toFixed(0)}KB → ${(webpSize/1024).toFixed(0)}KB (-${pct}%)`
+      `✅ ${path.basename(pngPath)} → webp | ${(pngSize / 1024).toFixed(0)}KB → ${(webpSize / 1024).toFixed(0)}KB (-${pct}%)`
     );
     converted.push({ pngPath, webpPath, pngSize, webpSize });
   } catch (err) {
@@ -78,10 +78,7 @@ if (converted.length === 0) {
 }
 
 // 2. Cập nhật references trong .md và .astro files
-const sourceFiles = [
-  ...getAllFiles(CONTENT_DIR, ['.md', '.mdx']),
-  ...getAllFiles(PAGES_DIR, ['.astro', '.js', '.ts']),
-];
+const sourceFiles = [...getAllFiles(CONTENT_DIR, ['.md', '.mdx']), ...getAllFiles(PAGES_DIR, ['.astro', '.js', '.ts'])];
 
 console.log(`\nCập nhật references trong ${sourceFiles.length} file nguồn...`);
 
@@ -91,7 +88,7 @@ for (const srcFile of sourceFiles) {
   let modified = false;
 
   for (const { pngPath } of converted) {
-    const baseName = path.basename(pngPath);          // abc.png
+    const baseName = path.basename(pngPath); // abc.png
     const webpName = baseName.replace(/\.png$/i, '.webp');
 
     // Replace mọi reference đến file .png này (tất cả dạng path)
@@ -125,9 +122,11 @@ console.log(`Deleted:   ${deleted} PNG gốc`);
 console.log(`References updated: ${totalRefUpdated}`);
 console.log(`Dung lượng trước: ${(totalPngSize / 1024 / 1024).toFixed(2)} MB`);
 console.log(`Dung lượng sau:   ${(totalWebpSize / 1024 / 1024).toFixed(2)} MB`);
-console.log(`Tiết kiệm:        ${(totalSaved / 1024 / 1024).toFixed(2)} MB (${((totalSaved/totalPngSize)*100).toFixed(1)}%)`);
+console.log(
+  `Tiết kiệm:        ${(totalSaved / 1024 / 1024).toFixed(2)} MB (${((totalSaved / totalPngSize) * 100).toFixed(1)}%)`
+);
 
 if (failed.length > 0) {
   console.log('\nFile lỗi:');
-  failed.forEach(f => console.log(' -', path.relative(ROOT, f)));
+  failed.forEach((f) => console.log(' -', path.relative(ROOT, f)));
 }

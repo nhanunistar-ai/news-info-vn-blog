@@ -10,7 +10,7 @@ publishDate: 2026-05-25T17:00:00.000Z
 image: '~/assets/images/nhung-chuyen-di-cua-jung-phuong-dong-chau-phi-va-the-gioi-co-xua.webp'
 ---
 
-Bạn đang trong phần 12 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã nói về [Bollingen Tower, căn nhà như bản đồ của linh hồn](/news/bollingen-tower-can-nha-nhu-ban-do-linh-hon/). Bây giờ ta đi ra khỏi căn tháp ấy, theo Jung tới những không gian văn hóa khác: châu Phi, phương Đông và các thế giới cổ xưa.
+Bạn đang trong phần 12 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã nói về [Bollingen Tower, căn nhà như bản đồ của linh hồn](/news/bollingen-tower-can-nha-nhu-ban-do-linh-hon/). Bây giờ ta đi ra khỏi căn tháp ấy, theo Jung tới những không gian văn hóa khác: châu Phi, phương Đông và các thế giới cổ xưa.
 
 > Jung đi xa không chỉ để thấy cái lạ. Ông đi xa để nhìn lại phương Tây, nhìn lại cái tôi văn minh, và nhìn thấy những lớp tâm lý mà đời sống hiện đại đã cố quên.
 

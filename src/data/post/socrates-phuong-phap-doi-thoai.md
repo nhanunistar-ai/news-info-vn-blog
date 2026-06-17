@@ -36,7 +36,7 @@ Socrates buộc cuộc trò chuyện chậm lại. Ông không cho phép ngườ
 
 ### Từ tự tin đến bối rối
 
-Trong nhiều đối thoại của Plato, người đối diện Socrates bắt đầu bằng sự chắc chắn. Họ nghĩ mình biết. Họ nói như thể vấn đề không khó. Nhưng sau một chuỗi câu hỏi, họ rơi vào trạng thái bối rối. Người Hy Lạp gọi trạng thái ấy là *aporia*: một tình thế không còn lối đi rõ ràng.
+Trong nhiều đối thoại của Plato, người đối diện Socrates bắt đầu bằng sự chắc chắn. Họ nghĩ mình biết. Họ nói như thể vấn đề không khó. Nhưng sau một chuỗi câu hỏi, họ rơi vào trạng thái bối rối. Người Hy Lạp gọi trạng thái ấy là _aporia_: một tình thế không còn lối đi rõ ràng.
 
 Nghe qua, bối rối có vẻ như thất bại. Nhưng với Socrates, đó lại là bước tiến. Trước khi bối rối, người ta bị nhốt trong ảo tưởng hiểu biết. Sau khi bối rối, ít nhất họ đã biết rằng vấn đề khó hơn mình tưởng. Khoảnh khắc ấy không dễ chịu, nhưng nó trung thực hơn sự tự tin giả.
 

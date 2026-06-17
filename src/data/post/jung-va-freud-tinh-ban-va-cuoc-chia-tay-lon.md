@@ -10,7 +10,7 @@ publishDate: 2026-05-20T17:00:00.000Z
 image: '~/assets/images/jung-va-freud-tinh-ban-va-cuoc-chia-tay-lon.webp'
 ---
 
-Bạn đang trong phần 7 của Series bài viết về *Memories, Dreams, Reflections*. Bài trước đã đưa ta tới [Burghölzli, nơi vô thức bắt đầu lên tiếng](/news/burgholzli-noi-vo-thuc-bat-dau-len-tieng/). Từ đây, Jung bước vào một mối quan hệ vừa khai mở vừa nguy hiểm: tình bạn trí tuệ với Sigmund Freud.
+Bạn đang trong phần 7 của Series bài viết về _Memories, Dreams, Reflections_. Bài trước đã đưa ta tới [Burghölzli, nơi vô thức bắt đầu lên tiếng](/news/burgholzli-noi-vo-thuc-bat-dau-len-tieng/). Từ đây, Jung bước vào một mối quan hệ vừa khai mở vừa nguy hiểm: tình bạn trí tuệ với Sigmund Freud.
 
 > Freud cho Jung một cánh cửa lớn vào vô thức. Nhưng Jung không thể ở mãi trong căn phòng Freud đã dựng. Khi vô thức trở nên rộng hơn dục năng, cuộc chia tay chỉ còn là vấn đề thời gian.
 
@@ -175,4 +175,3 @@ Nhưng với Jung, để có bản đồ riêng, ông phải trả giá bằng c
 - Penguin Random House: [Memories, Dreams, Reflections by C. G. Jung](https://www.penguinrandomhouse.com/books/89059/memories-dreams-reflections-by-c-g-jung/)
 - Encyclopaedia Britannica: [Carl Jung](https://www.britannica.com/biography/Carl-Jung)
 - Encyclopaedia Britannica: [Sigmund Freud](https://www.britannica.com/biography/Sigmund-Freud)
-

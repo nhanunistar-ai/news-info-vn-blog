@@ -30,7 +30,7 @@ Trong góc nhìn này, 3D giống như một "ngôi trường", nơi linh hồn 
 
 Các nền văn hóa tổ tiên đã có những hệ thống niềm tin sâu sắc về các cấp độ tồn tại:
 
-![Vị thần Hindu thiền định trên kiến trúc cổ](../../assets/images/te-lo-ocultaron-05-shiva-3d-5d.webp) 
+![Vị thần Hindu thiền định trên kiến trúc cổ](../../assets/images/te-lo-ocultaron-05-shiva-3d-5d.webp)
 
 - **Văn hóa Ấn Độ:** Khái niệm "Maya" được dùng để chỉ tấm màn ảo ảnh che giấu bản chất thực sự của thực tại. Thế giới vật chất 3D chỉ là một ảo ảnh tạm thời và đầy giới hạn.
 - **Văn hóa bản địa:** Nhiều bộ tộc cổ xưa tin vào các tầng thế giới tinh linh, nơi họ có thể giao tiếp với tổ tiên thông qua các trạng thái ý thức thay đổi.

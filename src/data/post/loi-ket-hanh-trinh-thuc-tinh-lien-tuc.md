@@ -44,7 +44,7 @@ Vì chỉ khi biết mình chưa biết hết, ta mới còn đủ khiêm tốn 
 
 Chỉ khi không bám chặt vào kết luận cuối cùng, ta mới còn khả năng nhìn thấy những mảnh ghép mới.
 
-Hành trình của *Te lo ocultaron* bắt đầu từ cảm giác rất quen thuộc với nhiều người: cảm giác rằng thế giới này không hoàn toàn giống như những gì ta được bảo.
+Hành trình của _Te lo ocultaron_ bắt đầu từ cảm giác rất quen thuộc với nhiều người: cảm giác rằng thế giới này không hoàn toàn giống như những gì ta được bảo.
 
 Từ nhỏ, có những người đã cảm thấy có điều gì đó sai lệch.
 
@@ -108,7 +108,7 @@ Vì không muốn mất cảm giác an toàn.
 
 Vì không muốn đối diện với khả năng rằng rất nhiều điều mình tin từ nhỏ có thể chỉ là một lớp lập trình.
 
-Theo cách diễn giải của *Te lo ocultaron*, thế giới công khai chỉ là mặt tiền.
+Theo cách diễn giải của _Te lo ocultaron_, thế giới công khai chỉ là mặt tiền.
 
 Phía sau chính trị gia, nghệ sĩ, người nổi tiếng, tổ chức toàn cầu và các hình ảnh quyền lực là một mạng lưới phức tạp hơn.
 
@@ -286,7 +286,7 @@ Muốn tự kiểm chứng.
 
 Muốn lấy lại quyền sở hữu tâm trí, năng lượng và lựa chọn của chính mình.
 
-Nếu có một lời kết cho *Te lo ocultaron*, thì có lẽ nó không phải là một kết luận.
+Nếu có một lời kết cho _Te lo ocultaron_, thì có lẽ nó không phải là một kết luận.
 
 Mà là một lời mời.
 

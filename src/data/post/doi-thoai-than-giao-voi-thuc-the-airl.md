@@ -33,7 +33,7 @@ TRẢ LỜI \- KHÔNG."
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Tôi rất chắc chắn rằng điều này không đúng. Nhưng, tôi hiểu rõ rằng Airl không sẵn lòng giao tiếp bằng cách viết, vẽ hay ngôn ngữ ký hiệu. Cảm giác của tôi là cô ấy đang tuân lệnh, giống như bất kỳ người lính nào bị bắt giữ, không được tiết lộ bất kỳ thông tin nào có thể hữu ích cho kẻ thù, ngay cả khi bị tra tấn. Cô ấy chỉ có thể và sẵn lòng tiết lộ các thông tin không bảo mật, hoặc thông tin cá nhân, hoặc "tên, cấp bậc và số hiệu quân đội"."  
 **(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC) TỐI MẬT**  
-Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 2 
+Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 2
 "HỎI \- Bạn có thể chỉ cho chúng tôi trên bản đồ sao đâu là ngôi sao thuộc hành tinh quê hương của bạn không?  
 TRẢ LỜI \- KHÔNG.  
 Đây không phải là vì cô ấy không biết các hướng từ Trái Đất đến hành tinh quê hương của mình. Cô ấy không sẵn lòng tiết lộ vị trí. Điều đó cũng do thực tế là hệ sao thuộc hành tinh quê hương của cô ấy không tồn tại trên bất kỳ bản đồ sao nào trên Trái Đất. Nó ở quá xa.  
@@ -44,7 +44,7 @@ TRẢ LỜI \- VÀI PHÚT HOẶC VÀI GIỜ.
 HỎI \- Làm thế nào chúng tôi có thể làm cho họ hiểu rằng chúng tôi không có ý định làm hại bạn?  
 TRẢ LỜI \- Ý ĐỊNH ĐÃ RÕ RÀNG. NHÌN THẤY TRONG TÂM TRÍ CÁC ÔNG / HÌNH ẢNH / CẢM XÚC.  
 HỎI \- Nếu bạn không phải là một thực thể sinh học, tại sao bạn lại tự gọi mình là phái nữ?  
-TRẢ LỜI \- TÔI LÀ NGƯỜI SÁNG TẠO. NGƯỜI MẸ. NGUỒN CỘI." 
+TRẢ LỜI \- TÔI LÀ NGƯỜI SÁNG TẠO. NGƯỜI MẸ. NGUỒN CỘI."
 **(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
 "Những câu hỏi này chỉ làm mất của tôi vài phút để hoàn thành. Lúc đó tôi nhận ra rằng chúng tôi có thể gặp rắc rối nghiêm trọng nếu người ngoài hành tinh không sẵn lòng hợp tác, hoặc tiết lộ bất kỳ thông tin nào mà quân đội, cơ quan tình báo hay các nhà khoa học coi là hữu ích cho họ.  
-Tôi cũng chắc chắn rằng người ngoài hành tinh rất rõ ràng về ý định thực sự của những người viết các câu hỏi này, vì cô ấy có thể "đọc tâm trí họ" một cách dễ dàng như cô ấy có thể đọc được suy nghĩ của tôi và giao tiếp với tôi bằng thần giao cách cảm. Vì những ý định này, cô ấy không sẵn lòng và không thể hợp tác với bất kỳ ai trong số họ theo bất kỳ cách nào, trong bất kỳ hoàn cảnh nào. Tôi cũng chắc chắn rằng vì cô ấy không phải là một dạng sống sinh học, nên sẽ không có loại tra tấn hay ép buộc nào có thể làm thay đổi ý định của cô ấy\!"  
+Tôi cũng chắc chắn rằng người ngoài hành tinh rất rõ ràng về ý định thực sự của những người viết các câu hỏi này, vì cô ấy có thể "đọc tâm trí họ" một cách dễ dàng như cô ấy có thể đọc được suy nghĩ của tôi và giao tiếp với tôi bằng thần giao cách cảm. Vì những ý định này, cô ấy không sẵn lòng và không thể hợp tác với bất kỳ ai trong số họ theo bất kỳ cách nào, trong bất kỳ hoàn cảnh nào. Tôi cũng chắc chắn rằng vì cô ấy không phải là một dạng sống sinh học, nên sẽ không có loại tra tấn hay ép buộc nào có thể làm thay đổi ý định của cô ấy\!"

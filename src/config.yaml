@@ -11,7 +11,7 @@ metadata:
   title:
     default: NEWS.INFO.VN - Thông tin tổng hợp
     template: '%s — NEWS.INFO.VN'
-  description: "Trang tin tức tổng hợp về khoa học, công nghệ, lịch sử và các chủ đề thú vị."
+  description: 'Trang tin tức tổng hợp về khoa học, công nghệ, lịch sử và các chủ đề thú vị.'
   robots:
     index: true
     follow: true

@@ -11,6 +11,7 @@ image: '~/assets/images/qubit-vat-ly-va-logic.webp'
 Sự khác biệt giữa qubit vật lý và qubit logic là cốt lõi của quá trình chuyển dịch từ các máy tính lượng tử thử nghiệm sang các hệ thống có ứng dụng thực tế. Dưới đây là những điểm khác biệt chính giữa hai loại qubit này:
 
 ### 1. Bản chất và Độ ổn định
+
 - **Qubit vật lý:** Là những đơn vị phần cứng thực tế được tạo ra từ các hệ thống vật lý như mạch siêu dẫn, ion bị bẫy hoặc nguyên tử trung hòa. Đặc điểm lớn nhất của chúng là **rất mong manh và dễ bị lỗi**. Do nhạy cảm với nhiễu môi trường (nhiệt độ, điện từ), chúng thường bị mất trạng thái lượng tử (hiện tượng giải liên kết) chỉ trong vài mili giây, với tỷ lệ lỗi trung bình dao động từ 0,1% đến 1% trên mỗi cổng hoạt động.
 
 - **Qubit logic:** Là một "qubit ảo" được tạo ra bằng cách gộp nhiều qubit vật lý lại với nhau. Mục đích của qubit logic là sử dụng các thuật toán sửa lỗi lượng tử để bảo vệ thông tin. Nhờ cơ chế này, qubit logic có **độ tin cậy cực cao và ổn định hơn rất nhiều** so với các qubit vật lý cấu thành nên nó. Chúng cho phép thực hiện các mạch tính toán sâu và phức tạp mà không bị sụp đổ bởi nhiễu.

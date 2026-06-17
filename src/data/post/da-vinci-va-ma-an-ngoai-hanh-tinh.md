@@ -38,7 +38,7 @@ Theo cách nhìn chính thống, Leonardo là kết quả hiếm hoi của một
 
 Đó là cách giải thích hợp lý.
 
-Nhưng với *Te lo ocultaron*, câu hỏi không dừng lại ở đó.
+Nhưng với _Te lo ocultaron_, câu hỏi không dừng lại ở đó.
 
 Nếu một người xuất hiện trong lịch sử với khả năng quá rộng, quá sâu và quá sớm so với thời đại, liệu có thể tồn tại một nguồn tri thức khác đứng sau?
 
@@ -120,7 +120,7 @@ Vì giữa quan sát chim và vẽ ra các cấu trúc máy bay, vẫn có một
 
 Một bước nhảy mà rất ít người cùng thời có thể thực hiện.
 
-Đối với *Te lo ocultaron*, các bản vẽ bay của Leonardo không chỉ là ước mơ kỹ thuật.
+Đối với _Te lo ocultaron_, các bản vẽ bay của Leonardo không chỉ là ước mơ kỹ thuật.
 
 Chúng là biểu tượng của một trí tuệ luôn hướng lên trời, như thể ông biết rằng nguồn gốc của nhiều câu trả lời không nằm dưới đất.
 
@@ -130,7 +130,7 @@ Chúng là biểu tượng của một trí tuệ luôn hướng lên trời, nh
 
 Một trong những khía cạnh ít được công chúng phổ thông chú ý là Leonardo từng thiết kế các mô hình cơ khí hình người.
 
-Robot hiệp sĩ của Leonardo, thường được gọi là *Leonardo's robot* hoặc *mechanical knight*, là một ví dụ nổi bật.
+Robot hiệp sĩ của Leonardo, thường được gọi là _Leonardo's robot_ hoặc _mechanical knight_, là một ví dụ nổi bật.
 
 Nó được cho là có thể ngồi, đứng, cử động tay, cổ và hàm thông qua hệ thống dây cáp, ròng rọc và bánh răng.
 
@@ -192,7 +192,7 @@ Nó cũng được tạo nên bởi những gì im lặng.
 
 ### Bức Truyền tin và lớp ẩn dưới tia X
 
-Một ví dụ thường được nhắc đến trong nội dung gốc là bức *The Annunciation* - *Truyền tin*.
+Một ví dụ thường được nhắc đến trong nội dung gốc là bức _The Annunciation_ - _Truyền tin_.
 
 Theo cách kể ngoài dòng chính, khi bức tranh được phân tích bằng tia X, hình ảnh thiên sứ do Leonardo thực hiện có những đặc điểm bất thường so với các phần còn lại, như thể ông đã sử dụng chất liệu hoặc kỹ thuật khác thường.
 
@@ -224,7 +224,7 @@ Mà là lớp ý thức bên dưới hình ảnh.
 
 ### Kỹ thuật đối gương
 
-Leonardo nổi tiếng với thói quen viết ngược, tức *mirror writing*.
+Leonardo nổi tiếng với thói quen viết ngược, tức _mirror writing_.
 
 Nhiều trang ghi chép của ông chỉ có thể đọc dễ dàng khi soi qua gương.
 
@@ -234,11 +234,11 @@ Một số người khác cho rằng đây là cách ông che giấu ghi chép k
 
 Trong mạch giả thuyết, câu hỏi tiếp theo được đặt ra: nếu Leonardo dùng đối gương trong chữ viết, liệu ông có dùng nguyên lý tương tự trong hình ảnh?
 
-Khi các tác phẩm như *Mona Lisa*, *The Virgin and Child with Saint Anne* hoặc *Virgin of the Rocks* được xử lý bằng kỹ thuật đối xứng gương hiện đại, một số người cho rằng họ nhìn thấy các hình dạng giống khuôn mặt sinh vật lạ, đầu người ngoài hành tinh hoặc các thực thể kỳ dị ẩn trong bố cục.
+Khi các tác phẩm như _Mona Lisa_, _The Virgin and Child with Saint Anne_ hoặc _Virgin of the Rocks_ được xử lý bằng kỹ thuật đối xứng gương hiện đại, một số người cho rằng họ nhìn thấy các hình dạng giống khuôn mặt sinh vật lạ, đầu người ngoài hành tinh hoặc các thực thể kỳ dị ẩn trong bố cục.
 
 Ở đây cần rất thận trọng.
 
-Bộ não con người có xu hướng nhận diện khuôn mặt trong các hình ảnh ngẫu nhiên. Hiện tượng này gọi là *pareidolia*.
+Bộ não con người có xu hướng nhận diện khuôn mặt trong các hình ảnh ngẫu nhiên. Hiện tượng này gọi là _pareidolia_.
 
 Ta có thể thấy khuôn mặt trong mây, đá, vân gỗ, khói hoặc các hình đối xứng.
 
@@ -282,7 +282,7 @@ Nó không đóng lại ý nghĩa.
 
 Nó biến người xem thành người giải mã.
 
-Với *Te lo ocultaron*, điều đáng chú ý không phải là chứng minh bằng mọi giá rằng tranh Leonardo có người ngoài hành tinh.
+Với _Te lo ocultaron_, điều đáng chú ý không phải là chứng minh bằng mọi giá rằng tranh Leonardo có người ngoài hành tinh.
 
 Điều đáng chú ý là các tác phẩm ấy vẫn đủ bí ẩn để khiến chúng ta phải hỏi: Leonardo thật sự đang vẽ điều gì?
 

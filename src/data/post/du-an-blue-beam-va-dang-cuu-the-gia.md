@@ -16,7 +16,7 @@ image: '~/assets/images/du-an-blue-beam-va-dang-cuu-the-gia.webp'
 
 ### Một tôn giáo duy nhất
 
-Trong các chương trước của *Te lo ocultaron*, Trật tự Thế giới Mới thường được mô tả qua một số trụ cột cốt lõi: một xã hội toàn cầu, một hệ thống tài chính chung, một trung tâm quyền lực duy nhất và một khuôn khổ niềm tin thống nhất.
+Trong các chương trước của _Te lo ocultaron_, Trật tự Thế giới Mới thường được mô tả qua một số trụ cột cốt lõi: một xã hội toàn cầu, một hệ thống tài chính chung, một trung tâm quyền lực duy nhất và một khuôn khổ niềm tin thống nhất.
 
 Nếu con người còn khác biệt sâu sắc về tôn giáo, bản sắc, truyền thống và cách hiểu về linh hồn, việc gom toàn bộ nhân loại vào một mô hình quản trị duy nhất sẽ luôn gặp lực cản.
 

@@ -6,17 +6,17 @@ const files = fs.readdirSync(postsDir);
 
 let fixedCount = 0;
 
-files.forEach(file => {
+files.forEach((file) => {
   if (file.endsWith('.md')) {
     const filePath = path.join(postsDir, file);
     let content = fs.readFileSync(filePath, 'utf8');
-    
+
     // Fix quotes in frontmatter
     let updated = content.replace(/^(title|excerpt|author):\s*"([^"]*"[^"]*)"$/gm, (match, key, value) => {
       // If value contains quotes, use single quotes wrapper
       return `${key}: '${value}'`;
     });
-    
+
     if (updated !== content) {
       fs.writeFileSync(filePath, updated);
       fixedCount++;

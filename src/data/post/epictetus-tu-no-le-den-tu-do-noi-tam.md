@@ -16,7 +16,7 @@ Bạn đang trong phần 8 của Series bài viết về Khắc kỷ. Đây là 
 
 ### Một xuất phát điểm đặc biệt
 
-Epictetus sinh ra trong thân phận nô lệ vào thế kỷ 1. Ông không để lại tác phẩm viết tay của chính mình. Những gì ta đọc được chủ yếu do học trò Arrian ghi lại trong *Discourses* và tóm lược trong *Enchiridion*.
+Epictetus sinh ra trong thân phận nô lệ vào thế kỷ 1. Ông không để lại tác phẩm viết tay của chính mình. Những gì ta đọc được chủ yếu do học trò Arrian ghi lại trong _Discourses_ và tóm lược trong _Enchiridion_.
 
 Điều làm Epictetus đặc biệt là giọng điệu rất trực diện. Ông không thích triết học để trang trí. Ông muốn triết học trở thành kỷ luật sống.
 

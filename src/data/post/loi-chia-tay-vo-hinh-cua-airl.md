@@ -1,6 +1,6 @@
 ---
 title: 'Alien Interview - Chapter 16'
-excerpt: 'Chương mười sáu của Alien Interview: lời chia tay vô hình của Matilda O''Donnell MacElroy với Airl.'
+excerpt: "Chương mười sáu của Alien Interview: lời chia tay vô hình của Matilda O'Donnell MacElroy với Airl."
 category: 'stories'
 tags: ['alien-interview', 'airl', 'ending']
 author: 'Hoang Linh'
