@@ -1,0 +1,74 @@
+---
+import { fetchPosts } from '~/utils/blog';
+import { getPermalink } from '~/utils/permalinks';
+import { getCollection } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+import type { Post } from '~/types';
+
+export interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+
+if (!post.series) {
+  return null;
+}
+
+// Fetch series details
+const seriesEntries = await getCollection('series');
+const seriesData = seriesEntries.find((s: any) => s.id === post.series)?.data;
+const seriesTitle = seriesData?.title || post.series;
+
+const allPosts = await fetchPosts();
+const seriesPosts = allPosts
+  .filter(p => p.series === post.series)
+  .sort((a, b) => (a.chapter ?? 999) - (b.chapter ?? 999) || a.publishDate.valueOf() - b.publishDate.valueOf());
+
+const currentIndex = seriesPosts.findIndex(p => p.id === post.id);
+
+const prevPost = currentIndex > 0 ? seriesPosts[currentIndex - 1] : null;
+const nextPost = currentIndex >= 0 && currentIndex < seriesPosts.length - 1 ? seriesPosts[currentIndex + 1] : null;
+
+// Construct series link
+const seriesLink = `/${post.category?.slug || 'news'}/${post.series}`;
+---
+
+{post.series && (
+  <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-12 pt-8 border-t border-gray-200 dark:border-slate-700">
+    <div class="mb-6">
+      <a href={seriesLink} class="text-primary font-bold hover:underline inline-flex items-center text-lg">
+        <Icon name="tabler:arrow-left" class="w-5 h-5 mr-1" />
+        Quay lại Mục lục {seriesTitle}
+      </a>
+    </div>
+    
+    {(prevPost || nextPost) && (
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {prevPost ? (
+          <div class="flex flex-col">
+            <a href={getPermalink(prevPost.permalink, 'post')} class="group flex flex-col hover:text-primary transition-colors p-4 border border-gray-200 dark:border-slate-700 rounded-lg h-full shadow-sm hover:shadow-md bg-white dark:bg-slate-900">
+              <span class="text-sm text-gray-500 dark:text-slate-400 mb-1 font-bold flex items-center">
+                <Icon name="tabler:chevron-left" class="w-4 h-4 mr-1" />
+                Phần trước {prevPost.chapter !== undefined ? `(Chương ${prevPost.chapter})` : ''}
+              </span>
+              <span class="font-medium line-clamp-2 leading-relaxed">{prevPost.title}</span>
+            </a>
+          </div>
+        ) : <div></div>}
+        
+        {nextPost && (
+          <div class="flex flex-col">
+            <a href={getPermalink(nextPost.permalink, 'post')} class="group flex flex-col sm:items-end hover:text-primary transition-colors p-4 border border-gray-200 dark:border-slate-700 rounded-lg h-full shadow-sm hover:shadow-md bg-white dark:bg-slate-900 sm:text-right">
+              <span class="text-sm text-gray-500 dark:text-slate-400 mb-1 font-bold flex items-center sm:justify-end">
+                Phần sau {nextPost.chapter !== undefined ? `(Chương ${nextPost.chapter})` : ''}
+                <Icon name="tabler:chevron-right" class="w-4 h-4 ml-1" />
+              </span>
+              <span class="font-medium line-clamp-2 leading-relaxed">{nextPost.title}</span>
+            </a>
+          </div>
+        )}
+      </div>
+    )}
+  </div>
+)}

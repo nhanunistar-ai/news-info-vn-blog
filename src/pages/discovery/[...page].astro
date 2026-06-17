@@ -1,0 +1,27 @@
+---
+import type { GetStaticPaths } from 'astro';
+import CategoryIndex from '~/components/blog/CategoryIndex.astro';
+import { getCategoryItems } from '~/utils/seriesList';
+import { APP_BLOG } from 'astrowind:config';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const categoryPosts = await getCategoryItems('discovery');
+
+  return paginate(categoryPosts, {
+    pageSize: APP_BLOG?.postsPerPage || 10,
+  });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+<CategoryIndex
+  categorySlug="discovery"
+  categoryName="Discovery"
+  description="Khám phá các góc nhìn mới, sự thật và hiện tượng thú vị trên thế giới."
+  posts={page.data}
+  page={page.currentPage}
+  prevUrl={page.url.prev}
+  nextUrl={page.url.next}
+/>

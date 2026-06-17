@@ -1,0 +1,28 @@
+---
+title: 'Alien Interview - Chapter 4'
+excerpt: 'Chương bốn của Alien Interview: rào cản ngôn ngữ và điều kiện để Matilda tiếp tục giao tiếp với thực thể ngoài hành tinh.'
+category: 'stories'
+tags: ['alien-interview', 'airl', 'language']
+author: 'Nam Phong'
+series: 'alien-interview'
+chapter: 4
+publishDate: 2026-05-08T17:00:00.000Z
+image: '~/assets/images/chapter-4.webp'
+---
+
+### Rào cản ngôn ngữ
+
+**(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
+"Sau khi tôi giải thích những gì mình cho là nguyên nhân dẫn đến câu trả lời 'không trả lời' với các đặc vụ tình báo, đã có rất nhiều sự khó chịu và hỗn loạn xảy ra. Một cuộc thảo luận rất gay gắt đã diễn ra giữa một số sĩ quan tình báo, quan chức quân đội, nhà tâm lý học và các thông dịch viên ngôn ngữ. Cuộc thảo luận này kéo dài trong vài giờ. Cuối cùng, người ta quyết định rằng tôi nên được phép tiếp tục phỏng vấn người ngoài hành tinh, với điều kiện tôi có thể nhận được một câu trả lời thỏa đáng từ cô ấy cho câu hỏi sau:"  
+**(BẢN GHI CHÉP PHỎNG VẤN CHÍNH THỨC)** **TỐI MẬT**  
+Bản ghi chép chính thức của Không quân Lục quân Hoa Kỳ Căn cứ Không quân Roswell, Nhóm ném bom 509 CHỦ ĐỀ: PHỎNG VẤN NGƯỜI NGOÀI HÀNH TINH, 11\. 7\. 1947, Phiên thứ 3  
+"HỎI \- 'Bà cần sự đảm bảo hay bằng chứng nào từ chúng tôi để khiến bà cảm thấy đủ an toàn để trả lời các câu hỏi của chúng tôi?'  
+TRẢ LỜI \- CHỈ CÔ ẤY NÓI. CHỈ CÔ ẤY NGHE. CHỈ CÔ ẤY HỎI. KHÔNG CÓ AI KHÁC. PHẢI HỌC / BIẾT / HIỂU."  
+**(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
+"Khi tôi trở về từ phòng phỏng vấn để báo cáo câu trả lời của người ngoài hành tinh cho câu hỏi này, tôi đã nhận được sự đón tiếp lạnh lùng và hoài nghi từ các đặc vụ tình báo và nhân viên quân đội đang tập hợp ở đó. Họ không thể hiểu người ngoài hành tinh có ý gì qua điều này.  
+Tôi thừa nhận rằng tôi cũng không thực sự hiểu ý cô ấy là gì, nhưng tôi đang cố gắng hết sức để diễn đạt những ý định thần giao cách cảm của cô ấy. Tôi đã nói với các quan chức rằng có lẽ vấn đề giao tiếp liên quan đến việc tôi không có khả năng hiểu ngôn ngữ thần giao cách cảm của người ngoài hành tinh đủ rõ ràng để đạt yêu cầu. Lúc đó tôi đã rất nản lòng, đến mức gần như muốn bỏ cuộc\! Và bây giờ, thậm chí còn có nhiều cuộc tranh cãi hơn cả trước đó\! Tôi chắc chắn rằng mình sắp bị cách chức, bất chấp thực tế là người ngoài hành tinh từ chối giao tiếp với bất kỳ ai khác, hoặc chưa tìm thấy ai khác có thể giao tiếp với cô ấy.  
+May mắn thay, một người đàn ông rất thông minh tên là **John Kneubuhl**, một chuyên gia ngôn ngữ tiếng Nhật từ Hải quân, đã có một lời giải thích và một giải pháp cho vấn đề này. Ông giải thích rằng, thứ nhất, vấn đề có rất ít liên quan đến việc người ngoài hành tinh không có khả năng giao tiếp. Nó liên quan nhiều hơn đến việc cô ấy không sẵn lòng giao tiếp với bất kỳ ai khác ngoài tôi. Thứ hai, để bất kỳ cuộc giao tiếp rõ ràng và toàn diện nào có thể diễn ra, cả hai bên cần phải hiểu và giao tiếp thông qua một ngôn ngữ chung.  
+Các từ ngữ và biểu tượng trong ngôn ngữ truyền tải những khái niệm và ý nghĩa rất chính xác. Ông nói rằng người Nhật có rất nhiều từ đồng âm trong ngôn ngữ của họ, điều này gây ra nhiều nhầm lẫn trong giao tiếp hàng ngày. Họ giải quyết vấn đề này bằng cách sử dụng các chữ Hán tiêu chuẩn để viết ra ý nghĩa chính xác của từ mà họ đang sử dụng. Điều này giúp làm sáng tỏ vấn đề cho họ.  
+Nếu không có một hệ thống thuật ngữ được xác định rõ ràng, việc giao tiếp sẽ không thể vượt qua mức thấu hiểu sơ đẳng giữa người và chó, hoặc giữa hai đứa trẻ nhỏ. Sự thiếu hụt vốn từ vựng chung gồm những từ được định nghĩa rõ ràng mà tất cả các bên có thể sử dụng trôi chảy là yếu tố hạn chế trong giao tiếp giữa mọi người, các nhóm hoặc các quốc gia.  
+Vì vậy, ông gợi ý rằng chỉ có hai lựa chọn. Tôi phải học nói ngôn ngữ của người ngoài hành tinh, hoặc người ngoài hành tinh phải học nói tiếng Anh. Trên thực tế, chỉ có một lựa chọn khả thi: đó là tôi thuyết phục **Airl** học tiếng Anh, và tôi sẽ dạy tiếng Anh cho cô ấy dưới sự hướng dẫn của chuyên gia ngôn ngữ. Không ai phản đối việc thử cách tiếp cận này, vì không có gợi ý nào khác. Các chuyên gia ngôn ngữ đề nghị tôi mang theo vài cuốn sách trẻ em, một cuốn sách tập đọc cơ bản và sách ngữ pháp vào phòng phỏng vấn. Kế hoạch là tôi sẽ ngồi cạnh người ngoài hành tinh và đọc to cho cô ấy nghe từ những cuốn sách đó, đồng thời dùng ngón tay chỉ vào đoạn văn bản tôi đang đọc để cô ấy có thể theo dõi.  
+Lý thuyết là cuối cùng người ngoài hành tinh có thể được dạy đọc, giống như một đứa trẻ được dạy đọc bằng cách liên kết từ và âm thanh với chữ viết, cũng như được hướng dẫn về ngữ pháp cơ bản. Tôi nghĩ, họ cũng giả định rằng nếu người ngoài hành tinh đủ thông minh để giao tiếp với tôi bằng thần giao cách cảm và lái một phi thuyền xuyên qua thiên hà, thì cô ấy có lẽ có thể học nói một ngôn ngữ nhanh như một đứa trẻ 5 tuổi, hoặc nhanh hơn\! Tôi trở lại phòng phỏng vấn và đề xuất ý tưởng này với **Airl**. Cô ấy không phản đối việc học ngôn ngữ, mặc dù cô ấy cũng không đưa ra bất kỳ cam kết nào về việc trả lời các câu hỏi. Không ai có ý tưởng nào tốt hơn, vì vậy chúng tôi đã tiến hành."  
