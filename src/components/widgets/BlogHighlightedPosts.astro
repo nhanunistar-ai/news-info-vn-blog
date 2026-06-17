@@ -1,5 +1,5 @@
 ---
-import { APP_BLOG } from 'astrowind:config';
+import { APP_BLOG } from '~/utils/config';
 
 import Grid from '~/components/blog/Grid.astro';
 
@@ -62,3 +62,4 @@ const posts = APP_BLOG.isEnabled ? await findPostsByIds(postIds) : [];
     <Fragment />
   )
 }
+

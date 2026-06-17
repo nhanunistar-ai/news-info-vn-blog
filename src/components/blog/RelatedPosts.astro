@@ -1,5 +1,5 @@
 ---
-import { APP_BLOG } from 'astrowind:config';
+import { APP_BLOG } from '~/utils/config';
 
 import { getRelatedPosts } from '~/utils/blog';
 import BlogHighlightedPosts from '../widgets/BlogHighlightedPosts.astro';
@@ -29,3 +29,4 @@ const relatedPosts = post.tags ? await getRelatedPosts(post, 4) : [];
     />
   ) : null
 }
+

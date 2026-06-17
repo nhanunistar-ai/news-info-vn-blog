@@ -1,5 +1,5 @@
 ---
-import { APP_BLOG } from 'astrowind:config';
+import { APP_BLOG } from '~/utils/config';
 import type { Post } from '~/types';
 
 import Image from '~/components/common/Image.astro';
@@ -69,3 +69,4 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 
   <p class="text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>
 </article>
+
