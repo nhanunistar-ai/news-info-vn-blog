@@ -2,16 +2,15 @@
 import type { GetStaticPaths } from 'astro';
 import CategoryIndex from '~/components/blog/CategoryIndex.astro';
 import { getCategoryItems } from '~/utils/seriesList';
+import { blogPostsPerPage } from '~/utils/blog';
 
 export const prerender = true;
-
-const POSTS_PER_PAGE = 10;
 
 export const getStaticPaths = (async ({ paginate }) => {
   const categoryPosts = await getCategoryItems('stories');
 
   return paginate(categoryPosts, {
-    pageSize: POSTS_PER_PAGE,
+    pageSize: blogPostsPerPage || 10,
   });
 }) satisfies GetStaticPaths;
 

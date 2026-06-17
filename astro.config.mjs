@@ -2,7 +2,9 @@
 
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import icon from 'astro-icon';
 import { defineConfig, fontProviders } from 'astro/config';
+import astrowind from './vendor/integration/index.js';
 
 const siteUrl = 'https://news.info.vn';
 
@@ -42,7 +44,27 @@ function openExternalLinksInNewTab() {
 // https://astro.build/config
 export default defineConfig({
 	site: siteUrl,
-	integrations: [mdx(), sitemap()],
+	integrations: [
+		astrowind(),
+		mdx(),
+		sitemap(),
+		icon({
+			include: {
+				tabler: ['*'],
+				'flat-color-icons': [
+					'template',
+					'gallery',
+					'approval',
+					'document',
+					'advertising',
+					'currency-exchange',
+					'voice-presentation',
+					'business-contact',
+					'database',
+				],
+			},
+		}),
+	],
 	markdown: {
 		rehypePlugins: [openExternalLinksInNewTab],
 	},
