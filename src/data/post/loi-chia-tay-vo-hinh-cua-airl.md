@@ -1,0 +1,27 @@
+---
+title: 'Alien Interview - Chapter 16'
+excerpt: "Chương mười sáu của Alien Interview: lời chia tay vô hình của Matilda O'Donnell MacElroy với Airl."
+category: 'stories'
+tags: ['alien-interview', 'airl', 'ending']
+author: 'Hoang Linh'
+series: 'alien-interview'
+chapter: 16
+publishDate: 2026-05-20T17:00:00.000Z
+image: '~/assets/images/chapter-16.webp'
+---
+
+### Lời chia tay vô hình
+
+**(GHI CHÚ CÁ NHÂN CỦA MATILDA O'DONNELL MACELROY)**  
+"Tôi ở lại căn cứ, chủ yếu bị giới hạn trong phòng nghỉ của mình, thêm 3 tuần nữa sau khi Airl bị 'vô hiệu hóa' bởi Tiến sĩ Wilcox. Mỗi ngày một lần, tôi được hộ tống đến căn phòng nơi Airl nằm trên giường dưới sự giám sát liên tục của Tiến sĩ Wilcox, và những người khác, tôi đoán vậy. Mỗi lần tôi đến phòng, tôi đều được yêu cầu thử liên lạc lại với Airl. Lần nào cũng không có phản hồi. Điều này làm tôi rất buồn. Khi những ngày tiếp theo trôi qua, tôi càng trở nên chắc chắn và đau khổ rằng Airl đã 'chết', nếu đó là từ đúng để gọi tên tình trạng này.  
+Mỗi ngày, tôi đều đọc lại các bản ghi chép cuộc phỏng vấn của mình với Airl, tìm kiếm một manh mối có thể nhắc nhở tôi về điều gì đó hoặc giúp tôi bằng cách nào đó thiết lập lại liên lạc với Airl. Tôi vẫn giữ chiếc phong bì đựng các bản sao ghi chép mà Airl được yêu cầu ký tên. Cho đến ngày nay, tôi vẫn không hiểu tại sao không ai yêu cầu tôi trả lại chúng. Tôi đoán họ đã quên mất bản sao ghi chép đó trong tất cả những sự hỗn loạn. Tôi đã không chủ động trả lại. Tôi giấu chúng dưới đệm giường trong suốt thời gian còn lại ở căn cứ, và luôn mang chúng theo bên mình kể từ đó. Bạn sẽ là người đầu tiên được thấy những bản ghi chép này.  
+Vì cơ thể của Airl không phải là sinh học, các bác sĩ không thể phát hiện được cơ thể đó còn sống hay đã chết trừ khi nó cử động. Tất nhiên tôi biết rằng nếu Airl không chủ động điều khiển cơ thể đó với tư cách là một IS-BE, cơ thể sẽ không cử động. Tôi đã giải thích điều này với Tiến sĩ Wilcox. Tôi đã giải thích với ông ta vài lần. Mỗi lần ông ta chỉ dành cho tôi một nụ cười trịch thượng, vỗ nhẹ vào tay tôi và cảm ơn tôi vì đã cố gắng một lần nữa.  
+Vào cuối tuần thứ ba, tôi được Tiến sĩ Wilcox thông báo rằng các dịch vụ của tôi sẽ không còn cần thiết nữa vì quân đội đã quyết định chuyển Airl đến một cơ sở y tế quân sự lớn hơn, an toàn hơn và được trang bị tốt hơn để giải quyết tình hình. Ông ta không nói gì về việc cơ sở đó nằm ở đâu. Đó là lần cuối cùng tôi nhìn thấy cơ thể búp bê của Airl.  
+Ngày hôm sau, tôi nhận được mệnh lệnh bằng văn bản, có chữ ký của Tướng Twining. Mệnh lệnh nói rằng tôi đã hoàn thành nghĩa vụ với quân đội Hoa Kỳ và chính thức được xuất ngũ, tôi sẽ nhận được một giấy giải ngũ danh dự và một khoản lương hưu quân đội hậu hĩnh. Quân đội cũng sẽ tái định cư cho tôi và cấp cho tôi một danh tính mới với các giấy tờ phù hợp.  
+Cùng với mệnh lệnh, tôi nhận được một văn bản mà tôi được hướng dẫn phải đọc và ký tên. Đó là một lời thề giữ bí mật. Ngôn ngữ của văn bản chứa đầy các 'thuật ngữ pháp lý', nhưng điểm quan trọng được nêu rất rõ ràng là tôi không bao giờ, tuyệt đối không bao giờ được thảo luận bất cứ điều gì với bất kỳ ai về bất cứ điều gì tôi đã thấy, nghe hoặc trải nghiệm trong thời gian phục vụ trong quân đội — nếu vi phạm sẽ phải chịu án tử hình như một Hành vi Phản quốc chống lại Hợp chủng quốc Hoa Kỳ\!  
+Hóa ra, tôi đã được đưa vào một chương trình bảo vệ nhân chứng của Chính phủ Liên bang, ngoại trừ việc tôi sẽ được bảo vệ khỏi chính phủ bởi chính phủ. Nói cách khác, chừng nào tôi còn im lặng, tôi còn có thể sống sót\! Sáng hôm sau, tôi được đưa lên một chiếc máy bay vận tải quân sự nhỏ và bay đến một điểm tái định cư. Sau khi được luân chuyển qua vài địa điểm trong các khoảng thời gian ngắn, cuối cùng tôi dừng chân tại Glasgow, Montana gần Fort Peck.  
+Đêm trước khi tôi chuẩn bị lên máy bay vận tải, khi tôi đang nằm trên giường suy ngẫm về toàn bộ sự việc và tự hỏi điều gì đã xảy ra với Airl và với tôi, tôi chợt nghe thấy 'giọng nói' của Airl. Tôi ngồi bật dậy trên giường và bật đèn ngủ lên\! Tôi nhìn quanh phòng một cách điên cuồng trong vài giây. Sau đó tôi nhận ra đó là Airl, thực thể IS-BE. Cơ thể cô ấy không có trong phòng với tôi, dĩ nhiên rồi, và nó cũng không cần phải có mặt.  
+Cô ấy nói 'Xin chào\!'. Giọng điệu trong suy nghĩ của cô ấy rất bình dị và thân thiện. Đó chắc chắn là Airl. Tôi không có một chút nghi ngờ nào về điều đó\!  
+Tôi nghĩ: 'Airl? Cô vẫn còn ở đây sao?'  
+Cô ấy trả lời rằng cô ấy đang 'ở đây', nhưng không phải trong một cơ thể trên Trái Đất. Cô ấy đã trở lại trạm của mình tại căn cứ The Domain khi bác sĩ và quân cảnh tấn công chúng tôi trong phòng phỏng vấn. Cô ấy rất vui khi nhận thấy tôi vẫn khỏe, và tôi sẽ được thả ra mà không bị tổn hại gì. Tôi tự hỏi làm thế nào cô ấy thoát khỏi họ. Tôi lo lắng rằng họ có thể đã làm tổn thương Airl bằng máy sốc điện. Airl nói rằng cô ấy đã có thể rời khỏi cơ thể trước khi cú sốc được thực hiện và tránh được dòng điện chạy qua cơ thể. Cô ấy muốn cho tôi biết rằng mình an toàn và đừng lo lắng cho cô ấy.  
+Tôi đã rất nhẹ nhõm, không từ ngữ nào tả xiết\! Tôi hỏi Airl liệu tôi có bao giờ gặp lại cô ấy nữa không. Airl cam đoan với tôi rằng cả hai chúng ta đều là các IS-BE. Chúng ta không phải là những cơ thể vật lý. Giờ đây cô ấy đã định vị được tôi trong không gian và thời gian, chúng ta sẽ luôn giữ liên lạc. Airl chúc tôi những điều tốt đẹp và thông tin liên lạc của tôi với cô ấy kết thúc vào lúc đó."

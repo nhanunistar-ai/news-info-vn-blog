@@ -1,0 +1,42 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import BlogList from '~/components/blog/List.astro';
+import Headline from '~/components/blog/Headline.astro';
+import Pagination from '~/components/blog/Pagination.astro';
+import type { Post } from '~/types';
+
+export interface Props {
+  categorySlug?: string;
+  categoryName: string;
+  description?: string;
+  page?: number;
+  /** Total posts for this category (used for external pagination calc) */
+  posts?: Post[];
+  prevUrl?: string;
+  nextUrl?: string;
+}
+
+const { categoryName, description, posts, prevUrl, nextUrl, page = 1 } = Astro.props;
+
+const metadata = {
+  title: `${categoryName}${page > 1 ? ` — Page ${page}` : ''}`,
+  description: description,
+  robots: {
+    index: page === 1,
+    follow: true,
+  },
+  openGraph: {
+    type: 'blog',
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline subtitle={description}>
+      {categoryName}
+    </Headline>
+    <BlogList posts={posts || []} />
+    <Pagination prevUrl={prevUrl} nextUrl={nextUrl} />
+  </section>
+</Layout>

@@ -1,0 +1,19 @@
+---
+interface SeriesData {
+  title?: string;
+  description?: string;
+  [key: string]: unknown;
+}
+
+interface Props {
+  series?: SeriesData;
+}
+
+const { series } = Astro.props;
+---
+
+<div>
+  <h1>Series TOC</h1>
+  <p>{series?.title}</p>
+  <p>{series?.description}</p>
+</div>

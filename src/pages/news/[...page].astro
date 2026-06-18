@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from 'astro';
+import CategoryIndex from '~/components/blog/CategoryIndex.astro';
+import { getCategoryItems } from '~/utils/seriesList';
+import { APP_BLOG } from 'astrowind:config';
+
+export const prerender = true;
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const categoryPosts = await getCategoryItems('news');
+
+  return paginate(categoryPosts, {
+    pageSize: APP_BLOG?.postsPerPage || 10,
+  });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<CategoryIndex
+  categorySlug="news"
+  categoryName="News"
+  description="Tin tức tổng hợp về khoa học, công nghệ, và các chủ đề thú vị."
+  posts={page.data}
+  page={page.currentPage}
+  prevUrl={page.url.prev}
+  nextUrl={page.url.next}
+/>
