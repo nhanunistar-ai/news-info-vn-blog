@@ -1,6 +1,6 @@
 ---
-title: 'Artemis II: Chuyến đi Lịch sử định hình lại Kỷ nguyên Khám phá Không gian'
-excerpt: 'Sau hơn nửa thế kỷ, nhân loại đã chính thức quay trở lại quỹ đạo Mặt Trăng. Sứ mệnh Artemis II không chỉ là đỉnh cao của kỹ thuật hàng không vũ trụ mà còn là thông điệp về sự đoàn kết, khát vọng và tương lai của loài người giữa các vì sao.'
+title: 'Artemis II: Kỷ nguyên Khám phá Không gian'
+excerpt: 'Sứ mệnh Artemis II không chỉ là đỉnh cao của kỹ thuật hàng không vũ trụ mà còn là thông điệp về sự đoàn kết, khát vọng và tương lai...'
 category: 'discovery'
 tags:
   - 'Artemis II'

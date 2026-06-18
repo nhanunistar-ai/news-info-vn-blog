@@ -1,7 +1,7 @@
 ---
 title: 'Te lo ocultaron'
 description: 'Giải mật lịch sử giả mạo, vạch trần Illuminati và thực tại Ma trận. Cuốn sách là lời kêu gọi tỉnh thức để phá vỡ xiềng xích vô hình...'
-image: '~/assets/images/te-lo-ocultaron-el-inicio.jpg'
+image: '~/assets/images/te-lo-ocultaron-el-inicio.webp'
 order: 2
 ---
 
