@@ -1,7 +1,7 @@
 ---
 title: 'Artemis II: Kỷ nguyên Khám phá Không gian'
 excerpt: 'Sứ mệnh Artemis II không chỉ là đỉnh cao của kỹ thuật hàng không vũ trụ mà còn là thông điệp về sự đoàn kết, khát vọng và tương lai...'
-category: 'discovery'
+category: ['discovery','news']
 tags:
   - 'Artemis II'
   - 'NASA'

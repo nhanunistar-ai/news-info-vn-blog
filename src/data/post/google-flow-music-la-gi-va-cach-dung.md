@@ -1,7 +1,7 @@
 ---
 title: 'Google Flow Music'
 excerpt: 'Google Flow Music là gì, cách dùng Producer AI, Lyria 3, music video với Veo và so sánh nhanh với SunoAI.'
-category: 'study'
+category: ['study','news']
 tags: ['google-flow-music', 'flow-music', 'lyria', 'veo', 'ai-music', 'suno-ai']
 author: 'Gia Han'
 publishDate: 2026-05-31T17:00:00.000Z

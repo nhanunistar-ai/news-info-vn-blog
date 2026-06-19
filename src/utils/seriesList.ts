@@ -1,10 +1,10 @@
 import { getCollection } from 'astro:content';
-import { fetchPosts } from '~/utils/blog';
+import { fetchPosts, postHasCategory } from '~/utils/blog';
 import type { Post } from '~/types';
 
 export async function getCategoryItems(categorySlug: string): Promise<Post[]> {
   const allPosts = await fetchPosts();
-  const categoryPosts = allPosts.filter((post) => post.category?.slug === categorySlug);
+  const categoryPosts = allPosts.filter((post) => postHasCategory(post, categorySlug));
 
   const seriesEntries = await getCollection('series');
 
@@ -40,7 +40,9 @@ export async function getCategoryItems(categorySlug: string): Promise<Post[]> {
       title: seriesData?.title || seriesSlug,
       excerpt: seriesData?.description || '',
       image: seriesData?.image || postsInSeries[0].image,
-      category: postsInSeries[0].category, // keep the category
+      category:
+        postsInSeries[0].categories?.find((category) => category.slug === categorySlug) ?? postsInSeries[0].category,
+      categories: postsInSeries[0].categories,
       series: seriesSlug, // This flag can be used in ListItem to know it's a series
       tags: [],
       readingTime: undefined,

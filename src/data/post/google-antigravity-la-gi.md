@@ -1,7 +1,7 @@
 ---
 title: 'Google Antigravity là gì?'
 excerpt: 'Google Antigravity 2.0 là gì, cách dùng hiệu quả, bản cập nhật mới nhất có gì và so sánh với Cursor, Windsurf, GitHub Copilot.'
-category: 'study'
+category: ['study','news']
 tags: ['google-antigravity', 'antigravity', 'ai-coding', 'ai-agent', 'gemini']
 author: 'Tuan Kiet'
 publishDate: 2026-06-08T17:00:00.000Z
@@ -30,7 +30,7 @@ Google Antigravity là nền tảng phát triển phần mềm theo hướng **a
 
 Ví dụ, thay vì nhờ AI “viết component login”, bạn có thể giao việc:
 
-```text
+```bash
 Audit toàn bộ luồng đăng nhập.
 Tìm lỗi UX, kiểm tra validation, chạy test liên quan,
 sửa các lỗi nhỏ, rồi tạo artifact gồm checklist thay đổi và ảnh màn hình trước/sau.
@@ -80,13 +80,13 @@ Muốn dùng Antigravity tốt, đừng dùng nó như chatbot hỏi đáp. Hãy
 
 Prompt yếu:
 
-```text
+```bash
 Sửa bug login.
 ```
 
 Prompt tốt hơn:
 
-```text
+```bash
 Tìm nguyên nhân người dùng đăng nhập bằng Google bị redirect sai sau khi auth thành công.
 Scope: chỉ kiểm tra route auth, callback, session middleware và trang dashboard.
 Hãy tái hiện lỗi nếu có thể, đề xuất plan ngắn, sau đó sửa code.
@@ -127,7 +127,7 @@ Một điểm hay của Antigravity là artifact. Thay vì bắt bạn đọc to
 
 Hãy yêu cầu artifact ngay trong prompt:
 
-```text
+```bash
 Sau khi hoàn thành, tạo artifact gồm:
 - Tóm tắt nguyên nhân.
 - Danh sách file đã sửa.
@@ -144,7 +144,7 @@ Một task coding không nên kết thúc bằng “đã sửa”. Nó nên kế
 
 Prompt nên có dòng:
 
-```text
+```bash
 Nếu có test/lint/build phù hợp, hãy chạy.
 Nếu không chạy được, nói rõ lý do và chỉ ra lệnh tôi cần chạy thủ công.
 ```
@@ -202,7 +202,7 @@ Antigravity đáng dùng khi nhiệm vụ có một trong các dấu hiệu sau:
 
 Ví dụ task hợp:
 
-```text
+```bash
 Audit toàn bộ flow checkout.
 Tìm điểm gây drop-off, kiểm tra validation, route, state management và API error handling.
 Đề xuất plan, sửa các lỗi nhỏ an toàn, chạy test liên quan,
@@ -243,7 +243,7 @@ Nếu bạn đang tìm một editor AI để thay VS Code và code nhanh từng 
 
 Cách dùng hiệu quả nhất không phải là “hãy code giúp tôi”, mà là:
 
-```text
+```bash
 Đây là mục tiêu.
 Đây là phạm vi.
 Đây là tiêu chí hoàn thành.

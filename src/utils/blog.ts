@@ -40,6 +40,35 @@ const generatePermalink = async ({
     .join('/');
 };
 
+const normalizeCategories = ({
+  category,
+  categories,
+}: {
+  category?: string | string[];
+  categories?: string[];
+}): Taxonomy[] => {
+  const rawCategories = [
+    ...(Array.isArray(category) ? category : category ? [category] : []),
+    ...(Array.isArray(categories) ? categories : []),
+  ];
+
+  const seen = new Set<string>();
+  return rawCategories.reduce<Taxonomy[]>((result, rawCategory) => {
+    const title = String(rawCategory).trim();
+    const slug = cleanSlug(title);
+    if (!title || seen.has(slug)) return result;
+
+    seen.add(slug);
+    result.push({ slug, title });
+    return result;
+  }, []);
+};
+
+export const postHasCategory = (post: Post, categorySlug: string): boolean =>
+  (post.categories ?? (post.category ? [post.category] : [])).some(
+    (category) => category.slug.toLowerCase() === categorySlug.toLowerCase()
+  );
+
 const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> => {
   const { id, data } = post;
   const { Content, remarkPluginFrontmatter } = await render(post);
@@ -52,6 +81,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     image,
     tags: rawTags = [],
     category: rawCategory,
+    categories: rawCategories,
     author,
     series: rawSeries,
     chapter: rawChapter,
@@ -63,12 +93,8 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
   const publishDate = new Date(rawPublishDate);
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 
-  const category = rawCategory
-    ? {
-        slug: cleanSlug(rawCategory),
-        title: rawCategory,
-      }
-    : undefined;
+  const categories = normalizeCategories({ category: rawCategory, categories: rawCategories });
+  const category = categories[0];
 
   const tags = rawTags.map((tag: string) => ({
     slug: cleanSlug(tag),
@@ -88,6 +114,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     image: image,
 
     category: category,
+    categories: categories,
     tags: tags,
     author: author,
     series: rawSeries,
@@ -204,14 +231,14 @@ export const getStaticPathsBlogCategory = async ({ paginate }: { paginate: Pagin
   const posts = await fetchPosts();
   const categories: Record<string, Taxonomy> = {};
   posts.map((post) => {
-    if (post.category?.slug) {
-      categories[post.category.slug] = post.category;
-    }
+    (post.categories ?? (post.category ? [post.category] : [])).forEach((category) => {
+      categories[category.slug] = category;
+    });
   });
 
   return Array.from(Object.keys(categories)).flatMap((categorySlug) =>
     paginate(
-      posts.filter((post) => post.category?.slug && categorySlug === post.category?.slug),
+      posts.filter((post) => postHasCategory(post, categorySlug)),
       {
         params: { category: categorySlug, blog: CATEGORY_BASE || undefined },
         pageSize: blogPostsPerPage,
@@ -256,7 +283,16 @@ export async function getRelatedPosts(originalPost: Post, maxResults: number = 4
     if (iteratedPost.slug === originalPost.slug) return acc;
 
     let score = 0;
-    if (iteratedPost.category && originalPost.category && iteratedPost.category.slug === originalPost.category.slug) {
+    const originalCategoriesSet = new Set(
+      (originalPost.categories ?? (originalPost.category ? [originalPost.category] : [])).map(
+        (category) => category.slug
+      )
+    );
+    if (
+      (iteratedPost.categories ?? (iteratedPost.category ? [iteratedPost.category] : [])).some((category) =>
+        originalCategoriesSet.has(category.slug)
+      )
+    ) {
       score += 5;
     }
 

@@ -1,4 +1,4 @@
-import { fetchPosts } from './blog';
+import { fetchPosts, postHasCategory } from './blog';
 import type { Post } from '~/types';
 
 interface SeriesPart {
@@ -9,7 +9,7 @@ interface SeriesPart {
 
 export const getPostsByCategory = async (category: string): Promise<Post[]> => {
   const allPosts = await fetchPosts();
-  return allPosts.filter((post) => post.category?.slug?.toLowerCase() === category.toLowerCase());
+  return allPosts.filter((post) => postHasCategory(post, category));
 };
 
 export const getSeriesByCategory = async (category: string) => {

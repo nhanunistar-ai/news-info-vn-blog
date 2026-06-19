@@ -31,7 +31,8 @@ const prevPost = currentIndex > 0 ? seriesPosts[currentIndex - 1] : null;
 const nextPost = currentIndex >= 0 && currentIndex < seriesPosts.length - 1 ? seriesPosts[currentIndex + 1] : null;
 
 // Construct series link
-const seriesLink = `/${post.category?.slug || 'news'}/${post.series}`;
+const primaryCategory = post.category ?? post.categories?.[0];
+const seriesLink = `/${primaryCategory?.slug || 'news'}/${post.series}`;
 ---
 
 {

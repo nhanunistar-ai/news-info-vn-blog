@@ -11,7 +11,9 @@ publishDate: 2026-01-15T00:00:00Z
 title: 'Your Post Title'
 excerpt: 'Brief description of the post'
 image: '~/assets/images/your-image.png'
-category: 'tutorials'
+category:
+  - tutorials
+  - news
 tags:
   - astro
   - tailwind
@@ -32,7 +34,7 @@ author: 'Author Name'
 | `draft`       | No       | Set `true` to hide from listing                |
 | `excerpt`     | No       | Summary for listing pages                      |
 | `image`       | No       | Path to hero image (use `~/` prefix for local) |
-| `category`    | No       | Single category string                         |
+| `category`    | No       | Category string or array of category strings   |
 | `tags`        | No       | Array of tag strings                           |
 | `author`      | No       | Author name                                    |
 | `metadata`    | No       | Override SEO metadata                          |

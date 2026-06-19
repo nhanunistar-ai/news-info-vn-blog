@@ -17,6 +17,7 @@ export interface Props {
 
 const { post } = Astro.props;
 const image = (await findImage(post.image)) as ImageMetadata | undefined;
+const categories = post.categories ?? (post.category ? [post.category] : []);
 
 // If the post belongs to a series, link to the series landing page instead
 const link = APP_BLOG?.post?.isEnabled
@@ -85,13 +86,18 @@ const link = APP_BLOG?.post?.isEnabled
             )
           }
           {
-            post.category && (
+            categories.length > 0 && (
               <>
                 {' '}
                 ·{' '}
-                <a class="hover:underline" href={getPermalink(post.category.slug, 'category')}>
-                  {post.category.title}
-                </a>
+                {categories.map((category, index) => (
+                  <>
+                    {index > 0 && ', '}
+                    <a class="hover:underline" href={getPermalink(category.slug, 'category')}>
+                      {category.title}
+                    </a>
+                  </>
+                ))}
               </>
             )
           }

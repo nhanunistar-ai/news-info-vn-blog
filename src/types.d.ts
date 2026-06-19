@@ -17,7 +17,10 @@ export interface Post {
   excerpt?: string;
   image?: ImageMetadata | string;
 
+  /** Primary category, kept for permalink/backward compatibility. */
   category?: Taxonomy;
+  /** All categories the post belongs to. */
+  categories?: Taxonomy[];
   tags?: Taxonomy[];
   author?: string;
 
