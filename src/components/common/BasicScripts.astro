@@ -108,6 +108,11 @@ import { UI } from 'astrowind:config';
       newlink.click();
     });
 
+    // Back to top click
+    attachEvent('#back-to-top', 'click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
     const screenSize = window.matchMedia('(max-width: 767px)');
     screenSize.addEventListener('change', function () {
       document.querySelector('[data-aw-toggle-menu]')?.classList.remove('expanded');
@@ -121,12 +126,26 @@ import { UI } from 'astrowind:config';
 
     function applyHeaderStylesOnScroll() {
       const header = document.querySelector('#header[data-aw-sticky-header]');
-      if (!header) return;
-      if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
-        header.classList.add('scroll');
-      } else if (lastKnownScrollPosition <= 60 && header.classList.contains('scroll')) {
-        header.classList.remove('scroll');
+      if (header) {
+        if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
+          header.classList.add('scroll');
+        } else if (lastKnownScrollPosition <= 60 && header.classList.contains('scroll')) {
+          header.classList.remove('scroll');
+        }
       }
+
+      // Back to top button
+      const btn = document.getElementById('back-to-top');
+      if (btn) {
+        if (lastKnownScrollPosition > 300) {
+          btn.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+          btn.classList.add('opacity-100', 'translate-y-0');
+        } else {
+          btn.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+          btn.classList.remove('opacity-100', 'translate-y-0');
+        }
+      }
+
       ticking = false;
     }
     applyHeaderStylesOnScroll();
