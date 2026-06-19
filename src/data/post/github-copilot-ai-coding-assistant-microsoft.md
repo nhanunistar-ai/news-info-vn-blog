@@ -1,11 +1,11 @@
 ---
-title: 'GitHub Copilot — AI coding assistant của Microsoft'
+title: 'GitHub Copilot - AI coding assistant của Microsoft'
 excerpt: 'GitHub Copilot là AI coding assistant được dùng nhiều nhất thế giới, tích hợp sâu vào VS Code và toàn bộ GitHub ecosystem: từ code completion đến Copilot Workspace cho toàn bộ feature development.'
 category: ['study', 'news']
 tags: ['github-copilot', 'microsoft', 'ai-coding', 'vscode', 'openai']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T05:00:00.000Z
-image: '~/assets/images/google-antigravity-la-gi.webp'
+publishDate: 2026-06-5T05:00:00.000Z
+image: '~/assets/images/github-copilot-ai-coding-assistant-microsoft.webp'
 ---
 
 > GitHub Copilot không phải tool mạnh nhất về tính năng AI thuần túy, nhưng nó có thứ không AI coding tool nào khác có: nằm sẵn trong workflow của hàng triệu developer qua GitHub và VS Code.
@@ -16,9 +16,9 @@ Khi GitHub Copilot ra mắt năm 2021, nó định nghĩa lại kỳ vọng củ
 
 GitHub Copilot là **AI coding assistant** do GitHub (Microsoft) phát triển, chạy trên nền OpenAI models. Có hai thành phần chính:
 
-**Copilot completions** — Gợi ý code inline theo từng dòng và theo block, dựa trên context file hiện tại và file liên quan. Đây là tính năng gốc và được dùng nhiều nhất.
+**Copilot completions** - Gợi ý code inline theo từng dòng và theo block, dựa trên context file hiện tại và file liên quan. Đây là tính năng gốc và được dùng nhiều nhất.
 
-**Copilot Chat** — Chat interface trong editor để hỏi về code, giải thích function, suggest refactoring, generate tests và debug. Có thể attach file, symbol hoặc cả workspace làm context.
+**Copilot Chat** - Chat interface trong editor để hỏi về code, giải thích function, suggest refactoring, generate tests và debug. Có thể attach file, symbol hoặc cả workspace làm context.
 
 ### Copilot Agent Mode
 

@@ -1,11 +1,11 @@
 ---
-title: 'Devin — AI Software Engineer đầu tiên'
+title: 'Devin - AI Software Engineer đầu tiên'
 excerpt: 'Devin của Cognition AI là AI agent đầu tiên được gọi là "software engineer" thực sự: tự lập kế hoạch, tự debug, tự deploy và làm việc song song với developer trong Slack.'
 category: ['study', 'news']
 tags: ['devin', 'cognition-ai', 'ai-agent', 'ai-coding', 'software-engineer']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T10:00:00.000Z
-image: '~/assets/images/google-io-2026-agentic-gemini-era.webp'
+publishDate: 2026-06-6T10:00:00.000Z
+image: '~/assets/images/devin-ai-software-engineer.webp'
 ---
 
 > Khi Devin ra mắt tháng 3/2024, Cognition AI đặt một câu hỏi táo bạo: thay vì AI giúp developer viết code nhanh hơn, tại sao không xây dựng AI có thể làm toàn bộ công việc của một software engineer junior?

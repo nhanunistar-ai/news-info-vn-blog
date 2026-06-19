@@ -4,8 +4,8 @@ excerpt: 'Tabnine khác với Copilot và Cursor ở một điểm cốt lõi: c
 category: ['study', 'news']
 tags: ['tabnine', 'ai-coding', 'code-completion', 'privacy', 'enterprise']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T11:00:00.000Z
-image: '~/assets/images/google-antigravity-la-gi.webp'
+publishDate: 2026-05-30T11:00:00.000Z
+image: '~/assets/images/tabnine-ai-code.webp'
 ---
 
 > Trong khi Cursor và Copilot gửi code lên cloud để xử lý, Tabnine đặt câu hỏi quan trọng hơn với doanh nghiệp: code proprietary của bạn có thực sự an toàn khi đi qua server của bên thứ ba?

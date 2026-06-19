@@ -1,11 +1,11 @@
 ---
-title: 'Kiro là gì — AI IDE của Amazon'
+title: 'Kiro - AI IDE của Amazon'
 excerpt: 'Kiro là AI IDE mới của Amazon với kiến trúc spec-driven: thay vì chat code, bạn định nghĩa requirements và design trước, Kiro tự sinh implementation và test.'
 category: ['study', 'news']
 tags: ['kiro', 'ai-coding', 'ai-agent', 'ide', 'amazon', 'aws']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T07:00:00.000Z
-image: '~/assets/images/google-antigravity-la-gi.webp'
+publishDate: 2026-05-25T07:00:00.000Z
+image: '~/assets/images/kiro-ai-ide-amazon.webp'
 ---
 
 > Kiro đặt câu hỏi khác với các AI IDE còn lại: thay vì hỏi "AI gợi ý code thế nào", Kiro hỏi "làm sao để AI và developer cùng hiểu một feature trước khi viết bất kỳ dòng code nào?"

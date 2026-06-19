@@ -1,11 +1,11 @@
 ---
 title: 'Cursor là gì và cách dùng hiệu quả'
-excerpt: 'Cursor là AI IDE mạnh nhất hiện tại — fork của VS Code với Composer, Tab completion, và Agent mode cho phép viết, refactor, debug toàn bộ codebase bằng ngôn ngữ tự nhiên.'
+excerpt: 'Cursor là AI IDE mạnh nhất hiện tại - fork của VS Code với Composer, Tab completion, và Agent mode cho phép viết, refactor, debug toàn bộ codebase bằng ngôn ngữ tự nhiên.'
 category: ['study', 'news']
 tags: ['cursor', 'ai-coding', 'ai-agent', 'ide', 'vscode']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T06:00:00.000Z
-image: '~/assets/images/google-antigravity-la-gi.webp'
+publishDate: 2026-06-8T06:00:00.000Z
+image: '~/assets/images/cursor-ai-ide.webp'
 ---
 
 > Cursor không chỉ là VS Code gắn thêm AI vào sidebar. Nó được rebuild từ đầu với triết lý rằng lập trình viên nên giao cả đoạn logic phức tạp cho AI, không chỉ gợi ý từng dòng.

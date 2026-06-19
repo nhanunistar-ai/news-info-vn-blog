@@ -1,16 +1,16 @@
 ---
-title: 'OpenAI Codex — Agent viết code tự động trên cloud'
-excerpt: 'OpenAI Codex (2025) không phải IDE — đây là coding agent chạy trên cloud, có thể nhận task, clone repo, viết code, chạy test và tạo pull request mà không cần mở editor.'
+title: 'OpenAI Codex - Agent viết code tự động trên cloud'
+excerpt: 'OpenAI Codex (2025) không phải IDE - đây là coding agent chạy trên cloud, có thể nhận task, clone repo, viết code, chạy test và tạo pull request mà không cần mở editor.'
 category: ['study', 'news']
 tags: ['openai', 'codex', 'ai-coding', 'ai-agent', 'cloud-coding']
 author: 'Tuan Kiet'
-publishDate: 2026-06-19T09:00:00.000Z
-image: '~/assets/images/google-io-2026-agentic-gemini-era.webp'
+publishDate: 2026-05-21T09:00:00.000Z
+image: '~/assets/images/openai-codex.webp'
 ---
 
 > OpenAI Codex (2025) không phải là autocomplete. Đây là một coding agent độc lập: bạn giao task bằng ngôn ngữ tự nhiên, Codex tự làm việc trong môi trường sandbox riêng, rồi trả lại kết quả để review.
 
-Không nên nhầm lẫn với Codex model (2021) — thứ từng là nền tảng của GitHub Copilot đầu tiên. OpenAI Codex năm 2025 là một sản phẩm hoàn toàn khác về kiến trúc và mục tiêu.
+Không nên nhầm lẫn với Codex model (2021) - thứ từng là nền tảng của GitHub Copilot đầu tiên. OpenAI Codex năm 2025 là một sản phẩm hoàn toàn khác về kiến trúc và mục tiêu.
 
 ### OpenAI Codex 2025 là gì?
 
@@ -23,15 +23,15 @@ Codex là **cloud-based software engineering agent** tích hợp trong ChatGPT (
 - Tạo pull request với mô tả đầy đủ
 - Chạy nhiều task song song cùng lúc
 
-Mỗi task Codex thực hiện trong một **sandbox cô lập** — môi trường compute riêng với internet access có kiểm soát. Codex không thể truy cập hệ thống bên ngoài phạm vi repo và môi trường được cấp phép.
+Mỗi task Codex thực hiện trong một **sandbox cô lập** - môi trường compute riêng với internet access có kiểm soát. Codex không thể truy cập hệ thống bên ngoài phạm vi repo và môi trường được cấp phép.
 
 ### Khác gì Cursor và Windsurf?
 
 Đây là điểm phân biệt quan trọng nhất:
 
-**Cursor, Windsurf, Kiro** — Bạn ngồi trước màn hình, làm việc cùng AI trong thời gian thực. AI là copilot, bạn là pilot.
+**Cursor, Windsurf, Kiro** - Bạn ngồi trước màn hình, làm việc cùng AI trong thời gian thực. AI là copilot, bạn là pilot.
 
-**Codex** — Bạn giao task, Codex đi làm trong nền, bạn làm việc khác. Codex là agent tự chủ, bạn là reviewer kết quả.
+**Codex** - Bạn giao task, Codex đi làm trong nền, bạn làm việc khác. Codex là agent tự chủ, bạn là reviewer kết quả.
 
 Điều này làm Codex phù hợp hơn với những task không cần quyết định liên tục: viết test cho existing code, sửa một loạt lỗi cùng loại, cập nhật dependencies, viết documentation, implement feature theo spec đã rõ ràng.
 
@@ -43,11 +43,11 @@ Ví dụ thực tế: trong khi bạn làm việc trên feature A, Codex đồng
 
 ### Hạn chế
 
-**Không có real-time feedback** — Không giống IDE AI, bạn không thấy Codex viết code theo từng keystroke. Phải đợi kết quả rồi review.
+**Không có real-time feedback** - Không giống IDE AI, bạn không thấy Codex viết code theo từng keystroke. Phải đợi kết quả rồi review.
 
-**Phụ thuộc vào spec rõ ràng** — Codex hoạt động tốt nhất khi task được mô tả cụ thể. Task mơ hồ hoặc cần nhiều quyết định kiến trúc thường cho kết quả kém hơn làm trực tiếp trong IDE.
+**Phụ thuộc vào spec rõ ràng** - Codex hoạt động tốt nhất khi task được mô tả cụ thể. Task mơ hồ hoặc cần nhiều quyết định kiến trúc thường cho kết quả kém hơn làm trực tiếp trong IDE.
 
-**Chỉ có trong ChatGPT Pro/Team** — Không có standalone app, không có API public cho Codex agent lúc này.
+**Chỉ có trong ChatGPT Pro/Team** - Không có standalone app, không có API public cho Codex agent lúc này.
 
 ### Ai nên dùng Codex?
 
