@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>news.info.vn — Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <span class="logo">📰 news.info.vn</span>
+        <button id="btn-new" class="btn-primary">+ Bài mới</button>
+      </div>
+      <div class="search-wrap">
+        <input type="text" id="search" placeholder="Tìm bài viết..." />
+      </div>
+      <ul id="post-list"></ul>
+    </aside>
+
+    <!-- Main Editor -->
+    <main id="editor-area">
+      <!-- Meta Panel (top) -->
+      <div id="meta-panel">
+        <div class="meta-row">
+          <div class="field-group">
+            <label>Title *</label>
+            <input type="text" id="f-title" placeholder="Tiêu đề bài viết..." />
+          </div>
+          <div class="field-group field-sm">
+            <label>Slug (filename)</label>
+            <input type="text" id="f-slug" placeholder="auto-generated" />
+          </div>
+        </div>
+        <div class="meta-row">
+          <div class="field-group">
+            <label>Excerpt *</label>
+            <textarea id="f-excerpt" rows="2" placeholder="Mô tả ngắn (160 ký tự)..."></textarea>
+          </div>
+        </div>
+        <div class="meta-row meta-row-4">
+          <div class="field-group">
+            <label>Category</label>
+            <select id="f-category" multiple>
+              <option value="study">Study</option>
+              <option value="news">News</option>
+              <option value="discovery">Discovery</option>
+              <option value="stories">Stories</option>
+            </select>
+            <span class="hint">Ctrl+Click để chọn nhiều</span>
+          </div>
+          <div class="field-group">
+            <label>Tags</label>
+            <input type="text" id="f-tags" placeholder="tag1, tag2, tag3" />
+          </div>
+          <div class="field-group">
+            <label>Author</label>
+            <input type="text" id="f-author" placeholder="Tên tác giả" value="Tuan Kiet" />
+          </div>
+          <div class="field-group">
+            <label>Publish Date</label>
+            <input type="datetime-local" id="f-date" />
+          </div>
+        </div>
+        <div class="meta-row">
+          <div class="field-group">
+            <label>Image path</label>
+            <input type="text" id="f-image" placeholder="~/assets/images/ten-file.webp" />
+          </div>
+          <div class="field-actions">
+            <button id="btn-save" class="btn-primary">💾 Lưu bài</button>
+            <button id="btn-delete" class="btn-danger">🗑 Xóa</button>
+            <span id="save-status"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Editor + Prompt Panel -->
+      <div id="editor-prompt-wrap">
+        <!-- Markdown Editor -->
+        <div id="editor-wrap">
+          <div class="panel-header">
+            <span>✏️ Nội dung (Markdown)</span>
+            <div>
+              <button class="btn-sm" onclick="insertSnippet('### ')">H3</button>
+              <button class="btn-sm" onclick="insertSnippet('**bold**')">B</button>
+              <button class="btn-sm" onclick="insertSnippet('> quote')">Quote</button>
+              <button class="btn-sm" onclick="insertSnippet('```\ncode\n```')">Code</button>
+              <button class="btn-sm" onclick="insertSnippet('- item')">List</button>
+            </div>
+          </div>
+          <textarea id="f-content" spellcheck="false" placeholder="Nội dung bài viết bằng Markdown..."></textarea>
+        </div>
+
+        <!-- Right Panel -->
+        <div id="right-panel">
+          <!-- Image Prompt -->
+          <div class="panel-section">
+            <div class="panel-header">
+              <span>🎨 Image Prompt</span>
+              <button id="btn-gen-prompt" class="btn-sm btn-orange">⚡ Generate</button>
+            </div>
+            <div id="prompt-subject" class="prompt-field">
+              <label>Subject line (tùy chỉnh)</label>
+              <input type="text" id="f-prompt-subject" placeholder="Mô tả chủ thể hình ảnh..." />
+            </div>
+            <textarea id="prompt-output" rows="8" readonly placeholder="Prompt sẽ xuất hiện ở đây..."></textarea>
+            <button id="btn-copy-prompt" class="btn-sm btn-full">📋 Copy Prompt</button>
+          </div>
+
+          <!-- Frontmatter Preview -->
+          <div class="panel-section">
+            <div class="panel-header">
+              <span>📄 Frontmatter Preview</span>
+              <button id="btn-copy-fm" class="btn-sm">📋 Copy</button>
+            </div>
+            <pre id="frontmatter-preview"></pre>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

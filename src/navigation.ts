@@ -26,6 +26,10 @@ export const headerData = {
       text: 'About',
       href: getPermalink('/about'),
     },
+    {
+      text: 'Liên hệ',
+      href: getPermalink('/contact'),
+    },
   ],
   actions: [],
 };

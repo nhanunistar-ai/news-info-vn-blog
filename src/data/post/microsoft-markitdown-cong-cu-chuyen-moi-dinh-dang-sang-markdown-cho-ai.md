@@ -3,7 +3,7 @@ title: 'Microsoft MarkItDown - chuyển mọi định dạng sang Markdown'
 excerpt: 'MarkItDown giúp chuyển PDF, Word, Excel, PowerPoint, HTML, ảnh và âm thanh thành Markdown sạch để đưa vào RAG, LLM và workflow AI.'
 category: ['study', 'news']
 tags: ['microsoft-markitdown', 'markdown', 'rag', 'llm', 'ai-tools']
-author: 'Tuan Kiet'
+author: 'Admin'
 publishDate: 2026-06-19T04:20:00.000Z
 image: '~/assets/images/microsoft-markitdown.webp'
 ---
