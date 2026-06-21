@@ -1,0 +1,28 @@
+Đây là prompt hero cho bài viết series về Leonardo da Vinci theo phong cách ảnh chụp chuyên nghiệp + selective color. Mỗi prompt dưới đây giữ nguyên toàn bộ đoạn từ "Shot on a Phase One..." để đảm bảo phong cách nhất quán, chỉ thay đổi phần nội dung ở câu đầu tiên.
+
+### Prompt chuẩn chung
+Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for specific accent details rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 1: Từ Vinci đến Florence
+A photorealistic portrait of a young Leonardo da Vinci sketching farmland and olive groves outside Vinci, with parchment and charcoal scattered on a wooden table. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the orange pencil tip and a small orange leaf detail rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 2: Học việc với Verrocchio
+A photorealistic interior workshop scene of Leonardo da Vinci studying under Andrea del Verrocchio, surrounded by sculpture molds, paint jars, and metal tools. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the orange palette and an orange brush stroke rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 3: Milan và những giấc mơ đen bạc
+A photorealistic portrait of Leonardo da Vinci in a dim Milanese study, surrounded by mechanical drawings of war machines, canal plans, and armor designs. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the orange glow of a candle and an orange gear highlight rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 4: Máy bay và cánh tay người
+A photorealistic close-up of Leonardo da Vinci sketching an ornithopter and the anatomy of a human arm, with feathers and draft instruments on the table. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for an orange feather and the orange tip of a quill rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 5: Giải phẫu và cơ thể người
+A photorealistic scene of Leonardo da Vinci studying a human skeleton and anatomical sketches in a lantern-lit studio. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for an orange anatomical diagram accent and an orange candle flame rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 6: Mona Lisa, Bữa ăn cuối cùng và nghệ thuật tự sự
+A photorealistic editorial portrait of Leonardo da Vinci in his studio with Mona Lisa and The Last Supper sketches in the background, surrounded by worn papers and brushes. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the orange edge of a sketch page and an orange brush handle rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 7: Những bí ẩn và thất bại
+A photorealistic portrait of an older Leonardo da Vinci at a desk piled with unfinished notebooks, clay horse models, and mechanical studies. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for an orange ink blot and an orange candle flame rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+### Chương 8: Di sản thời đại
+A photorealistic montage of Leonardo da Vinci’s notebook pages, a modern drone concept, an anatomical drawing, and architectural sketches. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for an orange notebook spine and an orange line on a technical drawing rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
