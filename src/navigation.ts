@@ -23,11 +23,7 @@ export const headerData = {
       href: getPermalink('/news'),
     },
     {
-      text: 'About',
-      href: getPermalink('/about'),
-    },
-    {
-      text: 'Liên hệ',
+      text: 'Contact',
       href: getPermalink('/contact'),
     },
   ],
@@ -52,13 +48,12 @@ export const footerData = {
         { text: 'About', href: getPermalink('/about') },
         { text: 'Contact', href: getPermalink('/contact') },
         { text: 'RSS Feed', href: getAsset('/rss.xml') },
+        { text: 'Privacy Policy', href: getPermalink('/privacy') },
+        { text: 'Terms of Use', href: getPermalink('/terms') },
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy', href: getPermalink('/privacy') },
-  ],
+  secondaryLinks: [],
   socialLinks: [
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/tintucthoisutonghop/' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },

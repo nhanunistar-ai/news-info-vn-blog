@@ -1,0 +1,80 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Chính sách bảo mật — news.info.vn',
+  description: 'Chính sách bảo mật và miễn trừ trách nhiệm của news.info.vn',
+};
+
+const lastUpdated = '20 tháng 6, 2026';
+---
+
+<Layout metadata={metadata}>
+  <section class="py-12 sm:py-16 lg:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="mb-10">
+        <p class="text-sm font-semibold uppercase tracking-widest text-primary mb-2">Pháp lý</p>
+        <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-3">Chính sách bảo mật</h1>
+        <p class="text-muted text-sm">Cập nhật lần cuối: {lastUpdated}</p>
+      </div>
+
+      <div class="prose prose-md lg:prose-lg dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-bold prose-a:text-primary max-w-none">
+
+        <p>news.info.vn cam kết bảo vệ quyền riêng tư của người dùng. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn truy cập website.</p>
+
+        <h2>1. Thông tin chúng tôi thu thập</h2>
+        <p><strong>Thông tin bạn cung cấp trực tiếp:</strong> Khi sử dụng form liên hệ, chúng tôi thu thập họ tên, địa chỉ email và nội dung tin nhắn của bạn.</p>
+        <p><strong>Thông tin thu thập tự động:</strong> Website có thể tự động ghi lại thông tin kỹ thuật cơ bản như địa chỉ IP, loại trình duyệt và trang được truy cập thông qua các dịch vụ phân tích ẩn danh. Chúng tôi không theo dõi cá nhân từng người dùng.</p>
+
+        <h2>2. Mục đích sử dụng thông tin</h2>
+        <p>Thông tin thu thập được sử dụng để:</p>
+        <ul>
+          <li>Phản hồi các yêu cầu liên hệ từ bạn.</li>
+          <li>Cải thiện nội dung và trải nghiệm người dùng trên website.</li>
+          <li>Phân tích lưu lượng truy cập ở dạng tổng hợp và ẩn danh.</li>
+        </ul>
+        <p>Chúng tôi <strong>không bán, cho thuê hoặc chia sẻ</strong> thông tin cá nhân của bạn cho bên thứ ba vì mục đích thương mại.</p>
+
+        <h2>3. Cookie</h2>
+        <p>Website có thể sử dụng cookie kỹ thuật cần thiết để đảm bảo hoạt động cơ bản (ví dụ: lưu thiết lập dark/light mode). Chúng tôi không sử dụng cookie theo dõi quảng cáo.</p>
+
+        <h2>4. Dịch vụ bên thứ ba</h2>
+        <p>Website sử dụng một số dịch vụ bên ngoài:</p>
+        <ul>
+          <li><strong>Cloudflare:</strong> Hosting, DNS, bảo mật và phân tích lưu lượng truy cập ẩn danh.</li>
+          <li><strong>Web3Forms:</strong> Xử lý form liên hệ. Email bạn gửi được chuyển tiếp qua dịch vụ này.</li>
+        </ul>
+        <p>Các dịch vụ trên có chính sách bảo mật riêng. Chúng tôi khuyến khích bạn tham khảo chính sách của từng nhà cung cấp.</p>
+
+        <h2>5. Miễn trừ trách nhiệm</h2>
+        <p>Nội dung trên news.info.vn được cung cấp chỉ nhằm mục đích thông tin và giáo dục. Chúng tôi nỗ lực đảm bảo tính chính xác nhưng <strong>không bảo đảm và không chịu trách nhiệm</strong> đối với:</p>
+        <ul>
+          <li>Tính đầy đủ, chính xác hoặc kịp thời của bất kỳ thông tin nào.</li>
+          <li>Thiệt hại phát sinh từ việc dựa vào nội dung trên website.</li>
+          <li>Gián đoạn dịch vụ hoặc lỗi kỹ thuật ngoài tầm kiểm soát.</li>
+          <li>Nội dung của các trang web bên thứ ba được liên kết.</li>
+        </ul>
+
+        <h2>6. Quyền của bạn</h2>
+        <p>Bạn có quyền:</p>
+        <ul>
+          <li>Yêu cầu xóa thông tin cá nhân bạn đã cung cấp qua form liên hệ.</li>
+          <li>Yêu cầu xóa bài viết bạn đã đăng tải trên website.</li>
+          <li>Yêu cầu biết chúng tôi lưu trữ thông tin gì về bạn.</li>
+        </ul>
+        <p>Để thực hiện các quyền này, liên hệ qua <a href="mailto:admin@news.info.vn">admin@news.info.vn</a>.</p>
+
+        <h2>7. Thay đổi chính sách</h2>
+        <p>Chúng tôi có thể cập nhật chính sách này theo thời gian. Mọi thay đổi sẽ được đăng tải trên trang này với ngày cập nhật mới. Việc tiếp tục sử dụng website sau khi thay đổi đồng nghĩa với việc bạn chấp nhận chính sách mới.</p>
+
+        <h2>8. Liên hệ</h2>
+        <p>Mọi câu hỏi về chính sách bảo mật:</p>
+        <ul>
+          <li>Email: <a href="mailto:admin@news.info.vn">admin@news.info.vn</a></li>
+          <li>Trang liên hệ: <a href="/contact/">news.info.vn/contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
+</Layout>
