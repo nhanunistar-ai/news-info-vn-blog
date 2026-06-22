@@ -1,0 +1,1 @@
+Sync local: news-info-vn-blog với main: https://github.com/nhanunistar-ai/news-info-vn-blog.git để tiếp tục sửa.
