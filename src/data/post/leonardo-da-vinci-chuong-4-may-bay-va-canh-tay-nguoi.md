@@ -39,8 +39,4 @@ Cách làm này giúp ông nhận ra các hạn chế sớm, và cho phép ông 
 
 Leonardo không có động cơ đốt trong, không có động cơ điện. Ông chỉ dùng sức người, dây kéo và khí động lực. Vì thế, những bản vẽ về máy bay không thể thực hiện ngay khi đó. Nhưng chúng vẫn là những hạt giống tư duy: một thiết kế máy bay phải kết hợp cơ học, giải phẫu và khí động học.
 
-Chương này cho thấy một điều quan trọng: dù không có kỹ thuật hiện đại, tư duy của Leonardo vẫn tiến rất gần đến nguyên lý của hàng không. Ông đã chứng minh rằng khái niệm bay không phải là phép thuật, mà là một vấn đề kỹ thuật có thể tiếp cận bằng quan sát và mô phỏng.
-
-### 6. Cánh tay người và con người bay
-
-Kết thúc chương, bài học không chỉ là về máy bay. Đó là về cách nhìn nhận con người và máy móc như những phần của cùng một hệ thống. Leonardo đã mở ra một thế giới mới, nơi con người không chỉ là người quan sát, mà còn là một bộ phận điều khiển trong một cỗ máy lớn hơn — một ý tưởng mà sau này trở thành nền tảng cho robot và cơ khí hiện đại.
+Dù không có kỹ thuật hiện đại, tư duy của Leonardo vẫn tiến rất gần đến nguyên lý của hàng không. Ông đã chứng minh rằng khái niệm bay không phải là phép thuật, mà là một vấn đề kỹ thuật có thể tiếp cận bằng quan sát và mô phỏng. Với Leonardo, bài học không chỉ là về máy bay. Đó là về cách nhìn nhận con người và máy móc như những phần của cùng một hệ thống. Leonardo đã mở ra một thế giới mới, nơi con người không chỉ là người quan sát, mà còn là một bộ phận điều khiển trong một cỗ máy lớn hơn - một ý tưởng mà sau này trở thành nền tảng cho robot và cơ khí hiện đại.

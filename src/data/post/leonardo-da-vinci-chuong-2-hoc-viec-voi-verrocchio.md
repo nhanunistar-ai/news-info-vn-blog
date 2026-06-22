@@ -39,4 +39,4 @@ Những bài học này giúp ông tạo nên các bức tranh có chiều sâu.
 
 Trong xưởng Verrocchio, Leonardo bắt đầu ghi lại mọi điều trong sổ tay. Ông viết bằng cách gương (mirror writing), vẽ máy móc và phác thảo các công thức. Dần dần, ông không chỉ muốn trở thành họa sĩ; ông muốn trở thành một người có thể giải thích thế giới qua nghệ thuật và toán học.
 
-Chương này khắc họa một giai đoạn quyết định: Leonardo học cách tạo nên vẻ đẹp bằng phương pháp, và phương pháp ấy dựa trên sự hiểu biết bẩm sinh về cơ chế hoạt động của tự nhiên.
+Đây là giai đoạn quyết định - Leonardo học cách tạo nên vẻ đẹp bằng phương pháp, và phương pháp ấy dựa trên sự hiểu biết bẩm sinh về cơ chế hoạt động của tự nhiên.

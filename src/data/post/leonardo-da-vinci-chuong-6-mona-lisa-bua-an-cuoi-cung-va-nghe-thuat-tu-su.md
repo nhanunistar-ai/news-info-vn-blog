@@ -15,6 +15,9 @@ image: '~/assets/images/leonardo-da-vinci-chuong-6-mona-lisa-bua-an-cuoi-cung-va
 
 Leonardo mất gần bốn năm để hoàn thiện bức Mona Lisa. Ông không vẽ nhanh. Ông xếp từng lớp màu mảnh, dùng kỹ thuật sfumato để làm mờ ranh giới giữa da và bóng tối. Nhờ vậy, gương mặt ấy không bao giờ cứng. Đôi mắt dường như nhìn ra ngoài khung tranh, và nụ cười cũng không phải một cử chỉ tĩnh mà là một chuyển động tâm lý.
 
+![Mona Lisa: nụ cười qua thời gian](../../assets/images/mona-lisa.webp)
+*Note: Hình tạo bởi AI - không có giá trị nghệ thuật*
+
 Mona Lisa là một thử nghiệm về trạng thái. Leonardo đã đặt bà vào một khung cảnh mơ hồ, nửa như trong mơ, nửa như hiện thực. Đôi mắt của bà theo dõi người xem, nhưng cũng có vẻ như đang hướng vào một nội tâm riêng. Ông mở ra một câu chuyện không lời.
 
 ### 2. Bữa ăn cuối cùng: bức tranh như một vở kịch
@@ -37,6 +40,4 @@ Bức chân dung tạo ra sự gần gũi thầm lặng, còn bức tranh tườ
 
 ### 5. Di sản của hai kiệt tác
 
-Khi nhìn lại hai tác phẩm này, ta thấy Leonardo không chỉ là một họa sĩ tài năng. Ông là một nhà kể chuyện, một nhà khoa học biểu cảm, và một người hiểu rõ cách mê hoặc cảm nhận. Ông dùng bút vẽ để gợi mở tâm lý, và dùng màu sắc để làm sống lại cả một xã hội.
-
-Chương này nhấn mạnh rằng nghệ thuật của ông không dừng lại ở độ chính xác. Nó mở ra một dạng tư duy kết hợp giữa kỹ thuật, biểu cảm và khả năng kể câu chuyện bằng hình ảnh.
+Khi nhìn lại hai tác phẩm này, ta thấy Leonardo không chỉ là một họa sĩ tài năng. Ông là một nhà kể chuyện, một nhà khoa học biểu cảm, và một người hiểu rõ cách mê hoặc cảm nhận. Ông dùng bút vẽ để gợi mở tâm lý, và dùng màu sắc để làm sống lại cả một xã hội, nghệ thuật của ông không dừng lại ở độ chính xác. Nó mở ra một dạng tư duy kết hợp giữa kỹ thuật, biểu cảm và khả năng kể câu chuyện bằng hình ảnh.

@@ -41,6 +41,4 @@ Năm 1466, cha ông đưa Leonardo tới Florence. Ở đây, Leonardo được 
 
 Trong giai đoạn này, Leonardo đã bắt đầu học cách biến sự tò mò ban đầu thành phương pháp. Ông quan sát ánh sáng qua cửa sổ xưởng, đo đạc lớp màu, nghiên cứu phản xạ trên kim loại, và ghi chép mọi thứ. Florence không chỉ tiếp thêm chất liệu nghệ thuật; nó đặt nền móng cho một tư duy toàn diện, dẫn ông từ một cậu bé của tự nhiên thành một nhà sáng tạo thông thái.
 
-### 6. Di sản của chương đầu
-
-Chương này không chỉ là lời kể về tuổi thơ của Leonardo. Đó là một minh chứng rằng một nhân cách phi thường có thể sinh ra từ hai miền thế giới đối lập: học thuật và bản năng, lý thuyết và thực hành, thành thị và nông thôn. Từ Vinci đến Florence, Leonardo bước vào đời với một khả năng hiếm có: biến mọi quan sát thành ý tưởng và mọi ý tưởng thành bản vẽ.
+Leonardo là một minh chứng rằng một nhân cách phi thường có thể sinh ra từ hai miền thế giới đối lập: học thuật và bản năng, lý thuyết và thực hành, thành thị và nông thôn. Từ Vinci đến Florence, Leonardo bước vào đời với một khả năng hiếm có: biến mọi quan sát thành ý tưởng và mọi ý tưởng thành bản vẽ.

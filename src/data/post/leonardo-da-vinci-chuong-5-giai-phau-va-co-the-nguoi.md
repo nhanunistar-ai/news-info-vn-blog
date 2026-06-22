@@ -43,6 +43,6 @@ Các bức chân dung của ông không chỉ là chân dung; chúng là sự th
 
 ### 6. Di sản của một nhà giải phẫu nghệ thuật
 
-Chương này khép lại bằng lời nhắc: Leonardo đã nhìn thấy cơ thể như một cỗ máy tự nhiên, và ông dùng nghệ thuật để giải mã cỗ máy ấy. Ông dạy rằng nếu muốn vẽ đẹp, trước hết hãy hiểu cấu trúc bên trong. Nếu muốn xây dựng một máy móc, trước hết hãy học cách nó vận hành.
+Leonardo đã nhìn thấy cơ thể như một cỗ máy tự nhiên, và ông dùng nghệ thuật để giải mã cỗ máy ấy. Ông dạy rằng nếu muốn vẽ đẹp, trước hết hãy hiểu cấu trúc bên trong. Nếu muốn xây dựng một máy móc, trước hết hãy học cách nó vận hành.
 
 Đó là bài học lớn nhất từ giai đoạn giải phẫu của ông: kiến thức không phải là sự tách biệt. Nghệ thuật và khoa học gặp nhau trong cùng một tầm nhìn.

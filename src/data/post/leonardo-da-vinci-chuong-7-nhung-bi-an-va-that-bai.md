@@ -37,6 +37,6 @@ Năm 1516, dưới lời mời của vua François I, Leonardo chuyển đến P
 
 ### 5. Thất bại chính là phần của sáng tạo
 
-Chương này không chỉ kể về những dự án bỏ dở. Nó nhấn mạnh rằng thất bại là một phần của tiến trình sáng tạo. Leonardo không bị khuất phục bởi việc một dự án không thành. Ngược lại, ông dùng nó để tiếp tục viết, tiếp tục phác thảo, và tiếp tục tưởng tượng.
+Thất bại là một phần của tiến trình sáng tạo. Leonardo không bị khuất phục bởi việc một dự án không thành. Ngược lại, ông dùng nó để tiếp tục viết, tiếp tục phác thảo, và tiếp tục tưởng tượng.
 
 Chính sự bất định này khiến ông trở nên khác biệt. Ông là người luôn giữ cho ý tưởng sống, dù chúng không bao giờ được hoàn thành. Với cách tiếp cận đó, ông trở thành một nhân chứng cho một tinh thần: sáng tạo không phải là việc hoàn chỉnh một lần, mà là quá trình xây dựng liên tục.
