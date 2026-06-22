@@ -104,3 +104,15 @@ After changes, always verify:
 1. `npm run build` succeeds
 2. `npm run check` passes (astro check + ESLint + Prettier)
 3. Visual check in browser: homepage, blog, dark mode, mobile menu
+
+## Content Writing Rules
+
+When writing blog posts and articles:
+
+- **Use `-` (hyphen) instead of `—` (em dash) in all content.** Never use the em dash character `—`.
+- Write titles and excerpts in Vietnamese unless the post is explicitly in English.
+- Keep excerpts under 160 characters for SEO.
+- Use `series` and `chapter` fields in frontmatter for series posts.
+- Image paths must use `~/assets/images/filename.webp` format.
+- `publishDate` must be ISO 8601 format: `2026-06-22T08:00:00.000Z`.
+- Tags: lowercase, hyphenated slugs, comma-separated in array format.

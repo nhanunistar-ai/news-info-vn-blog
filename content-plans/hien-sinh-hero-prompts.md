@@ -15,7 +15,16 @@ A photorealistic dramatic portrait of a lone philosopher standing at the edge of
 
 ---
 
-## Chương 2 — Hiện hữu đi trước Bản chất
+## Chương 2 — Vô thần hay Hữu thần: Hai dòng hiện sinh và vết cắt lớn
+
+**Chủ thể:** Hai con đường tách ra từ một điểm — ánh sáng và bóng tối
+
+**Prompt:**
+A photorealistic dramatic wide shot of a single figure standing at the exact point where a road splits into two diverging paths — one leading toward a towering cathedral bathed in distant light, the other toward a vast empty horizon under a storm cloud, representing the two currents of existentialism: theistic faith versus atheistic self-creation. Shot on a Phase One XF IQ4 medium format camera, 24mm f/2.8 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the faint glow of the cathedral window and the figure's outstretched hand rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
+---
+
+## Chương 3 — Hiện hữu đi trước Bản chất
 
 **Chủ thể:** Bàn tay tự tạc hình mình từ đất sét — biểu tượng tự kiến tạo
 
@@ -24,7 +33,7 @@ A photorealistic close-up of two human hands sculpting a human figure from clay,
 
 ---
 
-## Chương 3 — Tự do và Trách nhiệm
+## Chương 4 — Tự do và Trách nhiệm
 
 **Chủ thể:** Người đứng trước ngã tư không có biển chỉ đường
 
