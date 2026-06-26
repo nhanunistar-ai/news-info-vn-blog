@@ -23,11 +23,11 @@ Thay vì chạy nhiều lệnh `docker run` phức tạp và phải nhớ tất 
 ```yaml
 services:
   service-name:
-    image: image-name:tag   # Dùng image có sẵn
+    image: image-name:tag # Dùng image có sẵn
     # HOẶC
-    build: .                # Build từ Dockerfile
+    build: . # Build từ Dockerfile
     ports:
-      - "host_port:container_port"
+      - 'host_port:container_port'
     environment:
       - ENV_VAR=value
     volumes:
@@ -58,7 +58,7 @@ services:
   web:
     build: ./app
     ports:
-      - "3000:3000"
+      - '3000:3000'
     environment:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://user:password@db:5432/mydb
@@ -69,8 +69,8 @@ services:
       cache:
         condition: service_started
     volumes:
-      - ./app:/app         # Mount source code (cho development)
-      - /app/node_modules  # Giữ node_modules trong container
+      - ./app:/app # Mount source code (cho development)
+      - /app/node_modules # Giữ node_modules trong container
     restart: unless-stopped
 
   # Service 2: PostgreSQL Database
@@ -81,9 +81,9 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
     volumes:
-      - postgres_data:/var/lib/postgresql/data  # Persistent volume
+      - postgres_data:/var/lib/postgresql/data # Persistent volume
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U user -d mydb"]
+      test: ['CMD-SHELL', 'pg_isready -U user -d mydb']
       interval: 10s
       timeout: 5s
       retries: 5
@@ -92,7 +92,7 @@ services:
   cache:
     image: redis:7-alpine
     ports:
-      - "6379:6379"  # Expose để dev có thể kết nối trực tiếp
+      - '6379:6379' # Expose để dev có thể kết nối trực tiếp
 
 # Định nghĩa named volumes
 volumes:
@@ -176,7 +176,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
 volumes:
-  postgres_data:  # Định nghĩa named volume
+  postgres_data: # Định nghĩa named volume
 ```
 
 **Bind mounts** - Map thư mục từ host, tốt cho development:
@@ -185,7 +185,7 @@ volumes:
 services:
   web:
     volumes:
-      - ./src:/app/src  # Thay đổi code tức thì không cần rebuild
+      - ./src:/app/src # Thay đổi code tức thì không cần rebuild
 ```
 
 **Anonymous volume** - Tránh bind mount ghi đè folder trong container:
@@ -195,7 +195,7 @@ services:
   web:
     volumes:
       - ./app:/app
-      - /app/node_modules  # Giữ node_modules của container, không bị ghi đè bởi host
+      - /app/node_modules # Giữ node_modules của container, không bị ghi đè bởi host
 ```
 
 ### Networks - Giao tiếp giữa containers
@@ -223,11 +223,11 @@ services:
 
   db:
     networks:
-      - backend  # db chỉ accessible từ backend network
+      - backend # db chỉ accessible từ backend network
 
   nginx:
     networks:
-      - frontend  # nginx chỉ ở frontend
+      - frontend # nginx chỉ ở frontend
 
 networks:
   frontend:
@@ -239,6 +239,7 @@ networks:
 Thực tế thường dùng 2 file:
 
 `compose.yml` - base config:
+
 ```yaml
 services:
   web:
@@ -248,6 +249,7 @@ services:
 ```
 
 `compose.dev.yml` - override cho development:
+
 ```yaml
 services:
   web:
@@ -256,10 +258,11 @@ services:
       - NODE_ENV=development
     volumes:
       - .:/app
-    command: npm run dev  # Hot reload
+    command: npm run dev # Hot reload
 ```
 
 Chạy dev environment:
+
 ```bash
 docker compose -f compose.yml -f compose.dev.yml up
 ```
@@ -271,8 +274,8 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "80:80"
-      - "443:443"
+      - '80:80'
+      - '443:443'
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./certbot/conf:/etc/letsencrypt:ro
@@ -285,12 +288,12 @@ services:
     environment:
       - DATABASE_URL=postgresql://user:pass@db:5432/prod
     expose:
-      - "8000"  # expose chỉ trong Docker network, không ra ngoài
+      - '8000' # expose chỉ trong Docker network, không ra ngoài
 
   frontend:
     build: ./frontend
     expose:
-      - "3000"
+      - '3000'
 
   db:
     image: postgres:16-alpine

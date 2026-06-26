@@ -27,4 +27,3 @@ Cả hai dòng đều chấp nhận con người phải tự định nghĩa mìn
 - **Hiện sinh hữu thần:** Các nhà tư tưởng như Martin Buber (với triết lý "Tôi và Bạn") nhấn mạnh vào **tính liên chủ thể** mang tính đối thoại và tôn trọng. Họ coi việc gặp gỡ người khác là một trải nghiệm tâm linh sâu sắc, nơi con người nhận ra nhân vị của nhau và thông qua đó có thể chạm đến cái siêu việt.
 
 **Tóm lại**, trong khi hiện sinh vô thần đặt con người vào vị thế **"vị thần cô đơn"** tự rèn đúc ý nghĩa trong lò rèn của tâm trí, thì hiện sinh hữu thần coi con người là **"lữ khách tâm linh"** tìm kiếm sự đích thực thông qua việc kết nối lại với nguồn cội tinh thần tối cao.
-

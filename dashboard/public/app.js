@@ -250,18 +250,36 @@ function generatePrompt() {
   const excerpt  = fExcerpt.value.trim();
   const subject  = fPromptSubject.value.trim();
 
-  // Build subject from user input or auto-derive from title+excerpt
-  let subjectLine = subject;
-  if (!subjectLine && title) {
-    subjectLine = `A photorealistic, dramatic visual representation of "${title}". ${excerpt ? excerpt.slice(0, 120) : ''}`;
+  // Create a short, content-derived description (part 1) and append fixed style suffix (part 2)
+  const content = fContent.value.trim();
+
+  // Determine the concise subject: prefer explicit subject, then excerpt, then title, then a short extract from content
+  let concise = '';
+  if (subject) concise = subject;
+  else if (excerpt) concise = excerpt.slice(0, 240);
+  else if (title) concise = title;
+  else if (content) {
+    // Strip common Markdown constructs and take the first sentence or first 200 chars
+    const stripped = content
+      .replace(/```[\s\S]*?```/g, ' ')
+      .replace(/!\[[^\]]*\]\([^\)]+\)/g, ' ')
+      .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
+      .replace(/[#>*`~]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const m = stripped.match(/^(.*?[\.\?!])(\s|$)/);
+    concise = m ? m[1].trim() : stripped.slice(0, 200).trim();
   }
 
-  if (!subjectLine) {
-    toast('Nhập title hoặc subject line trước', 'error');
+  if (!concise) {
+    toast('Nhập title, excerpt, subject, hoặc nội dung trước', 'error');
     return;
   }
 
-  const prompt = `${subjectLine} ${PROMPT_SUFFIX}`;
+  const part1 = `A photorealistic, cinematic photograph of ${concise}, without any visible text, captions, watermarks, or typography on the image.`;
+  const part2 = PROMPT_SUFFIX;
+  const prompt = `${part1} ${part2}`;
+
   $('prompt-output').value = prompt;
   toast('Prompt đã tạo!');
 }
@@ -293,6 +311,8 @@ function insertSnippet(snippet) {
   ta.selectionStart = ta.selectionEnd = start + snippet.length;
   ta.focus();
 }
+
+window.insertSnippet = insertSnippet;
 
 // ── Search ─────────────────────────────────────────────────────────────────
 $('search').addEventListener('input', e => {

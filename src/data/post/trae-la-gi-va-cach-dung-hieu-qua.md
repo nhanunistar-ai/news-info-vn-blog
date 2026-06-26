@@ -16,10 +16,10 @@ Nếu bạn cần một câu mô tả đúng kiểu “kỹ thuật”: **TRAE W
 
 ### Hai chế độ bạn sẽ dùng nhiều nhất
 
-| Chế độ | Dùng khi | Output hay gặp |
-|---|---|---|
-| `Work mode` | viết bài, nghiên cứu, tài liệu, dữ liệu, báo cáo | `.md`, `.html`, `.docx`, `.pdf`, `.xlsx` |
-| `Code mode` | làm việc với codebase: debug/refactor/test | patch/code diff, commit, hướng dẫn chạy, test |
+| Chế độ      | Dùng khi                                         | Output hay gặp                                |
+| ----------- | ------------------------------------------------ | --------------------------------------------- |
+| `Work mode` | viết bài, nghiên cứu, tài liệu, dữ liệu, báo cáo | `.md`, `.html`, `.docx`, `.pdf`, `.xlsx`      |
+| `Code mode` | làm việc với codebase: debug/refactor/test       | patch/code diff, commit, hướng dẫn chạy, test |
 
 Điểm quan trọng: dù ở mode nào thì “cách dùng hiệu quả” vẫn xoay quanh **3 thứ**: _ngữ cảnh_, _tiêu chí xong_, và _cơ chế kiểm chứng_.
 
@@ -138,4 +138,3 @@ Có. Bạn yêu cầu `.md`/`.html`/`.docx`… và nêu format, TRAE sẽ xuất
 ### Khi nào nên dùng Code mode?
 
 Khi bạn đang làm việc với repo/codebase và muốn kết quả là **thay đổi code có thể kiểm chứng** (test/build pass). www.news.info.vn/test
-

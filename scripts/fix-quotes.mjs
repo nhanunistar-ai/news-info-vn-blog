@@ -12,7 +12,7 @@ files.forEach((file) => {
     let content = fs.readFileSync(filePath, 'utf8');
 
     // Fix quotes in frontmatter
-    let updated = content.replace(/^(title|excerpt|author):\s*"([^"]*"[^"]*)"$/gm, (match, key, value) => {
+    let updated = content.replace(/^(title|excerpt|author):\s*"([^"']*"[^"']*)"$/gm, (_match, key, value) => {
       // If value contains quotes, use single quotes wrapper
       return `${key}: '${value}'`;
     });

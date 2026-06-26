@@ -46,6 +46,7 @@ npm run build
 ```
 
 Build thành công sẽ hiện:
+
 ```
 [build] XXX page(s) built in Xs
 [build] Complete!
@@ -56,11 +57,13 @@ Build thành công sẽ hiện:
 ### Bước 4 — Stage file thay đổi
 
 Stage tất cả file:
+
 ```bash
 git add -A
 ```
 
 Hoặc stage file cụ thể:
+
 ```bash
 git add src/pages/contact.astro
 git add src/components/widgets/Footer.astro
@@ -75,6 +78,7 @@ git commit -m "mô tả ngắn về thay đổi"
 ```
 
 Ví dụ commit message tốt:
+
 ```bash
 git commit -m "feat: add contact page"
 git commit -m "fix: footer logo dark mode"
@@ -106,21 +110,25 @@ git push origin main
 ## Các lệnh hay dùng khác
 
 ### Xem lịch sử commit gần nhất
+
 ```bash
 git log --oneline -10
 ```
 
 ### Xem diff trước khi commit
+
 ```bash
 git diff
 ```
 
 ### Lấy bản mới nhất từ remote (không có thay đổi local)
+
 ```bash
 git pull origin main
 ```
 
 ### Lấy bản mới nhất khi có thay đổi local chưa commit
+
 ```bash
 git stash
 git pull origin main
@@ -128,12 +136,14 @@ git stash pop
 ```
 
 ### Chạy dev server để xem trước
+
 ```bash
 npm run dev
 # → Mở http://localhost:4321
 ```
 
 ### Preview bản build
+
 ```bash
 npm run preview
 # → Mở http://localhost:4321
@@ -143,23 +153,23 @@ npm run preview
 
 ## Thông tin dự án
 
-| Mục | Giá trị |
-|-----|---------|
-| Repo | https://github.com/nhanunistar-ai/news-info-vn-blog.git |
-| Branch chính | `main` |
-| Deploy | Cloudflare Pages (tự động khi push main) |
-| Node.js yêu cầu | >= 22.12.0 |
-| Posts directory | `src/data/post/` |
-| Assets | `src/assets/images/` |
-| Dashboard | `dashboard/` (chạy `node server.js`, port 3333) |
+| Mục             | Giá trị                                                 |
+| --------------- | ------------------------------------------------------- |
+| Repo            | https://github.com/nhanunistar-ai/news-info-vn-blog.git |
+| Branch chính    | `main`                                                  |
+| Deploy          | Cloudflare Pages (tự động khi push main)                |
+| Node.js yêu cầu | >= 22.12.0                                              |
+| Posts directory | `src/data/post/`                                        |
+| Assets          | `src/assets/images/`                                    |
+| Dashboard       | `dashboard/` (chạy `node server.js`, port 3333)         |
 
 ---
 
 ## Xử lý lỗi thường gặp
 
-| Lỗi | Giải pháp |
-|-----|-----------|
-| `npm run build` lỗi | Đọc error message, thường do frontmatter sai hoặc import thiếu |
-| `git push` bị từ chối | Chạy `git pull origin main` trước rồi push lại |
-| Ảnh không hiển thị sau deploy | Kiểm tra file đã được `git add` và commit chưa |
-| `merge conflict` | Xem file conflict, sửa tay, rồi `git add` + `git commit` |
+| Lỗi                           | Giải pháp                                                      |
+| ----------------------------- | -------------------------------------------------------------- |
+| `npm run build` lỗi           | Đọc error message, thường do frontmatter sai hoặc import thiếu |
+| `git push` bị từ chối         | Chạy `git pull origin main` trước rồi push lại                 |
+| Ảnh không hiển thị sau deploy | Kiểm tra file đã được `git add` và commit chưa                 |
+| `merge conflict`              | Xem file conflict, sửa tay, rồi `git add` + `git commit`       |

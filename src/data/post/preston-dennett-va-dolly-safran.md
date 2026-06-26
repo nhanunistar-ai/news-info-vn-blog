@@ -11,6 +11,7 @@ image: '~/assets/images/preston-dennett-va-dolly-safran.webp'
 Trong thế giới nghiên cứu UFO và hiện tượng tiếp xúc với các thực thể ngoài Trái Đất, rất ít câu chuyện gây nhiều tranh luận như trải nghiệm của Dolly Safran. Xuất hiện trong chương trình Hidden Experience Audio Podcast cùng nhà nghiên cứu UFO nổi tiếng Preston Dennett, Dolly chia sẻ hành trình kéo dài suốt cuộc đời với những cuộc gặp gỡ mà bà khẳng định là có thật với các thực thể ngoài hành tinh.
 
 Cuộc trò chuyện do nhà nghiên cứu Mike Cleland dẫn dắt không chỉ xoay quanh UFO, mà còn mở rộng sang các chủ đề như năng lực tâm linh, luân hồi, ý thức đa chiều và tương lai của nhân loại.
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 18px; margin: 0 0 2rem; box-shadow: 0 20px 60px rgba(15, 23, 42, 0.18);">
   <iframe
     src="https://www.youtube.com/embed/aG0d-mgXGg8?start=737"
@@ -21,7 +22,7 @@ Cuộc trò chuyện do nhà nghiên cứu Mike Cleland dẫn dắt không chỉ
   ></iframe>
 </div>
 
-## Preston Dennett -- Nhà nghiên cứu UFO với hơn 24 đầu sách 
+## Preston Dennett -- Nhà nghiên cứu UFO với hơn 24 đầu sách
 
 Preston Dennett là một trong những tác giả và nhà nghiên cứu UFO được biết đến rộng rãi tại Mỹ. Trong nhiều thập kỷ, ông đã ghi nhận hàng nghìn trường hợp liên quan đến UFO, hiện tượng tiếp xúc ngoài hành tinh và các trải nghiệm cận tâm linh.
 
@@ -29,7 +30,7 @@ Theo Preston, dù đã gặp rất nhiều nhân chứng trong sự nghiệp ngh
 
 "Những gì Dolly kể không phải là điều hoàn toàn mới đối với tôi. Nhưng điểm khác biệt nằm ở chỗ câu chuyện của bà ấy kéo dài liên tục suốt cuộc đời, có nhiều bằng chứng hỗ trợ và không bị chi phối bởi nỗi sợ hãi như phần lớn các trường hợp khác."
 
-Chính điều đó đã thúc đẩy Preston dành nhiều năm để xác minh, đối chiếu thông tin trước khi xuất bản cuốn sách *Symmetry* -- tác phẩm ghi lại chi tiết hành trình tiếp xúc của Dolly Safran.
+Chính điều đó đã thúc đẩy Preston dành nhiều năm để xác minh, đối chiếu thông tin trước khi xuất bản cuốn sách _Symmetry_ -- tác phẩm ghi lại chi tiết hành trình tiếp xúc của Dolly Safran.
 
 ## Một cuộc đời gắn liền với những thực thể ngoài Trái Đất
 
@@ -100,7 +101,7 @@ Dù không có tài liệu độc lập xác nhận chi tiết cuộc gặp này
 
 Bên cạnh UFO, chủ đề về loài cú xuất hiện nhiều lần trong cuộc phỏng vấn.
 
-Mike Cleland -- tác giả cuốn sách nổi tiếng *The Messengers* -- đã dành nhiều năm nghiên cứu hiện tượng những con cú xuất hiện trong các sự kiện tâm linh hoặc UFO.
+Mike Cleland -- tác giả cuốn sách nổi tiếng _The Messengers_ -- đã dành nhiều năm nghiên cứu hiện tượng những con cú xuất hiện trong các sự kiện tâm linh hoặc UFO.
 
 Preston Dennett kể lại một trải nghiệm cá nhân khi ông nhìn thấy một vật thể phát sáng bí ẩn trên bầu trời California. Chỉ vài giây sau, một con cú khổng lồ bay qua ngay phía trên đầu ông trong đêm tối.
 

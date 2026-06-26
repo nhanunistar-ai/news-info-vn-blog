@@ -1,6 +1,10 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = 3333;
@@ -9,11 +13,12 @@ const PORT = 3333;
 const POSTS_DIR = path.join(__dirname, '..', 'src', 'data', 'post');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
+app.disable('x-powered-by');
 app.use(express.json({ limit: '10mb' }));
 app.use(express.static(PUBLIC_DIR));
 
 // GET /api/posts — list existing posts
-app.get('/api/posts', (req, res) => {
+app.get('/api/posts', (_req, res) => {
   try {
     const files = fs.readdirSync(POSTS_DIR)
       .filter(f => f.endsWith('.md'))
@@ -59,6 +64,6 @@ app.post('/api/delete', (req, res) => {
   res.json({ success: true });
 });
 
-app.listen(PORT, () => {
-  console.log(`\n✅ Dashboard running at http://localhost:${PORT}\n`);
+app.listen(PORT, '127.0.0.1', () => {
+  console.log(`\n✅ Dashboard running at http://127.0.0.1:${PORT}\n`);
 });

@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import Button from '~/components/ui/Button.astro';
 import Headline from '~/components/ui/Headline.astro';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Features as Props } from '~/types';
@@ -40,7 +39,9 @@ const columnsClass =
             {(icon || defaultIcon) && <Icon name={icon || defaultIcon} class="mb-6 w-12 h-12 text-primary" />}
             <div class="text-xl font-bold">
               {callToAction?.href ? (
-                <a href={callToAction.href} class="hover:text-primary transition-colors">{itemTitle}</a>
+                <a href={callToAction.href} class="hover:text-primary transition-colors">
+                  {itemTitle}
+                </a>
               ) : (
                 itemTitle
               )}

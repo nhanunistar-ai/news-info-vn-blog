@@ -116,4 +116,3 @@ Một số mẹo nâng cao:
 ## Kết luận
 
 Windsurf là lựa chọn tốt nếu bạn tìm một AI IDE cho workflow mượt mà, có khả năng tự động giữ context và hỗ trợ đa dạng thao tác từ sửa lỗi đến refactor toàn bộ. Với người mới, bắt đầu từ chat và review trước; với người nâng cao, mở rộng sang multi-file flow và dry-run để tận dụng hết Cascade.
-

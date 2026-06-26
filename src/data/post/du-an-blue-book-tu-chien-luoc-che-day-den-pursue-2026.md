@@ -24,11 +24,11 @@ Kết quả là ba chương trình điều tra liên tiếp được thành lậ
 
 **Project Blue Book (1952-1969)** - Giai đoạn đỉnh cao và kéo dài nhất. Trên giấy tờ là phân tích khoa học. Trên thực tế là lá chắn truyền thông.
 
-| Dự án | Tuyên bố công khai | Chức năng thực tế |
-|-------|-------------------|------------------|
-| Project Sign (1947) | Đánh giá khách quan rủi ro an ninh | Nhận diện mối đe dọa Liên Xô, phân loại dữ liệu |
-| Project Grudge (1949) | Tiếp tục nghiên cứu khoa học | Giải thích tâm lý học, dập tắt sự quan tâm |
-| Project Blue Book (1952-1969) | Phân tích và phân loại dị thường | Bảo vệ chương trình đen, ngăn tắc nghẽn kênh tình báo |
+| Dự án                         | Tuyên bố công khai                 | Chức năng thực tế                                     |
+| ----------------------------- | ---------------------------------- | ----------------------------------------------------- |
+| Project Sign (1947)           | Đánh giá khách quan rủi ro an ninh | Nhận diện mối đe dọa Liên Xô, phân loại dữ liệu       |
+| Project Grudge (1949)         | Tiếp tục nghiên cứu khoa học       | Giải thích tâm lý học, dập tắt sự quan tâm            |
+| Project Blue Book (1952-1969) | Phân tích và phân loại dị thường   | Bảo vệ chương trình đen, ngăn tắc nghẽn kênh tình báo |
 
 ### Dự án Blue Book và người đặt tên cho UFO
 
@@ -155,6 +155,7 @@ Với những hồ sơ gốc đang được công bố tại **[war.gov/ufo](htt
 ---
 
 **Tài liệu tham khảo:**
+
 - Kho lưu trữ UAP chính thức: [war.gov/ufo](https://www.war.gov/ufo/)
 - Thông cáo Release 01: [War.gov - Department of War Releases UAP Files](https://www.war.gov/News/Releases/Release/Article/4480582/)
 - Thông cáo Release 02: [War.gov - Second Release of UAP Files](https://www.war.gov/News/Releases/Release/Article/4499305/)

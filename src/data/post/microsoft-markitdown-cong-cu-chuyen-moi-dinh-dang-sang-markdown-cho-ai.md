@@ -203,11 +203,11 @@ Ngược lại, nếu bạn là người dùng cuối cần đọc tài liệu s
 
 MarkItDown, NotebookLM và Notion không cạnh tranh trực tiếp. Chúng nằm ở các lớp khác nhau trong workflow.
 
-| Công cụ | Vai trò chính | Khi nào dùng |
-| --- | --- | --- |
-| MarkItDown | Chuyển nhiều định dạng sang Markdown | Chuẩn hóa dữ liệu, tự động hóa, tiền xử lý cho AI |
-| NotebookLM | Đọc, hỏi đáp và tổng hợp dựa trên nguồn | Nghiên cứu, học tập, khai thác tài liệu đã nạp |
-| Notion | Lưu trữ và tổ chức tri thức | Quản lý nội dung, ghi chú, wiki cá nhân hoặc team |
+| Công cụ    | Vai trò chính                           | Khi nào dùng                                      |
+| ---------- | --------------------------------------- | ------------------------------------------------- |
+| MarkItDown | Chuyển nhiều định dạng sang Markdown    | Chuẩn hóa dữ liệu, tự động hóa, tiền xử lý cho AI |
+| NotebookLM | Đọc, hỏi đáp và tổng hợp dựa trên nguồn | Nghiên cứu, học tập, khai thác tài liệu đã nạp    |
+| Notion     | Lưu trữ và tổ chức tri thức             | Quản lý nội dung, ghi chú, wiki cá nhân hoặc team |
 
 Một workflow hợp lý có thể là: dùng MarkItDown để chuyển file hỗn hợp sang Markdown, dùng NotebookLM để phân tích/tóm tắt, rồi lưu kết quả đã chọn lọc vào Notion hoặc Obsidian.
 

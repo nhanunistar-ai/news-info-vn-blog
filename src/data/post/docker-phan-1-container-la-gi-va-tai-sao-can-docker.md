@@ -37,6 +37,7 @@ Nói đơn giản hơn: container như một chiếc hộp kín chứa đúng nh
 Đây là câu hỏi đầu tiên mọi người thường hỏi.
 
 **Máy ảo (Virtual Machine):**
+
 - Mô phỏng cả phần cứng
 - Mỗi VM chạy một hệ điều hành đầy đủ riêng
 - Kích thước: thường vài GB
@@ -44,6 +45,7 @@ Nói đơn giản hơn: container như một chiếc hộp kín chứa đúng nh
 - Cô lập hoàn toàn nhưng nặng và chậm
 
 **Container:**
+
 - Chia sẻ kernel của hệ điều hành host
 - Chỉ chứa ứng dụng và dependencies cần thiết
 - Kích thước: thường vài chục MB đến vài trăm MB

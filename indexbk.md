@@ -18,18 +18,20 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Đọc bài viết',
-        href: '/artemis-ii-su-mang-lich-su',
-        icon: 'tabler:book',
-      },
-      { text: 'Tìm hiểu thêm', href: '#features' },
-    ]}
-    image={{ src: '~/assets/images/hero-image.webp', alt: 'Artemis II' }}
-  >
+<Hero
+actions={[
+{
+variant: 'primary',
+text: 'Đọc bài viết',
+href: '/artemis-ii-su-mang-lich-su',
+icon: 'tabler:book',
+},
+{ text: 'Tìm hiểu thêm', href: '#features' },
+]}
+image={{ src: '~/assets/images/hero-image.webp', alt: 'Artemis II' }}
+
+>
+
     <Fragment slot="title">
       Artemis II: <span class="hidden xl:inline">Chuyến đi Lịch sử định hình lại</span>
       <span class="text-accent dark:text-white"> Kỷ nguyên Khám phá</span> Không gian
@@ -43,6 +45,7 @@ const metadata = {
       Sứ mệnh Artemis II không chỉ là đỉnh cao của kỹ thuật hàng không vũ trụ mà còn là thông điệp về sự đoàn kết, khát vọng
       và tương lai của loài người giữa các vì sao
     </Fragment>
+
   </Hero>
 
   <!-- Note Widget ******************* -->
@@ -51,80 +54,82 @@ const metadata = {
 
   <!-- Features Widget *************** -->
 
-  <Features
-    id="features"
-    tagline="Workspace"
-    title="Notion: Hệ điều hành cho công việc & cuộc sống"
-    subtitle="Khám phá cách Notion giúp bạn tổ chức toàn bộ kiến thức, dự án và ý tưởng trong một không gian làm việc duy nhất."
-    items={[
-      {
-        title: 'Block-based linh hoạt',
-        description:
-          'Mọi thứ đều là khối. Kéo thả, sắp xếp và tùy biến cấu trúc dữ liệu theo đúng cách bạn tư duy mà không bị gò bó.',
-        icon: 'tabler:box',
-      },
-      {
-        title: 'Database mạnh mẽ',
-        description:
-          'Vượt xa bảng tính thông thường với đa góc nhìn: Table, Kanban, Calendar và Timeline cho cùng một tập dữ liệu.',
-        icon: 'tabler:database',
-      },
-      {
-        title: 'Hệ thống PKM',
-        description:
-          'Xây dựng kho tri thức cá nhân (Personal Knowledge Management). Quản lý ghi chú, liên kết chéo và truy xuất nhanh.',
-        icon: 'tabler:brain',
-      },
-      {
-        title: 'Tùy biến không giới hạn',
-        description:
-          'Không khuôn mẫu cứng nhắc. Bạn hoàn toàn có thể thiết kế không gian làm việc phản ánh chính quy trình của mình.',
-        icon: 'tabler:adjustments',
-      },
-      {
-        title: 'Đồng bộ đa nền tảng',
-        description:
-          'Trải nghiệm liền mạch trên Web, Mac, Windows, iOS và Android. Dữ liệu luôn đồng bộ, theo bạn mọi lúc mọi nơi.',
-        icon: 'tabler:devices',
-      },
-      {
-        title: 'Notion AI tích hợp',
-        description:
-          'Trợ lý AI mạnh mẽ giúp bạn tóm tắt bài viết, dịch thuật, brainstorm ý tưởng và tự động hóa các tác vụ văn bản.',
-        icon: 'tabler:robot',
-      },
-    ]}
-  />
+<Features
+id="features"
+tagline="Workspace"
+title="Notion: Hệ điều hành cho công việc & cuộc sống"
+subtitle="Khám phá cách Notion giúp bạn tổ chức toàn bộ kiến thức, dự án và ý tưởng trong một không gian làm việc duy nhất."
+items={[
+{
+title: 'Block-based linh hoạt',
+description:
+'Mọi thứ đều là khối. Kéo thả, sắp xếp và tùy biến cấu trúc dữ liệu theo đúng cách bạn tư duy mà không bị gò bó.',
+icon: 'tabler:box',
+},
+{
+title: 'Database mạnh mẽ',
+description:
+'Vượt xa bảng tính thông thường với đa góc nhìn: Table, Kanban, Calendar và Timeline cho cùng một tập dữ liệu.',
+icon: 'tabler:database',
+},
+{
+title: 'Hệ thống PKM',
+description:
+'Xây dựng kho tri thức cá nhân (Personal Knowledge Management). Quản lý ghi chú, liên kết chéo và truy xuất nhanh.',
+icon: 'tabler:brain',
+},
+{
+title: 'Tùy biến không giới hạn',
+description:
+'Không khuôn mẫu cứng nhắc. Bạn hoàn toàn có thể thiết kế không gian làm việc phản ánh chính quy trình của mình.',
+icon: 'tabler:adjustments',
+},
+{
+title: 'Đồng bộ đa nền tảng',
+description:
+'Trải nghiệm liền mạch trên Web, Mac, Windows, iOS và Android. Dữ liệu luôn đồng bộ, theo bạn mọi lúc mọi nơi.',
+icon: 'tabler:devices',
+},
+{
+title: 'Notion AI tích hợp',
+description:
+'Trợ lý AI mạnh mẽ giúp bạn tóm tắt bài viết, dịch thuật, brainstorm ý tưởng và tự động hóa các tác vụ văn bản.',
+icon: 'tabler:robot',
+},
+]}
+/>
 
   <!-- Content Widget **************** -->
 
-  <Content
-    isReversed
-    tagline="Trợ lý Nghiên cứu AI"
-    title="NotebookLM"
-    subtitle="Bộ não thứ hai được hỗ trợ bởi AI"
-    items={[
-      {
-        title: 'Trò chuyện với tài liệu của riêng bạn',
-        description:
-          'Tải lên PDF, văn bản hay liên kết web. NotebookLM sẽ trở thành chuyên gia về tài liệu đó và chỉ trả lời dựa trên nguồn bạn cấp, loại bỏ ảo giác AI.',
-      },
-      {
-        title: 'Tự động tạo Audio Overview (Podcast)',
-        description:
-          'Tính năng đột phá giúp chuyển đổi toàn bộ tài liệu khô khan thành bản podcast trò chuyện sinh động giữa 2 host AI với giọng điệu cực kỳ tự nhiên.',
-      },
-      {
-        title: 'Trích xuất và tóm tắt thông minh',
-        description:
-          'Tự động tạo bảng chú giải thuật ngữ, hướng dẫn ôn tập, dàn ý chi tiết và các ý chính quan trọng chỉ với một cú click chuột.',
-      },
-    ]}
-    image={{
+<Content
+isReversed
+tagline="Trợ lý Nghiên cứu AI"
+title="NotebookLM"
+subtitle="Bộ não thứ hai được hỗ trợ bởi AI"
+items={[
+{
+title: 'Trò chuyện với tài liệu của riêng bạn',
+description:
+'Tải lên PDF, văn bản hay liên kết web. NotebookLM sẽ trở thành chuyên gia về tài liệu đó và chỉ trả lời dựa trên nguồn bạn cấp, loại bỏ ảo giác AI.',
+},
+{
+title: 'Tự động tạo Audio Overview (Podcast)',
+description:
+'Tính năng đột phá giúp chuyển đổi toàn bộ tài liệu khô khan thành bản podcast trò chuyện sinh động giữa 2 host AI với giọng điệu cực kỳ tự nhiên.',
+},
+{
+title: 'Trích xuất và tóm tắt thông minh',
+description:
+'Tự động tạo bảng chú giải thuật ngữ, hướng dẫn ôn tập, dàn ý chi tiết và các ý chính quan trọng chỉ với một cú click chuột.',
+},
+]}
+image={{
       src: '~/assets/images/notebooklm.webp',
       alt: 'NotebookLM AI Workspace',
     }}
-  >
+
+>
+
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Đọc hiểu tài liệu siêu tốc</h3>
       Khám phá cách nền tảng của Google định hình lại việc nghiên cứu, tổng hợp và học tập.
@@ -133,33 +138,36 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
+
   </Content>
 
   <!-- Content Widget **************** -->
 
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'Local-first & Markdown',
-        description: `Toàn bộ dữ liệu của bạn được lưu trữ cục bộ dưới dạng file Markdown. Đảm bảo quyền riêng tư tuyệt đối và không bao giờ bị khóa bởi bất kỳ nhà cung cấp dịch vụ đám mây nào.`,
-      },
-      {
-        title: 'Liên kết đồ thị (Graph View)',
-        description:
-          'Trực quan hóa các mối liên hệ giữa những ghi chú của bạn dưới dạng mạng lưới đồ thị, giúp bạn khám phá ra những luồng tư duy và ý tưởng mới ẩn sâu bên trong.',
-      },
-      {
-        title: 'Hệ sinh thái Plugin khổng lồ',
-        description:
-          'Biến Obsidian thành bất cứ công cụ nào bạn muốn với hàng nghìn plugin cộng đồng: vẽ sơ đồ với Excalidraw, quản lý task với Kanban, hay truy vấn dữ liệu với Dataview.',
-      },
-    ]}
-    image={{
+<Content
+isAfterContent
+items={[
+{
+title: 'Local-first & Markdown',
+description: `Toàn bộ dữ liệu của bạn được lưu trữ cục bộ dưới dạng file Markdown. Đảm bảo quyền riêng tư tuyệt đối và không bao giờ bị khóa bởi bất kỳ nhà cung cấp dịch vụ đám mây nào.`,
+},
+{
+title: 'Liên kết đồ thị (Graph View)',
+description:
+'Trực quan hóa các mối liên hệ giữa những ghi chú của bạn dưới dạng mạng lưới đồ thị, giúp bạn khám phá ra những luồng tư duy và ý tưởng mới ẩn sâu bên trong.',
+},
+{
+title: 'Hệ sinh thái Plugin khổng lồ',
+description:
+'Biến Obsidian thành bất cứ công cụ nào bạn muốn với hàng nghìn plugin cộng đồng: vẽ sơ đồ với Excalidraw, quản lý task với Kanban, hay truy vấn dữ liệu với Dataview.',
+},
+]}
+image={{
       src: '~/assets/images/obsidian.webp',
       alt: 'Obsidian Graph View Interface',
     }}
-  >
+
+>
+
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Obsidian - Căn cứ địa cho Tư duy
@@ -170,35 +178,38 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
+
   </Content>
 
   <!-- Content Widget **************** -->
 
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Nguyên lý Hộp Ghi Chú (Slip-box)',
-        description:
-          'Thay vì phân loại theo thư mục cứng nhắc, mỗi ghi chú (Zettel) là một ý tưởng nguyên tử độc lập, được gắn thẻ và lưu trữ trong một không gian phẳng để dễ dàng truy xuất.',
-      },
-      {
-        title: 'Liên kết ý tưởng ngẫu nhiên',
-        description:
-          'Sức mạnh của Zettelkasten nằm ở việc tạo ra các liên kết chéo (backlinks) giữa các ghi chú dường như không liên quan, từ đó kích thích những ý tưởng sáng tạo đột phá.',
-      },
-      {
-        title: 'Quy trình làm việc 3 bước',
-        description:
-          'Bắt đầu với Ghi chú Nhanh (Fleeting Notes) trong ngày, chắt lọc thành Ghi chú Thường trực (Permanent Notes) bằng ngôn ngữ của riêng bạn, và cuối cùng là kết nối chúng vào hệ thống.',
-      },
-    ]}
-    image={{
+<Content
+isReversed
+isAfterContent
+items={[
+{
+title: 'Nguyên lý Hộp Ghi Chú (Slip-box)',
+description:
+'Thay vì phân loại theo thư mục cứng nhắc, mỗi ghi chú (Zettel) là một ý tưởng nguyên tử độc lập, được gắn thẻ và lưu trữ trong một không gian phẳng để dễ dàng truy xuất.',
+},
+{
+title: 'Liên kết ý tưởng ngẫu nhiên',
+description:
+'Sức mạnh của Zettelkasten nằm ở việc tạo ra các liên kết chéo (backlinks) giữa các ghi chú dường như không liên quan, từ đó kích thích những ý tưởng sáng tạo đột phá.',
+},
+{
+title: 'Quy trình làm việc 3 bước',
+description:
+'Bắt đầu với Ghi chú Nhanh (Fleeting Notes) trong ngày, chắt lọc thành Ghi chú Thường trực (Permanent Notes) bằng ngôn ngữ của riêng bạn, và cuối cùng là kết nối chúng vào hệ thống.',
+},
+]}
+image={{
       src: '~/assets/images/zettelkasten.webp',
       alt: 'Zettelkasten Slip-box System',
     }}
-  >
+
+>
+
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Zettelkasten: Nghệ thuật kết nối ý tưởng
@@ -209,105 +220,108 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
+
   </Content>
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
-    title="Hành trình di cư: Từ WordPress rườm rà đến Astro + Cloudflare tinh gọn"
-    items={[
-      {
-        title: 'Bước 1: <span class="font-medium">Nhận ra giới hạn của hệ thống cũ</span>',
-        description:
-          'WordPress từng đáp ứng tốt nhu cầu ban đầu, nhưng dần trở nên cồng kềnh với hàng tá plugin, tốc độ tải trang chậm chạp và quá trình bảo trì tốn quá nhiều thời gian.',
-        icon: 'tabler:brand-wordpress',
-      },
-      {
-        title: 'Bước 2: <span class="font-medium">Xác định kiến trúc mới</span>',
-        description:
-          'Mục tiêu đặt ra: Chi phí vận hành gần như bằng 0, hạ tầng không điểm lỗi, và toàn quyền kiểm soát nội dung bằng Git thay vì chỉnh sửa trực tiếp trên Admin Panel.',
-        icon: 'tabler:search',
-      },
-      {
-        title: 'Bước 3: <span class="font-medium">Triển khai bộ ba hoàn hảo</span>',
-        description:
-          'Sử dụng Astro để build trang tĩnh tốc độ cao, GitHub để quản lý phiên bản Markdown, và Cloudflare Pages để deploy tự động ngay khi có thay đổi mới.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Thành quả đạt được!',
-        description:
-          'Một hệ thống tinh gọn, bảo mật tuyệt đối, tốc độ tải trang cực nhanh và một quy trình biên tập kỷ luật.<br /><br /><a href="/about" class="inline-flex items-center justify-center rounded-lg shadow-md px-5 py-2.5 font-semibold text-white bg-primary hover:opacity-90 transition">Đọc toàn bộ Case Study</a>',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
+<Steps
+title="Hành trình di cư: Từ WordPress rườm rà đến Astro + Cloudflare tinh gọn"
+items={[
+{
+title: 'Bước 1: <span class="font-medium">Nhận ra giới hạn của hệ thống cũ</span>',
+description:
+'WordPress từng đáp ứng tốt nhu cầu ban đầu, nhưng dần trở nên cồng kềnh với hàng tá plugin, tốc độ tải trang chậm chạp và quá trình bảo trì tốn quá nhiều thời gian.',
+icon: 'tabler:brand-wordpress',
+},
+{
+title: 'Bước 2: <span class="font-medium">Xác định kiến trúc mới</span>',
+description:
+'Mục tiêu đặt ra: Chi phí vận hành gần như bằng 0, hạ tầng không điểm lỗi, và toàn quyền kiểm soát nội dung bằng Git thay vì chỉnh sửa trực tiếp trên Admin Panel.',
+icon: 'tabler:search',
+},
+{
+title: 'Bước 3: <span class="font-medium">Triển khai bộ ba hoàn hảo</span>',
+description:
+'Sử dụng Astro để build trang tĩnh tốc độ cao, GitHub để quản lý phiên bản Markdown, và Cloudflare Pages để deploy tự động ngay khi có thay đổi mới.',
+icon: 'tabler:rocket',
+},
+{
+title: 'Thành quả đạt được!',
+description:
+'Một hệ thống tinh gọn, bảo mật tuyệt đối, tốc độ tải trang cực nhanh và một quy trình biên tập kỷ luật.<br /><br /><a href="/about" class="inline-flex items-center justify-center rounded-lg shadow-md px-5 py-2.5 font-semibold text-white bg-primary hover:opacity-90 transition">Đọc toàn bộ Case Study</a>',
+icon: 'tabler:check',
+},
+]}
+image={{
       src: '~/assets/images/about-us.webp',
       alt: 'WordPress to Astro Migration',
     }}
-  />
+/>
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`
+<BlogLatestPosts
+title="Find out more content in our Blog"
+information={`
                 `}
-  />
+/>
 
   <!-- FAQs Widget ******************* -->
 
-  <FAQs
-    title="Microsoft MarkItDown"
-    subtitle="Chuyển mọi định dạng tài liệu sang Markdown sạch để đưa vào RAG, LLM và workflow AI."
-    tagline="AI Tools"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'MarkItDown là gì và dùng để làm gì?',
-        description:
-          'MarkItDown là thư viện Python của Microsoft giúp chuyển đổi PDF, Word, Excel, PowerPoint, HTML, ảnh và âm thanh sang Markdown sạch. Nó đóng vai trò lớp tiền xử lý dữ liệu trước khi đưa vào RAG, LLM, knowledge base hoặc bất kỳ pipeline AI nào.',
-      },
-      {
-        title: 'Vì sao Markdown lại quan trọng với AI?',
-        description:
-          'LLM đọc tốt nhất khi cấu trúc tài liệu được biểu diễn rõ: đâu là tiêu đề, đâu là bảng, đâu là code. Với RAG, Markdown giúp chunking đúng ngữ cảnh, tránh cắt vỡ bảng biểu, lẫn header/footer hoặc đọc chéo nội dung hai cột của PDF scan.',
-      },
-      {
-        title: 'MarkItDown hỗ trợ những định dạng nào?',
-        description:
-          'Văn bản & trình chiếu: PDF, Word .docx, PowerPoint .pptx, HTML, TXT. Dữ liệu có cấu trúc: Excel .xlsx, CSV, JSON, XML. Đa phương tiện: ảnh (kết hợp AI Vision), âm thanh (transcript), file ZIP. Tất cả trong một thư viện Python duy nhất.',
-      },
-      {
-        title: 'Cài đặt và bắt đầu như thế nào?',
-        description:
-          'Bản cơ bản: pip install markitdown. Đầy đủ định dạng: pip install "markitdown[all]". Tích hợp OpenAI Vision: pip install "markitdown[openai]". Có thể dùng qua Python API hoặc CLI để chuyển từng file lẻ hoặc batch cả thư mục tài liệu hỗn hợp.',
-      },
-      {
-        title: 'Giới hạn cần biết trước khi dùng?',
-        description:
-          'Không phải OCR nội bộ hoàn chỉnh — PDF scan mờ, ảnh chụp thực tế cần kết nối model vision bên ngoài. Khi dùng AI Vision phải tính chi phí API và quyền riêng tư dữ liệu. Markdown đầu ra vẫn nên kiểm tra thủ công với bảng biểu phức tạp hoặc tài liệu nhiều cột.',
-      },
-      {
-        title: 'MarkItDown khác gì NotebookLM và Notion?',
-        description:
-          'Ba công cụ nằm ở các lớp khác nhau: MarkItDown chuyển file hỗn hợp sang Markdown (tiền xử lý). NotebookLM đọc và hỏi đáp dựa trên nguồn đã nạp (nghiên cứu, tóm tắt). Notion lưu trữ và tổ chức tri thức (wiki, ghi chú team). Workflow: MarkItDown →NotebookLM →Notion/Obsidian.',
-      },
-    ]}
-  />
+<FAQs
+title="Microsoft MarkItDown"
+subtitle="Chuyển mọi định dạng tài liệu sang Markdown sạch để đưa vào RAG, LLM và workflow AI."
+tagline="AI Tools"
+classes={{ container: 'max-w-6xl' }}
+items={[
+{
+title: 'MarkItDown là gì và dùng để làm gì?',
+description:
+'MarkItDown là thư viện Python của Microsoft giúp chuyển đổi PDF, Word, Excel, PowerPoint, HTML, ảnh và âm thanh sang Markdown sạch. Nó đóng vai trò lớp tiền xử lý dữ liệu trước khi đưa vào RAG, LLM, knowledge base hoặc bất kỳ pipeline AI nào.',
+},
+{
+title: 'Vì sao Markdown lại quan trọng với AI?',
+description:
+'LLM đọc tốt nhất khi cấu trúc tài liệu được biểu diễn rõ: đâu là tiêu đề, đâu là bảng, đâu là code. Với RAG, Markdown giúp chunking đúng ngữ cảnh, tránh cắt vỡ bảng biểu, lẫn header/footer hoặc đọc chéo nội dung hai cột của PDF scan.',
+},
+{
+title: 'MarkItDown hỗ trợ những định dạng nào?',
+description:
+'Văn bản & trình chiếu: PDF, Word .docx, PowerPoint .pptx, HTML, TXT. Dữ liệu có cấu trúc: Excel .xlsx, CSV, JSON, XML. Đa phương tiện: ảnh (kết hợp AI Vision), âm thanh (transcript), file ZIP. Tất cả trong một thư viện Python duy nhất.',
+},
+{
+title: 'Cài đặt và bắt đầu như thế nào?',
+description:
+'Bản cơ bản: pip install markitdown. Đầy đủ định dạng: pip install "markitdown[all]". Tích hợp OpenAI Vision: pip install "markitdown[openai]". Có thể dùng qua Python API hoặc CLI để chuyển từng file lẻ hoặc batch cả thư mục tài liệu hỗn hợp.',
+},
+{
+title: 'Giới hạn cần biết trước khi dùng?',
+description:
+'Không phải OCR nội bộ hoàn chỉnh — PDF scan mờ, ảnh chụp thực tế cần kết nối model vision bên ngoài. Khi dùng AI Vision phải tính chi phí API và quyền riêng tư dữ liệu. Markdown đầu ra vẫn nên kiểm tra thủ công với bảng biểu phức tạp hoặc tài liệu nhiều cột.',
+},
+{
+title: 'MarkItDown khác gì NotebookLM và Notion?',
+description:
+'Ba công cụ nằm ở các lớp khác nhau: MarkItDown chuyển file hỗn hợp sang Markdown (tiền xử lý). NotebookLM đọc và hỏi đáp dựa trên nguồn đã nạp (nghiên cứu, tóm tắt). Notion lưu trữ và tổ chức tri thức (wiki, ghi chú team). Workflow: MarkItDown →NotebookLM →Notion/Obsidian.',
+},
+]}
+/>
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Đọc ngay!',
-        href: '/stories/alien-interview',
-        icon: 'tabler:book',
-      },
-    ]}
-  >
+<CallToAction
+actions={[
+{
+variant: 'primary',
+text: 'Đọc ngay!',
+href: '/stories/alien-interview',
+icon: 'tabler:book',
+},
+]}
+
+>
+
     <Fragment slot="title">
       Alien&nbsp;&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Interviews</span>
     </Fragment>
@@ -316,5 +330,6 @@ const metadata = {
       Cuốn sách phơi bày lịch sử thực sự của vũ trụ, bẫy linh hồn tại Trái Đất <br class="hidden md:inline" />Đây là
       hành trình khám phá sự thật về bản chất bất tử của mỗi "IS-BE"
     </Fragment>
+
   </CallToAction>
 </Layout>

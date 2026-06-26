@@ -19,13 +19,13 @@ Leonardo gọi một trong các bản vẽ là "Ornithopter" — máy bay mổ d
 
 ### 2. Hình học của một cỗ máy bay
 
-Không dừng ở đó, ông còn nghiên cứu các nguyên lý khí động học. Ông lập ra các bản phác thảo cánh quạt spiral (khi còn gọi là "vít không khí"), đo góc nghiêng cánh và ghi chú về áp lực không khí. Ông viết: "Không khí chịu nén giống như nước, và nó đẩy vật thể lên nếu thiết kế đúng." 
+Không dừng ở đó, ông còn nghiên cứu các nguyên lý khí động học. Ông lập ra các bản phác thảo cánh quạt spiral (khi còn gọi là "vít không khí"), đo góc nghiêng cánh và ghi chú về áp lực không khí. Ông viết: "Không khí chịu nén giống như nước, và nó đẩy vật thể lên nếu thiết kế đúng."
 
 Các bản vẽ này khiến ông trở thành một trong những người đầu tiên tư duy về lực nâng và ma sát trong môi trường khí. Những nét vẽ trên giấy giờ đây không đơn thuần là tranh minh hoạ, mà là mô hình thể hiện chuyển động vật lý.
 
 ### 3. Cánh tay người - cỗ máy vận hành
 
-Song song với ước mơ bay, Leonardo khảo sát chi tiết cánh tay, vai và bàn tay người. Ông vẽ các khớp nối, các dây chằng, các dây thần kinh như thể đó là các bánh răng và thanh giằng trong một máy móc chính xác. 
+Song song với ước mơ bay, Leonardo khảo sát chi tiết cánh tay, vai và bàn tay người. Ông vẽ các khớp nối, các dây chằng, các dây thần kinh như thể đó là các bánh răng và thanh giằng trong một máy móc chính xác.
 
 Điều này đưa ông đến một kết luận: con người là bộ máy lý tưởng để kiểm soát và điều khiển. Nếu máy bay là cánh, thì cánh tay là bộ điều khiển. Ông thử nghiệm với các tay vịn, thanh đòn, và cơ cấu đòn bẩy để truyền chuyển động từ cơ thể sang cánh máy.
 

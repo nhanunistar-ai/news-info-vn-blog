@@ -12,12 +12,12 @@ files.forEach((file) => {
     let content = fs.readFileSync(filePath, 'utf8');
 
     // Replace ../../assets/ with /images/ (public folder)
-    const updated = content.replace(/image:\s*["']\.\.\/\.\.\/assets\/([^"']+)["']/g, (match, filename) => {
+    const updated = content.replace(/image:\s*["']\.\.\/\.\.\/assets\/([^"']+)["']/g, (_match, filename) => {
       return `image: "/images/${filename}"`;
     });
 
     // Also fix any image references in content
-    const contentUpdated = updated.replace(/!\[([^\]]*)\]\(\.\.\/\.\.\/assets\/([^)]+)\)/g, (match, alt, filename) => {
+    const contentUpdated = updated.replace(/!\[([^\]]*)\]\(\.\.\/\.\.\/assets\/([^)]+)\)/g, (_match, alt, filename) => {
       return `![${alt}](/images/${filename})`;
     });
 

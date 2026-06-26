@@ -188,6 +188,7 @@ RUN aws s3 sync s3://bucket .
 ```
 
 Dùng build arguments (chỉ có trong build time, không persist vào image):
+
 ```bash
 docker build --build-arg AWS_KEY=$AWS_KEY .
 ```
@@ -211,7 +212,7 @@ services:
   web:
     read_only: true
     tmpfs:
-      - /tmp  # Cho phép write vào /tmp
+      - /tmp # Cho phép write vào /tmp
 ```
 
 **Giới hạn resources:**
@@ -265,7 +266,7 @@ services:
   registry:
     image: registry:2
     ports:
-      - "5000:5000"
+      - '5000:5000'
     volumes:
       - registry_data:/var/lib/registry
 
@@ -317,13 +318,13 @@ docker image prune -a
 
 Khi ứng dụng scale lên, Docker Compose không còn đủ. Kubernetes (K8s) là bước tiếp theo:
 
-| | Docker Compose | Kubernetes |
-|---|---|---|
-| Scale | Manual | Auto-scaling |
-| Load balancing | Manual (Nginx) | Built-in |
-| Self-healing | Không | Tự restart failed containers |
-| Rolling updates | Không | Zero-downtime deploys |
-| Phù hợp | Dev, small projects | Production, large scale |
+|                 | Docker Compose      | Kubernetes                   |
+| --------------- | ------------------- | ---------------------------- |
+| Scale           | Manual              | Auto-scaling                 |
+| Load balancing  | Manual (Nginx)      | Built-in                     |
+| Self-healing    | Không               | Tự restart failed containers |
+| Rolling updates | Không               | Zero-downtime deploys        |
+| Phù hợp         | Dev, small projects | Production, large scale      |
 
 Con đường học tiếp sau Docker:
 
@@ -337,20 +338,24 @@ Con đường học tiếp sau Docker:
 Qua 4 phần, bạn đã học:
 
 **Phần 1 - Nền tảng:**
+
 - Container vs VM
 - Các khái niệm cơ bản: Image, Container, Dockerfile
 
 **Phần 2 - Thực hành:**
+
 - Cài Docker
 - Viết Dockerfile cho Node.js, Python
 - Build image và chạy container
 
 **Phần 3 - Docker Compose:**
+
 - Chạy multi-container stack
 - Volumes, Networks, Environment variables
 - Dev vs Production configs
 
 **Phần 4 - Nâng cao:**
+
 - Multi-stage builds
 - Security best practices
 - Docker Registry
@@ -360,4 +365,4 @@ Docker không phải là đích đến - đó là nền tảng. Khi bạn thoả
 
 ---
 
-*Bạn có thể bắt đầu ngay hôm nay bằng cách containerize một dự án hiện có của mình và deploy nó lên một VPS.*
+_Bạn có thể bắt đầu ngay hôm nay bằng cách containerize một dự án hiện có của mình và deploy nó lên một VPS._

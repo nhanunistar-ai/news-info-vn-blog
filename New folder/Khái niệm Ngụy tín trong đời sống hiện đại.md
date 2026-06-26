@@ -1,4 +1,4 @@
-Khái niệm **\"Ngụy tín\"** (Bad Faith - *Mauvaise foi*), được Jean-Paul Sartre khởi xướng, là một trong những phạm trù quan trọng nhất của chủ nghĩa hiện sinh để phân tích sự tha hóa của con người. Trong đời sống hiện đại, sự ngụy tín không chỉ là một thuật ngữ triết học mà còn là một hiện tượng tâm lý - xã hội phổ biến khi cá nhân đối mặt với áp lực của sự tự do và trách nhiệm.
+Khái niệm **\"Ngụy tín\"** (Bad Faith - _Mauvaise foi_), được Jean-Paul Sartre khởi xướng, là một trong những phạm trù quan trọng nhất của chủ nghĩa hiện sinh để phân tích sự tha hóa của con người. Trong đời sống hiện đại, sự ngụy tín không chỉ là một thuật ngữ triết học mà còn là một hiện tượng tâm lý - xã hội phổ biến khi cá nhân đối mặt với áp lực của sự tự do và trách nhiệm.
 
 Dưới đây là phân tích chi tiết về khái niệm này trong bối cảnh đời sống hiện đại dựa trên các nguồn tài liệu:
 

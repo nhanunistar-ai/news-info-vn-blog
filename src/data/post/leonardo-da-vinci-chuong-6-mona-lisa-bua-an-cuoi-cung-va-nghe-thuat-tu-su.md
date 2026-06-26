@@ -16,7 +16,7 @@ image: '~/assets/images/leonardo-da-vinci-chuong-6-mona-lisa-bua-an-cuoi-cung-va
 Leonardo mất gần bốn năm để hoàn thiện bức Mona Lisa. Ông không vẽ nhanh. Ông xếp từng lớp màu mảnh, dùng kỹ thuật sfumato để làm mờ ranh giới giữa da và bóng tối. Nhờ vậy, gương mặt ấy không bao giờ cứng. Đôi mắt dường như nhìn ra ngoài khung tranh, và nụ cười cũng không phải một cử chỉ tĩnh mà là một chuyển động tâm lý.
 
 ![Mona Lisa: nụ cười qua thời gian](../../assets/images/mona-lisa.webp)
-*Note: Hình tạo bởi AI - không có giá trị nghệ thuật*
+_Note: Hình tạo bởi AI - không có giá trị nghệ thuật_
 
 Mona Lisa là một thử nghiệm về trạng thái. Leonardo đã đặt bà vào một khung cảnh mơ hồ, nửa như trong mơ, nửa như hiện thực. Đôi mắt của bà theo dõi người xem, nhưng cũng có vẻ như đang hướng vào một nội tâm riêng. Ông mở ra một câu chuyện không lời.
 

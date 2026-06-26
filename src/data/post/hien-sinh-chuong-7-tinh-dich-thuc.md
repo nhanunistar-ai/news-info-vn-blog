@@ -42,13 +42,13 @@ Cụ thể hơn:
 
 ### Sự khác biệt rõ ràng với ngụy tín
 
-| | Ngụy tín | Tính đích thực |
-|---|---|---|
-| Tự do | Phủ nhận, trốn tránh | Thừa nhận, chấp nhận |
-| Trách nhiệm | Đổ lỗi cho hoàn cảnh | Tự chịu trách nhiệm |
-| Bản thân | Đóng kịch, đồng nhất với vai trò | Nhận thức về chủ thể tính |
-| Lo âu | Che giấu bằng ngụy tín | Đối mặt trực tiếp |
-| Người khác | Để cái nhìn định nghĩa mình | Nhận ra nhưng không bị chiếm hữu |
+|             | Ngụy tín                         | Tính đích thực                   |
+| ----------- | -------------------------------- | -------------------------------- |
+| Tự do       | Phủ nhận, trốn tránh             | Thừa nhận, chấp nhận             |
+| Trách nhiệm | Đổ lỗi cho hoàn cảnh             | Tự chịu trách nhiệm              |
+| Bản thân    | Đóng kịch, đồng nhất với vai trò | Nhận thức về chủ thể tính        |
+| Lo âu       | Che giấu bằng ngụy tín           | Đối mặt trực tiếp                |
+| Người khác  | Để cái nhìn định nghĩa mình      | Nhận ra nhưng không bị chiếm hữu |
 
 ### Dấn thân: bản chất nằm ở hành động
 

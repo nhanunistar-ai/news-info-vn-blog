@@ -56,7 +56,7 @@ Chủ nghĩa hiện sinh không phải là một khối thống nhất mà chia 
 
 Chủ nghĩa hiện sinh du nhập vào Việt Nam và tạo nên những dấu ấn riêng biệt qua các thời kỳ:
 
-- **Manh nha tự phát:** Những ưu tư về thân phận người đã xuất hiện từ sớm trong các tác phẩm như *Cung oán ngâm khúc* của Nguyễn Gia Thiều hay *Truyện Kiều* của Nguyễn Du.
+- **Manh nha tự phát:** Những ưu tư về thân phận người đã xuất hiện từ sớm trong các tác phẩm như _Cung oán ngâm khúc_ của Nguyễn Gia Thiều hay _Truyện Kiều_ của Nguyễn Du.
 
 - **Tại miền Nam (trước 1975):** Chủ nghĩa hiện sinh trở thành \"mốt\" sống và luồng tư tưởng chủ đạo trong giới trí thức tiểu tư sản, phản ánh tâm trạng lo âu, nổi loạn của tầng lớp thanh niên sống \"giữa hai làn đạn\".
 

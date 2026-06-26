@@ -1,6 +1,5 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE } from 'astrowind:config';
 import { getHomePermalink } from '~/utils/permalinks';
 
 interface Link {
@@ -36,7 +35,12 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         <div class="mb-2">
           <a class="inline-block" href={getHomePermalink()} aria-label="news.info.vn - Trang chủ">
             <img src="/LOGO-NEWS.svg" alt="NEWS.INFO.VN" class="w-20 md:w-30 h-auto dark:hidden" loading="lazy" />
-            <img src="/LOGO-NEWS-dark.svg" alt="NEWS.INFO.VN" class="w-20 md:w-30 h-auto hidden dark:block" loading="lazy" />
+            <img
+              src="/LOGO-NEWS-dark.svg"
+              alt="NEWS.INFO.VN"
+              class="w-20 md:w-30 h-auto hidden dark:block"
+              loading="lazy"
+            />
           </a>
         </div>
         <div class="text-sm text-muted flex gap-1">
