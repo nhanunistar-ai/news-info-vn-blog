@@ -5,7 +5,7 @@ category: ['study', 'news']
 tags: ['open-source', 'project-management', 'self-host', 'monorepo', 'docker', 'mcp', 'ai-agent']
 author: 'Minh Anh'
 publishDate: 2026-06-26T10:24:00.000Z
-image: '~/assets/images/makeplane-plan.webp'
+image: '~/assets/images/makeplane-plane.webp'
 ---
 
 Plane là công cụ quản lý công việc kiểu “issue tracker + product planning” mã nguồn mở, hướng tới UX hiện đại nhưng vẫn hợp team có quy trình. Repo chính là `https://github.com/makeplane/plane` (AGPL-3.0), gồm cả web app và backend, có hướng self-host và **MCP server** để nối AI agent vào workspace.
