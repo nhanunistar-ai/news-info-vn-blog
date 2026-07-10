@@ -1,0 +1,80 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Search from 'astro-pagefind/components/Search.astro';
+
+const metadata = {
+  title: 'Tìm kiếm',
+  description: 'Tìm kiếm nội dung trên website',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="py-8 sm:py-16 lg:py-20 mx-auto max-w-4xl px-4 sm:px-6">
+    <h1 class="text-3xl md:text-4xl font-bold font-heading mb-8">Tìm kiếm</h1>
+    
+    <div class="min-h-[50vh]">
+      <Search id="search" className="pagefind-ui" uiOptions={{ showImages: true }} />
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Chạy script mỗi khi trang load (hỗ trợ cả Astro ViewTransitions)
+  document.addEventListener('astro:page-load', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    if (query) {
+      // Đợi Pagefind UI render xong
+      const trySearch = setInterval(() => {
+        const input = document.querySelector('.pagefind-ui__search-input') as HTMLInputElement;
+        if (input) {
+          input.value = query;
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          clearInterval(trySearch);
+        }
+      }, 100);
+      
+      // Dừng sau 3 giây nếu không tìm thấy
+      setTimeout(() => clearInterval(trySearch), 3000);
+    }
+  });
+
+  // Đăng ký listener độc lập bên ngoài để không bị lặp lại nhiều lần
+  // Dùng capture: true để đảm bảo chạy trước Astro ViewTransitions router
+  document.addEventListener('click', (e) => {
+    // Tìm thẻ <a> gần nhất trong path click (hỗ trợ cả khi click vào thẻ con bên trong shadow DOM)
+    const link = e.composedPath().find(el => (el as HTMLElement).tagName === 'A') as HTMLAnchorElement;
+    
+    if (link && link.origin === window.location.origin && link.pathname.endsWith('/')) {
+      // Bỏ qua trang chủ
+      if (link.pathname !== '/') {
+        // Xóa dấu / cuối cùng trước khi trình duyệt chuyển trang
+        link.href = link.href.slice(0, -1);
+      }
+    }
+  }, { capture: true });
+</script>
+
+<style is:global>
+  /* Tùy chỉnh màu sắc Pagefind cho phù hợp theme */
+  :root {
+    --pagefind-ui-primary: #0369a1;
+    --pagefind-ui-text: #334155;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #cbd5e1;
+    --pagefind-ui-tag: #f1f5f9;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 0.5rem;
+    --pagefind-ui-image-border-radius: 0.5rem;
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    --pagefind-ui-font: inherit;
+  }
+
+  .dark {
+    --pagefind-ui-primary: #38bdf8;
+    --pagefind-ui-text: #cbd5e1;
+    --pagefind-ui-background: #0f172a;
+    --pagefind-ui-border: #334155;
+    --pagefind-ui-tag: #1e293b;
+  }
+</style>

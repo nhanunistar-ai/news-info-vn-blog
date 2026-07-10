@@ -1,5 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
 import { defineConfig } from 'astro/config';
 
@@ -11,6 +12,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
+import pagefind from 'astro-pagefind';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
@@ -68,6 +70,7 @@ export default defineConfig({
     astrowind({
       config: './src/config.yaml',
     }),
+    pagefind(),
   ],
 
   image: {
@@ -92,7 +95,27 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      {
+        name: 'serve-pagefind-dev',
+        configureServer(server) {
+          server.middlewares.use((req, res, next) => {
+            if (req.url?.startsWith('/pagefind/')) {
+              const filePath = path.join(__dirname, 'dist', req.url.split('?')[0]);
+              if (fs.existsSync(filePath) && !fs.statSync(filePath).isDirectory()) {
+                if (filePath.endsWith('.js')) res.setHeader('Content-Type', 'application/javascript');
+                else if (filePath.endsWith('.css')) res.setHeader('Content-Type', 'text/css');
+                else if (filePath.endsWith('.wasm')) res.setHeader('Content-Type', 'application/wasm');
+                else if (filePath.endsWith('.json')) res.setHeader('Content-Type', 'application/json');
+                return res.end(fs.readFileSync(filePath));
+              }
+            }
+            next();
+          });
+        }
+      }
+    ],
     resolve: {
       alias: {
         '~': path.resolve(__dirname, './src'),

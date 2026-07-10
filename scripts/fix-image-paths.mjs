@@ -1,32 +1,31 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const postsDir = './src/data/post';
-const files = fs.readdirSync(postsDir);
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-let fixedCount = 0;
+const POSTS_DIR = path.join(__dirname, '..', 'src', 'data', 'post');
 
-files.forEach((file) => {
-  if (file.endsWith('.md')) {
-    const filePath = path.join(postsDir, file);
-    let content = fs.readFileSync(filePath, 'utf8');
-
-    // Replace ../../assets/ with /images/ (public folder)
-    const updated = content.replace(/image:\s*["']\.\.\/\.\.\/assets\/([^"']+)["']/g, (_match, filename) => {
-      return `image: "/images/${filename}"`;
-    });
-
-    // Also fix any image references in content
-    const contentUpdated = updated.replace(/!\[([^\]]*)\]\(\.\.\/\.\.\/assets\/([^)]+)\)/g, (_match, alt, filename) => {
-      return `![${alt}](/images/${filename})`;
-    });
-
-    if (contentUpdated !== content) {
-      fs.writeFileSync(filePath, contentUpdated);
-      fixedCount++;
-      console.log(`✓ Fixed image paths in: ${file}`);
+function fixImagePaths(dir) {
+  if (!fs.existsSync(dir)) return;
+  const files = fs.readdirSync(dir);
+  
+  for (const file of files) {
+    const filePath = path.join(dir, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      fixImagePaths(filePath);
+    } else if (file.endsWith('.md')) {
+      let content = fs.readFileSync(filePath, 'utf8');
+      if (content.includes('../../assets/images/')) {
+        // Change from ../../ to ../../../ because it's now in a subdirectory
+        content = content.replace(/\.\.\/\.\.\/assets\/images\//g, '../../../assets/images/');
+        fs.writeFileSync(filePath, content, 'utf8');
+        console.log('Fixed:', filePath);
+      }
     }
   }
-});
+}
 
-console.log(`Fixed image paths in ${fixedCount} files.`);
+fixImagePaths(POSTS_DIR);
+console.log('Done fixing image paths.');
