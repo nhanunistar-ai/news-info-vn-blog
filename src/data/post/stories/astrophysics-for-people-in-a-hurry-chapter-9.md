@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 9: Invisible Light'
+title: 'Chapter 9: Invisible Light'
 excerpt: 'Năm 1800, Herschel khám phá ra ánh sáng ngoài phổ đỏ - hồng ngoại. Từ đó, chúng ta biết rằng mắt người chỉ nhìn thấy một phần cực nhỏ của thực tại. Vũ trụ tràn đầy ánh sáng vô hình mà chúng ta đang học cách đọc.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'quang-pho', 'anh-sang', 'vu-tru']

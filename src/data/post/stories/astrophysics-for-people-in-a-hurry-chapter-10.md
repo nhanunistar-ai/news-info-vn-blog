@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 10: Between the Planets'
+title: 'Chapter 10: Between the Planets'
 excerpt: 'Hệ mặt trời trông có vẻ trống rỗng khi nhìn từ xa. Nhưng không gian giữa các hành tinh chứa đầy đá tảng, sỏi, bóng băng, bụi, dòng hạt tích điện, từ trường khổng lồ - và hàng trăm tấn thiên thạch rơi xuống Trái Đất mỗi ngày.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'he-mat-troi', 'hanh-tinh', 'vu-tru']

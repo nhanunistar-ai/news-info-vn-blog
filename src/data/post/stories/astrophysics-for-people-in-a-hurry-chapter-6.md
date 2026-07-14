@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 6: Dark Energy and Einstein''s Greatest Blunder'
+title: 'Chapter 6: Dark Energy and Einstein''s Greatest Blunder'
 excerpt: 'Einstein gọi hằng số vũ trụ Lambda là "sai lầm lớn nhất trong cuộc đời mình" khi từ bỏ nó. Năm 1998, khoa học khai quật Lambda từ mộ - và nó hóa ra là thứ chiếm 68% toàn bộ vũ trụ.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'dark-energy', 'einstein', 'vu-tru']

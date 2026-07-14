@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 7: The Cosmos on the Table'
+title: 'Chapter 7: The Cosmos on the Table'
 excerpt: 'Bảng tuần hoàn hóa học không chỉ là biểu đồ trên tường lớp học. Đó là danh sách các nguyên tố được rèn trong lòng các vì sao, phun vào thiên hà qua các vụ nổ siêu tân tinh, và cuối cùng trở thành cơ thể bạn.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'nguyen-to', 'sao', 'khoa-hoc']

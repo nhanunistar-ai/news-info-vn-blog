@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 12: Reflections on the Cosmic Perspective'
+title: 'Chapter 12: Reflections on the Cosmic Perspective'
 excerpt: 'Góc nhìn vũ trụ không làm bạn nhỏ bé - nó giải phóng bạn. Khi biết mình được tạo ra từ những ngôi sao, khi hiểu vũ trụ sống trong từng nguyên tử của mình, con người có thể thoát khỏi những định kiến hạn hẹp để nhìn nhận cuộc đời rộng lớn hơn.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'goc-nhin-vu-tru', 'triet-hoc', 'nhan-loai']

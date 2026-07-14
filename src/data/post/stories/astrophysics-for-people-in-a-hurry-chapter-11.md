@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 11: Exoplanet Earth'
+title: 'Chapter 11: Exoplanet Earth'
 excerpt: 'Nếu người ngoài hành tinh nhìn về phía Trái Đất, họ sẽ thấy gì? Một đốm xanh mờ, những tín hiệu vô tuyến kỳ lạ, và các dấu vân tay hóa học trong khí quyển - tất cả đều tiết lộ một hành tinh đặc biệt, nhưng liệu có thể tiết lộ sự hiện diện của sự sống thông minh?'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'hanh-tinh-ngoai-he', 'trai-dat', 'vu-tru']

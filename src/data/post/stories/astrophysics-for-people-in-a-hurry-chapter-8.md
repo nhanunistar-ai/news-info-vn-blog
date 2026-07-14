@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 8: On Being Round'
+title: 'Chapter 8: On Being Round'
 excerpt: 'Ngoại trừ tinh thể và đá vỡ, không có nhiều thứ trong vũ trụ mang góc cạnh sắc nhọn tự nhiên. Hình cầu là hình dạng được ưu tiên bởi tác động của các định luật vật lý đơn giản - từ bong bóng xà phòng đến toàn bộ vũ trụ quan sát được.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'hinh-cau', 'vat-ly', 'vu-tru']

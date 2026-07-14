@@ -1,5 +1,5 @@
 ---
-title: 'Astrophysics for People in a Hurry - Chapter 5: Dark Matter'
+title: 'Chapter 5: Dark Matter'
 excerpt: 'Phần lớn trọng lực trong vũ trụ đến từ thứ mà chúng ta không thể nhìn thấy, chạm vào hay cảm nhận. 85% lực hấp dẫn đo được trong vũ trụ nảy sinh từ vật chất tối - thứ bí ẩn nhất trong vật lý thiên văn hiện đại.'
 category: 'stories'
 tags: ['astrophysics-for-people-in-a-hurry', 'neil-degrasse-tyson', 'dark-matter', 'vu-tru', 'vat-ly']
