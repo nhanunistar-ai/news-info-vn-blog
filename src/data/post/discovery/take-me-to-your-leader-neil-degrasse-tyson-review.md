@@ -1,10 +1,10 @@
 ---
-title: 'Take Me to Your Leader - Neil deGrasse Tyson và câu hỏi vật lý học chưa ai dám đặt ra'
+title: 'Take Me to Your Leader - Neil deGrasse Tyson'
 excerpt: 'Tyson không hỏi "Người ngoài hành tinh có tồn tại không?" Ông hỏi điều khó hơn nhiều: nếu họ đến, vật lý học của chúng ta có thể nói gì về họ? Và điều gì sẽ xảy ra nếu ta bắt tay nhầm chỗ?'
 category: ['discovery', 'stories']
 tags: ['neil-degrasse-tyson', 'alien', 'ufo', 'vat-ly-thien-van', 'sach', 'review', 'khoa-hoc']
-author: 'Tuan Kiet'
-publishDate: 2026-06-25T08:00:00.000Z
+author: 'Bao Chau'
+publishDate: 2026-07-12T08:00:00.000Z
 image: '~/assets/images/take-me-to-your-leader-neil-degrasse-tyson-review.webp'
 ---
 
