@@ -1,256 +1,237 @@
 ---
-title: 'Kết hợp NotebookLM với Antigravity - Sức mạnh của hai AI agent làm việc cùng nhau'
-excerpt: 'NotebookLM hiểu sâu tài liệu của bạn. Antigravity thực thi code, browse web và build feature. Kết hợp đúng cách, hai tool này tạo ra một workflow mà một mình mỗi tool không làm được.'
+title: 'Kết hợp NotebookLM với Antigravity qua MCP - AI agent tự hỏi knowledge base của bạn'
+excerpt: 'notebooklm-mcp biến NotebookLM thành một MCP server. Khi đó Antigravity, Claude Code hay Cursor có thể tự query notebook của bạn khi cần - zero hallucination, có citation, không cần copy-paste.'
 category: ['study', 'news']
-tags: ['notebooklm', 'antigravity', 'ai-agent', 'workflow', 'developer', 'productivity']
+tags: ['notebooklm', 'antigravity', 'mcp', 'ai-agent', 'developer', 'claude-code', 'cursor']
 author: 'Tuan Kiet'
 publishDate: 2026-06-24T08:00:00.000Z
 image: '~/assets/images/ket-hop-notebooklm-voi-antigravity-suc-manh-cua-hai-ai-agent.webp'
 ---
 
-> NotebookLM là AI đọc tài liệu giỏi nhất hiện tại. Antigravity là AI thực thi tác vụ mạnh nhất. Vấn đề là chúng không "nói chuyện" với nhau - đó là việc của bạn.
+> NotebookLM đọc tài liệu của bạn chính xác tuyệt đối - không bịa, có citation. Antigravity thực thi code và tác vụ. `notebooklm-mcp` là cầu nối để hai tool này làm việc cùng nhau mà không cần bạn đứng giữa copy-paste.
 
-Nếu bạn đang dùng riêng lẻ từng tool, bạn đang bỏ lỡ phần hay nhất.
+Vấn đề quen thuộc: bạn có một notebook NotebookLM chứa đầy tài liệu kỹ thuật, spec, docs nội bộ. Và bạn đang dùng Antigravity để build feature. Mỗi lần agent cần hỏi về context trong docs, bạn phải: mở NotebookLM, hỏi, copy kết quả, paste vào Antigravity.
 
-Bài này sẽ chỉ cụ thể cách nối hai tool lại thành một workflow thực tế - từ research đến code đến deploy.
-
----
-
-## Hiểu đúng vai trò của từng tool
-
-Trước khi kết hợp, cần hiểu rõ mỗi tool mạnh ở đâu và yếu ở đâu.
-
-### NotebookLM - chuyên gia đọc tài liệu
-
-NotebookLM nhận vào bất kỳ tài liệu nào bạn cung cấp - PDF, Google Docs, website, YouTube transcript - và trở thành chuyên gia về tập tài liệu đó.
-
-**Mạnh:** Trích xuất insight chính xác từ tài liệu dài, tổng hợp nhiều nguồn, trả lời câu hỏi với trích dẫn nguồn rõ ràng, tạo Audio Overview, không "bịa" thông tin ngoài tài liệu.
-
-**Yếu:** Không thể chạy code, không browse web thời gian thực, không thực thi tác vụ, không kết nối với tool bên ngoài.
-
-### Antigravity - chuyên gia thực thi
-
-Antigravity (Google) là nền tảng agent-first: nhận mục tiêu, lập kế hoạch, chạy code, browse web, tạo file và báo cáo kết quả.
-
-**Mạnh:** Viết và chạy code thực, browse web thời gian thực, làm việc song song nhiều task, thao tác file system, tích hợp API.
-
-**Yếu:** Không có bộ nhớ sâu về tài liệu của bạn - nó biết web nhưng không biết codebase nội bộ hay spec riêng của project bạn.
-
-**Khoảng trống:** NotebookLM biết sâu tài liệu của bạn nhưng không hành động. Antigravity hành động mạnh nhưng không biết context riêng của bạn. Bạn là cầu nối.
+`notebooklm-mcp` xóa bỏ bước đó. Agent tự hỏi notebook khi cần.
 
 ---
 
-## Workflow tổng thể
+## MCP là gì và tại sao nó quan trọng
 
-```
-[Tài liệu của bạn]
-        |
-        v
-  [NotebookLM]          <- Đọc, phân tích, trích xuất
-        |
-   Output: Brief / Spec / Insight
-        |
-        v
-  [Bạn] (chỉnh sửa, xác nhận)
-        |
-        v
-  [Antigravity]         <- Thực thi, code, browse, build
-        |
-        v
-  [Kết quả thực tế]
-```
+**MCP (Model Context Protocol)** là chuẩn kết nối để AI agent (Claude Code, Cursor, Antigravity...) gọi các tool bên ngoài. Khi bạn cài một MCP server, agent của bạn có thêm "tay" - có thể tự động gọi tool đó trong workflow.
 
-Quy trình đơn giản nhưng cực kỳ hiệu quả vì mỗi agent làm đúng việc của nó.
+`notebooklm-mcp` là MCP server expose NotebookLM ra dưới dạng các tool. Agent có thể gọi `ask_question`, `add_source`, `notebook_query`... như gọi bất kỳ function nào khác - tự động, không cần input từ bạn.
+
+Có hai implementation chính đang được dùng:
+
+- **[PleasePrompto/notebooklm-mcp](https://github.com/PleasePrompto/notebooklm-mcp)** - TypeScript/Node.js, hỗ trợ `stdio` và Streamable-HTTP. Dùng Patchright (stealth Chrome) để drive browser. Tốt cho setup đơn giản.
+- **[jacob-bd/notebooklm-mcp-cli](https://github.com/jacob-bd/notebooklm-mcp-cli)** - Python, package unified gồm cả CLI (`nlm`) lẫn MCP server. **35 tools**, có `nlm setup add antigravity` để tự config. Đây là cái được maintain tích cực hơn và có nhiều tính năng hơn.
 
 ---
 
-## 4 workflow cụ thể với prompt mẫu
+## Cài đặt: jacob-bd/notebooklm-mcp-cli (khuyến nghị)
 
-### Workflow 1 - Research to Code
+### Bước 1 - Cài package
 
-**Tình huống:** Bạn có tài liệu kỹ thuật (API docs, RFC, whitepaper) và cần implement.
+```bash
+# Dùng uv (recommended)
+uv tool install notebooklm-mcp-cli
 
-**Bước 1 - NotebookLM:** Tải API docs vào NotebookLM, chạy prompt:
-
-```
-Prompt mẫu 1 - NotebookLM:
-
-Dựa trên tài liệu API này, hãy tạo một "Implementation Brief" gồm:
-1. Các endpoint cần thiết để [mục tiêu cụ thể]
-2. Request/response format của từng endpoint
-3. Authentication method
-4. Rate limits và error codes quan trọng
-5. Ví dụ cURL cho mỗi endpoint
-
-Format output dưới dạng markdown có thể copy-paste thẳng vào Antigravity.
+# Hoặc pip
+pip install notebooklm-mcp-cli
 ```
 
-**Bước 2 - Copy output sang Antigravity:**
+Sau khi cài, bạn có hai lệnh:
+- `nlm` - CLI để tương tác với NotebookLM từ terminal
+- `notebooklm-mcp` - MCP server để AI agent kết nối
 
-```
-Prompt mẫu 2 - Antigravity:
+### Bước 2 - Authenticate với NotebookLM
 
-Dưới đây là Implementation Brief cho [tên API]:
+NotebookLM không có official API. Tool này dùng cookie auth:
 
-[Paste output từ NotebookLM vào đây]
-
-Nhiệm vụ:
-1. Tạo một SDK wrapper trong [Node.js / Python] cho các endpoint trên
-2. Implement error handling đầy đủ
-3. Viết unit tests cho từng method
-4. Tạo README.md với usage examples
-
-Bắt đầu với file structure trước, confirm với tôi trước khi viết code.
+```bash
+nlm login
 ```
 
-**Kết quả:** Bạn có SDK hoàn chỉnh mà không phải đọc hết docs hoặc viết từng dòng code thủ công.
+Lệnh này mở browser, bạn đăng nhập Google, cookies được extract tự động. Login một lần, dùng mãi (cookies tự-refresh).
+
+Kiểm tra auth:
+
+```bash
+nlm login --check
+```
+
+### Bước 3 - Kết nối Antigravity
+
+Lệnh một dòng - tự config không cần edit JSON:
+
+```bash
+nlm setup add antigravity
+```
+
+Tool tự detect config path của Antigravity và ghi vào đúng chỗ. Restart Antigravity là xong.
+
+Muốn config cho các tool khác:
+
+```bash
+nlm setup add claude-code
+nlm setup add cursor
+nlm setup add gemini
+```
+
+### Bước 4 - Cài Skill cho Antigravity (optional nhưng nên làm)
+
+```bash
+nlm skill install antigravity
+```
+
+Skill file giúp Antigravity hiểu rõ hơn cách dùng các tools của NotebookLM - khi nào nên query, khi nào nên add source...
 
 ---
 
-### Workflow 2 - Meeting Notes to Action Items to Code
+## Cài đặt: PleasePrompto/notebooklm-mcp (Node.js alternative)
 
-**Tình huống:** Bạn có transcript cuộc họp product và cần convert sang tasks kỹ thuật.
+Nếu bạn quen Node.js hơn Python:
 
-**Bước 1 - NotebookLM:** Upload transcript, chạy:
-
-```
-Prompt mẫu 3 - NotebookLM:
-
-Phân tích transcript này và tạo:
-
-**Technical Backlog:**
-- Mỗi feature request từ cuộc họp → 1 user story (As a..., I want..., So that...)
-- Estimate độ phức tạp: Low / Medium / High
-- Dependencies giữa các tasks
-- Câu hỏi kỹ thuật cần clarify trước khi implement
-
-**Không suy diễn** - chỉ dựa trên những gì được đề cập rõ ràng trong transcript.
-Output format: YAML để dễ parse.
+```bash
+npx notebooklm-mcp@latest
 ```
 
-**Bước 2 - Antigravity thực thi tasks:**
+Kết nối Antigravity - thêm vào config:
 
-Chọn một task cụ thể từ backlog và paste vào Antigravity với đầy đủ context:
+```json
+{
+  "mcpServers": {
+    "notebooklm": {
+      "command": "npx",
+      "args": ["notebooklm-mcp@latest"]
+    }
+  }
+}
+```
+
+Auth tương tự: chạy `setup_auth` tool lần đầu, login qua browser, cookies persist.
+
+---
+
+## Các tool quan trọng nhất
+
+Sau khi kết nối, agent của bạn có các tool này:
+
+| Tool | Dùng khi nào |
+|------|-------------|
+| `ask_question` / `notebook_query` | Hỏi notebook, trả về answer + citations |
+| `notebook_list` | List toàn bộ notebooks |
+| `source_add` | Add URL, text, Google Drive vào notebook |
+| `studio_create` | Tạo audio podcast, video, slides từ notebook |
+| `research_start` | Cho agent tự research web rồi import vào notebook |
+| `cross_notebook_query` | Query nhiều notebook cùng lúc |
+| `notebook_create` | Tạo notebook mới |
+
+---
+
+## 4 prompt mẫu để dùng ngay
+
+Sau khi kết nối MCP, bạn nói chuyện với Antigravity bình thường - nó tự biết khi nào gọi tool NotebookLM.
+
+**Prompt 1 - Hỏi về tài liệu kỹ thuật nội bộ:**
 
 ```
-Task từ backlog: [Copy user story cụ thể]
+Tôi đang implement authentication cho dự án. 
+Hãy query notebook "Backend Architecture" của tôi và 
+cho biết chúng tôi đang dùng auth flow nào, có những 
+endpoint nào liên quan, và bất kỳ gotcha nào được ghi chú.
+Sau đó generate skeleton code dựa trên thông tin đó.
+```
 
-Context từ cuộc họp:
-- [Paste đoạn transcript liên quan]
-- Constraint: [deadline, tech stack, etc.]
+**Prompt 2 - Research rồi build feature:**
 
-Implement feature này. Check repo hiện tại trước để hiểu code style và patterns đang dùng.
+```
+Tôi cần implement rate limiting. 
+1. Add tài liệu từ URL này vào notebook "Tech Research": 
+   https://redis.io/docs/manual/patterns/rate-limiting/
+2. Query notebook đó để lấy best practices
+3. Implement một rate limiter middleware cho Express.js 
+   dựa trên những gì tìm được, không hallucinate thêm
+```
+
+**Prompt 3 - Cross-notebook context:**
+
+```
+Query cả notebook "Product Specs Q3" và notebook "API Docs v2" 
+để hiểu yêu cầu cho feature export. Tổng hợp thành một 
+implementation plan, sau đó bắt đầu viết code.
+```
+
+**Prompt 4 - Generate nội dung từ research:**
+
+```
+Notebook "Competitor Analysis" của tôi chứa research 
+về 5 competitors. 
+Tạo một audio podcast overview từ notebook đó - format "deep dive", 
+sau đó liệt kê 3 insight quan trọng nhất với citations 
+từ tài liệu gốc.
 ```
 
 ---
 
-### Workflow 3 - Competitor Research to Product Spec
+## Tại sao "zero hallucination" quan trọng
 
-**Tình huống:** Bạn cần build feature mới và muốn research competitor trước.
+Điểm khác biệt lớn nhất khi dùng NotebookLM qua MCP so với hỏi AI trực tiếp:
 
-**Bước 1 - Antigravity browse & collect:**
+**Không dùng MCP:** Antigravity biết rất nhiều thứ về thế giới, nhưng không biết gì về codebase nội bộ, spec riêng, hay tài liệu bạn không publish công khai. Nó có thể đoán, có thể bịa.
 
-Antigravity làm phần thu thập dữ liệu vì nó có khả năng browse web:
+**Dùng MCP:** Antigravity query notebook của bạn - nơi chứa đúng những tài liệu đó. Câu trả lời có citation cụ thể về nguồn nào trong notebook. Nếu thông tin không có trong tài liệu, NotebookLM nói thẳng "thông tin này không có trong nguồn" thay vì đoán.
 
+Với `source_format: "footnotes"` hoặc `"json"`, agent còn nhận được structured citations:
+
+```json
+{
+  "answer": "Authentication flow dùng JWT với refresh token...",
+  "sources": [
+    {
+      "index": 1,
+      "title": "Backend Architecture v2.pdf",
+      "excerpt": "JWT access tokens expire after 15 minutes..."
+    }
+  ]
+}
 ```
-Browse các trang sau và extract thông tin về [feature cụ thể]:
-- [competitor 1 URL]
-- [competitor 2 URL]
-- [competitor 3 URL]
-
-Tạo file competitor-research.md với:
-- Screenshot key UX patterns (mô tả text nếu không screenshot được)
-- Pricing (nếu có)
-- User reviews về feature này từ G2/Product Hunt
-- Kỹ thuật implementation có thể đoán được từ behavior
-```
-
-**Bước 2 - NotebookLM synthesize:**
-
-Upload file competitor-research.md vào NotebookLM cùng với product roadmap hiện tại của bạn, chạy:
-
-```
-Prompt mẫu 4 - NotebookLM:
-
-Dựa trên competitor research và roadmap hiện tại của chúng tôi, hãy viết Product Spec cho [feature]:
-
-1. **Problem Statement** - Vấn đề user đang gặp
-2. **Proposed Solution** - Approach của chúng tôi (differentiated từ competitor)
-3. **MVP Scope** - Chính xác những gì cần build ở v1, những gì để sau
-4. **Success Metrics** - Cách đo lường feature này thành công
-5. **Open Questions** - Những quyết định cần confirm trước khi build
-
-Không suggest feature không có trong tài liệu đã cung cấp.
-```
-
-**Bước 3 - Antigravity implement từ spec:**
-
-Paste spec vào Antigravity để bắt đầu implementation.
 
 ---
 
-### Workflow 4 - Codebase Documentation
+## Một số lưu ý thực tế
 
-**Tình huống:** Bạn inherit một codebase không có docs và cần hiểu nhanh.
+**Context window:** `jacob-bd/notebooklm-mcp-cli` expose 35 tools. Nhiều tool = tốn context. Nếu bạn không cần hết, dùng selective tool exposure:
 
-**Bước 1 - Antigravity extract:**
-
-```
-Scan codebase trong thư mục [path]. Tạo documentation-dump.md gồm:
-- File structure với mô tả từng module
-- Tất cả function signatures và JSDoc comments (nếu có)
-- Tất cả API endpoints (nếu là backend)
-- Database schema (nếu có migration files)
-- Environment variables được reference
-- External dependencies và cách chúng được dùng
+```bash
+# Chỉ bật những tool cần thiết
+NOTEBOOKLM_PROFILE=minimal notebooklm-mcp
 ```
 
-**Bước 2 - NotebookLM làm "codebase expert":**
+Profile `minimal` chỉ có: `ask_question`, `get_health`, `list_notebooks`, `select_notebook`, `get_notebook`.
 
-Upload documentation-dump.md vào NotebookLM. Từ đây bạn có thể hỏi bất kỳ câu hỏi nào về codebase:
+**Không phải official API:** Cả hai implementation đều dùng internal API của Google - undocumented, có thể thay đổi. Dùng cho personal/experimental, không production-critical.
 
-- "Tôi muốn add authentication, cần modify những file nào?"
-- "Explain flow của một request từ client đến database"
-- "Những chỗ nào có technical debt rõ ràng?"
+**Rate limit:** Free tier khoảng 50 queries/day. Đủ cho development, cần nâng plan nếu dùng nhiều.
 
-NotebookLM trở thành chuyên gia về codebase đó - không "bịa" vì nó chỉ trả lời dựa trên tài liệu bạn cung cấp.
+**Cookie expire:** Khoảng 2-4 tuần cần re-auth một lần. Tự động refresh nếu có saved session, hoặc `nlm login` lại.
 
----
+**Multi-account:** Cần query từ nhiều Google account?
 
-## Tips thực chiến
-
-**Luôn review output NotebookLM trước khi paste vào Antigravity.** NotebookLM chính xác về tài liệu nhưng có thể diễn giải theo cách bạn không muốn. 30 giây review tiết kiệm 30 phút debug sau.
-
-**Dùng format có cấu trúc khi chuyển giữa hai tool.** YAML hoặc Markdown với headers rõ ràng giúp Antigravity parse context tốt hơn plain text.
-
-**Chia task lớn thành phases.** Không paste một spec 10 trang vào Antigravity và chờ magic. Chia thành: (1) design data model, (2) implement backend, (3) implement frontend, mỗi phase là một session riêng.
-
-**NotebookLM nhớ tốt hơn bạn tưởng.** Trong cùng một notebook session, nó giữ context. Dùng cùng notebook cho toàn bộ project thay vì tạo mới mỗi lần.
-
-**Antigravity tốt hơn với mục tiêu rõ ràng hơn là mô tả mơ hồ.** Thay vì "build authentication", hãy dùng: "Implement JWT authentication với refresh token, flow: login → access token (15 min) + refresh token (7 days) → auto-refresh khi access token expire."
+```bash
+nlm login --profile work
+nlm login --profile personal
+nlm setup add antigravity --profile work
+```
 
 ---
 
-## Khi nào không cần kết hợp?
+## Khi nào workflow này thực sự có giá trị
 
-Không phải lúc nào cũng cần dùng cả hai.
+- **Onboarding tài liệu nội bộ:** Upload spec, architecture docs, runbooks vào notebook. Dev mới có thể dùng AI agent hỏi thẳng thay vì đọc hàng trăm trang.
+- **Code review với context:** Agent có thể cross-check code với coding standards trong notebook trước khi submit PR.
+- **Research-to-code pipeline:** Agent research web, import vào notebook, query lại, rồi implement - tất cả trong một session.
+- **Documentation grounding:** Khi AI generate docs hoặc content, nó query notebook để đảm bảo chính xác với tài liệu thực tế.
 
-**Chỉ dùng NotebookLM khi:** Bạn cần đọc/hiểu tài liệu, tổng hợp nhiều nguồn, tạo brief cho team hoặc chuẩn bị câu hỏi trước meeting.
-
-**Chỉ dùng Antigravity khi:** Task đã rõ ràng, không cần research thêm, bạn chỉ cần thực thi nhanh.
-
-**Kết hợp khi:** Bạn có tài liệu phức tạp cần hiểu sâu trước khi action, hoặc khi context nội bộ quan trọng với kết quả cuối cùng.
-
----
-
-## Wrap-up
-
-Điểm mấu chốt không phải là dùng nhiều tool hơn - mà là dùng đúng tool cho đúng việc.
-
-NotebookLM + Antigravity không phải là magic formula. Đó là một quy trình rõ ràng: **hiểu sâu trước, hành động sau**. NotebookLM giúp bạn hiểu sâu. Antigravity giúp bạn hành động hiệu quả.
-
-Thứ khiến quy trình này hoạt động là bạn - người biết khi nào dừng research và bắt đầu build.
-
----
-
-*Bạn đang dùng workflow nào với Antigravity? Share ở phần comment bên dưới.*
+Điểm mấu chốt: bạn bỏ công một lần xây dựng notebook tốt, sau đó agent của bạn có context đó mãi mãi - mà không cần bạn đứng giữa làm cầu nối thủ công mỗi lần.
