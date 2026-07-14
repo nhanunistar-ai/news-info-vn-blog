@@ -1,5 +1,5 @@
 ---
-title: 'Kết hợp NotebookLM với Antigravity qua MCP - AI agent tự hỏi knowledge base của bạn'
+title: 'Agent của bạn đang đoán mò - vì nó chưa biết docs nội bộ của bạn'
 excerpt: 'notebooklm-mcp biến NotebookLM thành một MCP server. Khi đó Antigravity, Claude Code hay Cursor có thể tự query notebook của bạn khi cần - zero hallucination, có citation, không cần copy-paste.'
 category: ['study', 'news']
 tags: ['notebooklm', 'antigravity', 'mcp', 'ai-agent', 'developer', 'claude-code', 'cursor']
