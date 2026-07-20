@@ -14,7 +14,7 @@ Bài này dành cho dev/founder cần: (1) hiểu nhanh repo để tự triển 
 
 ## Plane là gì (nhìn từ repo)
 
-Điểm đáng chú ý nhất khi đọc README là Plane định vị rất “thực dụng”: tracking issues, chạy *cycles* (tương đương sprint), quản lý roadmap; đồng thời có các khối tính năng “gần product”: Modules, Views, Pages, Analytics. Repo công khai cũng cho thấy Plane phát triển khá nhanh, có nhiều phần infra/self-host và tài liệu dành riêng cho instance admin. Bạn có thể bắt đầu theo 2 nhánh:
+Điểm đáng chú ý nhất khi đọc README là Plane định vị rất “thực dụng”: tracking issues, chạy _cycles_ (tương đương sprint), quản lý roadmap; đồng thời có các khối tính năng “gần product”: Modules, Views, Pages, Analytics. Repo công khai cũng cho thấy Plane phát triển khá nhanh, có nhiều phần infra/self-host và tài liệu dành riêng cho instance admin. Bạn có thể bắt đầu theo 2 nhánh:
 
 - Dùng **Plane Cloud** để lên nhanh.
 - **Self-host** để kiểm soát dữ liệu và hạ tầng, theo các hướng dẫn deployment trên developer docs.
@@ -72,20 +72,20 @@ Plane có thể trở thành “một Jira nữa” nếu bạn dùng sai. Với
 ### Nguyên tắc viết issue
 
 - Issue phải trả lời được: “xong thì ai hưởng lợi, đo bằng gì”.
-- Checklist chỉ cần đủ để người khác *tiếp tục làm* nếu bạn biến mất khỏi team.
+- Checklist chỉ cần đủ để người khác _tiếp tục làm_ nếu bạn biến mất khỏi team.
 
 ## Work vs Code
 
 Khi bạn dùng AI assistant (đặc biệt trong bối cảnh founder tự làm nhiều thứ), sai lầm phổ biến là lẫn lộn “viết tài liệu/ra quyết định” với “động tay sửa code”. Tách hai chế độ giúp bạn ra lệnh rõ và giảm hallucination.
 
-| Nhu cầu | Work (thiên về quyết định) | Code (thiên về thay đổi repo) | Output mong đợi |
-|---|---|---|---|
-| Đánh giá Plane có hợp team không | Tóm tắt feature fit, trade-off, chi phí vận hành | Không cần | 1 trang quyết định + rủi ro |
-| Lên kế hoạch self-host | Checklist infra, domain, backup, rollback | Chỉnh `docker-compose`, `plane.env`, script deploy | Runbook triển khai |
-| Fix bug/đóng góp PR | Viết tái hiện lỗi, scope, acceptance criteria | Sửa code, chạy test, mở PR | PR + test evidence |
-| Tự động hóa quản lý công việc | Thiết kế workflow, quyền truy cập, nguyên tắc tạo issue | Viết bot/agent dùng API/Webhook/MCP | Automation chạy được |
+| Nhu cầu                          | Work (thiên về quyết định)                              | Code (thiên về thay đổi repo)                      | Output mong đợi             |
+| -------------------------------- | ------------------------------------------------------- | -------------------------------------------------- | --------------------------- |
+| Đánh giá Plane có hợp team không | Tóm tắt feature fit, trade-off, chi phí vận hành        | Không cần                                          | 1 trang quyết định + rủi ro |
+| Lên kế hoạch self-host           | Checklist infra, domain, backup, rollback               | Chỉnh `docker-compose`, `plane.env`, script deploy | Runbook triển khai          |
+| Fix bug/đóng góp PR              | Viết tái hiện lỗi, scope, acceptance criteria           | Sửa code, chạy test, mở PR                         | PR + test evidence          |
+| Tự động hóa quản lý công việc    | Thiết kế workflow, quyền truy cập, nguyên tắc tạo issue | Viết bot/agent dùng API/Webhook/MCP                | Automation chạy được        |
 
-Điểm mấu chốt: phần “Work” phải chốt *ý định* và *tiêu chí*, rồi mới để “Code” xử lý kỹ thuật.
+Điểm mấu chốt: phần “Work” phải chốt _ý định_ và _tiêu chí_, rồi mới để “Code” xử lý kỹ thuật.
 
 ## Skills & MCP
 

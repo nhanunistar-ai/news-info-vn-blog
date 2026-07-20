@@ -14,7 +14,7 @@ chapter: 11
 
 Chúng ta thường ngước nhìn bầu trời để tìm kiếm những thế giới khác. Nhưng đã bao giờ bạn tự hỏi: nếu vai trò bị đảo ngược thì sao? Nếu một nền văn minh ngoài kia đang nhìn về phía chúng ta, họ sẽ thấy gì từ hành tinh Trái Đất - ngôi nhà duy nhất của toàn bộ lịch sử nhân loại?
 
-### HÀNH TINH NGOẠI TRÁI ĐẤT ###
+### HÀNH TINH NGOẠI TRÁI ĐẤT
 
 Dù bạn thích chạy nước rút, bơi lội, đi bộ hay bò từ nơi này sang nơi khác trên Trái Đất, bạn đều có thể tận hưởng những góc nhìn cận cảnh về nguồn cung cấp vô tận những thứ đáng chú ý của hành tinh chúng ta. Bạn có thể thấy một mạch đá vôi màu hồng trên vách hẻm núi, một con bọ rùa đang ăn rệp trên thân cây hoa hồng, một vỏ ngao nhô ra từ bãi cát - tất cả những gì bạn phải làm là quan sát.
 
@@ -78,4 +78,4 @@ Hành tinh ngoại hệ đầu tiên được phát hiện vào năm 1995, và t
 
 ---
 
-*Chương tiếp theo - Chương 12: Những Suy ngẫm về Góc nhìn Vũ trụ - sẽ khép lại hành trình khám phá vũ trụ với những chiêm nghiệm sâu sắc về vị thế của nhân loại trong không gian và thời gian vô tận.*
+_Chương tiếp theo - Chương 12: Những Suy ngẫm về Góc nhìn Vũ trụ - sẽ khép lại hành trình khám phá vũ trụ với những chiêm nghiệm sâu sắc về vị thế của nhân loại trong không gian và thời gian vô tận._

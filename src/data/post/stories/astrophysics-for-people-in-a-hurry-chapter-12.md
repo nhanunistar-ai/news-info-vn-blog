@@ -14,7 +14,7 @@ chapter: 12
 
 Sau mười một chương khám phá từ Vụ Nổ Lớn đến các hành tinh ngoại hệ, từ vật chất tối đến không gian giữa các vì sao - hành trình khép lại không phải bằng một công thức hay một phát hiện mới, mà bằng một câu hỏi: tất cả những điều này có ý nghĩa gì với bạn?
 
-### NHỮNG SUY NGẪM VỀ GÓC NHÌN VŨ TRỤ ###
+### NHỮNG SUY NGẪM VỀ GÓC NHÌN VŨ TRỤ
 
 _"Trong tất cả các ngành khoa học mà nhân loại trau dồi, Thiên văn học được công nhận là, và chắc chắn là, ngành cao quý nhất, thú vị nhất và hữu ích nhất. Bởi vì, nhờ kiến thức rút ra từ khoa học này, không chỉ khối lượng của Trái Đất được khám phá; mà chính các năng lực của chúng ta được mở rộng với sự hùng vĩ của những ý tưởng mà nó truyền tải, tâm trí chúng ta được nâng cao vượt lên trên những định kiến hạn hẹp thấp kém của chúng."_ - James Ferguson, 1757
 
@@ -99,4 +99,4 @@ Trong thế giới ảm đạm đó, những con người và quốc gia thèm k
 
 ---
 
-*Đây là chương cuối của "Astrophysics for People in a Hurry" - tác phẩm của Neil deGrasse Tyson, nhà vật lý thiên văn và người dẫn chuyện khoa học vĩ đại nhất thế kỷ XXI. Cảm ơn bạn đã đồng hành suốt hành trình từ Vụ Nổ Lớn đến góc nhìn vũ trụ - và hy vọng vũ trụ, theo một cách nào đó, đã sống thêm một chút trong bạn.*
+_Đây là chương cuối của "Astrophysics for People in a Hurry" - tác phẩm của Neil deGrasse Tyson, nhà vật lý thiên văn và người dẫn chuyện khoa học vĩ đại nhất thế kỷ XXI. Cảm ơn bạn đã đồng hành suốt hành trình từ Vụ Nổ Lớn đến góc nhìn vũ trụ - và hy vọng vũ trụ, theo một cách nào đó, đã sống thêm một chút trong bạn._

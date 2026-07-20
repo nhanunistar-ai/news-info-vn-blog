@@ -113,8 +113,8 @@ export default defineConfig({
             }
             next();
           });
-        }
-      }
+        },
+      },
     ],
     resolve: {
       alias: {

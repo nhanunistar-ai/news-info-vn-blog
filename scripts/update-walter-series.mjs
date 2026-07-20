@@ -6,7 +6,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Project root (two levels up from this script)
-const PROJECT_ROOT = path.resolve(__dirname, '../../');
 const POSTS_DIR = path.join(__dirname, '..', 'src', 'data', 'post');
 
 function updateSeries(dir) {

@@ -100,4 +100,4 @@ Cách thứ ba: Cả hai điều trên đều đúng theo những cách khác nh
 
 ---
 
-*Hết series Walter Russell - Nhà Khoa Học Vũ Trụ.*
+_Hết series Walter Russell - Nhà Khoa Học Vũ Trụ._

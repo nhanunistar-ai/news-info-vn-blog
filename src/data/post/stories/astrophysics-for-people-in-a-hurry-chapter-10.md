@@ -12,7 +12,7 @@ chapter: 10
 
 > "Không gian giữa các hành tinh chứa đủ loại đá tảng, sỏi, bóng băng, bụi, các dòng hạt tích điện và những tàu thăm dò xa xôi." - Neil deGrasse Tyson
 
-### GIỮA CÁC HÀNH TINH ###
+### GIỮA CÁC HÀNH TINH
 
 Nhìn từ xa, hệ mặt trời của chúng ta có vẻ trống rỗng. Nếu bạn bao bọc nó trong một hình cầu đủ lớn để chứa quỹ đạo của Sao Hải Vương, thì thể tích chiếm bởi Mặt Trời, tất cả các hành tinh và mặt trăng của chúng sẽ chỉ chiếm **hơn một phần nghìn tỷ** không gian được bao bọc đó.
 

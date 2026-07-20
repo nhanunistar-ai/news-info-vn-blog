@@ -83,4 +83,4 @@ Thể loại: Popular science / Astrophysics
 
 ---
 
-*Neil deGrasse Tyson là Giám đốc Hayden Planetarium tại American Museum of Natural History, New York. Ông là tác giả của hàng chục cuốn sách phổ biến khoa học, trong đó có "Astrophysics for People in a Hurry" (2017). Tiểu hành tinh 13123 Tyson được đặt tên theo ông.*
+_Neil deGrasse Tyson là Giám đốc Hayden Planetarium tại American Museum of Natural History, New York. Ông là tác giả của hàng chục cuốn sách phổ biến khoa học, trong đó có "Astrophysics for People in a Hurry" (2017). Tiểu hành tinh 13123 Tyson được đặt tên theo ông._

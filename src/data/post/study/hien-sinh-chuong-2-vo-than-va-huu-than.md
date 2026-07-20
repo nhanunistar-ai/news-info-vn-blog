@@ -44,7 +44,7 @@ Kierkegaard mô tả ba giai đoạn của sự tồn tại con người: thẩm
 
 Sartre nói "Địa ngục là người khác." Cái nhìn của tha nhân có xu hướng vật hóa ta, biến ta thành một đối tượng và giới hạn sự tự do. Mối quan hệ với người khác mang tính căng thẳng và đối kháng về bản chất.
 
-Martin Buber, ngược lại, nhấn mạnh vào tính liên chủ thể mang tính đối thoại và tôn trọng qua triết lý "Tôi và Bạn" (*Ich und Du*). Ông coi việc gặp gỡ người khác là trải nghiệm tâm linh sâu sắc - nơi con người nhận ra nhân vị của nhau và thông qua đó có thể chạm đến cái siêu việt.
+Martin Buber, ngược lại, nhấn mạnh vào tính liên chủ thể mang tính đối thoại và tôn trọng qua triết lý "Tôi và Bạn" (_Ich und Du_). Ông coi việc gặp gỡ người khác là trải nghiệm tâm linh sâu sắc - nơi con người nhận ra nhân vị của nhau và thông qua đó có thể chạm đến cái siêu việt.
 
 Với Buber, không có mối quan hệ "Tôi - Nó" (coi người khác là công cụ), chỉ có mối quan hệ "Tôi - Bạn" đích thực mới giải phóng cả hai phía.
 

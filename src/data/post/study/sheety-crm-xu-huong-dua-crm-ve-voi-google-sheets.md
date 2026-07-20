@@ -49,11 +49,11 @@ Atomic CRM đặc biệt hợp với nhóm này vì nó đã có sẵn những m
 
 ## So sánh nhanh 3 hướng đi
 
-| Repo | Bản chất | Hợp với ai | Điểm mạnh | Điểm cần lưu ý |
-|---|---|---|---|---|
-| [Atomic](https://github.com/marmelab/atomic-crm) | CRM mã nguồn mở hoàn chỉnh trên React + Supabase | Team muốn CRM thật nhưng vẫn nhẹ và dễ sửa | Có contacts, tasks, notes, deals, activity, import/export, SSO, API, MCP | Vẫn cần dev để custom sâu; không phải Google Sheets thật |
-| [Refine](https://github.com/refinedev/refine) | Meta-framework/headless framework cho app CRUD-heavy | Team kỹ thuật muốn tự dựng CRM theo nhu cầu | Rất mạnh về scaffolding, routing, auth, data providers; có template CRM reference | Không phải CRM đóng gói sẵn; bạn phải tự xây nhiều phần |
-| [Nextcrm](https://github.com/pdovhomilja/nextcrm-app) | CRM đầy đủ trên Next.js + PostgreSQL | Team cần nhiều tính năng nâng cao và AI sớm | Có activities, audit log, email client, AI enrichment, vector search, MCP server | Phức tạp hơn đáng kể; overkill cho team mới |
+| Repo                                                  | Bản chất                                             | Hợp với ai                                  | Điểm mạnh                                                                         | Điểm cần lưu ý                                           |
+| ----------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| [Atomic](https://github.com/marmelab/atomic-crm)      | CRM mã nguồn mở hoàn chỉnh trên React + Supabase     | Team muốn CRM thật nhưng vẫn nhẹ và dễ sửa  | Có contacts, tasks, notes, deals, activity, import/export, SSO, API, MCP          | Vẫn cần dev để custom sâu; không phải Google Sheets thật |
+| [Refine](https://github.com/refinedev/refine)         | Meta-framework/headless framework cho app CRUD-heavy | Team kỹ thuật muốn tự dựng CRM theo nhu cầu | Rất mạnh về scaffolding, routing, auth, data providers; có template CRM reference | Không phải CRM đóng gói sẵn; bạn phải tự xây nhiều phần  |
+| [Nextcrm](https://github.com/pdovhomilja/nextcrm-app) | CRM đầy đủ trên Next.js + PostgreSQL                 | Team cần nhiều tính năng nâng cao và AI sớm | Có activities, audit log, email client, AI enrichment, vector search, MCP server  | Phức tạp hơn đáng kể; overkill cho team mới              |
 
 Nếu phải nói rất đời thường: Atomic CRM là lựa chọn “ra sản phẩm nhanh nhưng vẫn mở”, Refine là “bộ khung để tự xây CRM của bạn”, còn NextCRM là “một chiếc CRM nặng đô có AI/MCP baked-in”.
 
@@ -103,7 +103,9 @@ Yêu cầu:
 - kết luận: dùng ngay / thử pilot / chưa phù hợp
 Không suy đoán nếu repo không nói rõ.
 ```
+
 ### Prompt 3: Viết kế hoạch migrate dữ liệu
+
 ```text
 Tôi có 1 file Google Sheets CRM và muốn migrate sang Atomic CRM.
 Hãy viết kế hoạch migrate 3 giai đoạn:
@@ -113,7 +115,9 @@ Hãy viết kế hoạch migrate 3 giai đoạn:
 
 Bao gồm checklist lỗi thường gặp: trùng contact, stage không chuẩn, notes quá dài, owner thiếu.
 ```
+
 ### Prompt 4: So sánh Atomic CRM, Refine, NextCRM
+
 ```text
 So sánh 3 hướng làm CRM:
 1) Atomic CRM
@@ -130,7 +134,9 @@ Theo 6 tiêu chí:
 
 Trả lời bằng bảng và kết luận theo 3 chân dung người dùng: founder, dev solo, team kỹ thuật 5-10 người.
 ```
+
 ## Workflow gợi ý dễ làm nhất
+
 Nếu bạn là newbie, đừng lao vào clone repo trước. Workflow hợp lý hơn là:
 
 1. Dùng Google Sheets trong 2–4 tuần để chốt các cột dữ liệu thật sự cần.
@@ -139,7 +145,9 @@ Nếu bạn là newbie, đừng lao vào clone repo trước. Workflow hợp lý
 4. Chỉ khi team đã thống nhất entity và pipeline, mới pilot Atomic CRM.
 
 Trình tự này quan trọng vì phần khó nhất của CRM không phải dựng app, mà là thống nhất “một khách hàng được định nghĩa như thế nào” và “một deal được coi là tiến triển ra sao”.
+
 ## Kết luận
+
 “Sheety CRM” không phải là chống lại CRM, mà là chống lại việc triển khai CRM quá sớm, quá nặng và quá xa cách với cách con người thật sự làm việc. Google Sheets rất tốt để học quy trình, học dữ liệu, và ép team nói chung một ngôn ngữ. Nhưng khi công việc đã thành hệ thống, bạn sẽ cần một nền như Atomic CRM để có activity history, quyền truy cập, pipeline, API và AI một cách bền vững.
 
 Nếu phải chốt một câu: hãy bắt đầu như một bảng tính, nhưng đừng dừng lại ở bảng tính. Đó chính là tinh thần thật sự của Sheety CRM.

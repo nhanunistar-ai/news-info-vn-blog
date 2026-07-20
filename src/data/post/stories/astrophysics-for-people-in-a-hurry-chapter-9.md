@@ -12,7 +12,7 @@ chapter: 9
 
 > "Trong hơn ba thế kỷ, từ thời Galileo cho đến thời Edwin Hubble, việc chế tạo một kính thiên văn chỉ có nghĩa là một điều: tạo ra một công cụ để hứng ánh sáng khả kiến." - Neil deGrasse Tyson
 
-### ÁNH SÁNG VÔ HÌNH ###
+### ÁNH SÁNG VÔ HÌNH
 
 Trước năm 1800, từ "ánh sáng" chỉ ám chỉ ánh sáng khả kiến. Nhưng vào đầu năm đó, nhà thiên văn học người Anh William Herschel đã quan sát thấy một sự nóng lên chỉ có thể gây ra bởi một dạng ánh sáng vô hình đối với mắt người.
 

@@ -61,6 +61,6 @@ export default [
     },
   },
   {
-    ignores: ['dist', 'node_modules', '.github', 'dashboard', 'types.generated.d.ts', '.astro'],
+    ignores: ['dist', 'node_modules', '.github', 'dashboard', 'types.generated.d.ts', '.astro', '.git_disabled'],
   },
 ];

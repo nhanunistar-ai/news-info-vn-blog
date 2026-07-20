@@ -12,7 +12,7 @@ chapter: 7
 
 > "Chỉ có ba trong số các nguyên tố tồn tại tự nhiên được tạo ra trong Big Bang. Phần còn lại được rèn trong những trái tim nhiệt độ cao và tàn dư bùng nổ của những ngôi sao đang hấp hối." - Neil deGrasse Tyson
 
-### VŨ TRỤ TRÊN BÀN ###
+### VŨ TRỤ TRÊN BÀN
 
 Trong lớp hóa học ở trường trung học cơ sở, Tyson đã hỏi giáo viên của mình rằng các nguyên tố trong Bảng Tuần hoàn đến từ đâu. Câu trả lời: từ vỏ Trái Đất. Đúng - nhưng không đủ. **Câu trả lời phải mang tính thiên văn.**
 
@@ -22,7 +22,7 @@ Chỉ có ba trong số chín mươi bốn nguyên tố tồn tại tự nhiên 
 
 **Hydro** - nguyên tố nhẹ nhất và đơn giản nhất, chiếm hơn chín mươi phần trăm tổng số nguyên tử trong vũ trụ. Với một proton trong hạt nhân, được tạo ra hoàn toàn trong Big Bang. Hydro trong lõi của Sao Mộc chịu áp suất lớn đến mức nó hoạt động giống như một kim loại dẫn điện hơn là một chất khí.
 
-**Heli** - được khám phá trên Mặt Trời ba mươi năm trước khi được tìm thấy trên Trái Đất. Chính là lý do tên nguyên tố bắt nguồn từ *Helios*, vị thần mặt trời Hy Lạp.
+**Heli** - được khám phá trên Mặt Trời ba mươi năm trước khi được tìm thấy trên Trái Đất. Chính là lý do tên nguyên tố bắt nguồn từ _Helios_, vị thần mặt trời Hy Lạp.
 
 **Carbon** - có thể được tìm thấy trong nhiều loại phân tử hơn tổng số tất cả các loại phân tử khác cộng lại. Với sự dồi dào của carbon trong vũ trụ, không có nguyên tố nào tốt hơn để làm nền tảng cho hóa học và sự đa dạng của sự sống.
 

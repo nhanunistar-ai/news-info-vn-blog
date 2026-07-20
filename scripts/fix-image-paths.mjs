@@ -10,7 +10,7 @@ const POSTS_DIR = path.join(__dirname, '..', 'src', 'data', 'post');
 function fixImagePaths(dir) {
   if (!fs.existsSync(dir)) return;
   const files = fs.readdirSync(dir);
-  
+
   for (const file of files) {
     const filePath = path.join(dir, file);
     if (fs.statSync(filePath).isDirectory()) {

@@ -12,7 +12,7 @@ chapter: 4
 
 > "Không gian liên thiên hà đang, và sẽ mãi mãi là nơi mọi chuyện diễn ra." - Neil deGrasse Tyson
 
-### GIỮA CÁC THIÊN HÀ ###
+### GIỮA CÁC THIÊN HÀ
 
 Các ước tính mới nhất cho thấy vũ trụ quan sát được có thể chứa một trăm tỷ thiên hà. Rực rỡ, xinh đẹp và chứa đầy các vì sao, các thiên hà trang trí cho những khoảng không tối tăm của không gian như những thành phố rải rác khắp một quốc gia vào ban đêm.
 

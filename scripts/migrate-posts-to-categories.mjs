@@ -13,13 +13,16 @@ function getFirstCategory(content) {
 
   const fm = fmMatch[1];
   const catRaw = fm.match(/^category:\s*(.+)$/m);
-  
+
   if (!catRaw) return 'uncategorized';
-  
+
   const raw = catRaw[1].trim();
   if (raw.startsWith('[')) {
     // Array format: ['study', 'news']
-    const categories = raw.slice(1, -1).split(',').map(s => s.trim().replace(/'/g, '').replace(/"/g, ''));
+    const categories = raw
+      .slice(1, -1)
+      .split(',')
+      .map((s) => s.trim().replace(/'/g, '').replace(/"/g, ''));
     return categories[0] || 'uncategorized';
   } else {
     // String format: 'study'
@@ -29,35 +32,35 @@ function getFirstCategory(content) {
 
 async function migrate() {
   console.log(`Bắt đầu migration thư mục: ${POSTS_DIR}`);
-  
+
   if (!fs.existsSync(POSTS_DIR)) {
     console.error('Không tìm thấy thư mục posts!');
     process.exit(1);
   }
 
-  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
   console.log(`Tìm thấy ${files.length} bài viết.`);
 
   let count = 0;
-  
+
   for (const file of files) {
     const oldPath = path.join(POSTS_DIR, file);
-    
+
     // Đảm bảo không xử lý nhầm thư mục
     if (fs.statSync(oldPath).isDirectory()) continue;
-    
+
     const content = fs.readFileSync(oldPath, 'utf8');
     const category = getFirstCategory(content);
-    
+
     // Lọc tên category cho an toàn (loại bỏ ký tự lạ)
-    const safeCategory = category.replace(/[^a-z0-9\-]/g, '').toLowerCase() || 'uncategorized';
-    
+    const safeCategory = category.replace(/[^a-z0-9-]/g, '').toLowerCase() || 'uncategorized';
+
     const newDir = path.join(POSTS_DIR, safeCategory);
     if (!fs.existsSync(newDir)) {
       fs.mkdirSync(newDir, { recursive: true });
       console.log(`Tạo thư mục mới: ${safeCategory}/`);
     }
-    
+
     const newPath = path.join(newDir, file);
     fs.renameSync(oldPath, newPath);
     count++;

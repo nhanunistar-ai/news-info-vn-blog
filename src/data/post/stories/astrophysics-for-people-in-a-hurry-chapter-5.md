@@ -12,7 +12,7 @@ chapter: 5
 
 > "Phải cần đến bộ óc của người rực rỡ và có tầm ảnh hưởng nhất thiên niên kỷ - Isaac Newton - để nhận ra tác động từ xa của trọng lực. Nhưng chúng ta vẫn chưa biết 85% trọng lực đó đến từ đâu." - Neil deGrasse Tyson
 
-### VẬT CHẤT TỐI ###
+### VẬT CHẤT TỐI
 
 Trọng lực là lực quen thuộc nhất trong các lực của tự nhiên, đồng thời mang đến cho chúng ta những hiện tượng được hiểu rõ nhất và ít được hiểu nhất trong tự nhiên.
 

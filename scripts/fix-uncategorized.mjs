@@ -5,7 +5,7 @@ const dir = 'd:/news.info.vn/news-info-vn-blog/src/data/post/uncategorized';
 const parent = 'd:/news.info.vn/news-info-vn-blog/src/data/post';
 
 if (fs.existsSync(dir)) {
-  const files = fs.readdirSync(dir).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('.md'));
   for (const file of files) {
     const content = fs.readFileSync(path.join(dir, file), 'utf8');
     const fmMatch = content.match(/^\uFEFF?---\r?\n([\s\S]*?)\r?\n---/);
@@ -21,16 +21,16 @@ if (fs.existsSync(dir)) {
         }
       }
     }
-    const safe = category.replace(/[^a-z0-9\-]/g, '').toLowerCase() || 'uncategorized';
+    const safe = category.replace(/[^a-z0-9-]/g, '').toLowerCase() || 'uncategorized';
     const targetDir = path.join(parent, safe);
-    if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, {recursive: true});
+    if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
     fs.renameSync(path.join(dir, file), path.join(targetDir, file));
   }
-  
+
   if (fs.readdirSync(dir).length === 0) {
-      fs.rmdirSync(dir);
-      console.log('Fixed BOM files and removed uncategorized directory!');
+    fs.rmdirSync(dir);
+    console.log('Fixed BOM files and removed uncategorized directory!');
   } else {
-      console.log('Still have some files in uncategorized');
+    console.log('Still have some files in uncategorized');
   }
 }

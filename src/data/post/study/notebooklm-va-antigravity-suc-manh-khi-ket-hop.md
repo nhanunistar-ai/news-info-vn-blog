@@ -42,6 +42,7 @@ pip install notebooklm-mcp-cli
 ```
 
 Sau khi cài, bạn có hai lệnh:
+
 - `nlm` - CLI để tương tác với NotebookLM từ terminal
 - `notebooklm-mcp` - MCP server để AI agent kết nối
 
@@ -118,15 +119,15 @@ Auth tương tự: chạy `setup_auth` tool lần đầu, login qua browser, coo
 
 Sau khi kết nối, agent của bạn có các tool này:
 
-| Tool | Dùng khi nào |
-|------|-------------|
-| `ask_question` / `notebook_query` | Hỏi notebook, trả về answer + citations |
-| `notebook_list` | List toàn bộ notebooks |
-| `source_add` | Add URL, text, Google Drive vào notebook |
-| `studio_create` | Tạo audio podcast, video, slides từ notebook |
-| `research_start` | Cho agent tự research web rồi import vào notebook |
-| `cross_notebook_query` | Query nhiều notebook cùng lúc |
-| `notebook_create` | Tạo notebook mới |
+| Tool                              | Dùng khi nào                                      |
+| --------------------------------- | ------------------------------------------------- |
+| `ask_question` / `notebook_query` | Hỏi notebook, trả về answer + citations           |
+| `notebook_list`                   | List toàn bộ notebooks                            |
+| `source_add`                      | Add URL, text, Google Drive vào notebook          |
+| `studio_create`                   | Tạo audio podcast, video, slides từ notebook      |
+| `research_start`                  | Cho agent tự research web rồi import vào notebook |
+| `cross_notebook_query`            | Query nhiều notebook cùng lúc                     |
+| `notebook_create`                 | Tạo notebook mới                                  |
 
 ---
 
@@ -137,9 +138,9 @@ Sau khi kết nối MCP, bạn nói chuyện với Antigravity bình thường -
 **Prompt 1 - Hỏi về tài liệu kỹ thuật nội bộ:**
 
 ```
-Tôi đang implement authentication cho dự án. 
-Hãy query notebook "Backend Architecture" của tôi và 
-cho biết chúng tôi đang dùng auth flow nào, có những 
+Tôi đang implement authentication cho dự án.
+Hãy query notebook "Backend Architecture" của tôi và
+cho biết chúng tôi đang dùng auth flow nào, có những
 endpoint nào liên quan, và bất kỳ gotcha nào được ghi chú.
 Sau đó generate skeleton code dựa trên thông tin đó.
 ```
@@ -147,29 +148,29 @@ Sau đó generate skeleton code dựa trên thông tin đó.
 **Prompt 2 - Research rồi build feature:**
 
 ```
-Tôi cần implement rate limiting. 
-1. Add tài liệu từ URL này vào notebook "Tech Research": 
+Tôi cần implement rate limiting.
+1. Add tài liệu từ URL này vào notebook "Tech Research":
    https://redis.io/docs/manual/patterns/rate-limiting/
 2. Query notebook đó để lấy best practices
-3. Implement một rate limiter middleware cho Express.js 
+3. Implement một rate limiter middleware cho Express.js
    dựa trên những gì tìm được, không hallucinate thêm
 ```
 
 **Prompt 3 - Cross-notebook context:**
 
 ```
-Query cả notebook "Product Specs Q3" và notebook "API Docs v2" 
-để hiểu yêu cầu cho feature export. Tổng hợp thành một 
+Query cả notebook "Product Specs Q3" và notebook "API Docs v2"
+để hiểu yêu cầu cho feature export. Tổng hợp thành một
 implementation plan, sau đó bắt đầu viết code.
 ```
 
 **Prompt 4 - Generate nội dung từ research:**
 
 ```
-Notebook "Competitor Analysis" của tôi chứa research 
-về 5 competitors. 
-Tạo một audio podcast overview từ notebook đó - format "deep dive", 
-sau đó liệt kê 3 insight quan trọng nhất với citations 
+Notebook "Competitor Analysis" của tôi chứa research
+về 5 competitors.
+Tạo một audio podcast overview từ notebook đó - format "deep dive",
+sau đó liệt kê 3 insight quan trọng nhất với citations
 từ tài liệu gốc.
 ```
 

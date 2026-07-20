@@ -12,7 +12,7 @@ chapter: 8
 
 > "Nếu bạn có một ngón tay siêu to khổng lồ và bạn kéo nó qua bề mặt Trái Đất, Trái Đất sẽ có cảm giác mịn như một quả bóng bi-a." - Neil deGrasse Tyson
 
-### VỀ VIỆC CÓ HÌNH TRÒN ###
+### VỀ VIỆC CÓ HÌNH TRÒN
 
 Ngoại trừ các tinh thể và đá vỡ, không có nhiều thứ khác trong vũ trụ mang những góc cạnh sắc nhọn một cách tự nhiên. Trong số tất cả các hình dạng, **hình cầu được ưu tiên bởi tác động của các định luật vật lý đơn giản.**
 

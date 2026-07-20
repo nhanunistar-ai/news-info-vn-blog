@@ -30,7 +30,7 @@ Anh ta đang cố gắng thực hiện các động tác với sự chuẩn xác
 
 Điều gì xảy ra ở đây? Anh ta đang tự đồng nhất hoàn toàn với vai trò nghề nghiệp của mình, như thể "bồi bàn" là toàn bộ bản chất của anh ta. Anh ta đang cư xử như thể mình không có sự lựa chọn nào - như thể anh ta sinh ra đã là bồi bàn và sẽ mãi là bồi bàn.
 
-Nhưng điều đó không đúng. Anh ta là một con người đang *làm việc* bồi bàn. Anh ta có thể nghỉ việc ngày mai. Anh ta có thể từ chối phục vụ một khách hàng thô lỗ. Anh ta có thể, vào cuối ca, là một người cha, một người bạn, một người đang viết thơ. Sự đồng nhất hoàn toàn đó là một hình thức từ chối tự do.
+Nhưng điều đó không đúng. Anh ta là một con người đang _làm việc_ bồi bàn. Anh ta có thể nghỉ việc ngày mai. Anh ta có thể từ chối phục vụ một khách hàng thô lỗ. Anh ta có thể, vào cuối ca, là một người cha, một người bạn, một người đang viết thơ. Sự đồng nhất hoàn toàn đó là một hình thức từ chối tự do.
 
 ### Các biểu hiện trong đời sống hiện đại
 

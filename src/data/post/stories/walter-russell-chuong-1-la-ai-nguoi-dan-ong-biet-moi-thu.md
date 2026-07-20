@@ -53,6 +53,7 @@ Không phải ngẫu nhiên mà Nikola Tesla - một trong những thiên tài k
 ### Câu hỏi không thể tránh
 
 Làm sao một người không học hết tiểu học có thể:
+
 - Tạc tượng đạt tiêu chuẩn quốc gia?
 - Vẽ chân dung được giới sưu tập nghiêm túc?
 - Xây dựng lý thuyết vũ trụ dự đoán chính xác các nguyên tố hóa học chưa được phát hiện?

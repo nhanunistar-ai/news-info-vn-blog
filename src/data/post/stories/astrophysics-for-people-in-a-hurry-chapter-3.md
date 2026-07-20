@@ -12,7 +12,7 @@ chapter: 3
 
 > "Khám phá đơn giản ra bức xạ nền vi sóng vũ trụ đã biến vũ trụ học thành một thứ gì đó hơn cả thần thoại." - Neil deGrasse Tyson
 
-### HÃY ĐỂ CÓ ÁNH SÁNG ###
+### HÃY ĐỂ CÓ ÁNH SÁNG
 
 Sau Big Bang, chương trình nghị sự chính của vũ trụ là sự giãn nở, liên tục làm loãng nồng độ năng lượng tràn ngập không gian. Với mỗi khoảnh khắc trôi qua, vũ trụ lớn thêm một chút, nguội đi một chút và mờ đi một chút.
 

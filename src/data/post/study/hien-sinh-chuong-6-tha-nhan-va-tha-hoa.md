@@ -10,7 +10,7 @@ series: 'hien-sinh'
 chapter: 6
 ---
 
-> "L'enfer, c'est les autres." - Địa ngục là người khác. Jean-Paul Sartre, trong vở kịch *Không lối thoát* (Huis Clos), 1944.
+> "L'enfer, c'est les autres." - Địa ngục là người khác. Jean-Paul Sartre, trong vở kịch _Không lối thoát_ (Huis Clos), 1944.
 
 Câu nói này thường bị hiểu theo nghĩa người khác gây khổ cho ta, rằng mối quan hệ xã hội về bản chất là hành hạ. Nhưng Sartre không nói vậy. Ông đang nói về một điều tinh tế và phức tạp hơn nhiều: **cái nhìn** của người khác có sức mạnh biến ta từ chủ thể tự do thành một đối tượng bị xác định.
 
@@ -56,7 +56,7 @@ Sartre gọi đây là việc đổi ngôi từ "nhân vị" thành "đại từ
 
 ### Không lối thoát?
 
-Trong vở kịch *Huis Clos*, ba nhân vật bị nhốt cùng nhau trong địa ngục mãi mãi. Không có lửa, không có tra tấn thể xác. Địa ngục của họ là: họ phải liên tục đối mặt với cái nhìn của nhau - không bao giờ thoát ra, không bao giờ được là chính mình, không bao giờ thoát khỏi hình ảnh mà người khác có về mình.
+Trong vở kịch _Huis Clos_, ba nhân vật bị nhốt cùng nhau trong địa ngục mãi mãi. Không có lửa, không có tra tấn thể xác. Địa ngục của họ là: họ phải liên tục đối mặt với cái nhìn của nhau - không bao giờ thoát ra, không bao giờ được là chính mình, không bao giờ thoát khỏi hình ảnh mà người khác có về mình.
 
 "Địa ngục là người khác" - không phải vì người khác độc ác, mà vì cấu trúc của mối quan hệ người-người tất yếu dẫn đến sự vật hóa lẫn nhau.
 
