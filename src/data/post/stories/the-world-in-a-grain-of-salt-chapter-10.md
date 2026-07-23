@@ -4,7 +4,7 @@ excerpt: 'Xu hướng muối nghệ nhân (fleur de sel, alaea Hawaii); các m�
 category: 'stories'
 tags: ['lich-su', 'muoi', 'the-world-in-a-grain-of-salt', 'hien-dai']
 author: 'Bao Chau'
-publishDate: 2026-07-23T08:45:00.000Z
+publishDate: 2026-07-23T10:09:00.000Z
 image: '~/assets/images/the-world-in-a-grain-of-salt-chapter-10.webp'
 series: 'the-world-in-a-grain-of-salt'
 chapter: 10
