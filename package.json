@@ -22,11 +22,10 @@
     "fix:prettier": "prettier -w ."
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.19",
+    "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.3",
     "@fontsource-variable/inter": "^5.2.8",
-    "@astrojs/markdown-remark": "^7.0.0",
-    "astro": "^7.1.3",
+    "astro": "^6.4.2",
     "astro-embed": "^0.13.0",
     "astro-icon": "^1.1.5",
     "astro-pagefind": "^2.0.1",
@@ -37,7 +36,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/mdx": "^7.0.3",
+    "@astrojs/mdx": "^6.0.1",
     "@astrojs/partytown": "^2.1.7",
     "@eslint/js": "^10.0.1",
     "@iconify-json/flat-color-icons": "^1.2.3",
@@ -66,6 +65,7 @@
     "typescript-eslint": "^8.60.0"
   },
   "overrides": {
-    "yaml": ">=2.8.3"
+    "yaml": ">=2.8.3",
+    "vite": "^7"
   }
 }

@@ -101,7 +101,7 @@ Cloudflare Pages sẽ **tự động deploy** sau khi push thành công.
 
 ```bash
 git add -A
-git commit -m "The World in a Grain of Salt"
+git commit -m "mô tả thay đổi"
 git push origin main
 ```
 
