@@ -101,7 +101,7 @@ Cloudflare Pages sẽ **tự động deploy** sau khi push thành công.
 
 ```bash
 git add -A
-git commit -m "ircc-he-thong-xu-ly-ho-so-moi-danh-sach-cho"
+git commit -m "canada-thiet-chat-kiem-tra-tai-chinh-du-hoc-sinh"
 git push origin main
 ```
 

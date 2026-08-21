@@ -21,6 +21,10 @@ Lựa chọn 7: 4 phi hành gia — Chân dung nhóm
 
 A photorealistic portrait of four NASA astronauts in white Orion pressure suits standing side by side in front of a dark background, confident and stoic expressions. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for the mission patches and helmet trim details rendered in vibrant orange (#F15A28), ultra-sharp, dramatic split studio lighting, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
 
+Lựa chọn 8: Jacob Collier biểu diễn âm nhạc — Ảnh chân thực
+
+A photorealistic close-up portrait of the musician Jacob Collier performing passionately on stage, playing a grand piano. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for his signature colorful clothing details and the microphone stand rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
+
 💡 Mẹo tạo độ đồng bộ cao nhất:
 
 Với Midjourney: Thêm --ar 16:9 --style raw --v 7 vào cuối mỗi prompt.
