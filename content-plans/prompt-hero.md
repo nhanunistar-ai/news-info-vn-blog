@@ -29,4 +29,10 @@ A photorealistic close-up portrait of the musician Jacob Collier performing pass
 
 Với Midjourney: Thêm --ar 16:9 --style raw --v 7 vào cuối mỗi prompt.
 Với DALL-E 3: Giữ nguyên toàn bộ prompt như trên.
-Chỉ thay đổi phần nội dung ở câu đầu tiên cho từng bài viết khác nhau, giữ nguyên hoàn toàn đoạn từ "Shot on a Phase One..." để đảm bảo phong cách nhất quán."
+Chỉ thay đổi phần nội dung ở câu đầu tiên cho từng bài viết khác nhau, giữ nguyên hoàn toàn đoạn từ "Shot on a Phase One..." để đảm bảo phong cách nhất quán.
+
+---
+
+### iPhone Duo — Điện thoại màn hình gập đột phá của Apple (Dựa trên ảnh tham chiếu thực tế):
+
+Recreate the exact foldable Apple smartphone from the reference image in a professional 16:9 editorial composition. The foldable phone has the identical design from the reference image: a clean white back casing featuring the Apple logo and a horizontal pill-shaped dual camera island on one side, and an unfolded vibrant display on the other side. Two hands are holding the phone just like the reference photo. Shot on a Phase One XF IQ4 medium format camera, 85mm f/1.4 lens, dramatic high-contrast black and white photography, selective color treatment: entire image desaturated to monochrome except for specific accent details on the screen and subtle highlights rendered in vibrant orange (#F15A28), ultra-sharp, cinematic lighting, deep shadows, fine grain texture, 16:9 aspect ratio, 4K resolution, editorial news photography style.
