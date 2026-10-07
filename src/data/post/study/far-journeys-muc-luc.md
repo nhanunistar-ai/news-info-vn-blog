@@ -8,7 +8,7 @@ publishDate: 2026-08-30T08:00:00.000Z
 image: '~/assets/images/far-journeys-muc-luc.webp'
 series: 'far-journeys'
 chapter: 0
-draft: false
+draft: true
 ---
 
 Ban dang o trang muc luc cua series _Far Journeys_ — cuon sach thu hai trong bo ba cua Robert A. Monroe.
